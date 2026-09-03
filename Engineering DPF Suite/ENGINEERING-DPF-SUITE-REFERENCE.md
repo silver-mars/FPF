@@ -1,234 +1,255 @@
 # Engineering DPF Suite Reference
 
-> **Edition locator:** ENGINEERING-DPF-SUITE-REFERENCE.md.
->
-> **Edition date:** 31 August 2026.
->
-> **Intended readers:** engineers, engineering managers, Method engineers, practice developers, and assisting Systems who face a working question that may need several Engineering DPF results or an honest specialist-result gap.
->
-> **Practical use:** start from a recognizable situation, take the first useful answer, open only the direct returns that change the decision, and stop at the first named missing result.
->
-> **Actionable status:** use each entry only under its stated source, evidence, and stop conditions. Before relying on this edition's current admission, publication, availability, supersession, or retirement state, open the [current realization account](CURRENT-REALIZATION-ACCOUNT.md). This fixed edition asserts no maintaining System, maintenance relation or commitment, future revision Work, continued availability, currentness, or Suite inclusion.
->
-> **Suite collection return:** the Engineering DPF Suite is a separate continuing collection governed by its own constitution and inclusion decisions. This edition is not its membership account: the three DPF source editions below support only the three bounded answers. Use the [current realization account](CURRENT-REALIZATION-ACCOUNT.md) for obtained collection and inclusion facts and the [Engineering product architecture](../DPF-ARCHITECTURE-CAMPAIGN/CROSS-PRODUCT-ARCHITECTURE-DRR.md) for the selected collection boundary.
+> Find a method for your working question, and see how methods from different fields contribute to one decision.
+
+- **Author:** Anatoly Levenchuk, with AI-assisted development and review
+- **Version:** 3 September 2026
+- **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
+- **Publication:** [FPF repository](https://github.com/ailev/FPF)
+
+Use this Reference while working on a problem. The question index points to a pattern and the result it can help you obtain. The cases explain how to combine contributions when one field cannot answer the whole question.
+
+If you are new to the Suite, the [README](README.md) explains what a DPF is, what is available, and how to begin with colleagues or an AI assistant. Here, open the nearest question, then read the relevant pattern's Problem frame, Solution and example. The pattern's full conditions apply to your case.
 
 ## Contents
 
-- [Use this Reference](#use-this-reference)
-- [First answers](#first-answers)
-- [Current source returns](#current-source-returns)
-- [Should we scale a partner-Dance event after one successful showcase?](#should-we-scale-a-partner-dance-event-after-one-successful-showcase)
-- [Which greenhouse-control obtaining arrangement should survive?](#which-greenhouse-control-obtaining-arrangement-should-survive)
-- [What should a small engineering team develop, obtain, or delegate?](#what-should-a-small-engineering-team-develop-obtain-or-delegate)
-- [Direct question-to-result index](#direct-question-to-result-index)
-- [Boundaries that prevent false answers](#boundaries-that-prevent-false-answers)
-- [Source change, retry, and stop](#source-change-retry-and-stop)
+| Section | Questions and search terms |
+| --- | --- |
+| [Find a starting pattern](#find-a-starting-pattern) | System or method? Architecture, alternatives, evidence, organizational change, development advice, music and dance. What useful result should I obtain first? |
+| [Buy, commission or build greenhouse control?](#how-should-we-obtain-climate-control-for-a-greenhouse) | Make or buy, AI assistance, integration, operating support, supplier access, fallback, real procurement evidence. |
+| [Develop people, obtain expertise or change the arrangement?](#what-should-a-small-engineering-team-develop-obtain-or-delegate) | Recruitment, training, providers, human and AI work, platforms, assignments, organizational choice. |
+| [Recommend a development direction](#how-do-we-recommend-a-development-direction) | Advising, opportunities, comparison, uncertainty, exploration, programme choice, human and organizational development. |
+| [Scale a dance event after a successful showcase?](#should-we-scale-a-partner-dance-event-after-one-successful-showcase) | Rehearsal, unfamiliar partners, transfer, performance conditions, teaching method, support environment. |
+| [What does this engineer need to develop?](#what-does-an-engineer-need-to-develop-for-future-release-work) | Future work, representative observations, critical errors, capability, misleading training diagnoses, balanced development. |
+| [Combine results and handle a missing input](#combine-results-and-handle-a-missing-input) | Specialist requests, several views of the same work, evidence limits, changed circumstances, when to revisit a decision. |
+| [Citation](#citation) | Cite this Reference or a particular pattern application. |
 
-## Use this Reference
+The index is selective. Each DPF's own table of contents covers its full repertoire. Links between the five complete DPFs work within this publication folder; [preview citations](README.md#development-previews) identify Operations Management or Human Capability Development material outside this download.
 
-Use the Reference when several DPFs may contribute, when the applicable DPF is unclear, or when part of the answer may be unavailable. If one known DPF result already answers the question, use that DPF directly. The Reference is not a required detour.
+## Find a starting pattern
 
-Start with the decision or action that must happen next. Keep the project System, Method, MethodDescription, Work, capability, performer, provider, platform, publication, evidence, authority, and cultural continuation as different subjects. Open another result only when it changes that decision. Co-listing means neither dependency, compatibility, availability, maintenance, nor Suite belonging.
+Choose the row that matches the question you need to answer. Several patterns in one row are alternatives or complementary contributions; their own working conditions determine which you need.
 
-Each entry states what every returned item actually is and what it contributes:
+### Understand a problem and prepare a recommendation
 
-1. applicable pattern guidance or a MethodDescription from an identified FPF or DPF source, together with its receiving use and limit;
-2. direct-source evidence, including a worked or constructed application, for one named claim or decision and within its source limits;
-3. an identified obtained result of its actual kind for the receiving case, but only when that result exists; or
-4. a named unavailable specialist result, the decision its absence blocks, and the condition for retry.
-
-The three landed DPF source editions below are identified source inputs for this Reference edition. Their availability does not make every pattern's expected result obtain in a receiving case. The Reference names the guidance, evidence, or result actually used, states its limit, and returns the reader to the direct source.
-
-## First answers
-
-| Working question | First useful answer | Ordinary stop or return |
+| Your question | Open | What you can obtain |
 | --- | --- | --- |
-| A partner-Dance team has one successful rehearsed showcase. Should it take a larger social-Dance slot? | The showcase supplies no unfamiliar-partner transfer evidence, so transfer cannot justify scaling. The receiving team's next-development choice remains unavailable until its own decision subject, authority, candidate Works, comparison basis, constraints, evidence, and ChoiceResult obtain. | Stop at unsupported transfer-based scaling and at any duration, intervention, trial, or other next Work copied from the constructed source case. |
-| A small equipment company is choosing among ready, commissioned, internally developed, and hybrid greenhouse-control arrangements. | Compare complete ways to obtain the same accepted greenhouse-control result through [SYSE.24](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-24). Do not copy the constructed hybrid choice into a real procurement decision. | Stop at the first missing specialist input that can reverse the real choice; obtain it, then rerun only the affected comparison. |
-| A small engineering team asks whether to develop people, recruit, use providers, change its Method or platform, or allocate Work to human, AI, robotic, or hybrid Systems. | Use Method Engineering and Systems Engineering to define the Methods, engineering results, parity basis, capability evidence, and candidate arrangements. Do not choose the organization arrangement without an OCE.8-equivalent organization result and actual case evidence. | Stop at a source-bounded arrangement dossier. Retry only after the organization result and current Work, capability, assignment, permission, authority, and target-domain evidence obtain. |
+| What advice is being requested, for whom, and who will decide? | [PSD.1](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-1) | An agreed question and scope for the inquiry, with the participants' authority clear. |
+| Are people describing different problems? Whose concern is missing? | [PSD.2](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-2), [PSD.3](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-3), [PSD.4](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-4) | The affected participants, several consequential problem formulations, and a justified boundary for the inquiry. |
+| How can different models or problem-structuring methods help? | [PSD.5](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-5), [PSD.6](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-6), [PSD.7](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-7) | Models chosen for their questions and limits, a suitable combination of methods, and an inquiry that preserves material disagreement. |
+| What could we do besides the first proposed option? | [PSD.8](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-8) | Alternatives that differ in how they would address the problem. |
+| What matters in the choice, and what might change the comparison? | [PSD.9](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-9), [PSD.10](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-10), [PSD.11](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-11), [PSD.12](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-12) | Explicit values and trade-offs, useful uncertainty statements, compared consequences, and sensitivity to assumptions. |
+| What can we responsibly recommend now? | [PSD.13](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-13) | A recommendation, retained alternatives, a worthwhile probe, a precise request for missing evidence, or a justified abstention. |
+| When should earlier advice be reconsidered? | [PSD.14](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-14) | Observations and responsibility for following up the advice, with the premises whose change would matter. |
+| How do we find and advise on a development opportunity? | [Development-direction advising](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-advising-development-direction-advising) and [opportunity construction](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-opportunity-construct-a-bounded-development-opportunity) | An opportunity supported well enough to investigate, or development advice based on the subject's circumstances and the relevant specialist results. |
 
-These are bounded answers for the stated situations. None is claimed to be the smallest sufficient combination because the necessary-item test has not been completed for every real case.
+### Engineer a system or a platform
 
-## Current source returns
-
-The following canonical sources are the identified inputs to this edition. This table is not a Suite member table and reports no receiving-case result merely because a source is available.
-
-| Direct source | Actual kind and receiving use | Boundary and source status |
+| Your question | Open | What you can obtain |
 | --- | --- | --- |
-| [Current FPF](../../../FPF-Spec.md) and its current pattern hosts | Pattern guidance for transdisciplinary distinctions and moves such as same-result comparison, bounded specialist return, capability, Work, evidence, choice, Method and project separation, and multiview description. | Use each pattern under its own entry condition. The guidance supplies no domain Method, domain evidence, specialist authority, DPF decision, or receiving-case result. |
-| [Method Engineering Principles Framework](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | A landed DPF source edition containing nineteen pattern bodies, MethodDescriptions and source returns, plus one cross-pattern application. Use its patterns as guidance and its application only as bounded direct-source evidence. | Available through the named canonical repository locator. Its presence here creates neither a receiving-case result nor Suite membership and supplies no other practice's decision. |
-| [Systems Engineering Principles Framework](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | A landed DPF source edition containing twenty-four pattern bodies and worked applications. Use the greenhouse application as direct-source evidence for how one constructed comparison works, not as another project's result. | Available through the named canonical repository locator. Its presence here creates neither Suite membership nor a decision for another project. |
-| [Music and Dance Practice Engineering Principles Framework](../../dpf-evolutionary-stylistics-and-style-engineering/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-FIRST-EDITION-BRIEF-AND-VARIANT-AUTHORING-CAMPAIGN/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | A landed DPF source edition containing Music-and-Dance practice-engineering guidance and a constructed partner-Dance / live-coded-Music development application used as direct-source evidence. | Available through the named canonical repository locator. Its presence here creates neither Suite membership nor event evidence, intervention choice, or transfer result for a real Salsa team. |
+| Which system are we changing, for which use, and who else is affected? | [SYSE.1](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse1---choose-and-reopen-the-project-system-of-interest), [SYSE.16](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse16---recover-the-systems-and-conditions-needed-for-a-use-decision), [SYSE.17](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse17---find-systems-that-may-bear-engineering-consequences) | A useful project focus and the surrounding systems and consequences that the engineering decision must consider. |
+| Which functions, components and interfaces should we choose? | [SYSE.5](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse5---develop-functional-organization-and-bearer-alternatives), [SYSE.6](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse6---decide-and-reopen-the-engineering-architecture) | Compared functional and architectural alternatives, a decision and its grounds. |
+| How should we obtain the result: build, buy, reuse, use a provider, or combine them? | [SYSE.24](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse24---choose-how-the-project-will-obtain-a-needed-engineering-result); [C.38](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c38---construct-comparable-ways-to-obtain-one-result) for the general comparison | Comparable whole arrangements, including the work and burden each leaves to the project. |
+| What must be built or changed so the chosen system can exist? | [SYSE.3](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse3---develop-the-recursive-realization-network) | A realization arrangement reaching the needed builders, equipment and other enabling work. |
+| What can a model, trial or test justify? | [SYSE.10](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse10---assess-research-model-and-trial-results-for-an-engineering-decision), [SYSE.4](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse4---select-an-engineering-challenge-and-qualify-evidence-use) | A claim tied to its evidence, configuration and conditions, with any further challenge needed for the decision. |
+| Are the changes integrated and ready for the intended use? | [SYSE.11](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse11---integrate-a-system-for-one-bounded-use), [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity), [SYSE.14](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse14---make-a-release-decision-for-named-engineering-work-or-use) | Integration evidence, an identifiable configuration and a release decision for the stated use. |
+| Is the platform helping practitioners do their work? | [SYSE.12](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse12---develop-an-engineering-platform-for-practitioner-work); SYSE.25–SYSE.29 in the [Systems Engineering contents](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents) | A platform design and comparison grounded in the tasks it enables, including adoption, economics and competing demands. |
+| Is the difficulty specific to software delivery or reliable service? | SYSE.30–SYSE.41 in the [software profile](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents) | Methods for the particular delivery, operation or reliability problem. Use the general platform patterns for questions shared with laboratories, factories and other platforms. |
+| Which engineering work can overlap, and which results are prerequisites? | [SYSE.20](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse20---reconcile-overlapping-engineering-work-and-required-order) | A feasible arrangement of concurrent work with the dependencies that actually require order. |
+| How can engineering practices continue and improve across people and time? | [SYSE.21](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse21---deliberately-continue-and-change-systems-engineering-culture) | An account of actual practice, alternatives for its continuation or change, and the observations needed to judge them. |
 
-For a current product-state question, return to the [realization account](CURRENT-REALIZATION-ACCOUNT.md). For a direct working question, open the cited pattern guidance or evidence instead of treating this status table as an obtained result.
+### Improve a method or an organization
 
-## Should we scale a partner-Dance event after one successful showcase?
-
-### Situation and first useful answer
-
-A Salsa practice team has one exciting rehearsed showcase and is considering a larger festival slot. Its intended use is social Dance among unfamiliar partners.
-
-Do not treat the showcase as evidence that the practice transfers, and do not use transfer as a reason to take the larger slot. The receiving team's next-development choice is still **unavailable**: the source does not choose a duration, intervention, trial, or other next Work for this Salsa situation. First identify the decision subject, lawful chooser and authority, candidate next Works, comparison basis, constraints, and available evidence; then obtain the team's own ChoiceResult.
-
-This is a bounded Reference answer, not a claim that a real team made the decision. The source application is a constructed partner-Dance / live-coded-Music case, not historical Salsa evidence and not a prescription for this team.
-
-### Direct returns
-
-| Returned item and actual kind | What it contributes now | What it does not establish |
+| Your question | Open | What you can obtain |
 | --- | --- | --- |
-| Pattern guidance: [MDPE.7 — Choose the Next Music-or-Dance Development](../../dpf-evolutionary-stylistics-and-style-engineering/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-FIRST-EDITION-BRIEF-AND-VARIANT-AUTHORING-CAMPAIGN/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe-7) | Gives the decision form: choose now, probe again, reject the current set, or return because another question is current. It keeps the decision subject, authority, result, and revisit condition explicit. | No real Salsa transfer, selected intervention, duration, authority, commitment, plan, or performed Work. |
-| Direct-source evidence: [constructed social-Dance and live-Music development application](../../dpf-evolutionary-stylistics-and-style-engineering/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-FIRST-EDITION-BRIEF-AND-VARIANT-AUTHORING-CAMPAIGN/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#a-constructed-social-dance-and-live-music-development-decision) | Demonstrates how one constructed case used characterization, architecture, support-environment testing, performed-Work observation, local change, and choice to select one unfamiliar-partner trial and no larger slot yet. | No observation or ChoiceResult for this Salsa population, event, intervention, timing, safety, or transfer. Do not copy its one-month duration or selected trial. |
-| Conditional pattern guidance: [ME.1 — Choose and Reopen the Project Method-of-Interest](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-1) | Tests whether a reusable coordination or teaching Method is actually the question. | Saying “methodology” does not move the Dance-practice decision into Method Engineering. |
-| Conditional pattern guidance: [ME.11 — Trial the Method](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-11) and [ME.13 — Validate Fit and Transfer](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-13) | Becomes useful only after one Method-of-interest is admitted; keeps actual trial Work separate from a later fit or transfer decision. | Neither pattern replaces MDPE nor turns the constructed source case into actual Salsa evidence. |
-| Conditional source-edition guidance: [Systems Engineering source](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Opens only when a selected floor, sound, interface, configuration, provider, or other engineered support System becomes a decision subject. | Equipment use alone does not make Systems Engineering part of the Dance-practice choice or supply festival authority or finance. |
+| Which way of working should we examine, and what must it contribute? | [ME.1](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me1---choose-and-reopen-the-project-method-of-interest), [ME.3](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me3---build-situational-method-requirements-and-fit-criteria) | The method to investigate and requirements for its use in this situation. |
+| Which method structure fits, especially when methods are used together? | [ME.6](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me6---compare-method-architecture-alternatives-and-simultaneous-enactment-conflicts); [C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures) when several practice structures must be reconciled | Compared alternatives and consequential conflicts among methods, work, capability, support and representations. |
+| Can we recover a reusable method from what people actually do? | [ME.18](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me18---reconstruct-a-candidate-method-account-from-observed-work) | A provisional method account, supported by observations and explicit limits on what can be generalized. |
+| How should people find, understand and perform the method? | [ME.8](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me8---author-a-methoddescription-for-named-uses), [ME.9](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me9---compose-complementary-method-representations-for-their-uses), [ME.10](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me10---build-a-method-base-and-enactment-support-arrangement) | A method description, complementary representations and a workable support arrangement. |
+| Does the method work in a representative trial? | [ME.11](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work) | Trial evidence about the result, failures and conditions of use. |
+| Do the method and its descriptions agree? | [ME.12](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me12---verify-method-and-methoddescription-coherence) | A coherence result identifying discrepancies that affect use. |
+| Does it fit this situation, or transfer to the new one? | [ME.13](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me13---validate-situational-fit-and-transfer) | A justified fit or transfer conclusion and any conditions still needing evidence. |
+| Is the method worth using compared with current alternatives? | [ME.14](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-practical-worth-against-current-alternatives) | A practical-value comparison, including the burden of use and change. |
+| What organizational contribution or working relationship should change? | [OCE.1](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce1---identify-the-changed-organization-and-intended-contribution), [OCE.2](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce2---recover-current-organization-work-and-arrangement), [OCE.3](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce3---generate-and-compare-organization-concepts) | A defined change and the relation or contribution it should improve. |
+| How should contributions, positions and assignments fit together? | [OCE.4](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce4---design-contribution-architecture), [OCE.5](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce5---define-organization-positions), [OCE.6](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations) | An organizational design with the relevant contribution, position, assignment and enabling relations distinguished. |
+| How must product and organization architecture decisions fit together? | [OCE.7](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce7---coordinate-product-or-service-and-organization-architecture-decisions) | Compatible decisions about the offering and the organization needed to realize it. |
+| Should we develop people, recruit, use providers, or change human and AI work? | [OCE.8](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---configure-humanai-robotic-and-provider-work-arrangements) | A comparison of whole organizational arrangements for obtaining the same needed result. |
+| How can the change become workable and remain supported? | [OCE.9](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce9---realize-a-bounded-organization-capability-increment), [OCE.10](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---diagnose-participation-and-change-target-working-culture), [OCE.12](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce12---distribute-leadership-contributions-in-organization-change) | Realization, participation and support results for the change being made. |
+| What happened, and should the change be revised? | [OCE.13](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce13---observe-and-compare-organization-change-consequences), [OCE.14](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce14---revise-the-organization-from-qualified-results) | A consequence comparison and an authorized revision grounded in it. |
 
-### Missing results and retry
+### Develop a practice or a person's capability
 
-| Missing result | What its absence blocks | Retry when |
+| Your question | Open | What you can obtain |
 | --- | --- | --- |
-| Receiving-case next-development ChoiceResult | selecting a duration, intervention, trial, larger slot, or other next Work for this Salsa team | the team has identified its decision subject, lawful chooser and authority, materially different candidate Works, comparison basis, constraints and evidence, and has recorded its own ChoiceResult |
-| Actual unfamiliar-partner enactment and observation for the named population and conditions | a real transfer claim and a scale decision based on transfer | an authorized receiving-case ChoiceResult selects observation Work, that Work is performed, and its conditions, observations, failures and authority are recorded |
-| MDPE transmission, continuation, or new-cultural-whole result | claims that another group can enact the Method, that the practice continues, or that a new cultural whole obtains | a receiving group, delayed reproduction, continuation interval, or independent persistence and identity evidence becomes current |
-| Human Capability Development result | selection of a capability-development programme | named holders, later Work, target capability, development alternatives, transfer test, and qualified evidence obtain |
-| Embodied Rhythmics result | a rhythm-specific diagnosis or intervention beyond what MDPE observation can discriminate | the physical, perceived, or body-coordination question and a qualified rhythm result obtain |
-| Event operations, safety, finance, authorization, or legal result | the corresponding event commitment | the decision-reversing constraint and its qualified result obtain |
+| Which music or dance development work should we choose next? | [MDPE.7](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe7---choose-the-next-music-or-dance-development-work) | A choice, another probe, rejection of the candidates, or a return to a better question, with reasons to revisit it. |
+| Is the difficulty in performance, coordination, observation, transmission or the supporting environment? | [Music and Dance Practice Engineering contents](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents) | The relevant practice method and an example of its use. |
+| What must this person be able to do in later work? | HCD.1 ([preview](README.md#development-previews)) | An evidenced development demand or a prospective hypothesis to investigate. |
+| Is the limit a capability, misconception or behaviour, or does something else need to change? | HCD.3 ([preview](README.md#development-previews)) | A supported development target, a non-training cause, or the next observation needed to distinguish them. |
+| Which capabilities should be developed or preserved across simultaneous work? | HCD.4 ([preview](README.md#development-previews)) | A capability-profile choice based on evidence, support conditions, trade-offs and the person's participation. |
 
-**Stop.** Do not use the showcase to justify scale, and do not prescribe one month, an unfamiliar-partner trial, or another next Work from the constructed application. Use MDPE.7 to formulate the receiving choice. If that team's lawful ChoiceResult selects a probe, perform and observe the authorized Work before making a transfer claim. Open Method Engineering only for an admitted reusable Method question and Systems Engineering only for an independently framed support-System question.
+For operating questions, the [Operations preview](README.md#development-previews) provides OPS.5 for admitting work, OPS.6 for continuing an exceptional case, and OPS.7 for revising local priority or an existing commitment. The results respectively state what may start and under what limits, what may happen next in the admitted case, and which priority or commitment should change. Each decision uses the operating evidence and authority required by that pattern.
 
-## Which greenhouse-control obtaining arrangement should survive?
+## How should we obtain climate control for a greenhouse?
 
-### Situation and first useful answer
+An equipment company needs climate control for a new greenhouse. It could buy a ready controller, commission a custom controller, develop one internally with AI assistance, or combine a ready controller with its own supervisory layer.
 
-A small equipment company needs climate control for a new greenhouse configuration. It is comparing a ready controller, a commissioned custom controller, internal development with AI assistance, and a ready controller with an internal supervisory layer.
+**Start with [SYSE.24](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse24---choose-how-the-project-will-obtain-a-needed-engineering-result).** Compare ways to obtain the same accepted climate-control result. Include the integration and support work, required capability, access and eventual exit as well as the device price.
 
-Use [SYSE.24](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-24) to compare complete ways to obtain one accepted result. For the constructed GH-2 application only, the protected interface-and-fallback replay preserves two candidates and the stated price-and-burden rule selects the ready controller plus internal supervisory layer.
+Identify the real greenhouse, crops, actuators, climate and operating conditions with [SYSE.1](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse1---choose-and-reopen-the-project-system-of-interest) and [SYSE.16](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse16---recover-the-systems-and-conditions-needed-for-a-use-decision) where needed. Obtain the actual performance and safety thresholds from the appropriate specialists.
 
-For another greenhouse, the recommendation is **unavailable** until the accepted greenhouse-control result and every specialist input that can reverse the choice are established for the real configuration. The constructed choice is a comparison demonstration, not a procurement recommendation.
+| What could reverse the choice? | Evidence to obtain |
+| --- | --- |
+| Control performance or fallback fails in the intended configuration. | Configuration-specific control and electrical-safety thresholds, a permitted test, and evidence that the fallback works. |
+| The attractive price hides a continuing access or support problem. | The actual offer, funding limit, access and update terms, data arrangements, support duties, remedies and exit costs over the intended period. |
+| The receiving team cannot perform the work left to it. | A workable allocation among people, AI and providers, with assignments, authority and capability evidence. Identify any required human development. |
+| The arrangement cannot be kept operating. | The maintenance, recovery, reliability and operating results required for the intended service, including capacity where it matters. |
 
-### Direct returns
+The [GH-2 worked application](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#app-syse-04--worked-application-obtain-climate-control-for-a-new-greenhouse-configuration) follows this comparison. Two candidates remain; an interface-and-fallback test and the example's price-and-burden rule favour the ready controller with an internal supervisory layer. It leaves a further question: can the internal integration agent configure the layer and produce commissioning evidence before the need date?
 
-| Returned item and actual kind | What it contributes now | What it does not establish |
-| --- | --- | --- |
-| Pattern guidance: [SYSE.24 — Choose How the Project Will Obtain a Needed Engineering Result](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-24) | Replaces buy, build, provider, and AI labels with complete arrangements exposing result, performers and Work, Methods and means, access, integration, configuration, assurance, support, capability, resources, and exit on one parity basis. | It supplies none of the specialist premises or real decision authority. |
-| Direct-source evidence: [APP-SYSE-04 — Obtain Climate Control for a New Greenhouse Configuration](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#app-syse-04--worked-application-obtain-climate-control-for-a-new-greenhouse-configuration) | Demonstrates four whole arrangements, a common comparison basis, a tie set, a bounded replay, the constructed GH-2 choice, and the first unsupported realization branch. | It establishes no fact, acceptance, provider capability, price, authority, or recommendation for another project. |
-| Pattern guidance: [SYSE.1 — Choose the Project System-of-Interest](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-1) and [SYSE.16 — Recover Systems and Conditions Needed for Use](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-16) | Keeps the intended climate-control System distinct from the greenhouse, company, crops, operators, maintainers, weather, providers, and fallback conditions. | It provides no greenhouse-domain threshold. |
-| Pattern guidance: [SYSE.3](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-3), [SYSE.13](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-13), [SYSE.10](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-10), [SYSE.4](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-4), and [SYSE.14](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-14) | Continues from a retained arrangement into realization, configuration-bound evidence, assurance, and release without collapsing those results. | Comparison, selection, integration, acceptance, release, and use do not become one result. |
-| Conditional pattern guidance: [ME.1](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-1) | Opens Method Engineering only when an integration, commissioning, control-development, or assurance Method itself becomes the question. | Ordinary use of Methods inside an arrangement does not make Method Engineering part of every greenhouse decision. |
+Use the example to understand the comparison. For procurement, substitute your offers, configuration and evidence; have the responsible chooser record the resulting decision. [A.15.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a159---request-and-use-a-bounded-result-from-another-practice) helps request a missing specialist result when it could change the choice.
 
-Music and Dance Practice Engineering is ordinary non-use here. No Music-or-Dance Work, style, transmission, recognition, or continuation result is current.
+After selection, obtain the realization result through [SYSE.3](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse3---develop-the-recursive-realization-network), configuration identity through [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity), and the required evidence and release decision through [SYSE.10](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse10---assess-research-model-and-trial-results-for-an-engineering-decision), [SYSE.4](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse4---select-an-engineering-challenge-and-qualify-evidence-use) and [SYSE.14](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse14---make-a-release-decision-for-named-engineering-work-or-use) as those questions arise. If the integration or commissioning method is itself inadequate, use [ME.1](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me1---choose-and-reopen-the-project-method-of-interest) to investigate it. Once the arrangement and operating conditions are established, the Operations preview's OPS.5–OPS.7 address admission, exceptional-case continuation and local priority or commitment revision.
 
-### Missing results and retry
-
-| Missing result | What its absence blocks | Retry when |
-| --- | --- | --- |
-| Greenhouse-control result for the real crops, climate, actuators, conditions, and thresholds | definition of the accepted result and comparison on one parity basis | the applicable domain result is obtained for the named configuration and conditions |
-| Electrical-safety limits, challenge authority, and fallback evidence | acceptance of protected fallback and authorization of challenge or release | the exact limits, authority, and configuration-bound evidence obtain |
-| Finance, commercial, and legal results for cash, funding, access, update, data, duty, remedy, and exit | the real price-and-burden rule, provider comparison, and commitment | the qualified results obtain for actual offers and the project horizon |
-| Organization Change Engineering result for human–AI–provider Work allocation, assignment, and authority | claims that named Systems can lawfully and sustainably perform the arrangement | an OCE-equivalent allocation result and current organization evidence obtain |
-| Operations Management and Maintenance Engineering results | claims that the arrangement remains usable after commissioning | continuing-demand, service, exception, reliability, support, and recovery results obtain |
-| Capability-development result for the actual holders | reliance on internal completion, assurance, operation, maintenance, or later change capability | holders, representative Work, capability envelopes, development need, and evidence obtain |
-| Real configuration-bound replay, acceptance, and decision authority | copying the GH-2 choice into a commitment | the authorized probe runs on the real candidate configuration and the actual ChoiceResult is recorded |
-
-**Stop.** In the constructed source case, stop at the hybrid selection and first unsupported realization branch. In a real project, stop at the first missing decision-reversing result, obtain it directly, and rerun only the affected SYSE.24 comparison.
+Pause only the decision that depends on a missing input. Keep the conclusions whose grounds still hold.
 
 ## What should a small engineering team develop, obtain, or delegate?
 
-### Situation and first useful answer
+A startup wants better engineering results and a stronger ability to compete. It is considering staff development, recruitment, providers, a method or platform change, and a different allocation of work among people, AI and robots.
 
-A small engineering startup asks what its team must master, obtain, or delegate to build a competitive engineering organization. Possible moves include developing current members, recruiting or assigning another holder, obtaining provider expertise, changing a Method or interface, improving a platform, and allocating bounded Work to human, AI, robotic, or hybrid Systems.
+**Name one needed result, then use [OCE.8](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---configure-humanai-robotic-and-provider-work-arrangements).** “Use more AI” and “train the team” are still broad possibilities. Turn each useful possibility into a whole arrangement that could obtain the result. Keep the intended use, horizon, acceptance criteria and protected conditions the same across candidates.
 
-Do **not** choose among those arrangements yet. Method Engineering can define the Methods, criteria, descriptions, support, trials, fit, and worth questions. Systems Engineering can define the engineering results, repertoires, platforms, overlapping Work, and complete ways to obtain one result. FPF can supply the general comparison, capability, performer, Work, and specialist-return discipline. None supplies the organization allocation decision.
+Use representative work to recover how the team currently operates: who contributes, what they can do, what they are assigned and permitted to do, how contributions meet, and where failures or support burdens occur. [C.38](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c38---construct-comparable-ways-to-obtain-one-result) gives the general same-result comparison; OCE.8 supplies the organizational method.
 
-The decisive unavailable result is an OCE.8-equivalent organization result: several compared capability-and-Work arrangements and one bounded allocation or development decision, based on representative Work, required contributions, current holders, capabilities, assignments, authority, interfaces, evidence, and failure returns. The architecture plan for OCE.8 is not an obtained pattern.
-
-### Direct returns
-
-| Returned item and actual kind | What it contributes now | Boundary |
-| --- | --- | --- |
-| Pattern guidance: [ME.1](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-1), [ME.3](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-3), and [ME.6](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-6) | Chooses the Method-of-interest, states the receiving Work and result with fit criteria, and compares the few Method, Work, allocation, support, description, or cultural structures that change the Method-architecture choice. | It does not choose holders, assignments, authority, providers, or human–AI allocation. |
-| Pattern guidance: [SYSE.15](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-15) and [SYSE.24](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-24) | Identifies engineering Methods needed for recurring results and compares whole internal, provider, ready, mixed, or AI-assisted ways to obtain the same engineering result. | It does not decide the organization-specific contribution, holder, assignment, or authority arrangement. |
-| Pattern guidance: [SYSE.12](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-12) and [SYSE.20](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-20) | Tests whether a platform capability gap or conflict among overlapping engineering Work is the actual limit. | A platform defect or Work conflict is not automatically a missing person or bad Method. |
-| Pattern guidance: [C.38 — Construct Comparable Ways to Obtain One Result](../../../_current-pattern-hosts/C.38-Construct-Comparable-Ways-to-Obtain-One-Result.md) | Builds complete-enough candidates around the same receiving result and parity basis before choice. | Candidate construction does not select an organization arrangement. |
-| Pattern guidance: [A.15.9 — Request and Use a Bounded Result from Another Practice](../../../_current-pattern-hosts/A.15.9-Request-and-Use-a-Bounded-Result-from-Another-Practice.md) | Uses an already available qualified result or requests only the smallest missing specialist result needed by one receiving decision. | The supplier keeps its Method and conclusion boundary; the startup keeps its decision authority. |
-| Pattern guidance: [A.2.2 — Capability](../../../_current-pattern-hosts/A.2.2-U.Capability-System-Ability-Envelope-and-Measures.md), [E.23.CDI — Develop Capability for Named Work](../../../_current-pattern-hosts/E.23.CDI-Developing-Capability-for-a-Named-Work-Family.md), and [A.15.8 — Work-Performance Configuration and Recovery Testing](../../../_current-pattern-hosts/A.15.8-Work-Performance-Configuration-and-Recovery-Testing.md) | Keeps the holder, target Work, capability envelope, development intervention, transfer question, performing configuration, and recovery observation separate. | No pattern makes a current person, team, AI System, robot, provider, or hybrid arrangement capable by declaration. |
-| Pattern guidance: [FPF A.13](../../../FPF-Spec.md#a13---the-agential-role--agency-spectrum) and [A.15.1 — Work](../../../_current-pattern-hosts/A.15.1-U.Work.md) | Qualifies each precise performer for the action and admits actual Work from its evidence. | Tool output, job title, availability, or a provider label does not establish agency, assignment, authority, or Work. |
-| Conditional direct specialist source: applicable target-domain DPF or practice | Supplies representative domain Work, acceptance conditions, consequences, evidence, and domain Methods when that source and its results obtain. | MDPE applies only if Music-or-Dance Work or a Music-or-Dance practice result is current; co-listing creates no applicability or result. |
-
-### Candidate arrangement families before choice
-
-These are comparison families, not recommendations and not an obtained OptionSet.
-
-| Arrangement family | Evidence needed before it can survive |
+| Possibility | What the comparison needs |
 | --- | --- |
-| Develop current members | named holders, representative later Work, current capability envelopes, transfer conditions, time and opportunity cost, and a human-capability result when people are developed |
-| Recruit or assign another holder | eligible holder kind, actual capability, assignment scope, authority, resources, integration, and contribution-interface evidence |
-| Obtain provider expertise | provider capability, duty and authority, acceptance evidence, data and knowledge custody, continued access, support, recovery, exit, and receiving-team Work |
-| Change a Method, interface, or platform | actual limiting result, Method identity and architecture, interface or platform evidence, representative trial, moved burden, and proof that the change addresses the bottleneck |
-| Allocate bounded Work to human, AI, robotic, or hybrid Systems | qualified agency for each precise action, capability evidence, assignments, permissions, authority, interfaces, oversight, failure return, configuration identity, security and safety limits, and independently admitted Work observations |
+| Develop current members | The people and later work, current capability and transfer conditions, development time and opportunity cost. |
+| Recruit or assign another performer | Demonstrated capability, eligibility, assignment, authority, resources and integration needs. |
+| Obtain provider expertise | The provider's contribution and duties, acceptance evidence, data and knowledge custody, continued access, recovery and exit; the work left with the startup. |
+| Change a method, interface or platform | Evidence of the limitation, a candidate change and a representative trial, including burdens shifted to others. |
+| Combine human, AI and robotic contributions | Capability, assignments, permissions, interfaces, oversight, recovery, security and safety limits, and observations of the actual arrangement. |
 
-### Missing results and retry
+Several domain questions may contribute. [ME.1](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me1---choose-and-reopen-the-project-method-of-interest) and [ME.3](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me3---build-situational-method-requirements-and-fit-criteria) clarify the method and required contribution; [ME.6](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me6---compare-method-architecture-alternatives-and-simultaneous-enactment-conflicts) compares method architectures. [SYSE.15](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse15---choose-and-refresh-the-engineering-methods-needed-by-a-project) and [SYSE.24](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse24---choose-how-the-project-will-obtain-a-needed-engineering-result) help with the engineering repertoire and ways to obtain the result. [SYSE.12](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse12---develop-an-engineering-platform-for-practitioner-work) investigates a platform limitation, and [SYSE.20](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse20---reconcile-overlapping-engineering-work-and-required-order) helps reconcile overlapping work.
 
-| Missing result | What its absence blocks | Retry when |
-| --- | --- | --- |
-| OCE.8-equivalent organization arrangement result | choosing develop, recruit or assign, provider, Method or interface change, or human/AI/robot/hybrid allocation as one organization decision | a qualified organization result compares arrangements from actual Work, contributions, holders, capabilities, assignments, authority, interfaces, evidence, and failure returns |
-| Representative organization Work and current case facts | claiming that any candidate fits this startup | actual Work, contributors, interfaces, failures, burdens, and outside consequences are observed and admitted |
-| Capability, assignment, permission, and authority for every proposed performer and chooser | reliance on a performer and a lawful allocation decision | holder- and Work-specific evidence and direct assignment, permission, and authority results obtain |
-| Human Capability Development result | selecting a human development programme or claiming transfer | holders, later Work family, target capability, development alternative, transfer test, and evidence obtain |
-| Target-domain result | setting domain acceptance, consequence, and evidence conditions | the actual product domain is identified and its qualified result obtains |
-| Strategy, finance, legal, governance, safety, security, operations, or maintenance result that can reverse the arrangement | the corresponding competitiveness, funding, duty, authority, protected-loss, continuing-service, or support claim | the named bounded specialist result is obtained under A.15.9 |
+For capability claims, [A.2.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a22---ucapability---system-ability-envelope-and-measures) identifies whose capability is asserted and under what conditions. [E.23.CDI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23cdi---developing-capability-for-a-named-work-family) addresses development for a particular family of work. [A.15.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a158---work-performance-configuration-and-recovery-testing) helps when the performing configuration or recovery changes the answer; [A.13](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a13---the-agential-role--agency-spectrum) and [A.15.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a151---uwork) distinguish the performer and actual work. Human demand, diagnosis and profile questions can use the HCD preview.
 
-**Stop.** Produce a source-bounded arrangement dossier, not a technology or staffing recommendation. Retry the allocation only after the OCE-equivalent result and case-specific Work, capability, assignment, permission, authority, and target-domain evidence obtain.
+Obtain a strategy, finance, legal, safety, maintenance or other specialist answer when it can change this comparison. State the particular question in the request. The organization makes its choice from the resulting comparison: select an arrangement, conduct a useful authorized probe, reject the candidates, or identify the evidence still needed.
 
-## Direct question-to-result index
+Before dependent work begins, establish its required capability, assignment, permission and authority, and the evidence for protected conditions. Once the operating arrangement exists, OPS.5–OPS.7 can address its narrower admission, case-continuation and priority questions.
 
-Use this index only when the working question is already recognizable. The direct pattern remains authoritative.
+## How do we recommend a development direction?
 
-| Working question | Direct return | What changes in practice |
-| --- | --- | --- |
-| “What Method-related subject is actually current?” | [ME.1](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-1) | Keep a Method-of-interest separate from a project System, capability, tool, support arrangement, resource, publication, and actual Work. |
-| “What must the Method contribute here?” | [ME.3](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-3) | State receiving Work, intended result, criteria, limits, evidence, and failure returns before comparing Method candidates. |
-| “Which Method-related structures really change the choice?” | [ME.6](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-6) and [C.32.MWA](../../../_current-pattern-hosts/C.32.MWA-Practice-Architecture-Synthesis-from-Several-Structures.md) | Compare the relevant Method, Work, subject, capability, provider, description, support, and cultural structures without forcing one hierarchy or one-to-one correspondence. |
-| “Does an observed procedure amount to a reusable Method?” | [ME.18](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-18) | Keep a candidate Method account provisional until evidence supports the reusable semantics and boundary. |
-| “Do we need a tutorial, a MethodDescription, a support arrangement, or another representation?” | [ME.8](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-8), [ME.9](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-9), and [ME.10](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-10) | Author claims for a named use, select complementary representations only for their actual uses, and test the support configuration instead of equating a document with enactment. |
-| “Did the Method work, fit, transfer, and remain worthwhile?” | [ME.11](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-11), [ME.12](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-12), [ME.13](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-13), and [ME.14](../METHOD-ENGINEERING-FIRST-EDITION-COMPLETION-AUTHORING-CAMPAIGN/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-14) | Keep trial, coherence, situational fit or transfer, and practical worth as separate decisions with separate evidence and reopen conditions. |
-| “Is this a project, process, or case?” | [A.15.6](../../../_current-pattern-hosts/A.15.6-Project-Process-and-Case-Recovery-through-Work-Method-and-Transformation.md) and [E.17.0](../../../_current-pattern-hosts/E.17.0-U.MultiViewDescribing.md) | First recover independently admitted Work, its Method, transformation, participants, and boundaries. Treat project, process, and case descriptions as different views with their own viewpoints only after each view is admitted for its intended use. No view replaces the Work or makes the other views false. |
-| “Which engineered System and surroundings are current?” | [SYSE.1](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-1), [SYSE.16](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-16), and [SYSE.17](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-17) | Keep the changed System, operating surroundings, users, affected Systems, provider Systems, and outside consequences separately visible. |
-| “Which complete way should obtain one engineering result?” | [SYSE.24](../SYSTEMS-ENGINEERING-FIRST-EDITION-AUTHORING-CAMPAIGN/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse-24) with [C.38](../../../_current-pattern-hosts/C.38-Construct-Comparable-Ways-to-Obtain-One-Result.md) | Compare whole arrangements on one result and parity basis before choice; do not compare labels such as buy, build, outsource, or AI. |
-| “Which Music-or-Dance development should happen next?” | [MDPE.7](../../dpf-evolutionary-stylistics-and-style-engineering/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-FIRST-EDITION-BRIEF-AND-VARIANT-AUTHORING-CAMPAIGN/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe-7) | Return choose now, probe again, reject, or another-current-question with explicit evidence, authority, and revisit condition. |
-| “We need one specialist result from another practice.” | [A.15.9](../../../_current-pattern-hosts/A.15.9-Request-and-Use-a-Bounded-Result-from-Another-Practice.md) | Use an already available qualified result when sufficient; otherwise request only the bounded missing result and preserve supplier and receiver decision boundaries. |
+An engineer asks what to develop next; a company asks which capability to build; a programme author asks what participants should learn within a limited time. Each needs advice about development, but the facts and methods that make an option feasible differ.
 
-If none of these questions fits, do not broaden a nearby pattern by analogy. Identify the actual subject, intended result, and blocked decision; then use the applicable DPF or qualified direct specialist source. If no current result exists, return the gap.
+For advice to a developing person or organization, use the [Development-direction advising profile](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-advising-development-direction-advising). For advice to a programme author, begin with [PSD.1](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-1) and the programme-design case below. Establish who needs the advice, what decision it supports and who will make that decision. A formed, uncontested question can enter advising directly. Use PSD's problem-structuring methods when disagreement or an inadequate formulation prevents useful advice.
 
-## Boundaries that prevent false answers
+If useful opportunities have not yet been formed, use [Construct a Bounded Development Opportunity](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-opportunity-construct-a-bounded-development-opportunity). It helps investigate nearby possibilities, the problems they could address, required support and dependencies, achievable intermediate results, and what would distinguish a promising opportunity from an attractive description. This method can be used independently of an advising engagement.
 
-### Reference, Suite, and source products
+Bring back the specialist facts that could change the recommendation:
 
-This Reference is a non-framework lookup publication. It does not become a DPF, perform lookup Work, or decide the contents of the Engineering DPF Suite through its title, file, or source list.
+| Developing subject | Examples of needed contributions |
+| --- | --- |
+| A person | Evidence about representative later work, present limits, feasible development methods, support, assessment and transfer. HCD's preview covers demand, diagnosis and a capability profile; further learning-design results need their own methods. |
+| An organization | The intended contribution, strategy and operating conditions, and a comparison of organizational arrangements. OCE.8 is useful once the result to obtain is sufficiently established. |
+| An AI or mixed performing arrangement | Evaluation of the relevant configuration and task, access and integration conditions, oversight, safety and evidence about actual performance. Obtain these from the appropriate technical practice. |
 
-The Engineering DPF Suite is a separate continuing collection. Co-listing a source edition here neither constitutes that collection nor includes any product series in it. For current Reference, Suite, edition, publication, availability, or inclusion state, use the [realization account](CURRENT-REALIZATION-ACCOUNT.md); for the governing product and collection rules, use [E.11.DSG](../../../_current-pattern-hosts/E.11.DSG-DPF-Suite-Reference.md) and the [Engineering product architecture](../DPF-ARCHITECTURE-CAMPAIGN/CROSS-PRODUCT-ARCHITECTURE-DRR.md).
+With the needed inputs, apply the PSD comparison patterns that fit the remaining questions. [PSD.9](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-9) makes values and protected conditions explicit; [PSD.10](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-10) distinguishes consequential uncertainty; [PSD.11](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-11) compares consequences; [PSD.12](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-12) tests what could reverse the result. [PSD.13](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-13) prepares the strongest recommendation the evidence supports, and [PSD.14](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-14) sets up useful follow-up.
 
-### Guide and Reference
+For a four-month development programme, for example, establish the later work participants should perform, their starting abilities, available practice and support, and the opportunity cost. Compare plausible programmes and other interventions on that basis. A named budget or a list of interesting topics is not enough to justify the learning design; the programme needs its own practice, assessment and transfer methods.
 
-Use this Reference for situation–answer–stop–return lookup. Use an instructional Guide for prerequisite order, explanation, exercises, practice, checking, transfer, and durable mental organization. A Reference entry is not a lesson sequence, and the order of its entries is not a curriculum.
+The recommendation goes to the person or organization making the choice. Missing evidence about one option can limit that option while a supported alternative remains usable. If a further observation is more valuable than choosing now, explain what it should distinguish and return the probe.
 
-### Method, description, Work, and support
+### Recommend a programme before the learners are known
 
-A Method is not its MethodDescription. A MethodDescription is not the Work in which a Method is enacted. A support arrangement, tool, platform, publication, prompt, checklist, or AI-produced artifact is not a Method merely because practitioners use it. Capability, assignment, permission, authority, performer, actual Work, and result each need their own evidence.
+Start with [PSD.1](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-1): the present recipient is the programme author, and the decision concerns a learning product for a future audience.
 
-### Several views of the same Work
+In this planning example, two modules aim to help future engineers and managers first analyse an unfamiliar work problem, then also deliver and verify a bounded engineering or organizational change. The design allows 34 weeks and 340 participant hours, including assessment, feedback and retries. Teaching capacity is a separate 240 hours for twelve participants; producing the materials requires its own resources.
 
-Project management, process management, and case management can organize descriptions of the same independently admitted Work from different viewpoints. Each view needs its own intended use and positive admission. The views can overlap without forming one universal hierarchy and without turning the file order into Work order.
+Three compositions remain under consideration. A emphasizes general methods, B emphasizes domain practice, and C combines both. C has detailed topics and cases; A and B are still outlines. Use the developed C and ask a qualified learning-product designer, with the necessary domain specialists, for the smallest comparable fragments of A and B. The request should identify:
 
-### Source authority across FPF and DPF
+- the shared outcomes and assumptions about entry performance;
+- which methods participants must be able to select and use independently, which details they may retrieve, what controlled AI help is allowed, and which results need a specialist;
+- representative practice, feedback, assessment, retention and transfer conditions; and
+- participant time, teaching support and other resources, including what any added work would replace.
 
-Use the cited FPF patterns for transdisciplinary guidance such as same-result comparison, bounded specialist return, capability, performer and Work admission, evidence and choice discipline, Method and project separation, and multiview description. Use the cited DPF or direct specialist source for its domain Method, threshold, evidence, authority, acceptance, safety, law, finance, operations, maintenance, transmission, or cultural-continuation claim. This Reference supplies neither kind of result merely by linking or co-listing it.
+Use [PSD.9](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-9)–[PSD.13](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-13) for the comparison and advice questions that remain. C's detail makes it a useful starting design; its advantage over A or B still needs a comparison on those common grounds.
 
-## Source change, retry, and stop
+If participant time falls to six hours a week, the limit becomes 204 hours. All three original 340-hour designs need revision before launch under that limit. Retain useful parts and request a revised programme that explains which 136 hours are removed or replaced and how the two outcomes remain attainable. Continue searching for a design that fits; the three over-budget designs do not settle whether any suitable 204-hour programme is possible.
 
-Use the [current realization account](CURRENT-REALIZATION-ACCOUNT.md) to find current source-edition, Reference, and Suite locators and state. It is a status return, not a practical answer.
+The author can receive advice about further design now. Personal advice later uses a particular participant's work, starting performance and support conditions. The HCD preview supplies demand, diagnosis and profile methods; the planned HCD.2 personal programme-composition method is not yet available in it. Obtain any needed programme-design result from a qualified practice. Launch, actual learning, retention and transfer need their respective decisions and evidence.
 
-A landed Reference edition is fixed. When a later source edition, locator, warning, availability fact, or direct link changes a claim projected here, prepare a later edition that refreshes every affected shared source return, warning, locator, availability statement, entry return, and index link. Do not mutate this first edition in place, and do not re-evaluate an entry whose action, truth, stop, and reliance remain unchanged.
+## Should we scale a partner dance event after one successful showcase?
 
-Re-evaluate only the affected entry answer when an unavailable specialist result obtains, new case evidence changes the decision or removes a blocker, or the intended reader, practical question, source reliance, or ordinary non-use boundary changes. A source-status or link-only repair updates the shared return without turning one change into a full-Suite rereview.
+A salsa team has an exciting rehearsed showcase and is considering a larger festival slot. The intended use is social dance among unfamiliar partners.
 
-Stop when the first decision-reversing result is unavailable. Name it, say what it blocks, obtain it from its owning practice, and retry only the affected answer. Do not fill the gap with another framework title or repeat every source check.
+**Use [MDPE.7](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe7---choose-the-next-music-or-dance-development-work) to choose the team's next development work.** State the decision, the people entitled to make it, useful alternatives, criteria, constraints and evidence. The showcase gives evidence about rehearsed performance. Transfer to unfamiliar partners needs its own observation before it can justify the larger slot.
+
+The [social dance and live music worked application](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#a-constructed-social-dance-and-live-music-development-decision) combines characterization, practice architecture, support testing, observation and choice. Its team selects an unfamiliar-partner trial and defers the larger slot. The one-month duration belongs to that example's circumstances.
+
+If this team chooses a probe, arrange the permitted observation with the intended participants, partners and support conditions. Record failures as well as successes, then use the observations in the transfer and scale decision.
+
+| A further question | Method or result to use |
+| --- | --- |
+| Should the teaching or coordination method change? | [ME.1](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me1---choose-and-reopen-the-project-method-of-interest) identifies the method; [ME.11](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work) and [ME.13](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me13---validate-situational-fit-and-transfer) support a representative trial and fit or transfer conclusion. |
+| Is the floor, sound setup or other support system limiting the event? | Use Systems Engineering for the support-system decision and its configuration and use conditions. |
+| Can another group reproduce the practice, or can it continue over time? | Use the appropriate MDPE transmission and continuation methods and obtain delayed reproduction evidence. A claim that a new cultural whole has formed needs its own identity and persistence evidence. |
+| Does one person's capability need development? | Identify the person and later work, obtain a supported target, compare development alternatives and specify the transfer test. The HCD preview supplies only its demand, diagnosis and profile contributions. |
+| Is the cause specifically in physical rhythm, perceived rhythm or bodily coordination? | Obtain a discriminating result from Embodied Rhythmics practice. |
+| Can the organization commit to the event? | Obtain the relevant operating, safety, financial or other authorized commitment decision. OPS.5–OPS.7 answer narrower operating questions; wider event planning needs its own method. |
+
+The team's next choice can be made through MDPE.7. Add another contribution when the case raises its question.
+
+## What does an engineer need to develop for future release work?
+
+An engineer will take part in release work in the next quarter. The work may require challenging AI output, tracing configuration impacts, recognizing critical errors and coordinating specialists across unfamiliar physical and software variants. What should the engineer develop?
+
+**Start with a hypothesis about the future work, then obtain representative observations.** The case uses the HCD foundation's demand, diagnosis and profile methods; see [preview availability](README.md#development-previews). It does not yet provide enough evidence to select a development target.
+
+In the original case the person is Engineer-E27 and the prospective work is ReleaseWork-R9 in 2026-Q4. These labels identify the case; the reasoning starts with what that person will need to do.
+
+HCD.1 relates the anticipated demand to the work conditions and the decision being considered. Representative cases can test it before the future release work occurs. HCD.3 helps distinguish a changeable capability, misconception or behaviour from a demand outside the intended capability envelope, an unsuitable method, a tool or support failure, an assignment or authority problem, an organizational limit, or a missing specialist contribution. Check also whether the person can access the needed support and apply an existing ability under these conditions. Choose a safe observation that distinguishes the plausible causes. Medical diagnosis and intervention require the relevant qualified practice.
+
+HCD.4 compares current and target capabilities across simultaneous work. Preserve evidence for each claim, critical-error limits, support conditions, uncertainty, interfaces, trade-offs and the engineer's participation. A profile choice also needs the actual alternatives, beliefs about consequences, comparison and choice rules, a decision about whether another probe is worthwhile, and the authority to make the choice.
+
+| The conclusion you want to support | Evidence it needs |
+| --- | --- |
+| “This particular release work occurred.” | The actual occurrence, performer, configuration, period and method used. |
+| “That occurrence produced this result or consequence.” | The result or a supported result claim connected to the occurrence. |
+| A conclusion that depends on a work record | A record connected to the occurrence and result. Other conclusions may use adequate direct observations. |
+| Current demand, the limiting cause, or a current capability profile | Representative observations of the engineer under compatible conditions: work products, quality, critical errors, method and configuration, AI and other support, specialist returns, familiar and unfamiliar variants, and when the observations apply. Identify which observed performances supplied the evidence. |
+| A claim about enacted engineering culture or a practice-change decision | A compatible [SYSE.21](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse21---deliberately-continue-and-change-systems-engineering-culture) result for the person, method, work, period and use, or the qualified substitute allowed by the HCD method, including retained alternatives and unresolved evidence needs. |
+
+SYSE.21's constructed PumpWorks example helps explain the engineering-culture question. The HCD preview's ImpactReview-17 example demonstrates a demand, target and “probe again” profile result for a different person, Engineer-P14, with a stipulated domain judgement. Use the examples to understand the methods; obtain observations of Engineer-E27 to support a conclusion about Engineer-E27.
+
+Keep the demand hypothesis while gathering the next discriminating observation. Select a target when the causes are distinguished, and select a profile when its decision inputs are adequate. Programme design and claims about training effectiveness or achieved capability need their own methods and evidence.
+
+## Combine results and handle a missing input
+
+Keep the project question visible. Each additional method should supply a result that helps answer it. FPF contributes general reasoning methods; the domain practice supplies its thresholds, specialized methods and evidence. Identify who will use the result and who can make the final decision.
+
+Use [A.15.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a159---request-and-use-a-bounded-result-from-another-practice) when another practice must supply one particular answer. State the subject and question, the conditions the answer must address, and how the answer will be used. Reuse an adequate existing result. Ask for new work only when the existing result is insufficient.
+
+For example, a controller choice may need a fallback-safety conclusion, while a development recommendation may need a transfer assessment. Request that contribution with its evidence and limits. Continue independent work while the dependent decision remains open.
+
+### When the way of working is itself the problem
+
+Use Method Engineering to examine the method, its descriptions and support. A pattern, a DPF and an instructional Guide can all describe methods, for different uses. Choose the representation for the work at hand: finding a method, understanding it, comparing alternatives or supporting performance. Actual performance supplies the results against which a method can be tested.
+
+### When several management views describe the same work
+
+Project, process and case management can answer different questions about the same work. [A.15.6](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a156---project-process-and-case-recovery-through-work-method-and-transformation) and [E.17.0](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e170---viewpoint-and-view-recognition-for-multi-view-describing) help recover that work and select useful views. Reconcile them at the shared work and decisions. A conflict between descriptions may need a description repair; a real conflict between contributions needs a working-arrangement decision.
+
+### When the case or a relied-on source changes
+
+Find which conclusion used the changed premise. Reconsider that conclusion and its dependent decisions, keeping the results whose evidence and applicability still hold. Check the publication date and exact pattern when wording or source currentness matters.
+
+Finish the lookup when you have an answer usable for the current decision, or a specific missing contribution that determines the next work. For the Suite's composition and publication availability, return to the [README](README.md#choose-a-dpf).
+
+## Citation
+
+```text
+Levenchuk, Anatoly. Engineering DPF Suite Reference.
+3 September 2026.
+GitHub repository: https://github.com/ailev/FPF
+```
+
+Add the section title when citing a worked answer. For an applied method, also cite its DPF, PatternID, title and publication date. Retain a permanent link or copy when the exact wording matters.
