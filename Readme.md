@@ -5,6 +5,9 @@
 [**FPF Core Specification**](./FPF-Spec.md) · [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) · [**Narrativization DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) · [**Browsable FPF Core Reference**](https://fpf.sh/) · [**Connect an AI agent to FPF Core through MCP**](https://mcp.fpf.sh/)
 
 **Author:** Anatoly Levenchuk, with AI-agent assistance  
+
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
+
 **Status:** normative kernel and evolving ecosystem; eternal alpha—already used in working projects and development programs while continuing to change.
 
 FPF is no longer only one Core specification. This repository contains the transdisciplinary **FPF Core**, the **Engineering DPF Suite**, and a separate **Narrativization and Narrative Studies DPF**. Together they form an ecosystem of FPF-grounded pattern languages for difficult work across engineering, research, management, education, and other domains.
@@ -58,7 +61,7 @@ The list below covers the 17 published and planned DPFs in the current Suite pla
 | [**Development Opportunity Construction and Development-Direction Advising DPF**](./Engineering%20DPF%20Suite/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) | Published - 9 patterns | development inquiries and characterization; neighboring possibilities; worthwhile problems and contributions; directions with support configurations; joint reachability; opportunity portfolios; advising relationships; and requalification after changed premises. Construction and advising have independent entries. |
 | [**Operations Management DPF**](./Engineering%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Published — complete first edition (OPS.1–OPS.20) | continuing Work; modes and admission; cases, queues and flow; work in progress; constraints, capacity and commitments; resources and human conditions; exceptions; and improvement informed by operating evidence. |
 | **Maintenance Engineering DPF** | Planned publication | maintenance policy; degradation and condition evidence; selection and delivery of interventions; verification of return to use; and learning from repeated maintenance Work. |
-| [**Human Capability Development DPF**](./Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | Published — complete first edition (HCD.1–HCD.17) | human capability needed for later Work; demand and capability profiles; target practice; development interventions; assessment, transfer and retention; providers and support; development portfolios; and qualification. |
+| [**Human Capability Development DPF**](./Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | Published - 19 patterns (HCD.1-HCD.19) | human capability needed for later Work; demand and capability profiles; target practice; development interventions; assessment, transfer and retention; providers and support; development portfolios; qualification; and characterization and evaluation of instructional material. |
 | **Strategy DPF** | Planned publication | direction under uncertainty; option families and scenarios; capabilities, dependencies and initiatives; investments and business models; commitments; and decisions to revise, pivot, pause or stop. |
 | **Corporate Finance DPF** | Planned publication | financing, liquidity and working capital; capital allocation and valuation; cost of capital and capital structure; financial exposure; and consequences for other organizational decisions. |
 | **Corporate Governance DPF** | Planned publication | ownership and voting rights; board responsibilities; executive oversight; conflicts of interest and minority treatment; disclosure; audit, control and corporate accountability. |
@@ -66,7 +69,7 @@ The list below covers the 17 published and planned DPFs in the current Suite pla
 | **Organization Administration DPF** | Planned publication | organizational requests and cases; standard and exception paths; authorization, provision and access; records and retention; reconciliation; service interfaces; and revision of administrative arrangements. |
 | **Embodied Rhythmics DPF** | Planned publication | rhythmic organization; rhythmic specifications and representations; enactment and comparison of variants; configuration of a performing whole; reference, phase, tempo and layers; and response, continuation and development. |
 | [**Semantic Integration Engineering DPF**](./Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Development preview — 9 of 12 patterns available; SIE.3, SIE.11 and SIE.12 are not yet available | making separately governed contexts, semantic models, schemas, identities, claims, data and representations work together; mappings, provenance, quality, interfaces and change. Includes ontology and knowledge-graph engineering Methods. |
-| [**Research Method Practice DPF**](./Engineering%20DPF%20Suite/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | Development preview — 2 of 9 patterns available; RMP.3–RMP.9 are not yet available | framing a research question from sources; comparing current and rival approaches; study and probe design; operationalization and sampling; records and provenance; analysis and criticism; reproducibility, replication and triangulation; synthesis; and return of usable evidence. |
+| [**Research Method Practice DPF**](./Engineering%20DPF%20Suite/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | Development preview - 4 of 9 patterns available (RMP.1-RMP.4); RMP.5-RMP.9 are not yet available | framing a research question from sources; comparing current and rival approaches; study and probe design; operationalization and sampling; records and provenance; analysis and criticism; reproducibility, replication and triangulation; synthesis; and return of usable evidence. |
 
 **Platform Engineering** is included in Systems Engineering, with common Methods and subject profiles. **Development Opportunity Construction and Development-Direction Advising** now has its own DPF. PSD supplies its generic comparison and recommendation Methods; HCD supplies human capability-development and programme-comparison Methods.
 
@@ -228,6 +231,12 @@ FPF is most useful when the cost of semantic drift, hidden assumptions, prematur
 This README is a public entry point, not the normative specification. It deliberately coarsens and omits detail. When a claim becomes important, inspect the exact pattern body, definitions, checks, source uses, and stop or reopen conditions in [FPF Core](./FPF-Spec.md) or the relevant DPF.
 
 The framework is an **eternal alpha**: it is usable now and continuously revised as its sources, working situations, patterns, and evaluations change. AI agents should expose the source edition or snapshot they used whenever currentness matters.
+
+## License and reuse
+
+The original FPF and DPF content by Anatoly Levenchuk, including the Engineering DPF Suite and Narrativization DPF, is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may share and adapt it, including commercially, with attribution, a license link and an indication of changes. See the [licensing scope](./LICENSING.md) for the full notice and third-party and software boundaries.
+
+You choose the license for your own original DPF or LPF. Using FPF methods or its publication form does not impose CC BY on your work. When sharing licensed FPF or DPF text under CC BY 4.0, preserve its attribution and comply with the license. Where your use needs no copyright permission, including under an applicable exception, these conditions do not apply. The license has no ShareAlike requirement.
 
 ## Citation
 

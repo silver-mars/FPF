@@ -3,8 +3,9 @@
 > Methods for difficult engineering decisions, explained as patterns you can use with your colleagues and AI assistants.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 5 September 2026
+- **Version:** 6 September 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
 You may be choosing an architecture, trying to make a working method reproducible, reorganizing a team, or deciding what to develop next. The Suite helps you find a useful way to tackle that particular difficulty and produce an answer you can act on.
@@ -39,7 +40,7 @@ The public folder contains eight complete publications and two explicitly partia
 | Work out what the problem is, compare possible directions, or prepare a recommendation. | [Problem Structuring and Decision Support](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) - 17 patterns | Several useful problem formulations, decision alternatives, a comparison under uncertainty, or a recommendation with its grounds and limits. |
 | Create, perform, teach or develop music and dance practices. | [Music and Dance Practice Engineering](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 22 patterns | A performance or practice design, a useful observation, a transmission method, or a choice about the practice's next development. |
 | Keep an operation working while demand, queues, capacity, commitments and evidence change. | [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 20 patterns | A bounded admission or continuation decision, queue or constraint treatment, capacity and service account, operating-method improvement, quality response, simultaneous-work reconciliation, or cultural-continuation decision. |
-| Derive and develop one person's capability for representative later work. | [Human Capability Development](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) - 17 patterns | A supported demand, target or profile; a compared development programme; representative practice and support; performance, transfer or retention evidence; or a continuing-development decision. |
+| Derive and develop one person's capability for representative later work. | [Human Capability Development](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) - 19 patterns | A supported demand, target or profile; a compared development programme; representative practice and support; performance, transfer or retention evidence; a continuing-development decision, or an instructional-material evaluation through its separate profile. |
 | Construct a useful development opportunity, or advise a person, organization or other developing subject. | [Development Opportunity Construction and Development-Direction Advising](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A bounded inquiry, characterized change, candidate direction with its supports, joint-reachability result, retained opportunity, or qualified advising engagement. PSD supplies the actual comparison and recommendation when those are needed. |
 
 ### Partial foundations
@@ -47,11 +48,11 @@ The public folder contains eight complete publications and two explicitly partia
 | Available foundation | Available now | Explicitly unavailable in this edition |
 | --- | --- | --- |
 | [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | 9 patterns: `SIE.1`, `SIE.2`, and `SIE.4`-`SIE.10` | `SIE.3`, `SIE.11`, and `SIE.12` |
-| [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | 2 patterns: `RMP.1`-`RMP.2` | `RMP.3`-`RMP.9` |
+| [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | 4 patterns: [RMP.1–RMP.4](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | `RMP.5`-`RMP.9` |
 
 The word *engineering* includes physical equipment, factories, laboratories, buildings, robots and software, as well as the means needed to develop them. A platform can be a manufacturing or laboratory platform. The software profile addresses its particular delivery and reliability difficulties.
 
-When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). It provides a detailed question index and worked cases. Publication availability is the claim made by the tables above; co-listing alone does not establish dependency, compatibility, or product-series membership.
+When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). It provides a detailed question index and worked cases, including [direct software-platform questions](ENGINEERING-DPF-SUITE-REFERENCE.md#resolve-a-software-platform-difficulty) for measurement, alerts, release exposure, recovery and repetitive work. Publication availability is the claim made by the tables above; co-listing alone does not establish dependency, compatibility, or product-series membership.
 
 ## Looking for development recommendations?
 
@@ -90,11 +91,11 @@ This stable heading is retained for readers following links from earlier complet
 
 ### Publication scope
 
-The eight complete carriers expose 167 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The two partial foundations add eleven usable PatternIDs without supplying the missing bodies.
+The eight complete carriers expose 169 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The public folder's two partial foundations add thirteen usable PatternIDs: nine SIE bodies and four RMP bodies. The corresponding repository editions expose the same thirteen partial-foundation patterns. These counts do not make the missing bodies available.
 
 The [Semantic Integration Engineering foundation](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) can return a bounded semantic-integration package for one receiving use. It does not supply the unavailable model-change, later change-tracing, or reusable semantic-commons methods represented by `SIE.3`, `SIE.11`, and `SIE.12`.
 
-The [Research Method Practice foundation](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) can qualify a research question, return an already-sufficient source or non-research owner, and choose a criticism-bearing research design or an honest stop. It does not supply `RMP.3`-`RMP.9` for operationalization, performed research, analysis, synthesis, or downstream use.
+The [Research Method Practice preview](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) supplies the four-pattern question, design, operationalization and trace contribution. It helps qualify a question, return an already-sufficient source or non-research owner, choose a criticism-bearing design or honest stop, preserve the question through operationalization, and retain a trace with explicit examination, reconstruction, loss and access limits. It still leaves `RMP.5`-`RMP.9` for analysis, credibility testing, synthesis, knowledge return and research-Method revision unavailable.
 
 Until a needed pattern is available, obtain the missing result from the practice that owns it. A title, accepted plan, neighbouring pattern, or AI-generated answer does not fill the gap. Publication updates are announced through the [FPF repository](https://github.com/ailev/FPF).
 
@@ -108,8 +109,14 @@ To cite the collection:
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite.
-5 September 2026.
+6 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
 For a particular method, cite its DPF, PatternID, title and the date shown in that publication.
+
+## License and reuse
+
+The original FPF and DPF content by Anatoly Levenchuk, including the Engineering DPF Suite and Narrativization DPF, is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may share and adapt it, including commercially, with attribution, a license link and an indication of changes. See the [licensing scope](https://github.com/ailev/FPF/blob/main/LICENSING.md) for the full notice and third-party and software boundaries.
+
+You choose the license for your own original DPF or LPF. Using FPF methods or its publication form does not impose CC BY on your work. When sharing licensed FPF or DPF text under CC BY 4.0, preserve its attribution and comply with the license. Where your use needs no copyright permission, including under an applicable exception, these conditions do not apply. The license has no ShareAlike requirement.
