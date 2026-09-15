@@ -10,7 +10,7 @@
 
 **Status:** normative kernel and evolving ecosystem; eternal alpha—already used in working projects and development programs while continuing to change.
 
-This repository publishes the transdisciplinary **FPF Core**, the **Engineering DPF Suite**, and the **Narrativization and Narrative Studies DPF**. This Readme helps you choose among these publications. The [Readme inside FPF Core](./FPF-Spec.md#first-principles-framework-fpf-readme) gives practical examples of using Core; the [Suite Readme](./Engineering%20DPF%20Suite/README.md) helps you choose and combine its DPFs.
+This repository publishes the transdisciplinary **FPF Core** and domain pattern languages, available individually or in the **Engineering DPF Suite**. This Readme helps you choose among these publications. The [Readme inside FPF Core](./FPF-Spec.md#first-principles-framework-fpf-readme) gives practical examples of using Core; the [Suite Readme](./Engineering%20DPF%20Suite/README.md) helps you choose and combine its DPFs.
 
 FPF is designed for two complementary uses:
 
@@ -44,10 +44,28 @@ An AI agent can therefore help choose the **next justified move** without preten
 | Publication | What it contributes | Typical working questions |
 | --- | --- | --- |
 | [**FPF Core Conceptual Specification**](./FPF-Spec.md) | A transdisciplinary language for entities and relations, Systems, Methods, Work, descriptions, claims, evidence, decisions, architecture, quality, improvement, cultural evolution, publication, and precise language. | What exactly are we discussing? What claim is being made? Which relation obtains? What may the evidence support? Which decision is current? What Work actually occurred? |
+| [**Mathematical Practice DPF**](./MATHEMATICAL-PRACTICE-DPF.md) | Methods for choosing and constructing mathematical objects, operations and arguments; working with symmetries and constraints; and developing the next question. | What mathematics could answer this working question? How can these steps be composed? What survives a change of representation? Can a proof supply the object I need? |
+| [**Mathematical Modeling Practice DPF**](./MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Previous edition withdrawn; replacement in development. | See the withdrawal notice. A replacement edition is not yet available. |
 | [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) | Published and planned FPF-grounded domain pattern languages for engineering, operation, maintenance, organizational change, decision support, human development, and other practices, plus a Suite Reference for questions that draw on several DPFs. | Which System and use are current? Which architecture, interface, configuration, obtaining arrangement, Method, capability, verification result, or change is needed? |
 | [**Narrativization and Narrative Studies DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) | Patterns for turning selected source structure into a followable narrative while preserving recoverability, evidence limits, agency boundaries, viewpoint choices, and source return. Includes human and automated narrativization. | What source structure must survive the rendering? What may be compressed or reordered? Did a fluent narrative invent causality, agency, certainty, permission, or authority? |
 
+### Mathematical Practice
+
+The 15 September 2026 publication contains thirteen patterns and thirteen practical entries. Start with MP-FRAME when you have a working question but do not yet know which mathematics it needs. The Preface shows how to choose a representation, obtain and interpret a result, and revise the representation when the question changes. The individual bodies develop the mathematical constructions used along the way. This is a standalone domain pattern language in the FPF ecosystem.
+
+The variation and symmetry methods can be found under these addresses:
+
+| FPF address | Mathematical Practice method |
+| --- | --- |
+| C.29.AV | [MATH.10 - Derive a Condition from an Admissible Variation](./MATHEMATICAL-PRACTICE-DPF.md#math10---derive-a-condition-from-an-admissible-variation) |
+| C.29.SC | [MATH.13 - Derive a Consequence from a Symmetry](./MATHEMATICAL-PRACTICE-DPF.md#math13---derive-a-consequence-from-a-symmetry) |
+
+### Mathematical Modeling Practice
+
+The earlier five-pattern edition has been withdrawn: its selected techniques did not provide the general modeling methods promised by the title. The replacement is being developed around constructing, interpreting, using and revising models across different kinds of problems, connected to mathematical, physical and computational thinking. The former text is preserved in development history. The linked file explains the withdrawal; it is not a replacement DPF.
+
 ### Engineering DPF Suite
+
 
 The table lists 20 DPFs in the current Suite plan. **Published - N patterns** gives the number of pattern bodies in the linked publication; **Planned publication** marks a selected DPF whose text is not yet available here. Each published DPF has a full pattern index.
 
