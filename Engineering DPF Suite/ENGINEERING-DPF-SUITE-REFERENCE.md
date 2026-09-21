@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 19 September 2026
+- **Version:** 20 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -341,7 +341,7 @@ Choose the question you need to answer, then open the linked method and check it
 | How do we turn financial analysis into usable advice? | [FIN.16 - Prepare a Finance Recommendation and Return It for a Decision](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin16---prepare-a-finance-recommendation-and-return-it-for-a-decision) | A recommended financial move with its reasons, assumptions and conditions. |
 | What must be updated after a financial premise changes? | [FIN.17 - Refresh Financial Models and Data](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin17---refresh-financial-models-and-data) | The affected model, projection or conclusion updated for its use, or a supported decision to leave it unchanged. |
 | Should we retain or change the method used for this financial question? | [FIN.18 - Develop and Refresh Corporate-Finance Methods](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin18---develop-and-refresh-corporate-finance-methods) | A choice among method variants based on the financial result they can improve and the effort required. |
-| How do we reconcile conflicting investment, financing and treasury commitments? | [FIN.19 - Reconcile Simultaneous Corporate-Finance Work Across Claims and Horizons](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin19---reconcile-simultaneous-corporate-finance-work-across-claims-and-horizons) | A comparison of ways to organize the work and resolve the conflicting commitments. |
+| How do we reconcile conflicting investment, financing and treasury commitments? | [FIN.19 - Reconcile Simultaneous Corporate-Finance Work Across Claims and Horizons](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin19---reconcile-simultaneous-corporate-finance-work-across-claims-and-horizons) | A shared account of cash and commitments, or a comparison of needed changes to the work arrangement. |
 | How can useful financial practices continue or harmful routines change? | [FIN.20 - Deliberately Continue and Change Corporate-Finance Culture](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin20---deliberately-continue-and-change-corporate-finance-culture) | A continuation or change decision informed by how the practice is learned, selected and retained. |
 
 For questions about costs or operating accounts, use the [management-accounting questions](#explain-resource-use-costs-and-operating-accounts). For the parties, rights or contractual flows behind a financial result, use the [financial-modeling questions](#model-financial-positions-and-effects).
@@ -696,6 +696,22 @@ For example, a controller choice may need a fallback-safety conclusion, while a 
 
 Begin with the first missing contribution, using earlier results whose conditions still hold. Before continuing, identify what the next action actually needs. A required missing input stops that action and its dependent continuation; keep the earlier usable result. If the missing input belongs only to an alternative or a stronger conclusion, continue the supported branch. State the missing result, the decision it prevents, and what new evidence, source, permission or other changed condition would allow that decision to be reconsidered.
 
+### What must be available through the Method vertical?
+
+A DPF describes reusable ways of working. Performing one of them needs the relevant constituent abilities, available resources and coordination, as well as a place in the encompassing work. The descriptions can cover one or several grains of that vertical. Reading them supplies neither the missing capability nor the shared resource.
+
+Start with an action inside the work that matters. Use [B.1.5.EW](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work) to recover what larger work is being performed through it now, then follow only the constituent connections that can change the result. Keep earlier preparation and external support visible with their own relations.
+
+| Constructed working situation | Vertical during the selected action | What can change the continuation |
+| --- | --- | --- |
+| A dancer knows the figure and has adequate strength but loses balance in its rotation. | Muscular actions participate in rotational coordination; the rotation participates in performing the figure. | HCD.3 locates the intermediate limitation; HCD.2/.6/.10 arrange suitable development and return to the combination. MDPE.10 supplies the domain performing-capability question. More recall or strength alone does not address the stated gap. |
+| A requirement-verification trial uses a shared instrument. | Acquiring a reading participates in checking a requirement, within an ongoing acceptance exercise. | The required response determines the needed acquisition. SYSE.20 compares a conflict over the instrument; knowing how to operate it does not establish the ability to design the needed measurement. |
+| A constituent procedure is reused in two services. | The selected constituent operates within each service's own Method. The services can be separate performances. | [B.1.5.RS](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15rs---replace-a-constituent-method-in-its-encompassing-uses) checks the proposed replacement in each use. A procedure preserving a final total may lose the event order needed by the other service. ME.6 compares any changed working arrangement. |
+
+Follow the result into a useful next move. Retain attained abilities; obtain support or practise the missing intermediate contribution; change an infeasible combination; or narrow what the current result establishes. Sum demands on genuinely shared resources over the relevant intervals. Distinguish the conditions needed to start, those maintained during the combination and the result the whole must produce. Passing a local test establishes only the contribution that test addresses.
+
+[A.22.CGUS](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a22cgus---constraint-governed-unfolding-structure) uses these conditions to distinguish available, unavailable and unknown continuations. A suitable practice branch can remain available when full performance is not. A temporal arrow or a nested flow position alone does not express the constituent connection. The pattern's ordinary question is useful without constructing a formal diagram.
+
 ### When the way of working is itself the problem
 
 Use Method Engineering to examine the method, its descriptions and support. A pattern, a DPF and an instructional Guide can describe methods for different uses. An exact MethodDescription explains how one already identified Method is performed. Choose the representation for the work at hand: finding a method, understanding it, comparing alternatives or supporting performance. Use [ME.22](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me22---compare-method-descriptions-by-content-and-representation) when a revision changes the content or presentation and that distinction affects which version to retain. Actual performance supplies the results against which a method can be tested.
@@ -728,8 +744,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
-19 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
-Add the section title when citing a worked answer. For an applied method, also cite its DPF, PatternID, title and publication date. Retain a permanent link or copy when the exact wording matters.
+Add the version shown above and the section title when citing a worked answer. For an applied method, also cite its DPF, PatternID, title and publication date. Retain a permanent link or copy when the exact wording matters.
