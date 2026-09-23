@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 21 September 2026
+- **Version:** 22 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -30,6 +30,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Explain resource use, costs and operating accounts](#explain-resource-use-costs-and-operating-accounts) | Resource demand, capacity, shared costs, profit and cash, forecasts, targets, margin differences, customer economics and accounting incentives. |
 | [Model financial positions and effects](#model-financial-positions-and-effects) | Parties and groups, rights and duties, contractual events, conditional flows, actual effects and financial-service use. |
 | [Value investments, arrange finance and manage liquidity](#value-investments-arrange-finance-and-manage-liquidity) | Cash and working capital, cost of capital, investments, valuation, options, financing, covenants, payouts, restructuring, exposure, treasury action and financial advice. |
+| [Coordinate economic plans, exchanges and shared resources](#coordinate-economic-plans-exchanges-and-shared-resources) | Calculation, price response, discovery, commitments, private information, dependence, shared resources, local and wider orders, institutional change and rebound. |
 | [Make corporate decisions and sustain governing contributions](#make-corporate-decisions-and-sustain-governing-contributions) | Rights, powers, governing roles, committees, conflicts, information, control, assurance, corporate acts, minority protection, accountability and governance practice. |
 | [Fulfil an administrative request](#fulfil-an-administrative-request-and-improve-its-handling) | Participants, permissions, effective dates, provision, exceptions, obligations, records, controls, provider contributions and administrative burden. |
 | [Maintain equipment and manage maintenance](#maintain-equipment-and-manage-maintenance) | Maintenance policy, failure and condition, diagnosis, spares, outage, protection, work, restored functioning, hand-back, history, fleet, Methods, simultaneous work and culture. |
@@ -206,6 +207,7 @@ The [partnered-variation route](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy-c
 | Which feasible development programmes fit this person's later work and resources? | [HCD.2 - Compose and Compare Capability-Development Programmes for Later Work](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-2) | A programme comparison for a known person, or a learning-product design return when the future learner is not yet known. |
 | Which development method fits the target action and starting evidence? | [HCD.5 - Select Capability-Development Methods](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-5) | A selected development Method with its fit, risk and evidence needs, or a bounded hold. |
 | Which practice task is representative enough to expose the target action and critical errors? | [HCD.6 - Design Representative Practice Tasks](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-6) | A task design with target actions, whole-work conditions, feedback opportunities and safety limits. |
+| The learner hears the instruction but cannot notice the difference needed for the action. What can we make accessible? | [HCD.6.1 - Make a Needed Distinction Discernible in Practice](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-6-1) | A contrast, a learner response and a next practice action, with the help supplied and the separate execution requirement retained. |
 | Which provider, access, tool, AI and environment contributions are actually available? | [HCD.7 - Arrange Providers, Access, Tools, and AI Support](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-7) | A support arrangement grounded in actual contributions, access and capacity. |
 | Should a missing development contribution be obtained or built? | [HCD.8 - Build the Recursive Capability-Development Arrangement](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-8) | An obtaining arrangement and operating test for the missing contribution. |
 | What happened in this attempt, feedback, correction and retry? | [HCD.9 - Perform Deliberate Practice with Feedback](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-9) | A traceable practice episode and the next justified attempt. |
@@ -220,7 +222,7 @@ The [partnered-variation route](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy-c
 
 Use HCD.16 to complete the appraisal with the conclusion supported by the available evidence. Undertake a further inquiry when its attainable contribution warrants the full burden for learners and providers. If a comparison is unavailable, leave the claim that requires it unresolved.
 
-The [Human Capability Development DPF](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) contains 19 patterns: HCD.1-HCD.17 address human development, and HCD.18-HCD.19 address instructional-material evaluation. A pattern supplies guidance and a result form; it does not establish that development work occurred, capability changed, a provider operated, or an authorized person made a programme, employment or release decision.
+The [Human Capability Development DPF](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) contains 20 patterns: HCD.1-HCD.17 and nested HCD.6.1 address human development, and HCD.18-HCD.19 address instructional-material evaluation. A pattern supplies guidance and a result form; it does not establish that development work occurred, capability changed, a provider operated, or an authorized person made a programme, employment or release decision.
 
 ### Evaluate instructional material for its intended use
 
@@ -368,6 +370,25 @@ Choose the question you need to answer, then open the linked method and check it
 | How can useful financial practices continue or harmful routines change? | [FIN.20 - Deliberately Continue and Change Corporate-Finance Culture](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin20---deliberately-continue-and-change-corporate-finance-culture) | A continuation or change decision informed by how the practice is learned, selected and retained. |
 
 For questions about costs or operating accounts, use the [management-accounting questions](#explain-resource-use-costs-and-operating-accounts). For the parties, rights or contractual flows behind a financial result, use the [financial-modeling questions](#model-financial-positions-and-effects).
+
+### Coordinate economic plans, exchanges and shared resources
+
+Economic Reasoning and Coordination connects calculation, exchange construction, commitments and institutional change. It uses existing financial and operating results while adding the questions about how participants' plans, choices and constraints affect one another.
+
+| Working question | Start with | Result |
+| --- | --- | --- |
+| What do the prices or weights in this calculation actually support? | [ECO.1 - Recover the Basis for an Economic Calculation](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco1---recover-the-basis-for-an-economic-calculation) | A grounded comparison or a conditional choice which preserves the missing exchange or resource condition. |
+| Should this changed price alter our use of a resource? | [ECO.2 - Use Price Signals to Revise Resource Use](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco2---use-price-signals-to-revise-resource-use) | A feasible adjustment or reason to keep the plan, with the relevant scope and transition costs. |
+| Can different plans be joined into a useful exchange? | [ECO.3 - Discover an Exchange between Different Plans](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco3---discover-an-exchange-between-different-plans) | A proposed combination of contributions and terms, or the specific incompatibility. |
+| How can a venture begin when commitments depend on one another? | [ECO.4 - Form Resource Commitments for an Uncertain Venture](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco4---form-resource-commitments-for-an-uncertain-venture) | An attainable first action or joint commitment with available resources and remaining exposure. |
+| Which terms make hidden quality or effort matter to the participant? | [ECO.5 - Choose Exchange Terms for Private Information and Effort](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco5---choose-exchange-terms-for-private-information-and-effort) | An incentive and participation comparison with usable payment, observation or warranty conditions. |
+| How will trading partners adapt after a dedicated investment? | [ECO.6 - Arrange Adaptation in a Dependent Trading Relationship](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco6---arrange-adaptation-in-a-dependent-trading-relationship) | A feasible technical, contractual or organizational arrangement for the named dependence and disturbance. |
+| How can several users sustain a shared resource? | [ECO.7 - Coordinate Use and Renewal of a Shared Resource](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco7---coordinate-use-and-renewal-of-a-shared-resource) | Workable use, upkeep, observation and adaptation rules with their available contributions. |
+| Why does a rule fail when moved between close cooperation and wider exchange? | [ECO.8 - Join Direct Cooperation with a Wider Economic Order](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco8---join-direct-cooperation-with-a-wider-economic-order) | A correction to the affected interaction, preserving the different conditions of coordination. |
+| What should replace an inherited economic rule? | [ECO.9 - Change Economic Rules through Their Working Practices](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco9---change-economic-rules-through-their-working-practices) | A supported change, bounded trial, retained rule or limitation, including the practices and capabilities needed. |
+| Will lower resource use per result reduce total use? | [ECO.10 - Trace Resource Savings through Changes in Demand](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco10---trace-resource-savings-through-changes-in-demand) | A comparison with and without induced responses, or a useful threshold with its scope and limits. |
+
+For a new service, the [connected venture example](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco-venture---turn-a-useful-idea-into-a-feasible-service-arrangement) joins discovering an exchange, recovering its economic grounds, forming commitments and arranging adaptation. If tooling becomes reusable and another supplier is available, the dependence changes; ordinary purchasing can then suffice. A supplier's separately performed work is linked by an agreement, while interpreting that agreement can be a constituent operation in the buyer's venture work.
 
 ### Make corporate decisions and sustain governing contributions
 
