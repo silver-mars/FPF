@@ -3,7 +3,7 @@
 > Methods for difficult engineering decisions, explained as patterns you can use with your colleagues and AI assistants.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 22 September 2026
+- **Version:** 23 September 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -32,7 +32,7 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 
 ## Choose a DPF
 
-The public folder contains twenty-one published DPFs with 344 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains twenty-three published DPFs with 358 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
@@ -45,11 +45,13 @@ The public folder contains twenty-one published DPFs with 344 pattern bodies. St
 | Find a worthwhile contribution or an obtaining way, and relate direction, options and bounded commitments under uncertainty. | [Strategy](STRATEGY-PRINCIPLES-FRAMEWORK.md) - 15 patterns | A qualified or provisional problem/contribution account, conditional direction, explained options with their support and gaps, comparison, recommendation or authorized commitment; a decision about conflicting work, changed assumptions or strategic practice. A sufficient answer can finish without an experiment or a new commitment. |
 | Create, perform, teach or develop music and dance practices. | [Music and Dance Practice Engineering](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 22 patterns | A performance or practice design, a useful observation, a transmission method, or a choice about the practice's next development. |
 | Recognize, represent, vary, perform, teach or observe rhythmic relations. | [Embodied Rhythmics](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md) - 14 patterns | A specific rhythmic correction, usable representation or variant, coordinated performance, representative exercise, bounded capability probe or observation. Its connected uses obtain cultural transmission and development contributions from the relevant MDPE methods. |
+| Understand and change the bodily contribution to a familiar human movement. | [Somatic Movement Modeling](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md) - 5 patterns | A model and correction attempt connecting experience, regulation and result; a needed bodily distinction, controllable change, coordination or support transition. Movement technique and suitable physical demands remain prerequisites. |
 | Keep an operation working while demand, queues, capacity, commitments and evidence change. | [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 26 patterns | A bounded admission or continuation decision, queue or constraint treatment, capacity and service account, operating-method improvement, quality response, simultaneous-work reconciliation, or cultural-continuation decision. |
 | Explain how work uses resources and how that use appears in money, forecasts and performance accounts. | [Management Accounting](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A resource and cost model, capacity account, cost allocation, reconciliation, forecast, margin explanation or assessment of accounting incentives. |
 | Establish whose financial position is described, what can change it and how a financial service contributes to a participant's result. | [Financial Domain Modeling](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) - 5 patterns | A model of parties, rights and obligations; conditional contractual flows; an established financial effect; or a connection between a service and its use. |
 | Value investments, arrange finance, preserve liquidity or manage financial exposure. | [Corporate Finance](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) - 22 patterns | An investment valuation, financing comparison, liquidity response, hedge, treasury action or financial recommendation. |
 | Connect economic plans, form feasible exchanges and commitments, or change resource-use and institutional arrangements. | [Economic Reasoning and Coordination](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md) - 10 patterns | A grounded calculation, price response, exchange proposal, commitment or adaptation arrangement, shared-resource rule, institutional change or total-use comparison after an efficiency gain. |
+| Explain dependence, spread, competing variants and the consequences of protective action. | [Defense and Transmission Modeling](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md) - 9 patterns | A participant comparison, transmission or interaction model, selection decomposition, or protective-action comparison grounded in the work and its available capabilities. |
 | Establish corporate rights and powers, make a governing decision, protect a right or improve governance practice. | [Corporate Governance](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md) - 17 patterns | An authority answer, usable disclosure or review, a corporate act, a rights-protection result, an effective arrangement or a supported change to governance methods and culture. |
 | Handle an administrative request, resolve a difficult case, or improve the arrangement providing the service. | [Organization Administration](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) - 15 patterns | Usable provision, a resolved exception, reconciled obligations and records, or a choice about controls, provider contributions and administrative burden. |
 | Preserve or restore required equipment functioning, and manage the policies, support and programme that make maintenance useful. | [Maintenance Engineering and Management](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 16 patterns | A qualified condition account, supported policy or intervention recommendation, feasible protected work and return to use, or a justified information, programme, Method or practice decision. Advice can be complete before repair. |
@@ -74,7 +76,11 @@ For corporate authority, rights, board and committee work, disclosure or a decis
 
 For a rhythmic difficulty, use the [rhythm questions](ENGINEERING-DPF-SUITE-REFERENCE.md#work-with-rhythmic-relations-in-performance-and-learning). The [partnered-variation example](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy-card-01--make-a-variation-work-with-a-partner) connects recognizing a difficulty, preserving continuing movement, arranging cues and returning to the whole performance.
 
+For a bodily correction that must work during a whole movement, use the [somatic modeling questions](ENGINEERING-DPF-SUITE-REFERENCE.md#model-and-change-the-bodily-contribution-to-movement). They distinguish an unclear bodily relation, an unavailable adjustment and a combination that breaks during changing support. The [connected SOM entries](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#somatic-movement-modeling-dpf-readme) lead back to the receiving action and its concurrent demands.
+
 For an explanation that someone must understand and use, start with the [explanation questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-an-explanation-understandable-and-usable). They distinguish the grounds for an account, its expression, the help a recipient needs and whether further repair is worthwhile.
+
+For a practice whose spread or protective response changes the work, use the [dependence and protection questions](ENGINEERING-DPF-SUITE-REFERENCE.md#model-dependence-spread-and-protective-action). The [review-capacity example](ENGINEERING-DPF-SUITE-REFERENCE.md#can-protective-review-work-with-the-capacity-we-have) connects a modeled protective effect to the operating capacity and other commitments needed to obtain it.
 
 ## Looking for development recommendations?
 
