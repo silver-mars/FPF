@@ -3,7 +3,7 @@
 > Methods for difficult engineering decisions, explained as patterns you can use with your colleagues and AI assistants.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 23 September 2026
+- **Version:** 25 September 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -32,13 +32,13 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 
 ## Choose a DPF
 
-The public folder contains twenty-three published DPFs with 358 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains twenty-four published DPFs with 372 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
 | What you are trying to do | Published DPF | A result it can help you obtain |
 | --- | --- | --- |
-| Bring about or change an engineered system, from its intended use to working integration and continued development. | [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 41 patterns | A system boundary, architecture decision, comparison of ways to obtain a result, integration plan, or justified release decision. It also covers general Platform Engineering and a substantial software delivery and reliability profile. |
+| Bring about or change an engineered system, from its intended use to working integration and continued development. | [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 49 patterns | A system boundary, architecture decision, comparison of ways to obtain a result, integration plan, or justified release decision. It also covers general Platform Engineering, a substantial software delivery and reliability profile, and eight Methods for tool-using LLM systems. |
 | Choose, explain, test or improve a way of working, or develop a pattern language from source knowledge. | [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 26 patterns | An explicit method, a mathematical comparison or construction of a changed way of working, a useful description or support arrangement, evidence about fit, transfer and practical value, or a source-based contribution to a method description in pattern-language form. |
 | Change how an organization contributes, assigns work and enables people and other performers to act. | [Organization Change Engineering](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 17 patterns | A compared organizational arrangement, clarified assignments and authority, a supported change, or a decision about its consequences. |
 | Work out what the problem is, compare possible directions, or prepare a recommendation. | [Problem Structuring and Decision Support](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) - 17 patterns | Several useful problem formulations, decision alternatives, a comparison under uncertainty, or a recommendation with its grounds and limits. |
@@ -61,6 +61,7 @@ The public folder contains twenty-three published DPFs with 358 pattern bodies. 
 | Decide whether research is needed, conduct it, examine its conclusions or improve its methods. | [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) - 9 patterns | An answer from existing evidence or a justified research plan; a protocol and record of research performed; an analysis, credibility judgement or corpus synthesis with its limits; a revised claim or question for another practice; or a choice to retain or improve the research method. |
 | Connect separately governed meanings for a receiving use, qualify a model, handle semantic change or maintain shared modules. | [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 12 patterns | A bounded integration result, adequate model reuse or construction, affected-use repair or revalidation, or a sufficient interface agreement or modular-commons arrangement. |
 | Help someone follow why an outcome occurred, how a calculation works, or why a recommendation follows. | [Explanation Design](EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) - 6 patterns | A useful explanatory question, an account with its grounds, a worked example, coordinated text and diagrams, a repaired exchange, or a supported choice about improving an explanation. Includes instructional, technical and advisory, and human–AI profiles. |
+| Notice consequential omissions, preserve answer meanings and coordinate checks in human, AI or mixed work. | [Checklist](CHECKLIST-PRINCIPLES-FRAMEWORK.md) - 6 patterns | Useful questions, an interpretable form, a workable occasion, grounded answers, a shared conclusion, or a bounded judgement about a criterion and its checking means. |
 
 The word *engineering* includes physical equipment, factories, laboratories, buildings, robots and software, as well as the means needed to develop them. A platform can be a manufacturing or laboratory platform. The software profile addresses its particular delivery and reliability difficulties.
 
@@ -82,13 +83,17 @@ For an explanation that someone must understand and use, start with the [explana
 
 For a practice whose spread or protective response changes the work, use the [dependence and protection questions](ENGINEERING-DPF-SUITE-REFERENCE.md#model-dependence-spread-and-protective-action). The [review-capacity example](ENGINEERING-DPF-SUITE-REFERENCE.md#can-protective-review-work-with-the-capacity-we-have) connects a modeled protective effect to the operating capacity and other commitments needed to obtain it.
 
+For a checklist that misses a consequential question or yields reassuring entries without adequate grounds, use the [checklist questions](ENGINEERING-DPF-SUITE-REFERENCE.md#select-and-use-checklists-without-losing-the-work-question). The [Checklist applications](CHECKLIST-PRINCIPLES-FRAMEWORK.md#applications) connect local checking with shared work, change and Method improvement.
+
+For an agent that has useful guidance or tools but fails to use them, open the [tool-using LLM family](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#tool-using-llm-systems-make-the-available-contribution-enter-the-task). Its fixed-model first case starts with controller construction and configuration testing; training and multiple agents are optional. The [connected Reference answer](ENGINEERING-DPF-SUITE-REFERENCE.md#make-an-available-contribution-work) compares support, execution and capability across agent work, timely bodily action and reusable calculation. Its [conditional-structure description](ENGINEERING-DPF-SUITE-REFERENCE.md#agent-contribution-conditions) and [separate demonstration](ENGINEERING-DPF-SUITE-REFERENCE.md#agent-contribution-demonstration) show how changed facts alter available continuations.
+
 ## Looking for development recommendations?
 
 Open [Development Opportunity Construction and Development-Direction Advising](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) for the development-specific question. Its two branches can be used independently.
 
 If useful opportunities are missing, start with [DOCA.1](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca1---bound-the-development-opportunity-inquiry) or the first missing construction result in its pattern index. To establish the terms of help from an adviser, use [DOCA.7](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca7---bound-the-development-direction-advising-engagement). When the inputs and service boundary are already adequate, go directly to the missing comparison or recommendation method: [PSD.13](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-13) may be enough. [DOCA.8](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca8---requalify-changed-development-opportunities) helps requalify opportunities after their premises change.
 
-For a particular person's programme comparison, use [HCD.2](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-capability-development-programmes-for-later-work) once the relevant demand, starting performance, support and candidate programmes are available. The Reference also provides a separate [programme-design entry for future learners](ENGINEERING-DPF-SUITE-REFERENCE.md#recommend-a-programme-before-the-learners-are-known).
+For a particular person's programme comparison, use [HCD.2](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-human-capability-development-programmes-for-later-work) once the relevant demand, starting performance, support and candidate programmes are available. The Reference also provides a separate [programme-design entry for future learners](ENGINEERING-DPF-SUITE-REFERENCE.md#recommend-a-programme-before-the-learners-are-known).
 For example, “What should our engineering team learn or change over the next four months?” calls for evidence about the work it needs to perform, present limits, feasible alternatives and opportunity costs. A course is one possible response. The inquiry can also reveal a method, tooling or organizational change that would help more. The Reference explains [how to connect advice with those domain results](ENGINEERING-DPF-SUITE-REFERENCE.md#how-do-we-recommend-a-development-direction).
 
 ## Work with an AI assistant
