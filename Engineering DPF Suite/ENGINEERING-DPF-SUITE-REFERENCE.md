@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 4 October 2026
+- **Version:** 7 October 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -113,6 +113,7 @@ Section addresses use `Engineering.Reference:n` and nested numbers. They identif
     - [Engineering.Reference:19.7.2 - A1. Consume the returned premise while the model stays fixed](#engineeringreference1972---a1-consume-the-returned-premise-while-the-model-stays-fixed)
     - [Engineering.Reference:19.7.3 - A2. Let delayed consequences change the next choice](#engineeringreference1973---a2-let-delayed-consequences-change-the-next-choice)
     - [Engineering.Reference:19.7.4 - A3. Construct informative experience before changing the controller](#engineeringreference1974---a3-construct-informative-experience-before-changing-the-controller)
+    - [Engineering.Reference:19.7.5 - Choose and construct useful experience](#choose-and-construct-useful-experience) — Tasks from documents, new teaching interactions, combined procedures, actual use and changed conditions.
   - [Engineering.Reference:19.8 - Case B: a timely cue must enter a coordinated bodily action](#engineeringreference198---case-b-a-timely-cue-must-enter-a-coordinated-bodily-action)
   - [Engineering.Reference:19.9 - Case C: make a repeated calculation obtainable and adaptable](#engineeringreference199---case-c-make-a-repeated-calculation-obtainable-and-adaptable)
   - [Engineering.Reference:19.10 - Available continuations when an agent has a usable procedure](#engineeringreference1910---available-continuations-when-an-agent-has-a-usable-procedure) — Formal conditional-structure description: constituents, obtaining descriptive relations, constraints, case facts and separate availability judgements.
@@ -186,7 +187,21 @@ Section addresses use `Engineering.Reference:n` and nested numbers. They identif
   - [Engineering.Reference:25.5 - When source material should change a pattern language](#engineeringreference255---when-source-material-should-change-a-pattern-language)
   - [Engineering.Reference:25.6 - When several management views describe the same work](#engineeringreference256---when-several-management-views-describe-the-same-work)
   - [Engineering.Reference:25.7 - When the case or a relied-on source changes](#engineeringreference257---when-the-case-or-a-relied-on-source-changes)
-- [Engineering.Reference:26 - Citation](#engineeringreference26---citation) — Cite this Reference or a particular pattern application.
+- [Engineering.Reference:26 - Construct a guard, a learning update and an audit policy](#construct-guard-learning-and-audit) — Policy interpretation, executable checks, feedback and action updates, finite audit calculation and actual intervention.
+  - [Engineering.Reference:26.1 - Derive the check that the executor needs](#engineeringreference261---derive-the-check-that-the-executor-needs)
+  - [Engineering.Reference:26.2 - Put the check on the action path and revise it under authority](#engineeringreference262---put-the-check-on-the-action-path-and-revise-it-under-authority)
+  - [Engineering.Reference:26.3 - Prepare experience that can change the intended choice](#engineeringreference263---prepare-experience-that-can-change-the-intended-choice)
+  - [Engineering.Reference:26.4 - Compute the update and use the changed rule](#engineeringreference264---compute-the-update-and-use-the-changed-rule)
+    - [Engineering.Reference:26.4.1 - Learn from interleaved actions and observations](#learn-from-interleaved-actions-and-observations)
+    - [Engineering.Reference:26.4.2 - Allocate training attempts and select the update](#allocate-training-attempts-and-select-the-update)
+    - [Engineering.Reference:26.4.3 - Learn a strategy together with its execution](#learn-a-strategy-together-with-its-execution)
+    - [Engineering.Reference:26.4.4 - Learn actions whose value persists across sessions](#learn-actions-whose-value-persists-across-sessions)
+  - [Engineering.Reference:26.5 - Derive an audit policy from the real decision times](#engineeringreference265---derive-an-audit-policy-from-the-real-decision-times)
+  - [Engineering.Reference:26.6 - Recalculate when auditing is fallible](#engineeringreference266---recalculate-when-auditing-is-fallible)
+  - [Engineering.Reference:26.7 - Obtain the measurements and enact the audit](#engineeringreference267---obtain-the-measurements-and-enact-the-audit)
+  - [Engineering.Reference:26.8 - Follow the changed condition to the affected method](#engineeringreference268---follow-the-changed-condition-to-the-affected-method)
+- [Engineering.Reference:27 - Construct and reuse an exchange for a receiving decision](#construct-and-reuse-an-exchange) — Agreed meaning, interpreted or generated routines, consumption, changed conditions and useful reuse.
+- [Engineering.Reference:28 - Citation](#citation) — Cite this Reference or a particular pattern application.
 
 <a id="find-a-starting-pattern"></a>
 
@@ -1965,6 +1980,8 @@ For a different task, recover its own disputed meaning and what a useful return 
 
 ### Engineering.Reference:19.7 - Develop the arrangement across attempts
 
+For an executable permission check, a numerical learning update or a calculated audit allocation, use [section 26](#construct-guard-learning-and-audit). The choices below determine whether the work needs that construction or an already available repair and support.
+
 Continue the service update: obtain the supported change, at most one effect and a report of actual state. Before that operation, the agent must use the applicable interface procedure, including how to look up an unresolved attempt. The optional contribution varied below is **documentation access for that decision**. The execution interface, current-state observations, permissions and required controls remain available in every regime. Removing them would defeat the world-change task rather than isolate this lookup decision.
 
 **Obtain a decision basis.** [SYSE.46](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse46---test-a-tool-using-llm-configuration-in-representative-work) takes qualified earlier traces or constructs matched tests when a consequential gap remains. E supplies the applicable procedure premise in the current input; R leaves one decisive procedure fact only in the reachable authoritative source; T supplies a sufficient premise but also offers irrelevant or stale material. The domain supplies the applicable procedure truth and state/effect predicates. [SYSE.46](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse46---test-a-tool-using-llm-configuration-in-representative-work) records the actual input, call, return, next input, acted continuation, outcome and relevant burden. It does not need hidden reasoning. [SYSE.43](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse43---maintain-external-memory-for-continuing-llm-work) retains the qualified episodes; a single confident success does not estimate the whole task family.
@@ -2071,7 +2088,7 @@ Agreement with the model does not establish agreement with the service. [SYSE.10
 
 #### Engineering.Reference:19.7.4 - A3. Construct informative experience before changing the controller
 
-Lost acknowledgements are expensive to reproduce on the real service. [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-llm-work) constructs a small fixture that separates missing effect from missing reply. The interface contract supplies the result: requested target/version, at most one effect per attempt, no completion from an acknowledgement alone, and no blind replay of an unresolved effect.
+Lost acknowledgements are expensive to reproduce on the real service. [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-llm-work) constructs a small fixture that separates missing effect from missing reply. The interface contract supplies the result: requested target/version, at most one effect per attempt, no completion from an acknowledgement alone, and no blind replay of an unresolved effect. [Section 19.7.5](#choose-and-construct-useful-experience) develops ways to produce further tasks, teaching interactions or reusable procedures from the available material.
 
 Fixture state contains target/version, attempt identity and effect count. Operations apply an effect, suppress a reply, acknowledge without applying, or return a delayed observation. [SYSE.33](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse33---provide-reconstructible-software-development-and-test-environments) supplies isolated initialization and exercised reset. These are executed synthetic states, not observations of the real service.
 
@@ -2080,6 +2097,62 @@ Paired tasks vary target, initial version and reply/effect condition. Already-sa
 Deliberately make a generator and its generated verifier equate acknowledgement with success. The acknowledgement-only case leaves the target unchanged and defeats that shared premise. A duplicate-effect challenge reaches the requested version yet fails the effect-count condition. A fluent narrative cannot override either result.
 
 Qualified traces return to [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-llm-agents-execution-procedure)'s fixed-model repair. A wrapper under [SYSE.48](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse48---construct-and-maintain-reusable-tools-and-skills-for-llm-work) or training under [SYSE.45](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse45---train-an-llm-policy-from-qualified-interaction-experience) is an optional separate construction. [SYSE.46](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse46---test-a-tool-using-llm-configuration-in-representative-work) uses separately prepared final cases and actual interface conformance before extending reliance. If the real service lacks the fixture's attempt lookup, return that transfer gap while retaining still-valid normal-result exercises.
+
+<a id="choose-and-construct-useful-experience"></a>
+
+#### Engineering.Reference:19.7.5 - Choose and construct useful experience
+
+Use this application when an agent's development needs informative experience and you have documents, executable tools or earlier interactions from which to construct it. The intended reader is an engineer able to inspect the task's requirements and run a bounded tool fixture, with the relevant domain meaning supplied. Begin with the missing contribution: a task that exposes a particular wrong choice, a qualified interaction from which to learn, or a reusable procedure recovered from several attempts. If the failure is already explained by a missing input or a faulty control transition, the preceding sections can supply the repair directly.
+
+The following choices develop three useful constructions. Read the branch matching your available material and intended result; they are alternatives that can be combined when one branch actually needs another's output.
+
+| Available material and difficulty | First producing operation | Result and its next use |
+| --- | --- | --- |
+| A document answers a task, but the task does not test finding the applicable document. | Replace the supplied document identifier with a separately answerable lookup. | A task with a real information dependency; use it to repair or evaluate the procedure, or obtain a qualified training interaction. |
+| Executed interactions cover too few user situations. | Reconstruct a task from the observed effects, then vary information or intent and rederive the required effects. | A new task and verifier; obtain a fresh teaching interaction before training. |
+| Several attempts suggest useful but potentially incompatible procedure changes. | Ground each proposed change in the task result, then combine proposals made against one common procedure. | An executable or instructional procedure; make it available to its user and test the resulting work. |
+
+**Construct a dependency, then use it to repair a procedure.** Suppose report R17 contains `available_units=7`. Asking “What available stock does R17 report?” tests reading the field. A catalogue S supplies the unique report for a product line and date: line L on 1 October selects R17. Replace the explicit R17 in the question with “the report selected by S for line L on 1 October.” The resulting task requires `read S → obtain R17 → read R17 → obtain 7`. Obtain both lookups and inspect their connection before retaining the task. A question that names R17 twice adds words without this dependency; a question that already supplies 7 defeats the intended retrieval test.
+
+Depth grows by applying the same operation to another required index. Width grows differently: add an independently answerable question, for example line M's report R22 with value 4, and require the pair `(7, 4)`. Preserve the separate grounds of both answers. Concatenating questions does not justify summing their values. This construction comes from the historical [TaskCraft arXiv v2, §§2–3 and Appendices B–D](https://arxiv.org/html/2506.10055v2); its later conference edition is outside this account. The source's linguistic extension check and score comparison do not establish a successful execution of every composed task. Execute the dependency in the receiving fixture when the intended use relies on that execution.
+
+Make the first result useful to a consumer. The present controller remembers R17 and reads it for every date. Change only its report-selection operation: use the requested line and date to query S; require one applicable report; bind the returned identifier to the report read; carry the obtained value and report identity into the answer. With S selecting R17, this yields 7. Now change S so that line L on 2 October selects R18, whose value is 9. The same operation binds R18 and returns 9; the old controller returns a stale 7. The constructed task has identified and exercised a consequential procedure change under [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-llm-agents-execution-procedure). Model training is unnecessary for this deterministic selection repair.
+
+If S supplies no applicable report, return the missing selection. If two reports are equally applicable, obtain the distinguishing rule before reading one as authoritative. If the selected report lacks the requested field, return that different gap. Increasing task depth cannot supply those missing grounds. Under [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-llm-work), the task check must reject the old 7 for the R18 case and must not reward guessing through ambiguity. Use later cases outside procedure tuning under [SYSE.46](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse46---test-a-tool-using-llm-configuration-in-representative-work). These supplied report values illustrate the construction and its conditional results; they are not a model-performance measurement.
+
+A selected learning consumer needs further work. Execute the task with the inputs available to the eventual learner, retain the resulting observations and warranted actions, then apply [SYSE.45](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse45---train-an-llm-policy-from-qualified-interaction-experience). Distinguish a recorded execution from a trajectory assembled from separately checked pieces. Where an actual numerical update is the missing explanation, [sections 26.3–26.4](#engineeringreference263---prepare-experience-that-can-change-the-intended-choice) develop experience, a calculated update and use of the changed rule. Merely storing the new task produces none of those changes.
+
+**Reconstruct a task, then obtain a new teaching interaction.** Executable exploration can supply effects from which to propose tasks. Choose a user profile and a seed interaction; follow tool dependencies, using earlier returns to bind later calls. Keep useful read-only communication as well as state changes: a correctly obtained price difference can be the requested result. From the trace, draft an intention which would make its consequential actions and communication necessary. Check that intention against the domain policy and state. Exploration supplies reachable effects, not evidence that an actual person wanted them. [Trajectory2Task, §§3.1–3.3 and Appendix D](https://aclanthology.org/2026.acl-long.2037/) develops this backwards construction and variations in information and intent.
+
+In a retail fixture, the authenticated user has pending order O1 and delivered order O2. The supplied policy permits cancelling a pending order and changing its address before dispatch; delivered orders cannot be cancelled. Exploration reads and cancels O1. A corresponding task can ask to cancel O1. To test ambiguity, initially withhold the order identifier while letting the user supply it when asked. The task now requires asking which order, obtaining O1 and checking its state before proceeding. An unspecified identifier is a missing contribution which interaction can obtain.
+
+For a changed-intent task, the user withdraws cancellation at the confirmation question and requests an address change to X2 instead. Rebuild the required result: O1 remains pending with address X2; cancellation is forbidden. Obtain a new conversation with a teacher model which asks for the order, reads its state, requests confirmation, receives the changed intention and performs the permitted address change. Verify that conversation against the new result. Reusing the successful exploratory cancellation would teach the wrong action. Preserve when the changed intention becomes available; putting it in the initial prompt tests a different decision.
+
+For an infeasible request to cancel O2, require checking the delivered state and explaining the prohibition, and forbid cancellation. All required actions together with no forbidden action define success. Checking and explaining without cancellation passes; a blanket refusal without the required check fails; checking and then cancelling fails. Inspect forbidden proposals as well as effects: a tool's rejection can protect the order while the actor still proposes the wrong action, as section 26.3 explains. A possible return of the delivered item would be a separate request with its own conditions. This distinction prevents both an impermissible action and excessive refusal from being rewarded as success.
+
+Derive those required and forbidden actions from the selected intention, domain policy and applicable state. Use exploration for facts and reachable effects where they still apply. This is the receiving adaptation used here: the published infeasible-task validator tells the judge both to avoid deciding correctness from the exploratory trace and to judge from that trace's final state. Resolve that conflict before using the judge to select teaching data. The published prompt alone does not establish how its model resolves the competing instructions.
+
+The downstream product is a **new verified teaching conversation**, obtained by running the derived task with a teacher model, the user simulation and tools. Use [SYSE.45](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse45---train-an-llm-policy-from-qualified-interaction-experience) to construct training targets from the learner-available history and qualified teacher actions, then perform the model update with the selected training implementation. Keep training cases separate from later evaluation. A rejected conversation can require repairing the task, verifier or teacher behavior; its rejection alone does not diagnose the learner's capability. If training access is unavailable, the same tasks can still test a fixed model's procedure, with that narrower consumer named.
+
+**Combine local lessons into a procedure which another attempt can use.** Start from one procedure and several recorded attempts whose results can be inspected. For a failure, compare the actual output with the requirement, identify the producing operation, apply a proposed correction and check the changed output. An error message alone can misdiagnose a correct artifact. Keep an unexplained failure as an unresolved problem while withholding its unsupported procedural remedy. For successes, compare why the operation worked and which conditions it required. [Trace2Skill v5, §§2–4 and Appendices C/E/G](https://arxiv.org/html/2603.25158v5) supplies this asymmetric construction of lessons and their consolidation for a fixed model.
+
+Suppose a spreadsheet procedure must remove rows 2 and 4 of the original five-row sequence `[A, B, C, D, E]`. Deleting row 2 first shifts the numbering; deleting current row 4 then removes E and leaves `[A, C, D]`. A grounded repair records the requested original row positions and deletes them in descending order: removing 4 and then 2 yields `[A, C, E]`. If the request instead supplies stable row identifiers, recover the rows by those identifiers. Descending positions is a remedy for the stated numbering problem, not a reason to replace stable identity with position.
+
+Have each analyst propose changes against the same initial procedure. Combine compatible proposals, remove duplicate instructions and preserve the conditions distinguishing alternatives. For a large collection, merge groups and then merge their results; inspect the combined meaning at each merge. Keep a new supporting script together with the instruction that makes it discoverable. Common instructions belong in the main procedure; occasional branches can be linked explanations or tools. The reader must be able to reach a needed branch when its condition occurs.
+
+A second analyst may propose replacing VBA with Python because that repeatedly produced correct cell values. If this task requires a workbook containing a runnable VBA macro, correct values alone do not satisfy the deliverable. Retain the requirement and qualify a VBA-capable way, or return the missing capability. When only transformed cell values are required, a qualified Python implementation can be an alternative. Combining these lessons must preserve both the deletion rule and the deliverable condition. Frequent success of the workaround supplies no authority to change the requested product.
+
+Materialize the combined procedure, make its entry and necessary support available, and use it on a fresh workbook. Inspect the resulting rows and the required artifact, not just whether the instructions are grammatical or their files exist. Compare with the initial procedure and retain older useful cases. If choosing among subsets of proposed lessons, apply each selected subset to the same initial procedure and evaluate that combined result; good individual patches can conflict in combination. Keep later tests outside subset selection. [SYSE.48](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse48---construct-and-maintain-reusable-tools-and-skills-for-llm-work) governs the reusable procedure and [ME.21](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me21---reconcile-and-allocate-source-contributions-for-method-use) supplies reconciliation when the contributions differ. The resulting aid changes the performing arrangement while the model's parameters may remain fixed.
+
+**Choose another producer when its prerequisite is the missing contribution.** The three constructions above assume respectively grounded lookups, executable exploration and inspectable attempts. Two further arrangements show why the initial material changes the operation.
+
+If labeled questions exist but usable explanation targets are missing, the historical [STaR construction, §§3–6](https://proceedings.neurips.cc/paper_files/paper/2022/hash/639a9a172c044fbb64175b5fad42e9a5-Abstract-Conference.html) needs a pretrained model and two distinct inputs: questions with reference answers, and a small set of worked question/rationale/answer demonstrations. Obtain and check the demonstrations; if this preparation is unavailable, return the missing input. For the first generation, put the demonstrations before each task question in the prompt. Withhold that question's reference answer and ask for a rationale followed by an answer. Keep outputs whose answers match the reference, then retry failures with the correct answer added as a hint. For training, remove the retry hint; retain the task question and the demonstration prefix selected for learner use. The target is the qualified generated rationale followed by its answer. Combine the qualified examples from ordinary generation and hinted retries for fine-tuning.
+
+Fine-tune from the original pretrained model, use the resulting model to regenerate data, and reset to that original model for each outer training iteration. The starting generator must already supply useful few-shot continuations: the source reports an above-chance prerequisite and failure to bootstrap its small-model arithmetic case. Check an empty selection against model preparation; check a high selection rate against chance-correct answers with poor reasoning. Check the explanatory target as well as the answer: `8+7=14; therefore 18+27=45` passes the source's answer-only filter while failing the explanatory target. Another iteration cannot resolve an invalid success criterion.
+
+If the need is task families directed at current weaknesses, [Agent-World §3](https://arxiv.org/html/2604.18292v1) constructs environments from selected themes, data, executable tools and tests. For sequential tool use, its graph route assigns weights 3 to strict output-to-input dependencies, 2 when the input can also be obtained elsewhere, and 1 to independent calls. Bias a walk toward stronger dependencies, bind earlier returns or applicable database values to the inputs, prune the chain, execute it and derive a request/rubric. For branching, loops or aggregation, its programmatic route instead generates and debugs a solution program plus a verifier of the answer and relevant state. Both routes admit a task only after five separate attempts by an agent alternating reasoning and tool calls (ReAct) yield at least two successful, consistent results. This is a limited feasibility filter; the generated tools and success predicates still need qualification for the receiving work. Construct diagnostic categories from clustered themes and representative samples, summarized and merged with human review; sample environments across the categories. Diagnose the current policy using actual traces, validator feedback and tool schemas. Use the resulting specific failures to generate targeted tasks, or enrich the database when missing state diversity is the diagnosed problem. In the paper's learning consumer, complete tool-interaction rollouts receive binary rubric or verifier rewards and enter a group-relative policy update; graph-route success requires all rubric criteria. Preserve those reward meanings when applying SYSE.45, rather than treating a task generator's output as an already trained policy. Keep a separate final comparison. Sampling across categories cannot establish that those categories cover the work or recover required tasks filtered out earlier.
+
+**Preserve the problem when a production filter removes its evidence.** Compare the retained material with the situations the work actually requires. Correct no-call behavior can disappear from a tool-call dataset. An unexplained failure remains important after its speculative patch is excluded. Return each problem to the missing fact, task construction, verifier, support or learner that the evidence identifies. [C.40:4.6–4.7](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40---develop-branching-search-from-reusable-material) connects attainable challenges, actual learning and later use; [C.40.CD](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40cd---develop-problems-and-ways-of-solving-them-together) preserves the changing problem and solution relation. More accepted examples is useful only when they improve the intended work under its required conditions.
 
 <a id="case-b-a-timely-cue-must-enter-a-coordinated-bodily-action"></a>
 
@@ -2216,7 +2289,7 @@ The current sets are derived from those judgements, not from the displayed order
 | Window and judgement sources | Enabled set | Disabled set | Unknown set | Stop, return and recheck |
 | --- | --- | --- | --- | --- |
 | W0: J0-C/O/R | Continue | Obtain, Repair | Empty | Display Continue. Actual execution needs its own qualified conditions and authority. Recheck changed procedure, target, combined performance or effect state. |
-| W1: J1-C/O/R | Obtain | Continue, Repair | Empty | Display Q as available. After a qualified return, rejudge applicability and Continue's other current conditions. Recheck Q's access, permission or timing if they change. |
+| W1: J1-C/O/R | Obtain | Continue, Repair | Empty | Display Obtain (enact Q) as available. After a qualified return, rejudge applicability and Continue's other current conditions. Recheck Q's access, permission or timing if they change. |
 | W2: J2-C/O/R | Repair | Obtain | Continue | Return source availability to its provider and applicability to its authoritative source. Repair remains possible but supplies no missing current fact by itself. |
 | W3: J3-C/O/R | Repair | Continue, Obtain | Empty | Return the failed combined condition to its engineering owner; retain the independently available repair exercise. Recheck c only from a changed arrangement or applicable evidence. |
 
@@ -2239,7 +2312,7 @@ This separate demonstrative episteme teaches one contrast about **G**, the exact
 
 | Read the same structure under two case inputs | What changes | What remains |
 | --- | --- | --- |
-| **Initial W0:** the possessed procedure applies and the other execution conditions are supplied. | Continue is enabled; there is no missing applicability contribution to obtain. | Q still seeks N, R still targets K, and both remain potential continuations under their constraints. |
+| **Initial W0:** the possessed procedure applies and the other execution conditions are supplied. | Continue is enabled; there is no missing applicability contribution to obtain. | Q still seeks N and R still targets K; Obtain and Repair remain potential continuations under their constraints. |
 | **Changed edition W1:** the old applicability premise is defeated; Q is reachable, permitted, useful and timely. | Continue becomes disabled and Obtain enabled. The reason is the changed case evidence, not a new controller or structure. | The required task, descriptive relations and constraints retain their meanings. |
 
 The displayed comparison is not an instruction to execute Continue and then Obtain. It compares availability under two supplied conditions. A successful acquisition would supply a new case fact; only a new judgement could enable Continue, and the actual target action would still need its own execution and observation.
@@ -3272,9 +3345,1070 @@ For a change to semantic integration, use [SIE.11](SEMANTIC-INTEGRATION-ENGINEER
 
 Finish the lookup when you have an answer usable for the current decision, or a specific missing contribution that determines the next work. For the Suite's composition and publication availability, return to the [README](README.md#choose-a-dpf).
 
+<a id="construct-guard-learning-and-audit"></a>
+
+## Engineering.Reference:26 - Construct a guard, a learning update and an audit policy
+
+**Use this when an agent's proposed action must be checked, its repeated choices need improvement, or scarce checking effort must be allocated.** A control requirement does not yet supply an executable check. Logged feedback does not yet supply a learning update. A good detector does not yet say which actions to inspect. The constructions below fill these three gaps on a service-configuration example. The learning applications address decisions separated by tool observations (26.4.1), allocation of training attempts (26.4.2), strategy and conditional execution (26.4.3), and consequences retained across sessions (26.4.4). Enter at the gap you have; obtaining a guard does not require training a model or calculating an audit policy.
+
+The reader is an agent-system engineer who can inspect typed calls and run short Python calculations. The example supplies a local policy, a finite learner and a two-step decision model. For deployment, the engineer still needs the actual authority, authenticated service facts, qualified execution interface and evidence about the receiving task population. The numbers below are stipulated teaching inputs. A calculation or a fixture run establishes its conditional result, not deployed protection or successful training of a language model.
+
+[ADM.14](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm14---connect-an-administrative-control-to-its-purpose-and-competent-decision) guides recovery of the protected purpose, requirement and competent interpretation; [ADM.8](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm8---establish-and-exercise-the-required-permission-for-an-administrative-action) guides obtaining and exercising permission. [SYSE.28](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse28---place-qualified-controls-in-a-supported-platform-use-path) explains how to place the resulting check on the real use path. [SYSE.45](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse45---train-an-llm-policy-from-qualified-interaction-experience) and [CMP.7](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp7---construct-a-learner-from-examples-and-feedback) develop the learner; [SYSE.51](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse51---construct-adaptive-control-of-llm-inference-effort) and [MMP.8.SD](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd---construct-a-sequential-decision-model-from-information-and-consequences) construct an affordable allocation with its future consequences. Their results can support the same execution procedure while retaining different meanings and reasons for change.
+
+### Engineering.Reference:26.1 - Derive the check that the executor needs
+
+Suppose the service owner has granted agent `M` permission `G1` to set `timeout_ms` on staging service `S`, to an integer from 1 through 60000 inclusive, during the interval `10 <= time < 20` on the gateway's stipulated clock. The supported interface is `timeout/ms-v1`; every mutation must name the service revision it expects. Other services, fields and operations are outside this grant. The instruction for the present job is “set the timeout to five seconds.” It requires 5000 milliseconds. A call setting 5 milliseconds can satisfy G1 and still perform the job incorrectly.
+
+First derive the observations needed by the executor's decision. “Staging” must mean the namespace in the owner's registry, rather than a word in the agent's explanation. “Agent M” must mean the principal authenticated by the gateway. “During the interval” must hold when the mutation takes effect. The expected revision must match the same service at that point. If the owner instead meant that only submission must occur before time 20, that changes the rule; the programmer cannot settle this distinction by choosing whichever timestamp is easiest to read.
+
+This yields separate predicates: authenticated principal is M; the proposed service, operation and field are S, `set` and `timeout_ms`; the current service evidence concerns S in staging; the schema is `timeout/ms-v1`; the proposed value is an integer in range; current time is inside the interval; and the current revision equals the proposal's expected revision. The binary admission question has three useful returns: **admit**, **deny for a known mismatch**, and **missing for unavailable required evidence**. The last two both withhold this mutation, but require different remedies. This check does not judge whether 5000 is the correct interpretation of the work request.
+
+Here is a complete predicate evaluator for that supplied policy. Its typed evidence is supplied by a qualified gateway adapter; the evaluator does not authenticate arbitrary caller-supplied dictionaries. `now` and `revision` are integers in this fixture's clock and revision scheme.
+
+```python
+from dataclasses import dataclass
+
+@dataclass(frozen=True)
+class Call:
+    service: str
+    operation: str
+    field: str
+    value: int
+    expected_revision: int
+
+@dataclass(frozen=True)
+class Facts:
+    principal: str | None
+    service: str | None
+    namespace: str | None
+    schema: str | None
+    revision: int | None
+    now: int | None
+
+def guard(a: Call, e: Facts):
+    if any(v is None for v in vars(e).values()):
+        return "missing", "obtain current authenticated facts"
+    if e.service != a.service:
+        return "missing", "evidence concerns another service"
+    if e.principal != "M":
+        return "deny", "principal outside G1"
+    if (a.service, a.operation, a.field) != ("S", "set", "timeout_ms"):
+        return "deny", "action outside G1"
+    if (e.namespace, e.schema) != ("staging", "timeout/ms-v1"):
+        return "deny", "namespace or interface outside G1"
+    if type(a.value) is not int or not 1 <= a.value <= 60000:
+        return "deny", "value outside G1"
+    if type(a.expected_revision) is not int or a.expected_revision != e.revision:
+        return "deny", "revision changed or unspecified"
+    if not 10 <= e.now < 20:
+        return "deny", "outside the effective interval"
+    return "admit", "G1 predicates satisfied for this call and these facts"
+
+proposal = Call("S", "set", "timeout_ms", 5000, 17)
+facts = Facts("M", "S", "staging", "timeout/ms-v1", 17, 12)
+assert guard(proposal, facts)[0] == "admit"
+```
+
+The construction is small enough to write directly. For a larger supplied policy, recover its constructors, names, precedence, defaults and intended observations through [CMP.12](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation). For example, an ordered rule interpreter evaluates each rule against the bound action and facts, uses the first applicable decision, and denies if no rule admits the action. A missing fact needed to decide an earlier rule cannot silently become “rule does not match” so that a later permissive rule wins. Resolve it or return missing. A domain definition or an ordering decision absent from the policy returns to its competent interpreter.
+
+When model assistance is useful, give the generator the interpreted requirement, typed action/evidence interfaces, available trusted queries, expected decisions and counterexamples. Ask for a plan linking each required predicate to its inputs, then executable predicates using only the provided operations. Check the generated program's imports, types, control flow and correspondence with that plan before running it in an isolated fixture. Reject invented evidence queries and self-attested authorization. A code generator can help obtain this evaluator; it does not supply the missing policy meaning or qualify its own result.
+
+This route draws on distinct source constructions. [Progent](https://arxiv.org/html/2504.11703v3) supplies a programmable policy and mediated tool-use arrangement. [GuardAgent](https://arxiv.org/html/2406.09187v3) develops planning and code generation with retrieved examples and executable checking support. Where its retrieval is adopted, retrieve comparable input/output cases with their plans and code; its edit-distance choice is one concrete baseline, not proof of semantic relevance. Compare the relevant examples with a less relevant selection while keeping executable support available. A changed demonstration set and a removed toolbox change different contributions. The direct evaluator above needs neither retrieval nor generated code.
+
+When the receiving work needs an ordered diagnostic category instead of admission, define the category meanings, their ordering and the action each supports before aggregating predicate results. Counting violated predicates does not establish severity, and a low diagnostic category grants no permission. Different binary guards, intent judges and categorical detectors cannot be substituted solely because each is called a verifier.
+
+### Engineering.Reference:26.2 - Put the check on the action path and revise it under authority
+
+Choose a mediation arrangement that actually covers the relevant tools. An embedded library can work when the developer controls the agent runtime and all protected calls. A gateway or endpoint proxy can mediate an existing agent if the execution service accepts protected calls only through that path. In this example choose the gateway: it authenticates the caller, reads the service registry and supported schema through its configured trusted interfaces, and obtains the current revision and clock value. It validates those returns before constructing `Facts`. An unavailable registry or an invalid return becomes missing evidence, not a guessed namespace.
+
+Bind the result to the exact immutable `Call`, G1 edition and service facts used. The gateway submits that same call through an execution operation that atomically checks the expected revision and effective permission conditions before committing. A stale precheck can save work, but the authority window and namespace still have to hold at the actual effect. If the service cannot check them there, supply a qualified lock, lease or other preservation arrangement. Otherwise return the specific platform gap: this check cannot establish the required condition across the intervening change. An `admit` string handed back to an agent is not such an arrangement.
+
+Use [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-llm-agents-execution-procedure) to construct these continuations. Admission enables the bound mutation, followed by outcome reconciliation under [SYSE.42](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse42---execute-a-proposed-llm-tool-call-and-use-its-result). Denial returns the specific mismatch to the actor or competent decision maker. Missing evidence calls the appropriate trusted source when that acquisition is permitted and affordable; an unavailable source leaves the mutation held. A malformed detector result likewise provides no admission. A revised proposal starts a fresh check. A rejected correction never falls back to executing the original unapproved proposal. If the actor has already halted and cannot consume a correction, a designated recovery performer must obtain and submit the continuation; feedback alone does not restart it.
+
+The following cases exercise different dependencies. Keep the task's value requirement separate from G1's permitted range.
+
+| Case | Obtained check and actual continuation |
+| --- | --- |
+| S, 5000 ms, authenticated M, staging, schema v1, revision 17, time 12 | Admit this bound call; the gateway's at-use check permits the mutation. Reconcile that S is actually at 5000 ms. |
+| Same call, value 70000 | Deny the range violation. Return a revised job or authorized policy decision; do not clamp the value silently. |
+| Same call, registry unavailable | Missing. Obtain the registry fact or return that gap; no protected mutation follows. |
+| Same call for S, facts belonging to service T | Missing subject-bound evidence. Fetch S's facts; T's valid state cannot qualify S. |
+| Check at revision 17, service changes to 18 before use | The conditional mutation refuses the old revision. Obtain current state and reconsider the intended change. |
+| Check at time 19, effect would occur at 20 | At-use admission fails. A new window needs its competent grant; the earlier pass has expired. |
+| Schema changes from millisecond v1 to second v2 | The old evaluator denies its out-of-scope interface. Obtain its meaning and construct the affected translation and check. |
+| S, 5 ms, all G1 conditions satisfied | Admission is correct for G1; the job is wrong. Repair interpretation or action selection, as in section 26.3. |
+
+When several agents act for one user with the same delegated rights, one shared boundary can suffice if the grant really covers their actions. Agents acting for different users or with different privileges need principal-specific decisions. Calling them one team cannot confer the broadest member's rights on everyone.
+
+Finally, distinguish repairing a mistranslated rule from changing what the rule admits. Suppose the old policy allows `(S, set timeout)` and `(S, restart)`, while a proposed new policy allows only `(P, set timeout)` on production service P. The new set is smaller, but it adds an action outside the old set. Compute the newly admitted set `new_allowed - old_allowed`; its non-emptiness exposes the expansion. Return that addition to the production authority even if removing staging permissions is locally permitted. More generally compare admitted action sets, not rule counts: changed intervals, ranges and predicates can expand them. An authorized amendment then requires interpretation, evaluator qualification and at-use installation for the changed meaning. Better evidence about an existing case does not itself amend the grant.
+
+### Engineering.Reference:26.3 - Prepare experience that can change the intended choice
+
+The job family is setting staging timeouts from requests that state an integer duration from 1 through 60 seconds, or the corresponding milliseconds. These values fit G1. The worked failure is a five-second request producing 5 ms. First compare fixing a deterministic parser/converter, supplying the missing interface meaning, improving the controller, and learning an interpretation rule. If a reliable converter already answers the actual request form, use it. Training is an alternative when a recurrent choice remains, not a prerequisite for executing a known conversion. [Section 19.7](#agent-development-across-attempts) develops that whole-arrangement decision.
+
+For the numerical learning example, deliberately restrict the missing choice. The prepared input contains an integer duration, an explicit unit and the available target schema. For known seconds under schema v1, the learner chooses among three program templates: A multiplies the duration by 1000; B leaves it unchanged; C asks for an already supplied unit. A is the desired choice for the specified task family. Direct millisecond requests and unknown-unit requests use separately supplied handling; the experiment does not teach arbitrary language interpretation. This finite learner exposes a real feedback-to-action update without pretending to reproduce a language-model training run.
+
+Construct the experience with [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-llm-work). Prepare a resettable staging-service fixture with the same relevant schema, subject identity and effect semantics. For each request preserve what was visible before the proposal, the raw proposed call, guard observations, actual execution or non-execution, observed successor and independent task verdict. Reset before comparing alternative actions; a successor from another action or another revision is not interchangeable.
+
+For “five seconds,” execute A and B separately in the authorized fixture: the resulting timeouts are 5000 and 5. Both pass the range guard, but the independently interpreted task target is 5000. Assign task reward 1 to A and 0 to B. C obtains no completed change and receives 0 for this fully specified case. For a request with no recoverable unit, asking is instead the useful action; copying C's zero reward into that case would train the wrong behavior. A teacher's corrected A call must obtain A's own qualified successor, or be retained explicitly as an action label without a claimed observed consequence.
+
+A cached success receipt from an earlier 5000-ms change does not show the consequence of the present 5-ms proposal. Reuse a cached response as an observed successor only when its subject, action, initial state and environmental conditions support that equivalence. Otherwise obtain the new result or retain the response as a labeled model prediction. The arithmetic conversion target can remain valid while a claimed current service state is unsupported.
+
+Two blocked proposals demonstrate why successful guarded traces are insufficient learning evidence:
+
+| Observation | Useful evidence and warranted repair |
+| --- | --- |
+| The actor proposes changing production P, which G1 does not admit. | The raw proposal and policy comparison support a permission-violation label. There is no observed live effect of the blocked call. A separately authorized fixture may show its simulated consequence; record that scope. Preserve the live guard while changing the actor's proposal choice. |
+| The actor correctly proposes 5000 ms, but an obsolete guard implements a maximum of 1000 despite the supplied G1 maximum of 60000. | Comparison with the interpreted requirement identifies a false rejection. Correct and requalify the guard. Labeling the proposal as task failure because execution was blocked would reward the wrong repair. The refused run alone provides no actual successor. |
+
+Retain these observations separately from post-guard successes. A low observed failure rate after controls says something about the controlled arrangement. It does not establish that the raw actor learned the constraint. If counterfactual feedback is needed, obtain a qualified model or a permitted experiment and preserve its conditions; removing the required live guard does not follow from the learning need.
+
+### Engineering.Reference:26.4 - Compute the update and use the changed rule
+
+Represent the finite learner by three logits, initially zero. Softmax therefore chooses A, B and C with probability 1/3 each. Consider one sampled group containing one instance of each choice under the same prepared seconds request. Such a group is possible under the old policy; the example conditions on this realized group rather than asserting every draw contains it. Rewards are `(1, 0, 0)`. Their mean is 1/3 and population standard deviation is `sqrt(2)/3`. Normalizing by that deviation yields advantages `(sqrt(2), -1/sqrt(2), -1/sqrt(2))`.
+
+This calculation uses a group-relative first update without reference-policy regularization. At the old policy, the importance ratio is 1 and clipping is inactive. For a mean objective over the three sampled actions, the gradient for logit j is `sum_i advantage_i * (indicator(i=j) - p_j) / 3`. Since these advantages sum to zero, it equals `advantage_j / 3`. A gradient-ascent step of size 0.3 gives logits approximately `(0.141421, -0.070711, -0.070711)` and probabilities `(0.382012, 0.308994, 0.308994)`.
+
+The following code computes the step and consumes the result. A fixed draw of 0.35, chosen only to expose a changed selection, previously selected B and now selects A. The resulting proposal changes from 5 to 5000 ms. A live executor must still apply the guard and reconcile the effect.
+
+```python
+from math import exp, sqrt
+
+def softmax(z):
+    weights = [exp(v - max(z)) for v in z]
+    return [w / sum(weights) for w in weights]
+
+def first_group_step(rewards, rate=0.3):
+    # This fixture has one old-policy sample of each of the three actions.
+    mean = sum(rewards) / 3
+    sd = sqrt(sum((r - mean) ** 2 for r in rewards) / 3)
+    if sd == 0:
+        return [0.0, 0.0, 0.0]  # No contrast in this group's feedback.
+    advantages = [(r - mean) / sd for r in rewards]
+    old = [1 / 3] * 3
+    gradient = [sum(advantages[i] * ((i == j) - old[j])
+                    for i in range(3)) / 3 for j in range(3)]
+    return [rate * g for g in gradient]
+
+def select(p, draw):
+    cumulative = 0.0
+    for i, probability in enumerate(p):
+        cumulative += probability
+        if draw < cumulative:
+            return i
+    return len(p) - 1
+
+def propose_seconds(duration, action):
+    return (1000 * duration, duration, "ask for unit")[action]
+
+before = softmax([0.0] * 3)
+after = softmax(first_group_step([1, 0, 0]))
+assert propose_seconds(5, select(before, 0.35)) == 5
+assert propose_seconds(5, select(after, 0.35)) == 5000
+assert first_group_step([1, 1, 1]) == [0.0] * 3
+print([round(p, 6) for p in after])
+```
+
+This is an obtained update and one changed action of the finite selector. It raises A's probability by about 0.048679 under the given representation; it does not make A certain. The selected draw is a demonstration of consumption, not an evaluation sample. Under a reversed reward `(0, 1, 0)`, the same arithmetic favors the wrong conversion. Under a format-only reward `(1, 1, 1)`, all choices are equally well formed and there is no relative update. More identical groups cannot repair that missing distinction. Diagnose the target and feedback before increasing compute.
+
+[ToolRL](https://papers.nips.cc/paper_files/paper/2025/file/97c5b2707228e7e3fb67e4ecc2e0e607-Paper-Conference.pdf) develops structured format/correctness rewards, group normalization and clipped policy optimization for tool calls. The finite construction above adopts that distinction and explicitly specializes the first gradient step; it is not its complete algorithm. For further updates, retain the rollout policy and its action probabilities, recompute current-to-rollout probability ratios, apply the selected clipping rule, and resample when that recipe requires it. Do not repeat this first-step gradient as if every later ratio remained 1. A numerical implementation also needs its stated zero-variance convention, token/action aggregation and trainable parameters. For a language model, use the selected trainer's actual masking, tokenizer, optimizer and rollout implementation through SYSE.45; that implementation is an additional supplier.
+
+Reward design and regularization are different choices. ToolRL removes the reference-policy KL term and compares that choice with keeping it; its observations concern its tested setup. To compare the alternatives in a receiving implementation, keep the task feedback, rollout preparation and assessment cases fixed, then vary the stated reference, coefficient and regularization rule. Observe retained useful behavior and complete training effort as well as task success. Removing the term does not remove runtime permission or imply that every previously useful behavior survives.
+
+Test further use on held-out values and request forms, including explicit milliseconds, absent units, changed service identities and previously useful refusal behavior. Split related templates and trajectories together when their dependence would leak the answer. Keep assessment cases out of reward and policy selection; after using a failure to revise the learner, obtain an appropriate new assessment basis. Compare the trained configuration with the deterministic converter and supplied-support configuration, including preparation, annotation, training, retries and execution costs. An improvement in the sampled objective alone cannot settle this comparison.
+
+If the interface changes to seconds in schema v2, the old multiply-by-1000 template is wrong for that output. Repair the target-schema translation and the affected learning examples or parameter branch; continue asking when the input unit is unavailable and retain principal, service and permission checks. If only the input value changes from five to twelve seconds under v1, A's same operation produces 12000 ms without a new unit rule. These changes expose different dependencies.
+
+Here the retained logit update is the finite learner's training result. An update within the current task can instead serve episode adaptation; state whether its learned state resets at the next task or carries across tasks, and assess that choice under its actual conditions. Adding a fact or a teacher's instruction to the next context supplies support. Grammar restriction controls the possible output language. Each can improve a run, but a successful supported or constrained run is not by itself evidence of durable learning.
+
+<a id="learn-from-interleaved-actions-and-observations"></a>
+
+#### Engineering.Reference:26.4.1 - Learn from interleaved actions and observations
+
+Use this application when a policy makes several decisions during an attempt, tools supply intervening observations, and the engineer must turn those attempts into a parameter update. A final failure can follow a useful earlier call. The work is to construct a learning signal whose meaning survives that distinction, update the selected policy, and use it with the support it still needs. The reader can use the finite calculation below directly; training a language model additionally requires the tokenizer, rollout engine and optimizer selected under SYSE.45.
+
+The earlier conversion example has one learned choice. Here the choices are separated by an observation. [CMP.7](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp7---construct-a-learner-from-examples-and-feedback) supplies the learner construction, [SYSE.45:4.2–4.3](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse4542---obtain-experience-with-interpretable-feedback) the experience transformation and selected training intervention, and [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-agent-work) the qualification of tasks and feedback. The calculation makes their connection explicit. For an actual calculator service, a direct arithmetic controller is the obvious competing way to obtain the answer; use this deliberately small learner to understand and test the update construction.
+
+##### Keep the generated choices and their available histories
+
+The task is to return `(n*m)+k`. The supplied calculator evaluates multiplication or addition exactly. A finite policy has two trainable scalar logits, initially zero. The first chooses `n*m` with probability `sigmoid(z1)` and `n+m` otherwise. After receiving the calculator's return `o`, the second chooses the answer `o+k` with probability `sigmoid(z2)` and `o+k+1` otherwise. The second logit is shared across these histories, but its answer still consumes the actual observation. The input supplies `n`, `m`, `k` and the calculator's meaning. The arithmetic operations and the available choices are provided capabilities; only their choice probabilities are being learned.
+
+The worked example stipulates the following four recorded episodes, sampled in this deterministic fixture with the same unchanged old policy. Each generated choice had probability 0.5. The example conditions on this realized group; another four draws need not cover all four combinations.
+
+| Episode | Generated calculator call | Observed return | Generated answer | Independently checked terminal reward |
+| --- | --- | --- | --- | --- |
+| A | `17*19` | 323 | 328 | 1 |
+| B | `17*19` | 323 | 329 | 0 |
+| C | `17+19` | 36 | 41 | 0 |
+| D | `17+19` | 36 | 42 | 0 |
+
+For B, the first learning record contains the request, tool meaning, selected multiplication call and its old probability. The second contains that same request, the actual call, its observed return 323, the selected answer 329 and its old probability. The result checker supplies reward 0 outside those decision inputs. It does not put the correct answer into the policy's earlier history. Preserve the producing configuration and the observations needed to interpret each record.
+
+Select the two generated decisions as policy-output positions. The calculator return stays in the second decision's input and has no policy-output target of its own. For a language model, the same distinction concerns generated tokens and externally supplied tokens; the selected trainer must implement both the mask and the intended loss normalization. A tag that the model can forge does not authenticate a tool result. Obtain observations through the execution interface and preserve their provenance. A missing or altered return requires repairing the experience or defining the resulting different input condition.
+
+##### Calculate an outcome update and consume it
+
+Choose a mean of separate generated-decision terms. Let `A_i` be episode i's reward minus the group mean, divided by the population standard deviation. Use zero advantages for a zero-deviation group. For this group the advantages are `(sqrt(3), -1/sqrt(3), -1/sqrt(3), -1/sqrt(3))`. Each episode has two generated decisions. A complete surrogate for this finite adaptation is:
+
+```text
+rho_it = current_probability(action_it | history_it)
+         / old_probability(action_it | history_it)
+J = mean_over_episodes[
+      mean_over_generated_decisions[
+        min(rho_it*A_i, clip(rho_it, 0.8, 1.2)*A_i)
+      ]
+    ]
+```
+
+Maximize J. This example uses no reference-policy regularizer. Keep the old probabilities fixed during this update. At the old policy all ratios are 1 and clipping is inactive. For either logit, the derivative of a chosen binary action's log probability is `choice_bit - 0.5`, where bit 1 denotes multiplication or `o+k`. Averaging both decisions and all four episodes gives gradient `(1/(4*sqrt(3)), 1/(4*sqrt(3)))`. An ascent step of size 0.3 gives logits `(0.0433012702, 0.0433012702)` and choice probabilities `(0.5108236264, 0.5108236264)`.
+
+This code prepares the histories, obtains the first update and uses the resulting probabilities on a new input. It also shows which parts of the operation are supplied by the fixture.
+
+```python
+from math import exp, sqrt
+
+def sigmoid(z):
+    return 1 / (1 + exp(-z))
+
+def calculator(n, m, multiply):
+    return n * m if multiply else n + m
+
+# Recorded choices, returns and answers; the old logits are (0, 0).
+raw = [(1, 1, 323, 328), (1, 0, 323, 329),
+       (0, 1, 36, 41), (0, 0, 36, 42)]
+request = (17, 19, 5, "calculator evaluates the selected expression exactly")
+batch = []
+for call_bit, answer_bit, observed, answer in raw:
+    n, m, k, tool_meaning = request
+    expression = f"{n}*{m}" if call_bit else f"{n}+{m}"
+    assert observed == calculator(n, m, call_bit)
+    assert answer == observed + k + (1 - answer_bit)
+    batch.append({
+        "generated": [
+            {"history": request, "action": ("call", expression),
+             "bit": call_bit, "old_probability": 0.5},
+            {"history": (request, ("call", expression), ("return", observed)),
+             "action": ("answer", answer), "bit": answer_bit,
+             "old_probability": 0.5}],
+        "reward": int(answer == n * m + k)})
+
+def first_step(records, rewards, rate=0.3):
+    # Only this frozen zero-logit policy's first step; two selected positions.
+    count = len(records)
+    mean = sum(rewards) / count
+    sd = sqrt(sum((r - mean)**2 for r in rewards) / count)
+    advantages = [(r - mean) / sd for r in rewards] if sd else [0.0] * count
+    gradient = [sum(advantages[i] * (records[i]["generated"][j]["bit"] - 0.5)
+                    / 2 for i in range(count)) / count for j in range(2)]
+    return [rate * g for g in gradient]
+
+def act(probabilities, n, m, k, draws):
+    multiply = draws[0] < probabilities[0]
+    observed = calculator(n, m, multiply)
+    unshifted = draws[1] < probabilities[1]
+    return observed + k + (0 if unshifted else 1)
+
+old = [0.5, 0.5]
+logits = first_step(batch, [row["reward"] for row in batch])
+new = [sigmoid(z) for z in logits]
+assert act(old, 12, 13, 5, (0.51, 0.51)) == 31
+assert act(new, 12, 13, 5, (0.51, 0.51)) == 161
+assert first_step(batch, [1, 1, 1, 1]) == [0.0, 0.0]
+wrong = [sigmoid(z) for z in first_step(batch, [0, 0, 1, 0])]
+assert wrong[0] < 0.5  # Rewarding C would encourage addition.
+print([round(p, 10) for p in new])
+```
+
+Both runs retain the calculator. Reset the task's history for the new input; retain the updated logits. Under these supplied choices, the probability of selecting multiplication and the unshifted answer rises from 0.25 to approximately 0.260941. The fixed draws expose one changed action; they are deliberately chosen and supply no independent estimate of performance. The representation already makes the same choices applicable to new n, m and k. The calculation establishes a finite update and its consumption, rather than acquisition of those arithmetic operations by a language model.
+
+B's useful multiplication call receives B's negative terminal advantage. The total group can nevertheless favor multiplication because it combines that contribution with A's success and the failed addition choices. Terminal weighting therefore supplies learning pressure to intermediate decisions without separately assessing the usefulness of each decision. [ToRL v1, §§2–3](https://arxiv.org/pdf/2503.23383v1) trains tool-interleaved math solutions with final-answer reward, retaining interpreter output as context while masking it from loss; its tested execution-error penalty was omitted from the main recipe. [Search-R1 v5, §3 and Appendix B.2](https://arxiv.org/html/2503.09516v5) likewise retains retrieved observations while optimizing generated output from terminal feedback. Its main implementation uses PPO, with GRPO as an alternative. These sources support the separation of observation, generated decision and outcome signal. The two-logit objective above is an explicit receiving construction.
+
+Aggregation changes that construction. Including the tool return as a third item in this example's averaging denominator would multiply each gradient by 2/3, producing probability 0.507216 rather than 0.510824; the displayed draws would still yield 31. Alternatively, form a product of the two action ratios and clip that whole-episode ratio. With the same four rewards, its first gradient is twice the displayed gradient, giving probability 0.521637 at rate 0.3. Subsequent whole-episode clipping also differs from clipping each decision. Choose and document the objective actually implemented. In a language model, token lengths, generated-token normalization and observation masks must agree with that objective. Lengthening a return leaves this finite calculation unchanged only because its representation consumes the same integer observation and still has two generated decisions.
+
+For further training, evaluate current-to-old ratios, clipping and any selected regularization under the actual trainer. Resample under a new rollout policy when that recipe requires it. This first-step derivative cannot be repeated as though every later ratio stayed 1. Retain a recoverable baseline, decide when learned parameters persist or reset, and assess changed and older useful behavior on separate cases as in section 26.4.
+
+##### Obtain a separate reason to credit a call
+
+If the work needs a positive assessment of B's first call, select what that assessment means and obtain its grounds. Three different inputs can support three different operations:
+
+| Available ground | Construction and first usable result | What remains to establish |
+| --- | --- | --- |
+| The domain requires obtaining the product `n*m`, and the observed return can be checked against it. | Compare each actual return with `n*m`. The call-subresult labels are `(1, 1, 0, 0)`. Use these as a separately qualified call-only target. | Obtaining the product establishes neither the final answer nor the necessity of using a calculator. A legitimate different solution may not need this subresult. |
+| An independently qualified next-call annotation is available at the decision history. | Construct `(history, permitted tool definitions, gold call set)`. For this exercise the declared method supplies `calculator(expression="17*19")`. Both A and B match; C and D do not. | Establish that the annotation fits the chosen method and available input, including legitimate alternative calls. A final reward does not supply this gold set. |
+| A qualified transition and continuation model is available. | Evaluate each first call with the old continuation under [MMP.8.SD:4.2–4.4](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd42---construct-how-an-action-changes-the-world-and-the-available-information). Here multiplication's success probability is 0.5 and addition's is 0; the old mixture is worth 0.25. Subtracting that baseline yields call credits `(+0.25, +0.25, -0.25, -0.25)`. | These values require the supplied deterministic law, all available action combinations and the old second-choice probabilities. Sparse stochastic logs alone do not establish them. A changed continuation requires reevaluation. |
+
+The first two rows assess a call against a checked subresult or a qualified annotation. The third compares its expected consequence under a specified continuation. None overwrites B's recorded final failure. The baseline subtraction and the choice to update only the first logit are receiving choices. Starting again from the zero logits, a call-only mean of probability-ratio terms using those continuation credits has first gradient 0.125 for z1 and zero for z2. At rate 0.3 it gives `z1=0.0375`; the answer decision still needs its own learning signal.
+
+[ToolRL, NeurIPS 2025, §§2.1–2.4 and Appendix C](https://papers.nips.cc/paper_files/paper/2025/file/97c5b2707228e7e3fb67e4ecc2e0e607-Paper-Conference.pdf) supplies an annotated-call branch. It turns multi-step records into next-step tasks with preceding history, compares predicted and gold call sets using maximum matching over tool names, parameter keys and values, and normalizes the attainable score before scaling correctness to −3 through +3 and adding format reward. Group-relative advantages feed clipped policy optimization. Thus the first engineering input is a history with qualified call annotations. The source's exact scoring and trainer consume it. If only the four terminal rewards are available, either construct and qualify the additional annotations or continue with the outcome branch; silently calling those rewards gold calls would change the evidence. Call agreement still needs a separate check of the resulting effect in the receiving work.
+
+##### Supply preparation and preference inputs when those branches are selected
+
+When the starting policy rarely produces a usable tool interaction, demonstrations can make subsequent exploration feasible. Obtain successful executions with available task inputs, actual observations and checked outcomes. From A, construct a supervised pair from the initial history to the multiplication call, and another from the resulting history including 323 to answer 328. Fit the generated actions; supply the return in the later input. A corrected first call in C would need its own execution or other qualified consequence evidence. A label for that correction may be usable before such evidence exists, but it does not inherit C's return 36. The correction of B's final answer can instead use the already available 323 if the stated method warrants it.
+
+[ReTool, ICLR 2026, §2 and Appendix A](https://proceedings.iclr.cc/paper_files/paper/2026/file/4038c9208dfc22644c60ad39c24e5c53-Paper-Conference.pdf) develops a preparation-to-update route: produce tool-interleaved traces from checked math solutions, retain their reasoning and failed attempts, filter format and final answers, and perform cold-start supervised training before PPO on new executed trajectories. Its main reward checks final correctness rather than code executability; interpreter output remains context and is masked from loss. For an adaptation, choose one executable parser contract and exercise it on the prepared examples. Figure 9 contains conflicting instructions about Markdown fences inside code tags. A receiving choice such as raw code inside those tags, with no Markdown fences, resolves that conflict locally; it cannot be attributed to an unambiguous source instruction. If checked demonstrations or an executable serialization are unavailable, return that precise preparation gap before claiming the policy was prepared.
+
+A preference update requires two available, comparable outputs and a justified ordering. For the same request, A and B provide a simple qualified pair: prefer the checked correct answer over the checked incorrect one. They share the same first call and observation. Retain both histories, their generated actions, the ordering grounds and a fixed reference policy. If sampling supplies only rejected outputs, obtain a warranted preferred one or use a different available feedback regime. Relabeling one of the failures as preferred would teach a different objective.
+
+For a concrete finite preference update, let `P(A)` and `P(B)` be products of policy probabilities of the generated decisions, conditional on each recorded history. The tool return has no generated-output probability in these products. With reference probabilities from the old zero-logit policy, minimize:
+
+```text
+loss = -log(sigmoid(beta * (
+       (log P_current(A) - log P_current(B))
+       - (log P_reference(A) - log P_reference(B)))))
+```
+
+Set beta to 0.3. At the reference policy, gradient descent with rate 0.1 changes only z2, from 0 to 0.015, giving unshifted-answer probability 0.503750. The shared call cancels from the pair comparison, so z1 remains zero. On the new `(12,13,5)` input, draws `(0.49,0.501)` select multiplication in both policies, then answer 162 before this preference update and 161 after it. This adaptation exhibits the pair's particular information: it can change the answer choice without pretending to distinguish the shared calls.
+
+[Tool-Star v1, §3.2, Algorithm 1 and Appendices B–E](https://arxiv.org/html/2505.16410v1) combines preparation, masked group-relative training and preference updates. It separates direct successes, tool-assisted successes and intended harder failed questions, then samples candidates after GRPO and uses scores at least 1 for preferred outputs and below 1 for rejected outputs. Keep the actual contrasting candidates and the executable reward grounds. The source's earlier correct-trace filter leaves the supply of both-failed questions underspecified; retaining their question IDs before filtering is an explicit receiving repair. Its printed negative DPO loss and ascent wording also conflict. The finite example above descends that loss: reversing the sign would reduce the preferred answer's probability to 0.496250. These repairs state how this application works without claiming what the authors' code did.
+
+##### Change the learned objective deliberately
+
+A policy may first need to learn the interaction protocol and later to solve the task. Label the stage and its objective when preparing feedback. [R1-Searcher v2, §§2–3](https://arxiv.org/html/2503.05592v2) first gives 0.5 for using retrieval at least once and 0.5 for acceptable format, with no answer reward. Its second stage removes the retrieval bonus, uses answer F1 and penalizes format violations by −2. This is a change in what receives reinforcement. The later policy still needs retrieval and its external evidence; a protocol reward has not taught all the reasoning required for the answer.
+
+In the calculator example, all four episodes use a call and a well-formed answer. Giving each reward 1 for those properties produces zero group-relative update. Giving only C reward 1 makes addition more likely. Both calculations can be correct while their feedback fails the intended task. Preserve the original observations and identify the objective used to rescore or collect each batch. Decide the transition using actual usable interaction and later task behavior. A stage number alone supplies no evidence that the earlier capability was acquired.
+
+Check the reward against the behavior it could make attractive. Tool-Star's collaboration bonus uses search and Python markers in a correct response; marker presence alone does not establish that either tool contributed. R1-Searcher's reported failures include fabricated document spans and long answers that collect likely gold-answer words. Bind tool observations to execution, check the required result independently and test plausible reward exploits. Redesign or narrow a defeated signal before extending reliance on its optimized value.
+
+Finer intermediate feedback is another construction with its own costs. The [2026 outcome/process comparison, §§3–4 and Limitations](https://arxiv.org/html/2605.27881v2) finds that missing retrievable evidence can change the comparison; terminal-reward training remains competitive in its tested settings, while process signals trade query quality, redundancy and depth. First check that the receiving environment can supply the needed evidence and that the outcome baseline is usable. More detailed reward cannot retrieve a fact absent from the available corpus.
+
+If long interactions still leave an important attribution problem, [TRACE v1, §§2–3 and Appendix A](https://arxiv.org/html/2607.13988v1) supplies a progress-estimation alternative. A frozen reference model scores the known answer at successive tool-boundary prefixes; changes in log likelihood contribute turn-level credit combined with outcome advantage. That route needs reference answers, prefix-scoring access and a qualified estimator. Increased answer predictability is the estimator's signal; it does not by itself establish causal usefulness of a call. Qualify it for the receiving outputs and preserve its aggregation with terminal feedback. A missing reference answer or unreliable scorer returns that branch to obtaining feedback, while a viable outcome method can remain usable.
+
+The resulting engineering choice is between available, qualified learning constructions. Start with the signal and support the work can actually supply; obtain a missing prerequisite when the needed distinction depends on it. Carry the selected update into subsequent execution, then compare actual task results, preserved useful behavior and total cost on appropriate separate cases. A larger reward, more prepared examples or a changed parameter value alone does not establish the intended improvement.
+
+<a id="allocate-training-attempts-and-select-the-update"></a>
+
+#### Engineering.Reference:26.4.2 - Allocate training attempts and select the update
+
+Use this application when an engineer can collect more interaction experience, but starts, tool calls and training share a limited budget. Another continuation can reveal a useful alternative; repeatedly exploring one uncertain history can also consume the budget without improving the learner. After collecting experience, ordinary clipped training can leave some rewarded actions on a plateau. Choosing where to collect experience and choosing how to update from it are two interventions with different inputs and consequences.
+
+The construction below connects an affordable allocation to executed continuations, qualified feedback, a masked update and subsequent action. It specializes [ARPO, ICLR 2026, §§2–3 and Algorithm 1](https://proceedings.iclr.cc/paper_files/paper/2026/file/1c58e53bdf1fb045440256fd567531ae-Paper-Conference.pdf) and [AEPO, WWW 2026, §4 and Appendix A](https://playbigdata.ruc.edu.cn/dou/publication/2026_WWW_AEPO.pdf), with explicit receiving choices. The finite calculator and ordinary learning construction are those of [26.4.1](#learn-from-interleaved-actions-and-observations). [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-agent-work) supplies the task and feedback arrangement; SYSE.45 and CMP.7 connect that experience to the chosen learner. The engineer needs probability access and an update implementation in addition to an interface that executes tools. A text-only generation endpoint can still help collect experience. Obtain full distributions and a parameter-update operation through facilities that provide them.
+
+##### Obtain a measure that can support the proposed decision
+
+At a model-generated position t, obtain the complete next-token distribution conditioned on the actual history: `p_t(v) = softmax(logits_t / temperature)[v]`. Fix the tokenizer, vocabulary, temperature and history used for the comparison. Shannon entropy in nats is `H_t = -sum_v p_t(v)*log(p_t(v))`, with zero-probability terms taken as zero. It concerns that conditional distribution. For example, several possible phrasings can raise it while all phrasings express the same known answer. The external return belongs in the next history; counting the characters or tokens of that return does not obtain the policy's next-token entropy.
+
+Obtain the logits or a facility that returns a qualified estimate before using this quantity to rank histories. Store which history and generated positions the estimate describes. A next-token distribution available at a saved prefix can be inspected before taking the next action. An estimator that needs K sampled positions must generate them, retain their resulting history and charge that work; it cannot be treated as a free observation at an earlier prefix. Reset an initial baseline for each fresh trajectory and retain its relation to any branched continuation. Comparing a new question with a cached baseline from an earlier question changes the measure.
+
+A selected-token log-probability can suffice for a recorded action's importance ratio and still be insufficient for entropy. Suppose a four-outcome interface reports only that the selected outcome had probability 0.5. Its surprisal is one bit. If q is the normalized distribution over the other three outcomes, the complete entropy is `1 + 0.5*H_bits(q)`, between 1 and 1.792481 bits. Both `(0.5, 0.49, 0.005, 0.005)` and `(0.5, 1/6, 1/6, 1/6)` fit the log, but their entropies differ. The same selected probabilities at two histories therefore cannot establish their entropy order. Obtain the missing distribution or a qualified estimator; otherwise retain a feasible fixed or randomized allocation.
+
+##### Allocate attempts and reserve the work needed to finish them
+
+Separate a count of complete training trajectories from resource limits such as generated tokens, tool calls and elapsed time. Set aside resources to finish and qualify the original attempts before admitting branches. For example, two extra trajectory places, six extra tool calls and an upper bound of three calls per continuation admit at most two new continuations. With three calls left, at most one fits. Include retries, probability extraction and any pilot in the resource account. Shared prefixes may save work, but their existence does not bound the cost of their continuations. SYSE.51's budgeting principles help retain completion resources; the training sampler described here is a further selected construction.
+
+One ARPO-inspired receiving rule starts N trajectories and reserves M−N of M complete trajectories for branches. Measure K initial generated positions and K positions after actual tool feedback. For the conference paper's literal normalization, define `delta_H = sum_t(H_after,t - H_initial,t)/V`, where V is vocabulary size. This is a scaled change, not the average over K. Choose alpha, beta and a threshold tau; branch when `alpha + beta*delta_H > tau` and both count and resource capacity remain. The strict comparison is deterministic. A randomized rule that compares a draw with a probability needs its own bound to [0,1] and yields different behavior, including when delta_H is zero.
+
+To limit repeated allocation to a lineage, this application adds AEPO's proposed linear penalty. Let l count consecutive accepted branches with positive delta_H along that lineage. Start l at zero, use `score = (alpha + beta*delta_H)*max(0,1-0.2*l)`, and require score > tau. On accepting a positive-change branch, increment l for both the continued parent and its new child. Reset it on a later measured transition with nonpositive delta_H. These counter and reset conventions are receiving choices that make the procedure executable. Keep counters per lineage; a fresh, unrelated start has its own counter. Finish existing attempts when capacity is exhausted; unused trajectory places may return to fresh starts only when those starts and their completion fit the remaining resources.
+
+AEPO also proposes choosing the split with a pilot. With B available training trajectories after charging the pilot, its paper rule is `m_raw = B*sigmoid(beta*(H_root - H_tool_average))`; higher initial entropy favors fresh starts, and higher post-tool entropy favors branches. Specify comparable windows and the averaging rule. This example chooses `m = min(B,max(1,ceil(m_raw)))` and reserves B−m branch places. For B=16, beta=0.2, H_root=1 and H_tool_average=2 nats, m_raw is 7.202656, giving eight starts and eight branch places. The sigmoid is a proposed allocation heuristic; it is not the optimum of the paper's separate linear information-gain proxy.
+
+The pilot must be affordable before it can inform that choice. Suppose the whole budget permits 48 calls, the completed pilot used three, and each retained training trajectory may require up to three further calls. A conservative count bound is now B=15, so the same rule gives seven starts and eight branch places. Sixteen trajectories plus that pilot would need capacity for 51 calls. This bound deliberately forgoes possible shared-prefix savings; a more precise allocation can use qualified remaining costs. When the pilot or probability extraction cannot fit, the fixed split remains an available baseline. The finite run below uses that fixed split and needs no pilot.
+
+##### Execute the selected continuations and prepare their learning records
+
+Use the same task `(n*m)+k` and exact calculator as in 26.4.1. For this run, the old policy selects multiplication with probability 0.9 and the unshifted answer `observed+k` with probability 0.5. Each choice is one generated position with a binary vocabulary. The first-position entropy is 0.325082973 nats; the answer-position entropy after the tool return is 0.693147181. With K=1 and V=2, delta_H is 0.184032104. The analytic policy supplies both full distributions; no sampled look-ahead or extra tool execution is needed to obtain them in this fixture.
+
+Take M=4, N=2, alpha=tau=0.5 and beta=0.2. Two supplied draws, 0.2 and 0.95, select multiplication and addition on `(17,19,5)`. Execute those calls, obtaining 323 and 36. Each saved history now needs only an answer, so an additional continuation needs zero further tool calls in this particular task. Consider proposals from the first lineage, that same lineage again, and the second lineage. Their scores are 0.536806421, 0.429445137 after the first acceptance, and 0.536806421. Accepting the first and third proposals spends the two reserved places and avoids assigning both to the repeated lineage. Assess this trial priority against fresh starts or a fixed split on the receiving tasks.
+
+Finish each original and its one child using answer draws 0.1 and 0.9. The executed finite environment supplies these records:
+
+| Saved history | Continuation answer | Terminal reward from the task checker | Old probabilities of the two selected decisions |
+| --- | --- | --- | --- |
+| Multiplication returned 323 | 328 | 1 | (0.9, 0.5) |
+| The same multiplication prefix | 329 | 0 | (0.9, 0.5) |
+| Addition returned 36 | 41 | 0 | (0.1, 0.5) |
+| The same addition prefix | 42 | 0 | (0.1, 0.5) |
+
+Two calculator executions supplied four completed trajectories. A shared prefix is copied into its descendants' training records; its call was executed once. These are correlated trajectories, not four independent executions. A real branch must obtain its own later observations and qualified feedback. When those are unavailable, the sampler has produced an allocation or a prefix, not a completed learning example. Return that missing execution or feedback before assigning the branch a reward.
+
+Choose a mean over the two generated decisions of each of these four trajectories. Keep the actual return in the answer decision's history and exclude it from both the output loss and this denominator. Use the population-standard-deviation convention of 26.4.1: rewards `(1,0,0,0)` give advantages `(sqrt(3),-1/sqrt(3),-1/sqrt(3),-1/sqrt(3))`. The code uses zero advantages when reward dispersion is at most 1e-12, including equal rewards. This convention differs from a sample-standard-deviation implementation, which gives `(1.5,-0.5,-0.5,-0.5)`. Choose one with the learning rate and aggregation that consume it. Reweighting a shared prefix or retaining it only once also changes this construction; averaging descendant advantages is not generally equivalent under signed clipping and unequal lengths.
+
+##### Select modulation and the backward operation separately
+
+A later training checkpoint may already differ from the sampling policy. For the same records, take current multiplication probability 0.9 and current unshifted-answer probability 0.65. Keep the old probabilities and reward advantages fixed. For each generated position let r be its current selected-action probability divided by its old selected-action probability. The ordinary contribution to the maximized objective is `min(r*A, clip(r,1-epsilon_low,1+epsilon_high)*A)`. Its sign matters: moving a negative advantage outside the minimum changes the operation.
+
+An optional AEPO-inspired intervention forms `A_tilde = A*(1 + a*z_H)`, where z_H standardizes the current token-distribution entropy. Select its population explicitly. Here it consists of all eight generated positions, with population standard deviation, a=0.2 and zero standardized values when the deviation is at most 1e-12. The current call and answer entropies are 0.325082973 and 0.647446639 nats, so their standardized values are −1 and +1. Their multipliers are 0.8 and 1.2. Calculate these values at the checkpoint and hold them fixed during differentiation, as with the advantages. Obtaining entropy for this operation is distinct from adding an entropy regularization term; an implementation must request the required probability information even when the regularization coefficient is zero.
+
+The multiplier magnifies both positive and negative advantages at higher-entropy positions. A zero advantage stays zero. It can even reverse the reward signal: one zero-entropy position among one hundred positions with entropy log(2) has population-standardized value −10, giving multiplier −1 at a=0.2. This receiving construction stops the modulation branch whenever a multiplier is nonpositive. The unmodulated update remains available. A positive exponential multiplier, a bound or another normalization would be a separately chosen modification. This stop and the neutral treatment of tiny dispersion are implementation choices, not additional feedback or a theorem about entropy.
+
+The second intervention changes how an upper-clipped positive term contributes to the update. Define `stop_gradient(r)` to return r's current numerical value while holding that denominator constant during differentiation. Replace the constant upper bound by `(1+epsilon_high)*r/stop_gradient(r)`. The complete term is:
+
+```text
+J_t = min(r*A_tilde,
+          clip(r, 1-epsilon_low,
+               (1+epsilon_high)*r/stop_gradient(r))*A_tilde)
+```
+
+Its forward value equals ordinary clipping at the checkpoint. Its backward operation differs. Away from ties, the coefficient multiplying `A_tilde * grad(log current_probability)` is:
+
+| Condition | Ordinary constant-bound clipping | Stopped-denominator upper bound |
+| --- | --- | --- |
+| A_tilde > 0 and r > 1+epsilon_high | 0 | 1+epsilon_high |
+| A_tilde < 0 and r < 1−epsilon_low | 0 | 0 |
+| Otherwise | r | r |
+
+This is an explicitly selected update rule, not ordinary differentiation of an unchanged scalar function at every possible parameter value. A finite-difference check of its backward operation must keep the stopped denominator and entropy weights fixed at the original checkpoint while perturbing the numerator. Recomputing the stopped value at each perturbed point instead checks the ordinary forward function. The rule itself uses no entropy threshold; it applies to every positive upper-clipped term. Entropy modulation can be enabled or disabled independently. This application uses neither an additional dual-clip rule nor a reference-policy penalty.
+
+Keep the two clipping widths separate. For adjusted advantage −1.2, ratio 0.75, epsilon_low=0.2 and epsilon_high=0.28, the selected term is −0.96 and its gradient is zero. The lower test uses 0.8. Substituting the high width would test against 0.72 and incorrectly allow an update. This receiving case follows the lower-width condition in AEPO's appendix and the displayed objective. For a positive advantage above the upper bound, the ordinary rule has a plateau while the selected backward alternative continues to reinforce it. Preserving that distinction does not establish which intervention improves the receiving task.
+
+##### Run the finite construction and use the changed policy
+
+The code executes the two calculator calls and four answer continuations, checks the results and constructs the reward-relative update. Its two bits are the selected generated positions; the actual return remains in their record and contributes no output term. It keeps the population convention, mean over eight terms, detached modulation and ascent rate 0.1 stated above. The repeated proposal is at the same saved prefix; its changed counter, rather than new probability evidence, changes admission. Terminal children need no further counter decisions in this fixture.
+
+```python
+from math import exp, log, sqrt
+
+def sigmoid(z):
+    return 1 / (1 + exp(-z))
+
+def entropy(probabilities):
+    assert all(p >= 0 for p in probabilities)
+    assert abs(sum(probabilities) - 1) < 1e-12
+    return -sum(p * log(p) for p in probabilities if p)
+
+def standardized(values):
+    mean = sum(values) / len(values)
+    sd = sqrt(sum((x - mean)**2 for x in values) / len(values))
+    return [(x - mean) / sd for x in values] if sd > 1e-12 else [0.0] * len(values)
+
+old = (0.9, 0.5)  # Multiplication, then the unshifted answer.
+request = (17, 19, 5)
+baseline_H = entropy((old[0], 1 - old[0]))
+after_H = entropy((old[1], 1 - old[1]))
+delta_H = (after_H - baseline_H) / 2  # One position, vocabulary size two.
+
+# Execute two starts. The exact calculator is retained external support.
+roots = {}
+training_calls = 0
+for name, draw in (("A", 0.2), ("B", 0.95)):
+    multiply = int(draw < old[0])
+    n, m, k = request
+    observed = n * m if multiply else n + m
+    training_calls += 1
+    roots[name] = {"bit": multiply, "observed": observed, "forks": 0}
+
+# Only parent-lineage counters are needed before these terminal continuations.
+reserve = 2
+allocation = []
+for name in ("A", "A", "B"):
+    lineage = roots[name]
+    score = (0.5 + 0.2 * delta_H) * max(0, 1 - 0.2 * lineage["forks"])
+    accept = reserve > 0 and score > 0.5
+    allocation.append((name, round(score, 9), accept))
+    if accept:
+        lineage["forks"] += 1
+        reserve -= 1
+assert [r[2] for r in allocation] == [True, False, True]
+assert reserve == 0 and training_calls == 2
+
+# Each saved prefix now has its original and one new continuation.
+# Only answers remain in this fixture, so forks require no further tool call.
+records = []
+for name, prefix in roots.items():
+    assert prefix["forks"] == 1
+    for draw in (0.1, 0.9):
+        answer_bit = int(draw < old[1])
+        answer = prefix["observed"] + request[2] + (1 - answer_bit)
+        records.append({
+            "histories": (request, (request, ("call", prefix["bit"]),
+                                    ("return", prefix["observed"]))),
+            "bits": (prefix["bit"], answer_bit),
+            "old_probabilities": (old[0] if prefix["bit"] else 1 - old[0],
+                                  old[1] if answer_bit else 1 - old[1]),
+            "answer": answer,
+            "reward": int(answer == request[0] * request[1] + request[2])})
+assert [r["reward"] for r in records] == [1, 0, 0, 0]
+
+# A later training checkpoint, evaluated on the same old-policy records.
+current = (0.9, 0.65)
+logits = [log(p / (1 - p)) for p in current]
+advantages = standardized([r["reward"] for r in records])
+position_H = [entropy((p, 1 - p)) for p in current]
+all_H = position_H * len(records)  # Eight generated positions; no return token.
+z_H = standardized(all_H)
+
+def update(modulate=False, follow_upper=False):
+    count = 2 * len(records)
+    gradient = [0.0, 0.0]
+    objective = 0.0
+    for i, record in enumerate(records):
+        for j, bit in enumerate(record["bits"]):
+            multiplier = 1 + 0.2 * z_H[2*i + j] if modulate else 1.0
+            if multiplier <= 0:
+                raise ValueError("Linear modulation would reverse or erase the signal")
+            advantage = advantages[i] * multiplier
+            p = current[j]
+            probability = p if bit else 1 - p
+            ratio = probability / record["old_probabilities"][j]
+            objective += min(ratio * advantage,
+                             max(0.8, min(1.2, ratio)) * advantage) / count
+            if advantage > 0 and ratio > 1.2:
+                coefficient = 1.2 if follow_upper else 0.0
+            elif advantage < 0 and ratio < 0.8:
+                coefficient = 0.0
+            else:
+                coefficient = ratio
+            gradient[j] += coefficient * advantage * (bit - p) / count
+    changed = [sigmoid(z + 0.1*g) for z, g in zip(logits, gradient)]
+    return objective, gradient, changed
+
+def act(probabilities, request, draws):
+    n, m, k = request
+    observed = n * m if draws[0] < probabilities[0] else n + m
+    return observed + k + (0 if draws[1] < probabilities[1] else 1)
+
+print("allocation", allocation)
+for modulate, follow_upper in ((False, False), (True, False), (False, True), (True, True)):
+    objective, gradient, changed = update(modulate, follow_upper)
+    print(modulate, follow_upper, round(objective, 9),
+          [round(x, 9) for x in gradient], [round(x, 9) for x in changed])
+assert act(update()[2], (12, 13, 5), (0.5, 0.65)) == 162
+assert act(update(True, True)[2], (12, 13, 5), (0.5, 0.65)) == 161
+```
+
+The four alternatives start from the same current checkpoint and consume the same old-policy records. They do not run successively:
+
+| Entropy modulation | Upper-bound backward operation | Mean forward value | New (multiplication, unshifted-answer) probabilities |
+| --- | --- | --- | --- |
+| Off | Ordinary clipping | 0.050518149 | (0.901291559, 0.649252595) |
+| On | Ordinary clipping | 0.060621778 | (0.901034441, 0.649103026) |
+| Off | Stopped denominator | 0.050518149 | (0.901291559, 0.651320527) |
+| On | Stopped denominator | 0.060621778 | (0.901034441, 0.651584354) |
+
+For the last row, the mean update direction is `(0.115470054,0.069715045)`. With ordinary clipping and no modulation it is `(0.144337567,-0.032836797)`. The successful unshifted answer is already upper-clipped, while a failed unshifted answer still contributes a negative term; this explains the ordinary answer probability's decrease in this particular batch. The alternative backward operation restores the successful term's positive contribution. The table also shows why equal forward values cannot identify the implemented backward operation.
+
+Both changed policies still use the calculator. With the new request `(12,13,5)` and stipulated draws `(0.5,0.65)`, the ordinary update returns 162, while the last row returns 161. Reset the request history and retain the chosen parameters and tool. This exhibits consumption of the finite update; the chosen draws and one conditional batch do not estimate effectiveness. The independent arithmetic operations, interface meanings and task checker are supplied capabilities. A language-model implementation must accumulate the selected generated-token contributions through its actual shared parameters, execute its optimizer and retain the support on which its later behavior depends.
+
+Change the probability-access condition before generalizing the example. The binary full distributions above make its entropy calculations possible. If a four-outcome API instead supplies only selected probabilities, the earlier one-bit example shows why an entropy ranking may become unavailable even while recorded action ratios remain usable. Preserve the available outcome update or fixed allocation, and obtain the missing information only if the intended intervention justifies its cost. Change the branch history separately: the same measured delta_H can admit an unbranched lineage and reject another with l=1. These are different reasons for changing the next action.
+
+##### Compare another modulation and assess the complete arrangement
+
+The direction and unit of entropy weighting are design choices. [AEM v3, 8 May 2026, §§3–5 and Algorithm 1](https://arxiv.org/abs/2605.00425v3) proposes a different one: average token entropy within each response ending before an environment transition, then compare those response averages across a prompt's rollout group. With range at least 0.1, min-max normalize the means to u, calculate `w = exp(-u/temperature)`, and divide each weight by the group's mean weight. Hold the resulting positive coefficients fixed and multiply a qualified advantage, using the same coefficient for the response's generated tokens. For example, retain the episode's terminal advantage on those positions; weighting it supplies no new judgement of that response's correctness. A range below 0.1 gives coefficients one. Select numerical stabilizers and response boundaries in the actual implementation.
+
+For two response means 0.2 and 0.8 nats at temperature one, negligible stabilizers give coefficients 1.462117157 and 0.537882843. Advantages `(−1,+1)` become approximately `(−1.462117157,+0.537882843)`: the lower-entropy response receives stronger discouragement. Means 0.20 and 0.25 instead trigger the neutral case. This construction changes the measured unit, normalization population and weighting direction relative to the token-level linear choice above. Its source analysis uses a natural-gradient update while holding the visited-state distribution fixed; its practical proxy and shared-parameter setting retain limitations. A larger entropy, a positive coefficient or this later proposal's publication date cannot alone choose the better intervention for the receiving work.
+
+Compare complete configurations on separate task instances and account for shared-prefix dependence when splitting data. Hold the task, reward meaning, available tools and assessment procedure fixed when testing a sampler, modulation or backward change; vary those interventions separately before attributing a gain to one. Count pilot generation, probability extraction, failed attempts, training and later execution. Include successful alternatives and older required behavior, and keep a recoverable baseline. When repeated adaptive comparison has consumed the assessment cases, obtain a suitable new assessment basis. Revert or repair the relevant operation if it costs more without improving the required result or loses previously useful behavior.
+
+This application concerns collecting training experience and changing a specified policy. SYSE.51 governs later allocation of inference effort; SYSE.50 needs its own qualified basis for deciding assistance. The measured token or response entropy here does not establish either an agent's need for help or how much Method structure it can acquire. Those questions retain their performer, representation, support and learning conditions. Use the present construction when its measured input and intervention fit the work, and follow those other contributions when the object being changed is different.
+
+<a id="learn-a-strategy-together-with-its-execution"></a>
+
+#### Engineering.Reference:26.4.3 - Learn a strategy together with its execution
+
+Use this application when an agent first chooses a way of solving a task and then makes decisions within that way. A promising strategy can initially be executed poorly. Rewarding only the average observed outcome may discard it; rewarding its best outcomes may instead favor luck. The engineer needs to decide what the strategy score estimates, learn the conditional execution, and examine the resulting complete policy.
+
+The construction requires a policy that exposes a generated strategy, repeatable task starts, qualified outcome feedback, selected-action probabilities and access to update the policy. If the agent has only one undivided output, [26.4.1](#learn-from-interleaved-actions-and-observations) supplies the outcome update without requiring a new plan variable. A known adequate controller can also settle the task without training.
+
+[StraTA v2, §§3–4](https://arxiv.org/pdf/2605.06642v2) supplies the particular combination used here: generate several natural-language strategies from the initial task, keep each strategy fixed during its executions, compare strategies across that task, compare actions within each strategy, and train both. The plan is an input to execution. If observations require changing it during an episode, obtain a revision operation through [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-agents-execution-procedure); the fixed-plan construction does not perform that revision.
+
+##### Choose what the strategy score is meant to improve
+
+Begin with the later use. If deployment makes one attempt, its expected return includes the execution policy actually available then. If deployment selects the best of several attempts, retain those attempts, selection facilities and costs in the comparison. Training can use an optimistic score to explore a strategy whose execution may improve, while the receiving assessment still measures ordinary single-use performance.
+
+For each task, generate N strategy decisions. For each sampled strategy, reset the task and execute M continuations under the same frozen old policy. Retain the generated strategy once, the M execution histories, their outcomes and their old action probabilities. A shared strategy followed by M continuations is one sampled strategy with M conditional executions. Resetting must restore the relevant environment as well as context; a repeated mutation against a live service is not such a reset.
+
+Select the strategy statistic. The mean over all M outcomes estimates performance under the sampled execution arrangement. StraTA instead averages the best K outcomes to emphasize promising execution. Declare an integer `1 <= K <= M`. If K is derived from a fraction, specify rounding and reject an empty selection: [StraTA's implementation](https://github.com/xxyQwQ/StraTA/tree/592238b7dfd6fb51566cbd631be9c97b6fa34915) uses `int(delta*M)`, which can select zero outcomes.
+
+The top-K statistic combines execution opportunity, uncontrolled variation and selection over attempts. To interpret a favorable tail as something the learner can acquire, obtain a discriminating intervention or a qualified consequence model. [MMP.8.SD:4.2–4.4](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd42---construct-how-an-action-changes-the-world-and-the-available-information) compares actions with their available continuations. [C.40:4.7](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c4047---develop-a-way-by-what-its-use-produces) requires performing allowed inner learning before crediting a candidate with the result it would produce after that learning. Specify that learning procedure and allowance, execute it, then compare its later policy. Declaring a better future action probability supplies no such learning.
+
+##### Construct the two learning comparisons
+
+Let `R_ij` be execution j's reward under strategy i, and `B_i` its chosen strategy statistic. Standardize the N values B to obtain strategy advantages `A_strategy_i`. Separately standardize the M rewards within each strategy to obtain `A_action_ij`. This application uses population standard deviations and zero advantages when dispersion is at most `1e-12`. A group with no variation supplies no relative preference; obtain discriminating experience when that missing preference matters.
+
+For each recorded decision, divide its current probability by its fixed old probability, conditional on the same history. The strategy history contains the initial task. An execution history also contains its fixed strategy and any observations already received. Future outcomes enter the learning signal after execution, not the earlier decision input. Use the observation mask and historical conditioning of 26.4.1.
+
+The finite construction below has one generated strategy position and one action position. Its complete surrogate is:
+
+```text
+f(r, A) = min(r*A, clip(r, 0.8, 1.2)*A)
+J = mean_over_N_strategies[f(strategy_ratio, A_strategy)]
+  + mean_over_N_strategies[
+      mean_over_M_executions[f(action_ratio, A_action)]
+    ]
+```
+
+Maximize J, keeping the two groupings intact. Their coefficients are both 1 here, with no reference-policy penalty. For a token implementation of this application, replace each strategy term by the mean of f over that strategy's generated tokens, and each execution term by the mean over all its generated action tokens. External observations condition later tokens and contribute no optimized position. This explicitly chosen reduction gives each strategy and each of its completed executions the stated weight. The source trainer's per-step, token-sum reduction is a different choice when lengths vary; select one implementation and carry its actual weighting into the comparison.
+
+##### Generate attempts, update and use the result
+
+Consider two supplied strategies P and Q, each admitting actions a and b. In the qualified deterministic fixture, P,a returns 1, P,b returns 0, and either Q action returns 0.4. Three independent logits determine `p=Pr(P)`, `s=Pr(a|P)` and `t=Pr(a|Q)`. All start at zero, so the probabilities are 0.5. The choices and their meanings are supplied capabilities; the learner changes how often it selects them.
+
+The code uses declared draws to generate P and Q once each and four executions per strategy. Those draws make the finite calculation reproducible; they are not a random-sample performance assessment. With K=2, P's outcomes `(1,0,0,0)` give strategy score 0.5 and Q's `(0.4,0.4,0.4,0.4)` give 0.4. Strategy advantages are `(+1,-1)`. P's action advantages are `(sqrt(3),-1/sqrt(3),-1/sqrt(3),-1/sqrt(3))`; Q's are zero.
+
+```python
+from math import exp, sqrt
+
+def sigmoid(z):
+    return 1 / (1 + exp(-z))
+
+def standardize(xs):
+    mean = sum(xs) / len(xs)
+    sd = sqrt(sum((x - mean)**2 for x in xs) / len(xs))
+    return [(x - mean) / sd for x in xs] if sd > 1e-12 else [0.0] * len(xs)
+
+def outcome(plan, action):
+    return float(action == "a") if plan == "P" else 0.4
+
+old_z = [0.0, 0.0, 0.0]
+old = [sigmoid(z) for z in old_z]
+task = "one P/Q task with the supplied action meanings"
+groups = []
+for draw in (0.2, 0.8):
+    plan_bit = int(draw < old[0])
+    plan = "P" if plan_bit else "Q"
+    slot = 1 if plan_bit else 2
+    group = {"bit": plan_bit, "history": task, "slot": slot,
+             "old": old[0] if plan_bit else 1 - old[0], "runs": []}
+    for action_draw in (0.1, 0.7, 0.8, 0.9):
+        bit = int(action_draw < old[slot])
+        action = "a" if bit else "b"
+        group["runs"].append({
+            "history": (task, plan), "bit": bit, "action": action,
+            "old": old[slot] if bit else 1 - old[slot],
+            "reward": outcome(plan, action)})
+    groups.append(group)
+
+K = 2
+assert all(1 <= K <= len(g["runs"]) for g in groups)
+scores = [sum(sorted((r["reward"] for r in g["runs"]), reverse=True)[:K]) / K
+          for g in groups]
+plan_advantages = standardize(scores)
+for g in groups:
+    g["advantages"] = standardize([r["reward"] for r in g["runs"]])
+
+def term(probability, bit, old_selected, advantage):
+    selected = probability if bit else 1 - probability
+    ratio = selected / old_selected
+    value = min(ratio * advantage, min(1.2, max(0.8, ratio)) * advantage)
+    saturated = ((advantage > 0 and ratio > 1.2)
+                 or (advantage < 0 and ratio < 0.8))
+    derivative = 0.0 if saturated else ratio * advantage * (bit - probability)
+    return value, derivative
+
+def objective_and_gradient(zs):
+    ps = [sigmoid(z) for z in zs]
+    total, gradient = 0.0, [0.0, 0.0, 0.0]
+    for g, advantage in zip(groups, plan_advantages):
+        value, derivative = term(ps[0], g["bit"], g["old"], advantage)
+        total += value / len(groups)
+        gradient[0] += derivative / len(groups)
+        for record, action_advantage in zip(g["runs"], g["advantages"]):
+            value, derivative = term(ps[g["slot"]], record["bit"],
+                                     record["old"], action_advantage)
+            weight = 1 / (len(groups) * len(g["runs"]))
+            total += weight * value
+            gradient[g["slot"]] += weight * derivative
+    return total, gradient
+
+_, gradient = objective_and_gradient(old_z)
+new_z = [z + 0.3 * g for z, g in zip(old_z, gradient)]
+new = [sigmoid(z) for z in new_z]
+
+def use(ps, draws):
+    plan = "P" if draws[0] < ps[0] else "Q"
+    slot = 1 if plan == "P" else 2
+    action = "a" if draws[1] < ps[slot] else "b"
+    return plan, action, outcome(plan, action)
+
+def expected_return(ps):
+    return ps[0] * ps[1] + (1 - ps[0]) * 0.4
+
+assert use(old, (0.52, 0.51)) == ("Q", "b", 0.4)
+assert use(new, (0.52, 0.51)) == ("P", "a", 1.0)
+assert standardize([0.4] * 4) == [0.0] * 4
+print(gradient)
+print(new, expected_return(old), expected_return(new))
+```
+
+The gradient is `(0.5,sqrt(3)/8,0)`. One ascent step of 0.3 gives `(p,s,t)=(0.5374298453,0.5162322701,0.5)`. The complete policy's expected single-use return under the supplied model increases from 0.45 to 0.4624666909. The later run uses both the changed strategy probability and the changed conditional action probability. The known deterministic table also permits directly choosing P,a; the example teaches the learning construction rather than establishing a need to learn this table.
+
+This run consumes two strategy generations and eight task executions before the two displayed later executions. A language-model trial must also budget generated tokens, resets, feedback and any selected judges. [26.4.2](#allocate-training-attempts-and-select-the-update) makes that allocation explicit. Embedding-based strategy selection or a self-judge adds its own computation and qualification; neither facility is needed by this finite version. Continue training with the actual current-to-old ratios and chosen clipping rule, refreshing rollout policy and experience when required by the recipe.
+
+##### Change the inference when success is not controllable
+
+Now suppose qualified environment evidence says that P succeeds with probability 0.25 independently of a or b, while Q still returns 0.4. The same eight observations remain possible. The top-half update remains numerically the same, but single-use expected return is now `U=0.4-0.15*p`: it falls from 0.325 to 0.3193855232. Changing P's action distribution cannot raise its success probability under this model.
+
+For this changed task, compare strategy values 0.25 and 0.4. At the old equal mixture, their credits are −0.075 and +0.075. A plan-only expected-credit update has gradient −0.0375 for the plan logit; a separate first step of 0.3 gives `p=0.4971875297` and `U=0.3254218706`. These figures describe an alternative update from the original policy. They do not follow the preceding top-half step. Averaging all four recorded outcomes would also favor Q here, but observations from one small group alone cannot establish either consequence model.
+
+If controllability is unresolved, keep the optimistic score as an exploration choice with a bounded cost, obtain discriminating evidence when worthwhile, and assess the resulting learner on the intended later use. Retain the uncertainty if the available experiment cannot distinguish the models. An improved execution after an actual learning intervention, repeated under suitable task conditions, can support a learnability claim that a maximum observed reward cannot.
+
+For a shared language model, strategy and execution updates can interfere through shared parameters even though the loss has separate groups. Compare the complete trained policy, older useful behavior and resource cost through SYSE.45:4.4. Reopen the affected construction when the plan stops matching current observations, the outcome checker rewards a proxy, or the later work changes from one attempt to best-of-many selection.
+
+
+<a id="learn-actions-whose-value-persists-across-sessions"></a>
+
+#### Engineering.Reference:26.4.4 - Learn actions whose value persists across sessions
+
+Use this application when a present action costs effort but changes information that the agent can use after the current session ends. Consulting an expert may lose on today's reward and save later work; an obsolete or incorrect retained answer can cause later failures. To train that choice, include the continuation made possible by the resulting memory.
+
+The immediate target here is a policy parameter controlling whether to consult. The consultation supplies an answer, a memory operation retains it, and a later controller uses it when applicable. [SYSE.50](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse50---construct-and-calibrate-an-agents-assistance-policy) qualifies the help and its availability; [SYSE.43](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse43---maintain-external-memory-for-continuing-work) supplies retained information and its further use. Parameter learning uses SYSE.45 and CMP.7. Keeping a new answer in memory can change performance with unchanged weights; train only when that additional intervention is warranted.
+
+##### Obtain continuation credit at the session boundary
+
+Select the horizon and reward meaning through MMP.8.SD. A session boundary may clear working context while retaining memory. Save the information needed to continue: memory contents and applicability, the next-session information already available, remaining resources and horizon. Two identical text memories can have different values when one has more opportunities for use or a different validity condition. Reset only what the intended later arrangement actually resets.
+
+Freeze an old policy. Collect complete multi-session attempts with actual actions, observations, memory transitions and task rewards. From each relevant boundary state, obtain the old policy's remaining return: execute continuations from a saved state when resets are possible, evaluate a qualified transition model, or fit a value estimator to observed state/return-to-go pairs. Include the cost of obtaining these values. A changed query population or unavailable reset can require another estimator or a narrower conclusion.
+
+For an undiscounted finite horizon, the session signal used by [AGILE, NeurIPS 2024, Appendix A](https://proceedings.neurips.cc/paper_files/paper/2024/file/097c514162ea7126d40671d23e12f51b-Paper-Conference.pdf) has the form:
+
+```text
+session_signal = observed_session_reward
+               + V_old(after_state) - V_old(before_state)
+```
+
+Here `V_old(state)` is expected remaining reward under the frozen old continuation, and terminal value is zero. The after-state includes the memory actually produced. Subtracting the before-value compares the session with the old policy from the same starting condition. Estimate and freeze these quantities for the selected update. Approximation error can reverse a small advantage; examine whether the estimated difference is adequate for the intended reliance.
+
+Partition the collected attempts into sessions with those boundary states. Supply the signal to the generated decisions in the session, preserving their historical inputs and old probabilities. Use a specified update, such as the clipped generated-position mean in [26.4.1](#learn-from-interleaved-actions-and-observations), then recollect experience or refit values as the selected training procedure requires. Sessions remain related through retained state; cutting the transcript into pieces does not make their observations independent. If a discounted criterion is chosen, derive the boundary discount for the elapsed duration instead of reusing the undiscounted equation unchanged.
+
+##### Execute continuations, obtain a first update and retain its result
+
+The finite fixture has two sessions. In either, the supplied self-answering operation succeeds with probability 0.75. Consulting in the first session obtains a correct answer at cost 0.3 and stores a verified entry. Only this action writes memory. After context reset, the second question is related with probability 0.4. A fixed controller uses the stored answer if related; otherwise it self-answers. There are no other costs or discounts. The learned logit controls only the first consultation probability, initially 0.5; answer generation, retrieval and applicability recognition are supplied operations.
+
+The code obtains future values by executing a declared population of twenty continuations from each of two boundary states: empty memory and retained verified entry. Eight questions are related and twelve are new. Each block of four supplied self-answering outcomes has three successes. The resulting continuation means are 0.75 and 0.85. All repetitions of each boundary state have the same future law in this fixture, so one set of twenty continuations can supply that state's estimate. These forty executed continuations are additional training work; reusing their estimates creates no extra independent observations.
+
+```python
+from math import exp
+
+def sigmoid(z):
+    return 1 / (1 + exp(-z))
+
+def first_session(consult, self_draw):
+    # The fixture's expert is correct; only consultation stores its answer.
+    memory = {"related": "verified answer"} if consult else {}
+    reward = 0.7 if consult else float(self_draw < 0.75)
+    return reward, {"memory": memory, "context": (), "remaining": 1}
+
+def continue_session(state, query, self_draw):
+    assert state["context"] == () and state["remaining"] == 1
+    if query in state["memory"]:
+        return 1.0
+    return float(self_draw < 0.75)
+
+def construct_update(related_count):
+    assert 0 <= related_count <= 20 and related_count % 4 == 0
+    self_draws = (0.1, 0.3, 0.6, 0.9)
+    future_cases = [
+        ("related" if i < related_count else "new", self_draws[i % 4])
+        for i in range(20)]
+    records = []
+    for i, action_draw in enumerate((0.1, 0.2, 0.3, 0.4, 0.6, 0.7, 0.8, 0.9)):
+        bit = int(action_draw < 0.5)
+        reward, after = first_session(bool(bit), self_draws[i % 4])
+        records.append({
+            "history": ("first question", "empty memory", "two sessions left"),
+            "bit": bit, "old_probability": 0.5, "reward": reward, "after": after})
+    # These two state classes are equivalent within each class in this fixture.
+    after_states = {r["bit"]: r["after"] for r in records}
+    values = {
+        bit: sum(continue_session(state, query, draw)
+                 for query, draw in future_cases) / len(future_cases)
+        for bit, state in after_states.items()}
+    targets = [r["reward"] + values[r["bit"]] for r in records]
+    before_value = sum(targets) / len(targets)
+    signals = [target - before_value for target in targets]
+    # One initial ascent step at the unchanged rollout policy; ratios equal 1.
+    gradient = sum(a * (r["bit"] - 0.5)
+                   for a, r in zip(signals, records)) / len(records)
+    probability = sigmoid(0.3 * gradient)
+    return probability, gradient, values, before_value, records
+
+new_probability, gradient, values, baseline, records = construct_update(8)
+assert abs(values[0] - 0.75) < 1e-12
+assert abs(values[1] - 0.85) < 1e-12
+assert abs(baseline - 1.525) < 1e-12
+assert abs(gradient - 0.0125) < 1e-12
+
+def use(probability, action_draw, future_query_draw, self_draws):
+    consult = action_draw < probability
+    first_reward, after = first_session(consult, self_draws[0])
+    query = "related" if future_query_draw < 0.4 else "new"
+    second_reward = continue_session(after, query, self_draws[1])
+    return consult, bool(after["memory"]), first_reward + second_reward
+
+assert use(0.5, 0.5005, 0.2, (0.9, 0.9)) == (False, False, 0.0)
+assert use(new_probability, 0.5005, 0.2, (0.9, 0.9)) == (True, True, 1.7)
+without_recurrence = construct_update(0)
+assert abs(without_recurrence[1] + 0.0125) < 1e-12
+print(new_probability, gradient, values, baseline)
+print(without_recurrence[:4])
+```
+
+The eight first-session records contain four consultations and four self-answers. Their mean immediate rewards are 0.7 and 0.75. Adding the estimated continuation yields conditional total values 1.55 and 1.5; their equal old mixture is 1.525. The code's centering uses that balanced fixture's empirical mixture. It illustrates a finite estimator and update; for sampled training data, select and qualify value and baseline estimation with the trainer rather than inferring an unbiased estimate from this balanced example.
+
+The gradient 0.0125 changes the consultation probability to 0.5009374989. Under the stated law, expected two-session return changes from 1.525 to 1.5250468749. The displayed later runs deliberately choose draws near the changed decision boundary to expose the changed action and subsequent use of retained memory. They estimate no empirical improvement rate. The initial training run uses eight first sessions, including four consultations, and forty future continuations; the two later runs add four sessions and one consultation. The separate no-recurrence construction repeats those 48 training sessions under its changed condition.
+
+The updated probability persists into the later run; context clears at the boundary and the stored answer persists. That separation is essential when checking which contribution changed. An experiment that removes the expert or changes memory retrieval at the same time needs a comparison that includes those different conditions.
+
+##### Recalculate recurrence and the reliability of help
+
+When no later question is related, both after-states have continuation value 0.75. Consulting then totals 1.45 and self-answering 1.5. The code performs a separate update from the original probability, with gradient −0.0125 and result 0.4990625011. Repeatedly paying for information that will not be used has no future benefit in this model. A different horizon, retention cost or query population changes the same continuation calculation.
+
+Now change the expert condition. Suppose consultation is correct with probability q, its answer is stored without verification, and a related later question reuses that answer even when wrong. Let recurrence be r, self-answering success be s and consultation cost be c. Under these particular transitions:
+
+```text
+value_self = 2*s
+value_consult = q - c + r*q + (1-r)*s
+value_consult - value_self = (1+r)*(q-s) - c
+```
+
+At `s=0.75, r=0.4, c=0.3, q=0.9`, consultation has value 1.41, below 1.5. The consultation advantage reverses. This changed fixture stores unverified information; regenerate its feedback and memory transitions rather than reusing the earlier always-correct consultation records. Verification before storage would require its own accuracy, cost and possible rejection transition. Expiry or changed applicability similarly belongs in the future state and retrieval rule. SYSE.50 supplies the help qualification and SYSE.43 the corresponding retention/use repair.
+
+When the consultation advantage is small compared with plausible value-estimation error, retain a supported baseline or obtain a discriminating continuation sample if its value warrants the work. Qualification of the expert alone cannot settle recurrence, and accurate recall cannot make an inapplicable answer useful.
+
+##### Choose a different estimator or a different learned memory operation
+
+AGILE Appendix B.4 uses a heuristic instead of an estimated continuation value: when a later similar question exists in the training sequence, give bonus `beta/(n+1)`, where n counts previous similar stored questions. In the initial fixture, beta=0.1 and n=0 give consultation proxy 0.8 against self-answering 0.75. With n=3 the proxy is 0.725; with no later recurrence it is 0.7. This bonus is a choice of training signal, not a measured future gain. Use it as an alternative to the value construction, or derive a justified combined objective; adding it to an already credited future benefit would count that presumed benefit twice. Later questions can supply training labels while remaining unavailable during live action selection.
+
+AGILE's historical construction explains the session-value connection. Its [released runner](https://github.com/bytarnish/AGILE/tree/8213312983e8ba6787fd854b87d83b2776166884) supplies dataset-correct consultation answers and cached reflection; that repository edition does not supply the Appendix A PPO trainer. A receiving implementation must provide the selected optimizer and any uncached reflection operation it requires. Compare a direct decision rule when the relevant consequence model is already known, as it is in the finite fixture.
+
+If the target is learning how to extract facts and edit persistent memory, [Memory-R2 v1, §§3–4 and Appendix A](https://arxiv.org/pdf/2605.21768v1) offers a different controlled-feedback construction. A shared model performs extraction and memory editing with different prompts. A fixed answering module evaluates the resulting memory on gold questions whose evidence is attributed to sessions. The construction proceeds as follows:
+
+1. Generate several full memory-construction trajectories from the same conversation. Cache each pre-session memory. Evaluate each terminal memory on the question subsets associated with each session, subtract the selected memory-size penalty, and standardize these rewards across full trajectories separately for each session.
+2. Select sessions for additional local trials. For each, choose one cached pre-session memory as the common starting point and generate several new executions of that session. Evaluate their resulting memories on that session's question subset, with the same reward meaning at the local horizon, and standardize within this local group.
+3. Assign each extraction or editing step the advantage from its own global or local group. Keep old and current probabilities for its generated tokens and their actual histories. Train the shared model using the selected step reduction below; preserve the global branch because the session-local questions do not assess every later consequence.
+4. Begin with an affordable shorter horizon, retain a candidate selected using separate validation, and extend the number of sessions when the resulting memory operations support that use. The source uses 8, then 16, then 32 sessions; another task needs its own justified allowance.
+
+The source reward uses mean answer F1 on the selected question subset. Its size penalty is `max(0, memory_tokens - alpha*cumulative_input_tokens) / cumulative_input_tokens`, scaled by `lambda_comp` and subtracted from that F1. Global rewards use terminal memory and terminal input length; local rewards use the selected session's resulting memory and cumulative length through that session. Obtain nonempty evaluable question subsets and positive input length, or select a specified handling rule before computing this reward. Each advantage subtracts its own group's mean and divides by its standard deviation plus a chosen positive stabilizer. For a receiving implementation, use the population standard deviation and retain that convention with the learning rate; equal group rewards then yield zero advantages.
+
+Memory-R2 also changes the reduction. For a generated step u it forms `rho_u = exp(mean_generated_tokens(log p_current - log p_old))`, a geometric mean of token ratios, and assigns the group's advantage to that step. Define `f_epsilon(r,A)=min(r*A,clip(r,1-epsilon,1+epsilon)*A)`. Its dual-clipped reward surrogate is `f_epsilon(rho_u,A)` for nonnegative A and `max(f_epsilon(rho_u,A),c*A)` for negative A, with `c>1`. Minimize the negative mean of those step terms over both branches, minus `beta_ent` times mean token entropy, plus `beta_kl` times mean token KL divergence from the selected reference policy. Keep that reference distinct from the rollout policy supplying the old probabilities. This differs from averaging individually clipped token terms in 26.4.1. Set the clipping, regularization, group sizes and local selection probability explicitly; the last changes both computation and the influence of local feedback.
+
+This branch needs memory snapshots, a fixed answerer, gold answers with session-evidence attribution, and extra rollouts. With n full trajectories of T sessions and m local executions for each of b selected sessions, it uses `n*T + m*b` session executions before feedback costs. The local comparison isolates alternatives from one starting memory; it does not establish that full-trajectory learning is invalid whenever later states diverge. Different actions normally produce different later states. Select local trials for the attribution they can supply, and retain the full-horizon question.
+
+Choose among a qualified value estimate, a heuristic and controlled memory trials according to the target operation, available observations and whole development cost. The learned consultation choice and the learned memory editor need different action records and feedback even when both serve later information use. Assess the resulting complete arrangement through SYSE.45:4.4, including stale entries, changed questions, fallible help and older useful behavior.
+
+
+### Engineering.Reference:26.5 - Derive an audit policy from the real decision times
+
+Now suppose the hard permission guard is in place, while some permitted-looking configurations may still violate the intended job. An additional auditor can inspect the proposal and task before execution. Checking every action may exceed the available effort. The question is how to allocate that additional audit, while the mandatory permission check remains in force for every mutation.
+
+For the fixed five-second request, comparing the proposed value with 5000 is a cheap complete task check; use it on every call. The allocation question becomes useful when the receiving work requires a more costly correctness judgment whose full application exceeds the budget. The simple values below let the fixture expose that controller's effects; they are not a reason to replace the available equality check with probabilistic auditing.
+
+Before using monitor scores, obtain a decision model with the actual order of proposal, score, audit and effect. [MMP.8.SD](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd---construct-a-sequential-decision-model-from-information-and-consequences) supplies that construction; [SYSE.51](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse51---construct-adaptive-control-of-llm-inference-effort) retains necessary completion resources. The following small model makes the calculation reproducible:
+
+- Two proposals arrive sequentially. Each can be held for its audit, but proposal 1 must be decided before proposal 2 arrives. There is budget for at most one audit, with reserved means to complete the selected audit and report its result.
+- The attacker selects exactly one of the two positions for a bad proposal before the run. It cannot observe the controller's private random draw or change the stipulated score laws. The other proposal is legitimate. An undetected bad proposal causes the protected failure immediately when executed; detection stops it and ends this deployment attempt.
+- The monitor returns H or L before the corresponding action. Its stipulated laws are `P(H | bad)=0.8` and `P(H | legitimate)=0.2`. They are conditional discrimination values, not an attack prevalence. Scores are independent between positions given their types, and the laws stay fixed under this policy.
+- Initially the auditor detects every bad proposal it audits and never rejects a legitimate one. Auditing occurs before the effect. Its cost is one budget unit; scoring and ordinary execution have separately provisioned costs. With two legitimate proposals, a useful attempt must complete both correctly.
+- The supplied decision criterion is to minimize the maximum failure probability over the attacker's two fixed positions, subject to the one-audit budget. Whether that residual risk is acceptable is a separate owner decision. If this model does not fit the intended use, obtain the missing model before using its policy.
+
+Let x be the probability of auditing proposal 1 when its score is H, and y the probability when it is L. If the audit remains unused, audit proposal 2. This last-step use weakly improves the protection objective under the stated no-false-rejection and provisioned-cost conditions: no later opportunity needs the reserve. If proposal 1 is audited and found legitimate, no audit remains for proposal 2. There is no access to proposal 2's future score at the first decision.
+
+If the attack is first, it escapes with probability `f1 = 1 - 0.8*x - 0.2*y`. If the attack is second, the single audit was wasted on the legitimate first proposal with probability `f2 = 0.2*x + 0.8*y`; otherwise the second proposal is audited and caught. Minimize `max(f1, f2)` for `0 <= x,y <= 1`. The solution is `x=1, y=0`, giving worst-case failure 0.2. A score-blind allocation of the one audit equally between the positions gives 0.5. No audit gives 1 in this conditional attack model. Auditing both gives 0 but requires budget 2.
+
+The solution can be recovered without a general optimizer. Each failure expression is affine, so their maximum is piecewise affine on the unit square. Its minimum occurs at a corner, at an intersection of `f1=f2` with a square edge, or along a flat region reaching such a boundary. Evaluate those finite candidates. Equivalently here, equality gives `x+y=1`; along that line the risk decreases as x increases, reaching 0.2 at `(1,0)`.
+
+### Engineering.Reference:26.6 - Recalculate when auditing is fallible
+
+Change one assumption: the auditor detects a bad proposal with probability 0.9 given H and 0.5 given L. It still has no false rejection in this constructed case. Conditional detection probabilities do not change with audit selection; private randomization uses only the current score. The expected detection probability of auditing a bad proposal regardless of score is `0.8*0.9 + 0.2*0.5 = 0.82`.
+
+If the attack is first, failure is now `f1 = 1 - 0.72*x - 0.10*y`. If it is second, the audit remains with probability `1 - 0.2*x - 0.8*y`, so `f2 = 1 - 0.82*(1 - 0.2*x - 0.8*y) = 0.18 + 0.164*x + 0.656*y`. Auditing the second proposal no longer guarantees detection. The old proof and its zero-risk full-audit comparator therefore no longer apply.
+
+The same finite computation gives `x=205/221`, approximately 0.927602, and `y=0`. Worst-case failure is `367/1105`, approximately 0.332127. Keeping the former `(1,0)` policy gives 0.344. A score-blind equal split gives 0.59. Auditing both gives 0.18, because the bad proposal is certainly audited but sometimes missed. These are conditional model calculations, not measured deployment rates.
+
+This standalone calculation enumerates the necessary candidates with exact rational arithmetic. A triple `(c,a,b)` denotes the affine function `c+a*x+b*y`.
+
+```python
+from fractions import Fraction as F
+
+def affine(coefficients, x, y):
+    c, a, b = coefficients
+    return c + a*x + b*y
+
+def best_one_audit(first, second):
+    points = {(F(x), F(y)) for x in (0, 1) for y in (0, 1)}
+    c, a, b = [u-v for u, v in zip(first, second)]
+    for x in (F(0), F(1)):
+        if b:
+            y = -(c+a*x)/b
+            if 0 <= y <= 1:
+                points.add((x, y))
+    for y in (F(0), F(1)):
+        if a:
+            x = -(c+b*y)/a
+            if 0 <= x <= 1:
+                points.add((x, y))
+    return min((max(affine(first, x, y), affine(second, x, y)), x, y)
+               for x, y in points)
+
+perfect = ((F(1), -F(4,5), -F(1,5)),
+           (F(0), F(1,5), F(4,5)))
+fallible = ((F(1), -F(18,25), -F(1,10)),
+            (F(9,50), F(41,250), F(82,125)))
+assert best_one_audit(*perfect) == (F(1,5), F(1), F(0))
+assert best_one_audit(*fallible) == (F(367,1105), F(205,221), F(0))
+print(best_one_audit(*perfect))
+print(best_one_audit(*fallible))
+```
+
+Suppose the owner had required worst-case conditional failure no greater than 0.25. The ideal-auditor construction met it; the best fallible one-audit policy does not. The improved choice 0.927602 is still inadequate for that requirement. Auditing both reaches 0.18 in this model, but exceeds the given budget. Return the actual conflict: obtain a better qualified auditor, provision the extra audit, change the work arrangement, or obtain a competent revision of the requirement. Repeatedly optimizing the same one-audit model cannot produce a feasible policy below its derived minimum.
+
+### Engineering.Reference:26.7 - Obtain the measurements and enact the audit
+
+The calculation supplies a policy only after its observation and consequence premises are warranted for the intended use. Build matched legitimate/bad proposal cases for the selected task family, with independent task judgments and controlled action semantics. For the timeout case, 5000 ms and 5 ms can be paired under the same five-second request. Keep cases outside G1 distinct from permitted-but-wrong cases; the latter are the additional auditor's question. Generate and execute adverse cases only in an appropriately permitted fixture. Preserve the original proposal, task, rule interpretation and actual result so that the label can be challenged.
+
+On cases reserved for calibration, obtain monitor scores without supplying the intended label in the monitor input. Count H among bad cases and H among legitimate cases separately. To qualify the fallible audit law, audit a suitable sample in both H and L groups, including cases that the proposed allocation would ordinarily skip; otherwise observed detection can inherit its selection bias. Counts such as 80 H scores among 100 bad cases estimate one conditional discrimination rate. They do not establish an exact 0.8 law, its uncertainty, or the rate of attacks in ordinary work. Carry sampling uncertainty and task differences into sensitivity calculations or return the insufficient basis. Establish the intended-use claim through [SYSE.46](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse46---test-a-tool-using-llm-configuration-in-representative-work).
+
+[The Control Tax](https://proceedings.iclr.cc/paper_files/paper/2026/file/c8c352e9ff2c3eb8511c6a996cbd77b1-Paper-Conference.pdf) connects measured monitoring behavior to a specified auditing game and discusses the control cost. Its program-pair construction uses accepted original/adversarial programs and monitor distributions; its Appendix K transfer obtains new scores on selected existing agentic trajectories. Such a transfer supplies measurements on those traces, not a performed deployment of the calculated policy. For a new service domain, obtain its relevant paired cases or traces and test the corresponding measurement assumptions. A wider nominal score scale does not necessarily improve discrimination. Another concrete monitor variant combines a separate fresh-context correctness judgment with suspiciousness; compare its gains with the additional inference work. Neither a benchmark's name nor its overall accuracy supplies the two conditional laws used above.
+
+Implement the selected policy where it can affect the proposed mutation. Maintain the proposal index, remaining audit budget, applicable policy/calibration edition and the exact held proposal. After the hard guard admits that proposal, obtain its qualified score. At position 1, use the supplied probability for H or L and an appropriate private random draw. If selected, debit the audit request, keep the mutation held and send the bound proposal, task and needed evidence to the auditor. A detection stops the protected attempt. A qualified clear result permits that same proposal to proceed through the gateway's at-use checks. If no audit is selected, the separately authorized risk-bearing continuation proceeds through those same hard checks. At position 2, use any remaining audit; when it was spent on position 1, no second audit is available under this policy.
+
+The following fixture consumes that decision in an executable controller. It uses `Call`, `Facts` and `guard` from section 26.1. Each proposal concerns a fresh service instance with the supplied revision; the fixed target is 5000 ms. The fixture's effect list represents committed values. Its environment ends the attempt on a wrong committed value, as the decision model assumes. That model outcome is not extra information available to the earlier allocation decision. The fixture's final facts are supplied before each simulated atomic commit; production needs the qualified at-use operation described in section 26.2.
+
+```python
+def audit_fixture(calls, scores, answers, final_facts, draw, x=1.0, y=0.0):
+    remaining, effects, audit_count = 1, [], 0
+    for i, call in enumerate(calls):
+        if guard(call, facts)[0] != "admit":
+            return effects, audit_count, "initial guard holds"
+        if scores[i] not in ("H", "L"):
+            return effects, audit_count, "missing score"
+        selected = remaining and (i == 1 or draw < (x if scores[i] == "H" else y))
+        if selected:
+            remaining -= 1
+            audit_count += 1
+            if answers[i] == "detected":
+                return effects, audit_count, "stopped before effect"
+            if answers[i] != "clear":
+                return effects, audit_count, "missing audit result"
+        if guard(call, final_facts[i])[0] != "admit":
+            return effects, audit_count, "at-use guard holds"
+        effects.append(call.value)  # The fixture commits only here.
+        if call.value != 5000:       # The modeled environment's failure transition.
+            return effects, audit_count, "protected failure"
+    return effects, audit_count, "complete"
+
+good = Call("S", "set", "timeout_ms", 5000, 17)
+bad = Call("S", "set", "timeout_ms", 5, 17)
+current = [facts, facts]
+assert audit_fixture([bad, good], ["H", "L"], ["detected", "clear"],
+                     current, 0.4) == ([], 1, "stopped before effect")
+assert audit_fixture([good, bad], ["H", "H"], ["clear", "detected"],
+                     current, 0.4) == ([5000, 5], 1, "protected failure")
+assert audit_fixture([good, bad], ["L", "H"], ["clear", "detected"],
+                     current, 0.4) == ([5000], 1, "stopped before effect")
+assert audit_fixture([good, good], ["L", "H"], ["clear", "clear"],
+                     current, 0.4) == ([5000, 5000], 1, "complete")
+```
+
+In the second assertion, a perfect auditor could detect the second defect, but the first audit has consumed the budget. Its unused second answer is never read. In the third, reserving the audit prevents the second effect. These executions show that the allocation changes the controller's intervention; they do not validate the stipulated score or auditor laws.
+
+An unavailable auditor, malformed result or missing score is outside the successful-observation model. Hold the affected mutation and obtain a qualified alternative or return the missing contribution and its cost; do not turn “unknown” into “clear.” A timeout consumes the reserved attempt according to the supplied resource account; a retry needs real provision. Replacing the proposal after an audit invalidates that audit's binding and requires the affected checks again. Auditing after an irreversible effect cannot serve as the pre-effect intervention assumed in the calculation.
+
+Trace at least these receiving cases: H at the first proposal with detection; H with a clear first audit and an unaudited second proposal; L first with a reserved second audit; and a proposal or governing condition changed while held. Confirm both the budget and the actual prevention or allowed execution. Also run two legitimate proposals through the arrangement and check completion, delay and false rejection. The stipulated zero-false-rejection assumption leaves these costs absent from the small risk formula, not absent from engineering responsibility.
+
+Include preparation, scoring, auditor work, adjudication, held work, retries and outcome reconciliation in the whole-use comparison. If both proposals become available before either decision, a batch policy can use information that the sequential rule lacked; derive its comparison anew. If the attacker adapts after observing audits, the score laws change under the policy, the horizon grows, or legitimate actions can be falsely rejected, reconstruct those branches and consequences through MMP.8.SD. A reusable trajectory score and an optimal policy under one model can remain valid at their scopes while the new deployment claim fails.
+
+### Engineering.Reference:26.8 - Follow the changed condition to the affected method
+
+The connections are practical. A new owner requirement changes the predicate meaning and may require permission for a wider admitted set. A changed interface changes translation, evaluator applicability and learning targets. A false guard rejection changes the checker and the labels available for development. A corrected learner changes proposals, but leaves required authority and execution checks in force. A changed monitor or auditor changes the allocation model; it can also change which cases become observable for later learning.
+
+Return only as far as the failed dependence requires. The exact 5-to-5000 conversion can remain useful while a registry is unavailable. A valid authority grant can remain while its evaluator is defective. An executable evaluator can remain while the intended job has no unambiguous unit. A better allocation calculation can remain mathematically correct while no policy meets the owner's risk and resource requirements. Each return identifies the next needed contribution without discarding the rest of the usable arrangement.
+
+
+<a id="construct-and-reuse-an-exchange"></a>
+
+## Engineering.Reference:27 - Construct and reuse an exchange for a receiving decision
+
+**Start from the result the next operation needs → agree what an exchange means → obtain or build its interpretation → perform it and use the return → revise the affected connection when its conditions change.**
+
+Use this application when participants can send messages but their replies still require repeated reconstruction, or when a reusable adapter risks preserving the wrong meaning. The useful result is a contribution that enters the receiving operation under its actual conditions. If an existing interface already supplies that result, use it. For an occasional exchange, a checked interpretation can cost less than developing a reusable routine.
+
+The example assumes a programmer or an assisting agent who can inspect structured messages and execute a small function. It uses a deliberately simple replenishment calculation: for one product, site and period, with no incoming supply and no other inventory-policy constraints, propose `max(0, demand - available)` whole units. Demand is 10 and available stock will be 7, so the required proposal is 3. The example prepares a recommendation; placing an order requires the receiving organization's separate conditions.
+
+### Engineering.Reference:27.1 - Work backward from the needed contribution
+
+The planner has a qualified demand of 10 units for SKU A at site N, but lacks available stock for snapshot S1. A stock provider holds that observation. The needed contribution is a statement of usable units for that scope, with its basis. Request that statement. If the provider has only raw on-hand and reserved counts, obtaining the available quantity additionally requires their calculation and check.
+
+This applies the historical [FIPA construction, §§3.19 and 5.3](https://jmvidal.cse.sc.edu/library/XC00037H.pdf): select a communicative act by the intended effect, seek its relevant feasibility conditions and use a request for another act to build the conversation. The formal assumptions delimit this construction; the reply and its use must still be observed.
+
+Establish who can supply the observation, what language and unit both sides understand, and whether the provider can access the needed records. Agreement to answer leaves the planner awaiting the answer. Refusal for missing access returns to the person who can provide access; a failed calculation returns to its operation; an uninterpretable request returns to the expression. These continuations obtain different missing contributions. Further conversation cannot itself grant access or settle incompatible assignments.
+
+### Engineering.Reference:27.2 - Agree an interpretation, then obtain its implementation
+
+Use [SYSE.26 and SYSE.27](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) to construct the interface and examine consequential compatibility; [SIE.9](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) supplies its semantic interpretation. Specify the receiving quantity before choosing serialization. In this case, available means on-hand units less units reserved for existing commitments, at the named snapshot. A field called `quantity` is insufficient by itself.
+
+The agreed description states the request identity, product/site/snapshot, unit, successful result meaning, and the distinct unavailable, refused, failed and uninterpretable returns. Include a valid example and a case that must remain unresolved. In the example, the planner proposes a reply giving available pieces. The provider explains that its source contains on-hand and reserved counts at a common snapshot and offers to subtract them. The planner accepts that construction if an absent count produces an unavailable return. Both sides settle the scope, subtraction and failure example before identifying the agreed description. Their implementations must then pass those examples; matching field names alone does not settle the interpretation.
+
+[Agora v1](https://arxiv.org/html/2410.11905v1) offers a concrete implementation choice: identify an agreed protocol document, retrieve and check an unfamiliar document, then interpret the exchange or reuse a suitable routine. Repeated demand can justify negotiating a document and generating an implementation; failures outside that routine return to an available interpretation or a revised agreement. Each side can retain its own implementation.
+
+For this example, `free-stock/1` names the agreed description whose `quantity` is already available stock in pieces. A content-addressed implementation uses the actual document digest and verifies the obtained document; the short name here keeps the example readable. Associate a routine with that description and the receiving input it produces. A matching digest establishes document identity, not the truth of a reported observation.
+
+Obtain a first routine from a programmer or code generator, then exercise it against the agreed examples before entrusting repeated work to it. Use a human-supported trial to discover a failure that the proposed automation missed. [AutoGen v2, Appendix B.1](https://arxiv.org/abs/2308.08155v2) develops this incremental choice: begin with built-in components and simple interaction, try instructions and configuration, and extend only what the observed failure requires. Human correction supplies development evidence; the automated candidate must subsequently produce the required return under its own intended conditions.
+
+### Engineering.Reference:27.3 - Consume a qualified return
+
+The request below is the comparison basis retained by the planner. A successful reply repeats that basis and carries the value. In actual work, obtain the provider identity and the observation's grounds through the agreed source relation; a well-formed payload cannot establish them. Proceed to the calculation only when those grounds and the selected snapshot are acceptable for the receiving decision.
+
+```python
+request = {
+    "id": "R1", "sku": "A", "site": "N", "snapshot": "S1",
+    "unit": "piece", "protocol": "free-stock/1",
+}
+reply = dict(request, status="ok", quantity=7)
+
+def whole_units(value):
+    if type(value) is not int or value < 0:
+        raise ValueError("a nonnegative whole-unit count is required")
+    return value
+
+def consume_stock(reply, request, demand):
+    if request["unit"] != "piece":
+        raise ValueError("obtain a conversion to the contract's pieces")
+    for key in ("id", "sku", "site", "snapshot", "unit", "protocol"):
+        if reply.get(key) != request[key]:
+            raise ValueError("reply does not match the request: " + key)
+    if reply.get("status") != "ok":
+        raise ValueError("no usable stock result: " + str(reply.get("status")))
+    if request["protocol"] == "free-stock/1":
+        available = whole_units(reply.get("quantity"))
+    elif request["protocol"] == "gross-stock/2":
+        on_hand = whole_units(reply.get("quantity"))
+        reserved = whole_units(reply.get("reserved"))
+        if reserved > on_hand:
+            raise ValueError("this contract requires reserved <= on_hand")
+        available = on_hand - reserved
+    else:
+        raise ValueError("obtain an interpretation for this protocol")
+    return {"available": available,
+            "proposed_order": max(0, whole_units(demand) - available)}
+
+decision = consume_stock(reply, request, 10)
+# {"available": 7, "proposed_order": 3}
+```
+
+This function shows the check, interpretation and consuming calculation; it is not a network client or a test of the provider's factual reliability. Its failure leaves the recommendation unresolved and returns the failed condition. Record the accepted stock contribution with the resulting proposal, so that correcting that contribution identifies the calculation that must be reconsidered. Receiving, displaying or summarizing the reply without changing the planner's input does not perform this use.
+
+### Engineering.Reference:27.4 - Follow a changed meaning through the calculation
+
+The provider now supplies `gross-stock/2`: `quantity=12` means on-hand stock and `reserved=5` identifies the committed part. Interpreting 12 under the former description would propose 0 instead of 3. Both payloads contain a number called `quantity`; the semantic change defeats a shape-only check.
+
+If the provider can still supply the former result under its applicable description, that route can remain sufficient. Otherwise obtain and agree the new description. Verify its units, snapshot and reservation rule, select or construct its interpretation, and try the changed case before resuming reuse. The old request rejects the new protocol. After the new agreement, the same receiving calculation can be retained:
+
+```python
+request2 = dict(request, id="R2", protocol="gross-stock/2")
+reply2 = dict(request2, status="ok", quantity=12, reserved=5)
+decision2 = consume_stock(reply2, request2, 10)
+# {"available": 7, "proposed_order": 3}
+```
+
+If `reserved` is absent, obtain it or leave this proposal unresolved; treating absence as zero would change the contract. If the provider silently changes meaning while keeping the old identifier, the identifier check cannot discover that fact. Use the observation's grounds and representative reconciliation with the provider to establish continued applicability. A discrepancy returns to the description, producer and affected calculations. Preserve the demand estimate when its grounds are unchanged.
+
+A different request can need a later snapshot or a different unit while the protocol remains stable. Obtain the new observation or an established conversion; an old reply's syntactic compatibility does not make it current. If a request is cancelled, establish whether its calculation or dependent action has already occurred before deciding what remains to stop or revise.
+
+### Engineering.Reference:27.5 - Choose reuse and the next supplier by the whole work
+
+Compare the interpreted and reusable alternatives on the same usable result. Suppose interpretation costs 8 units per exchange, preparing and qualifying a routine costs 90, each invocation costs 2, and expected maintenance over the intended period costs 10. Reuse becomes cheaper when `90 + 10 + 2n < 8n`: at least 17 further uses. With only 8 expected uses it does not repay preparation. These are illustrative costs; altered result quality, access or maintenance can change the choice.
+
+When the supplier itself must be selected from current needs and offers, use [Foundational.Reference:3.10.5.1](../Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#route-contributions-by-current-needs-and-offers). Its route identifies a candidate contribution. Apply the interpretation and receiving checks above before consuming that contribution. For fixed, known dependencies a direct request can suffice.
+
+Develop the arrangement through [Reference:19.7](#engineeringreference197---develop-the-arrangement-across-attempts) and the general trial-to-further-use connection in [Foundational.Reference:3.10](../Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference310---develop-a-way-to-act-from-trials). A misunderstood value, an unavailable observation, an unperformed return and a missing authorization call for different changes. Saving a routine may improve the equipped arrangement while leaving a participant's individual mastery unchanged; use [A.2.2:2.1 and E.23.CDI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when acquisition is the actual question.
+
 <a id="citation"></a>
 
-## Engineering.Reference:26 - Citation
+<a id="engineeringreference26---citation"></a>
+
+<a id="engineeringreference27---citation"></a>
+
+## Engineering.Reference:28 - Citation
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
