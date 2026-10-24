@@ -1,6 +1,6 @@
 # Control Architecture Design Principles Framework
 
-**Edition:** [CAD, 20 October 2026](#cadreference8---names-and-continuing-references).
+**Edition:** [CAD, 23 October 2026](#cadreference8---names-and-continuing-references).
 
 Use this framework when a control design must reconcile what can be observed in time, what the controller must remember, how decisions are divided, which commands remain feasible, and what the implementation can execute. It helps construct and compare those arrangements for an engineered dynamical system, including the choice to keep one sufficient controller.
 
@@ -76,6 +76,10 @@ The useful result is a control architecture whose information, command meanings,
 There are two directly useful branches. CAD.5 constructs the information available to a specified controller. CAD.1–CAD.4 develop a planning-and-feedback arrangement when separation has a useful reason. Their quantitative results connect where an estimate, command or timing claim is actually used. The language does not require every design to use both branches.
 
 Its recurring tensions are concrete. A precise delayed sensor leaves recent disturbances unknown. A larger model can reduce modeling error while missing the deadline. A gain that reduces tracking error can consume more input authority. Conservative sets can protect a guarantee while excluding a useful design. All of these must be judged against the same task; a smaller isolated error measure is not automatically a better control result.
+
+FPF C.43 supplies the common Method for connecting observation, choice and action in ongoing control. Apply it when the available assessment, alternatives and execution conditions still need to become one coherent continuation; an adequate architecture can remain unchanged. CAD specializes the engineering construction of the information, command and timing relations. Its state sets, error bounds and feasible commands give quantitative answers under declared models; they do not by themselves settle the legitimacy of a goal, the economics of competing resource uses or a developing subject's next worthwhile problem. Conversely, a common control mantra does not replace these calculations. A changed information delay returns to CAD.5 and its dependent bounds; an unavailable correction can reopen CAD.3 or the architecture choice; a changed goal first changes the task against which those results are used.
+
+FPF C.43:4.5.1 also supplies the common construction of required temporal relations without imposing a periodic schedule. CAD.2 makes that construction executable through event ordering, behavior between updates and reset rules; CAD.5 preserves sample phase, information age and observation gaps, and CAD.4 qualifies the shared implementation schedule. An action can vary its timing while another required contribution continues, provided their joint resource and dynamic conditions still hold. Changing one of these relations reopens the dependent calculation; equal update frequencies alone do not preserve it.
 
 ## CAD.Reference:2 - The objects and independently useful contributions
 
@@ -299,7 +303,7 @@ For the domain construction, a changed plant, measurement model, uncertainty, co
 
 ## CAD.Reference:8 - Names and continuing references
 
-This is the **20 October 2026** edition of **Control Architecture Design Principles Framework (CAD)**, a constituent of the Engineering DPF Suite in FPF Library. Cite the framework and edition together with the full PatternID and section needed for the particular claim or calculation.
+This is the **23 October 2026** edition of **Control Architecture Design Principles Framework (CAD)**, a constituent of the Engineering DPF Suite in FPF Library. Cite the framework and edition together with the full PatternID and section needed for the particular claim or calculation.
 
 *Control architecture design* here means designing the organization of observations, retained information, control decisions, exchanges and execution for the engineered dynamical behavior stated in CAD.Reference:1–2. It does not mean that every controller needs layers. **CAD** is a local reference code for this named framework in FPF Library, not the general engineering abbreviation for computer-aided design.
 
@@ -834,7 +838,7 @@ When a qualified existing loop has adequate tracking and disturbance rejection b
 
 For each consequential decision, ask what it changes, which information it needs, how long its effect persists, how quickly a wrong choice becomes harmful, and what resources its computation consumes. Cluster decisions only when those answers support one useful calculation or law.
 
-A slow planning decision might choose a route, reference segment or allocation. A faster decision might reject local disturbance or track that reference. This does not imply that the faster model is less detailed: a low-level model may retain actuator dynamics omitted by a planning model.
+A slow planning decision might choose a route, reference segment or allocation. A faster decision might reject local disturbance or track that reference. This does not imply that the faster model is less detailed: a tracking model may retain actuator dynamics omitted by a planning model.
 
 Generate materially different candidates. Compare a single loop, a planning-and-feedback split, or another separation motivated by the problem. Do not add a third layer merely because the source diagram contains three. A communication boundary can matter more than a time-scale boundary, and a faster processor can make a proposed split unnecessary.
 
@@ -868,7 +872,7 @@ This is a derivation under a particular model, not a general recipe for plants w
 
 #### CAD.1:4.5 - Preserve the whole question through the next design move
 
-Pass each candidate's controlled behavior, separation reason and lost interactions to CAD.2. A command's type alone is insufficient: a target position, a timed trajectory and a velocity segment imply different lower-level problems.
+Pass each candidate's controlled behavior, separation reason and lost interactions to CAD.2. A command's type alone is insufficient: a target position, a timed trajectory and a velocity segment imply different problems for the tracking layer.
 
 Keep candidates comparable under the same task, disturbance class and resource limits. A slower update with a smaller demanded reference change may look better only because the task was weakened. Retain a whole alternative until its decisive incompatibility or disadvantage is understood.
 
@@ -1079,7 +1083,7 @@ The interface becomes a design object whose consequences can be calculated and t
 
 ### CAD.2:10 - Architectural Rationale
 
-The reconstructed state is a reference for comparing behaviors, not a new physical level. Substitution exposes both the desired correspondence and the residual terms. Making update events part of the same evolution allows feasibility to be established for the connected system.
+The reconstructed state provides a mathematical reference for comparing the planning model with plant behavior. Substitution exposes both the desired correspondence and the residual terms. Making update events part of the same evolution allows feasibility to be established for the connected system.
 
 ### CAD.2:11 - SoTA-Echoing
 
