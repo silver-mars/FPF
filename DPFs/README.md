@@ -2,6 +2,8 @@
 
 **Find a field's methods for the result you need.** These 35 frameworks explain domain practice through connected patterns, with conditions, worked cases and source grounds. Use them for a current task or as contributions to continuing development; applying a method once does not require a development programme.
 
+Together with FPF Core, these domain frameworks can provide the repertoire for a **shared human–AI culture of thinking and acting**, oriented toward open-ended development. Each field contributes its own methods and standards of judgement. Participants select and connect them for their work, develop the capabilities they need, and return useful improvements to the shared repertoire. The [Library Architectural Reference](../FPF-LIBRARY-REFERENCE.md#libraryreference13---a-canon-for-shared-humanai-culture) explains this cultural use.
+
 If you know the field, choose a Suite or framework below. If you only know the difficulty, describe it in ordinary words and search the texts; [Using FPF Library](../USING-FPF.md#choose-what-to-read) explains how to find and connect useful contributions. The [Library introduction](../) gives the overall purpose and a first-use route.
 
 Framework and method links open readable text on fpf.tools; **Markdown** links open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.
@@ -18,7 +20,7 @@ A Suite brings together constituent disciplines and explains how their knowledge
 | Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
 | [Engineering](Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.791 |
-| [Management](Management%20DPF%20Suite/) | Direction, commitments, operations, resources, markets, communities, workforce participation and organizational change. | 13 | 192 | 5.330 |
+| [Management](Management%20DPF%20Suite/) | Direction, commitments, operations, resources, markets, communities, workforce participation and organizational change. | 13 | 192 | 5.345 |
 | [Foundational Thinking](Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.017 |
 | [Human Capability Engineering](Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.207 |
 
@@ -30,8 +32,8 @@ These ten fields have their own files here. They are not a fifth Suite: research
 | --- | --- | ---: | ---: |
 | [Decision Design (PSDA)](https://fpf.tools/PSDA) · [Markdown](DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Formulate a decision problem, construct alternatives, compare consequences and uncertainty, and connect a recommendation to its use. | 19 | 0.843 |
 | [Research Method Practice (RMP)](https://fpf.tools/RMP) · [Markdown](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | Frame and design research, obtain and criticize evidence, synthesize sources, and return a warranted knowledge contribution. | 11 | 0.557 |
-| [Explanation Design (EXD)](https://fpf.tools/EXD) · [Markdown](EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Design an explanation, worked example or dialogue that helps its recipient understand and perform the needed operation. | 6 | 0.135 |
-| [Narrativization and Narrative Studies (NSTD)](https://fpf.tools/NSTD) · [Markdown](Narrativization-and-Narrative-Studies-Principles-Framework.md) | Develop and interpret followable narratives; construct working accounts and fictional or hypothetical events; preserve relations, uncertainty and useful returns to source material. | 10 | 0.364 |
+| [Explanation Design (EXD)](https://fpf.tools/EXD) · [Markdown](EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Design an explanation, worked example or dialogue that helps its recipient understand and perform the needed operation. | 6 | 0.134 |
+| [Narrativization and Narrative Studies (NSTD)](https://fpf.tools/NSTD) · [Markdown](Narrativization-and-Narrative-Studies-Principles-Framework.md) | Develop and interpret followable narratives; construct working accounts and fictional or hypothetical events; preserve relations, uncertainty and useful returns to source material. | 10 | 0.367 |
 | [Implementation Facilitation (IS)](https://fpf.tools/IS) · [Markdown](IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md) | Help participants put an evidence-informed practice to use under local conditions, adapt the assistance and develop their capacity for further change. | 7 | 0.194 |
 | [Economic Reasoning and Coordination (ECO)](https://fpf.tools/ECO) · [Markdown](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md) | Reason about exchange, commitments, incentives, shared resources and coordination under changing information and demand. | 10 | 0.133 |
 | [Financial Domain Modeling (FDM)](https://fpf.tools/FDM) · [Markdown](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) | Model financial positions, rights, obligations, events and payment flows without confusing their different effects. | 5 | 0.105 |
