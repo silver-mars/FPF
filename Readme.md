@@ -25,9 +25,11 @@ You do not need to read the Library from beginning to end. Bring a situation, th
 | What you are trying to do | Where to begin |
 | --- | --- |
 | Find a way to obtain a result when the familiar answer is insufficient | [Find and develop a way to obtain a result (FPF C.39)](https://fpf.tools/C.39). It connects existing answers, missing constructions and the use that needs the result. |
+| Bring partial findings back to the original question or develop an account of a whole subject | [Return results to the original question (FPF C.39.QR)](https://fpf.tools/C.39.QR) connects the obtained result, its grounds and the receiving use. [Develop an account of the whole subject (FPF C.39.WA)](https://fpf.tools/C.39.WA) supplies the common explanation and relations when that is the missing contribution. |
 | Develop your own, a team's or an organization's ability to continue beyond its present limits | [Construct and continue open-ended development (FPF C.40.OD)](https://fpf.tools/C.40.OD), together with the domain methods needed for the actual change. |
 | Design, acquire, integrate or maintain a functioning system | [Engineering](DPFs/Engineering%20DPF%20Suite/). |
 | Make direction, promises, resources and collective work fit together | [Management](DPFs/Management%20DPF%20Suite/). |
+| Construct, coordinate, pursue or revise goals, including a complete OKR practice | [Goal Construction and Regulation (GOALS)](DPFs/Management%20DPF%20Suite/GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md), with organizational, human and AI applications. |
 | Obtain or check a mathematical or physical answer, model, algorithm or notation | [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/). Apply the needed method yourself or have a capable specialist or AI apply it; learning to perform it yourself is a separate choice. |
 | Help a person acquire or retain a capability for later work | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/). |
 | Investigate a question, design a decision, explain material or work in another field | [Further domain frameworks](DPFs/#further-domain-frameworks), including research, decision design, explanation and narrativization. |
@@ -52,18 +54,18 @@ The general methods are in **Core**: [connect development work (C.40.OD)](https:
 
 ## What is available
 
-**FPF Core** contains 401 patterns in 17.826 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **35 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 25 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 403 patterns in 17.928 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
 | DPF Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
 | [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.791 |
-| [Management](DPFs/Management%20DPF%20Suite/) | Direction, commitments, operations, resources, markets, communities and organizational change. | 13 | 192 | 5.345 |
+| [Management](DPFs/Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities and organizational change. | 14 | 201 | 5.495 |
 | [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.017 |
 | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.207 |
 
-The [DPF catalogue](DPFs/) lists the ten further frameworks and opens each Suite's files. Suite totals sum their constituent framework texts; separate Suite References and README pages are excluded. Character counts include spaces and original line breaks. Counts describe the available material, not how much you must read before using it.
+The [DPF catalogue](DPFs/) lists the eleven further frameworks and opens each Suite's files. Suite totals sum their constituent framework texts; separate Suite References and README pages are excluded. Character counts include spaces and original line breaks. Counts describe the available material, not how much you must read before using it.
 
 The Library does not claim to exhaust the disciplines it covers: the current Human Capability Engineering Suite, for example, develops learning and somatic contributions, not all methods concerning a human being.
 
