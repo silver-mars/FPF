@@ -327,7 +327,7 @@ Several choices therefore shape the construction:
 | An uncertainty label and the claim it supports | Is the needed result a coverage guarantee, a posterior probability or a prediction for a new outcome? |
 | Agreement in one use and a changed use | Which premise, mechanism or interpretation must be reconsidered? |
 
-The requested answer determines how far to develop the model. A bound can settle a threshold question while leaving parameters unresolved. A proposal for a new working method can instead require distinctions that an earlier prediction ignored. C.11.DUA helps decide whether another calculation, observation or refinement is worth its possible contribution.
+The requested answer determines how far to develop the model. A bound can settle a threshold question while leaving parameters unresolved. Designing a new working method may require representing effects the prediction could omit. For another observation or calculation, ask what each plausible result would allow the recipient to conclude or do, and whether that gain is worth the time and work displaced (C.11.DUA).
 
 ## MMP.Reference:3 - Solution - Connect the contributions the question needs
 
@@ -1660,7 +1660,7 @@ Include consequential uncertainty in calibration and in the forward approximatio
 
 #### MMP.12:4.2 - Locate the part that needs regularization
 
-Use C.16.IR's compatible cases or sufficient bounds to establish what the current records and premises resolve. Reuse that result. This pattern adds the construction of a recovery rule and analysis of the rule's sensitivity.
+Use C.16.IR to establish what the records resolve before choosing a regularizer. If the computed enclosure crosses a decision limit, look for feasible inputs on both sides. A tighter calculation using the existing data can sometimes settle the question. If two admissible inputs fit the same records and give different answers, say what additional assumption, observation or preference a reconstruction would use. Then assess the recovery rule's sensitivity.
 
 For a linear relation y=A\*x, a change h with A\*h=0 is invisible to the records. If both x and x+h are admitted and T(x+h) differs from T(x), full recovery of that target needs another premise. If T is unchanged, the invisible direction may be irrelevant to the current use. For unknown influences, vary x and z jointly.
 
