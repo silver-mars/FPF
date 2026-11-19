@@ -2737,9 +2737,7 @@ research, realization, integration, operation, and decision Work can overlap.
 5. **Problem–option correspondences.** Every relied-on pair states the changed admission, comparison coordinate,
    protected characteristic, affected-System consequence, evidence need, or next action. A pair with no supported
    decision-bearing difference remains an unresolved mismatch.
-6. **Plural comparison.** Archives, Fronts, and the decision `OptionSet` retain their own membership rules. The
-   Agent compares several result and resource coordinates while retaining protected losses, uncertainty, and
-   non-dominated alternatives. Do not force those coordinates into one scalar objective.
+6. **Compare eligible options.** Apply the guards for the same use and operating conditions. Compare the eligible options on the declared result and resource characteristics, including protected losses and consequences for affected Systems. An eligible rival that is at least as good on every chosen characteristic and better on one excludes the option from a Pareto Front. To place an option on that Front, rule out domination by each eligible rival. A known advantage or a bound can settle a comparison even with another measurement missing. First check that at least one combination of the performance values fits the evidence for the stated System or family and use. Conflicting inputs require a return to their basis before they can support this comparison. If every admissible combination gives a proposal a dominating eligible rival, exclude the proposal. The identity of that rival may still be open. Establish which option to pursue when the receiving decision requires it. Identify any comparison that could change front membership. If the decision uses the order of a particular pair, report any uncertainty in that order even when membership is settled. An archive, a Front and the decision `OptionSet` each retain their own membership rule.
 7. **Choice or probe.** The current `OptionSet` is fixed. The deciding Agent performs comparison-and-choice
    Work, applies `C.11.CRC` when a finite configuration-relative contribution comparison is needed, and applies
    `C.11` to produce a decision result: a choice, tie-set, rejection, named probe, or reroute. The Agent selects a
@@ -2947,9 +2945,7 @@ The current problem portfolio and System-family options produce four corresponde
 The final row explains archive retention and current non-selection; it supplies no `OptionSet` member. The first
 three rows are the complete correspondence set used by the current decision.
 
-The earlier Front compared energy use and peak demand. The current comparison uses a new candidate set and the
-following complete coordinate set: continuity, recovery time, occupied-zone temperature, peak power, compressor
-cycling, processor load, calibration effort, and service burden. It is therefore a new Front with its own basis.
+The earlier Front compared energy use and peak demand. The current comparison uses a new candidate set and eight characteristics: continuity, recovery time, occupied-zone temperature, peak power, compressor cycling, processor load, calibration effort and service burden. Establish eligibility and compare the surviving options on this basis before declaring the new Front.
 
 The fixed current `OptionSet` has three members:
 
@@ -2957,10 +2953,7 @@ The fixed current `OptionSet` has three members:
 2. develop the local-fallback specification; or
 3. develop the variable-speed-control specification.
 
-Safety and occupied-zone comfort are hard guards. The remaining coordinates form a partial order. The cloud-
-schedule specification without a qualified local fallback fails the network-loss guard. The variable-speed option
-retains the incumbent local control during network loss and remains admitted, but evidence about processor load
-and cold recovery is missing for the local-fallback option. That option cannot yet be admitted or rejected.
+Safety and occupied-zone comfort are hard guards. The remaining characteristics are compared by a partial order. The cloud-schedule specification without a qualified fallback fails the network-loss guard. Variable-speed control retains the incumbent local control and is admitted in configurations with the matching output board. Local fallback still lacks evidence about processor load and cold recovery in the two configurations proposed for it.
 
 The **controller-family council** is the deciding Agent. Its current assignment authorizes it to choose the next
 engineering probe, or decline new probing on the present basis, and allocate no more than 160 engineering hours.
@@ -2974,20 +2967,15 @@ The council uses one shared comparison basis:
 - The current `BeliefState` contains the three field observations, the hard safety and comfort guards, the cloud
   option's network-loss failure, the variable-speed option's admitted local control, and the missing local-fallback
   processor-load and recovery evidence.
-- The `OutcomeModel` states how each possible probe observation changes admission and the survivor relation. A
-  local-fallback pass admits that option and leaves it non-dominated with variable-speed control; a guard failure
-  or processor overload rejects it. The current calibration uncertainty changes burden estimates for variable-
-  speed control but does not change its admission or resolve the local-fallback question.
+- The `OutcomeModel` specifies which observation changes admission. To qualify local fallback for both proposed configurations, it must pass in each. A demonstrated failure in either excludes that two-configuration proposal. Keep the observation for each configuration, including any narrower use it supports. Compare local fallback and variable-speed control for the same buildings and conditions where both are applicable. The calibration trial changes estimates of variable-speed burden while leaving the local-fallback admission question open.
 
 | Candidate next probe | Bounded burden | Distinguishing observations | Effect on the current decision |
 | --- | --- | --- | --- |
-| Scripted network-loss and cold-recovery trial | 96 engineering hours, two hardware-in-the-loop bench days, one three-day reversible building-pilot window, and about one week of decision delay. | In each of two representative building configurations: no safety violation; occupied-zone recovery inside 20 minutes; and controller processor load below 70%. The outcome is contrary if either configuration has an established safety or comfort guard failure or a processor load at or above 70%. Incomplete, uncertain or otherwise non-decisive observations remain unresolved only when no such failure has been established. | A pass admits local fallback and leaves it with variable-speed control in the survivor set while cloud-only is rejected. A contrary outcome rejects local fallback and leaves variable-speed control as the admitted next-development option. An unresolved outcome preserves the unresolved local-fallback status and requires a new bounded decision. |
-| Variable-speed calibration trial | 128 engineering hours, four calibration-rig days, the same single building-pilot allocation, and about two weeks of decision delay. | Calibration effort and service burden may fall or rise within the currently supported range; the trial does not observe network-loss recovery or local-fallback processor load. | Either bounded outcome refines the burden comparison for an already admitted option but leaves the local-fallback admission defect and survivor question unchanged. |
-| No probe | No immediate trial resource use or delay; preserves the scarce pilot allocation and engineering capacity. | No new observation. | Retain the qualified current comparison: cloud-only fails the guard, variable-speed control remains admitted, and local fallback is retained only as an unresolved candidate, not admitted for use. Later development or adoption still belongs to its competent owner. |
+| Scripted network-loss and cold-recovery trial | 96 engineering hours, two hardware-in-the-loop bench days, one three-day reversible building-pilot window, and about one week of decision delay. | In each of two representative building configurations: no safety violation; occupied-zone recovery inside 20 minutes; and controller processor load below 70%. The outcome is contrary if either configuration has an established safety or comfort guard failure or a processor load at or above 70%. Incomplete, uncertain or otherwise non-decisive observations remain unresolved only when no such failure has been established. | A pass in both admits local fallback for the two tested configurations. Where variable-speed control is also applicable, both options can now be compared and their ordering is open. A demonstrated failure rules out the joint proposal. Record which configuration failed and which claims still hold for the other. If the evidence is inconclusive, report which admission question remains open. The council can finish with that result or consider further work when the investment decision warrants it. |
+| Variable-speed calibration trial | 128 engineering hours, four calibration-rig days, the same single building-pilot allocation, and about two weeks of decision delay. | Calibration effort and service burden may fall or rise within the currently supported range; the trial does not observe network-loss recovery or local-fallback processor load. | Either bounded outcome refines the burden comparison for variable-speed control within its supported configurations. The local-fallback admission question remains open. |
+| No probe | No immediate trial resource use or delay; preserves the scarce pilot allocation and engineering capacity. | No new observation. | Retain the qualified current comparison: cloud-only fails the guard, variable-speed control remains admitted in its supported configurations, and admission of local fallback for both proposed configurations remains open. Later development or adoption still belongs to its competent owner. |
 
-The `ChoiceRule` compares obtainable probes with retaining the qualified current result. Changing admission or
-the survivor relation is a possible contribution, not an obligation to buy it. In the first resource situation of
-this case, the council's qualified judgement is that resolving the local-fallback option before the next family
+The `ChoiceRule` compares obtainable probes with using the evidence already available. The network-loss trial can settle whether the council may include local fallback in the next development comparison. In the first resource situation of this case, the council judges that resolving this question before the next family
 investment is worth the 96 hours, scarce pilot allocation and one-week delay. Assume that capable performers and
 the windows can be obtained, and that this allocation does not displace more valuable protective or development
 Work. Those benefits, costs and conditions support selection within the 160-hour ceiling. The calibration trial
@@ -3037,12 +3025,7 @@ The local-fallback option's conditional status is precise: a plausible configura
 decision lacks the load and recovery evidence that would permit its admission. The rig and occupied-building
 window in §5 explain how that uncertainty could be resolved.
 
-Now take the selected-probe branch and stipulate that the authorized trial is subsequently performed and
-passes its stated limits in both configurations. The interpretation admits local fallback on that bounded
-basis and preserves variable-speed control as a non-dominated alternative. It does not choose a release or
-extend the observation to other boards. The family owner can now compare different members for their applicable
-buildings rather than insisting on one universal controller. The problem portfolio remains the three selected
-problems; the voice-control request is unchanged.
+Now suppose the authorized trial passes in both configurations with the larger processor. Local fallback qualifies there. Variable-speed control qualifies where its matching output board is available. For a building where both options qualify, a comparison showing that each has an advantage on a different declared characteristic would keep both on the Front for this two-option comparison. The trial alone leaves that ordering open. These results support the family owner’s comparison for the applicable buildings. Release and use on other boards require their own grounds. The problem portfolio still has three selected problems, and the voice-control request remains in the archive.
 
 The next supplier-change inquiry reveals that producing and assuring more combinations with rig `R4` requires
 repeated interface work. The returned `SYSE.23` question is specific: for the named controller family and next
@@ -3086,8 +3069,7 @@ Watch for these six recurring biases:
 - [ ] Every option identifies its family architecture, membership or variant rule, and effectivity basis.
 - [ ] Exploration archive, Fronts, and current `OptionSet` retain their own candidate and admission rules.
 - [ ] Every relied-on correspondence changes a decision-bearing claim or remains visibly unresolved.
-- [ ] The comparison preserves relevant result and resource coordinates, protected losses, affected-System
-      consequences, uncertainty, and non-dominated alternatives.
+- [ ] The comparison identifies eligible options, the evidence for each claimed Front membership and any open comparison that could change it. It preserves protected losses and consequences for affected Systems.
 - [ ] The choice or probe result states its basis, rule, full burden and value when relevant, actual obtaining
       conditions, authority, and reopen condition. Retaining a supported result is not conditional on a new probe.
 - [ ] Proposal, planning, authorization, performed Work, observation, and later adoption retain separate results.
@@ -3446,11 +3428,7 @@ silently collapsing the candidate set or restarting the whole project.
 
 ### SYSE.5:5 - Worked Case: Heat-Pump Plant Control and Protection
 
-An occupied building has a heat-pump plant whose controller must respond to electricity-price and grid-flexibility
-signals while maintaining room comfort and protecting compressors. The engineering team must choose a control
-architecture for plant configuration `HP-2` that remains useful for the next three heating seasons. Earlier
-concept-development Work produced two viable use/System concepts and one unresolved mismatch: centralized
-optimization improves plant coordination, but communication loss must not remove local protection.
+An occupied building has a heat-pump plant whose controller must respond to electricity-price and grid-flexibility signals while maintaining room comfort and protecting compressors. The engineering team must choose a control architecture for plant configuration `HP-2` for the next three heating seasons. Earlier concept work identified two viable use/System concepts. A supervisor could use shared plant and tariff information to coordinate unit set-points. Any proposal using that connection must retain the required local protection during communication loss. The team still needs a comparison to establish whether central coordination improves the building result under the specified conditions.
 
 During allocation Work, the engineers restore four contribution families as claims whose bearer arrangements
 remain to be chosen:
@@ -4557,12 +4535,13 @@ is specified only for a half-hertz update and plus or minus 0.3 kelvin under the
 filtering arrangement. Matching the token `SupplyTemperatureSensor` across three tools had hidden the
 difference.
 
-The engineers recover the sensor variant and interface configuration instead of merely synchronizing names.
-They update the model-use assumptions, evaluate another component and estimator option, and perform a
-controller-in-the-loop trial. The resulting evidence revises the architecture comparison: direct modulation
-remains acceptable for one building profile, while the storage branch remains unselected until it has either the
-faster sensing configuration or a different estimator and the corresponding assurance result. This evidence
-informs the current decision; it does not approve a later storage increment.
+The engineers identify the procured sensor and its installed signal path, update the model assumptions
+and run a controller-in-the-loop trial. Direct modulation remains acceptable for the tested building
+profile. The storage calculation still needs both a two-hertz update and an error within ±0.1 K.
+A faster update with the old ±0.3 K bound leaves that calculation unsupported. Evaluate the complete
+sensing or estimation path, including cable and filtering effects, against both assumptions. Alternatively,
+repeat the analysis with justified bounds for the available path. Use the resulting assurance evidence for
+the storage decision. Admission of a later storage increment still needs its own configuration and decision.
 
 The account records the usable description editions, the unresolved estimator claim, the tested
 configuration, and a reconsideration condition tied to component substitution or a changed grid-response
@@ -9180,15 +9159,16 @@ The table gives the complete set of baseline claims about the controller and its
 
 The team then fills three different architecture views:
 
-| View and `EntityOfConcern` | Obtaining relations | Decision use |
+| View and `EntityOfConcern` | Relations used and their status | Decision use |
 | --- | --- | --- |
 | holonic and membership view of controller `C17`, rig `R4`, and family `F7` | `C17` has processor board, I/O assembly, and network module as constructive parts. `R4` has a host, I/O rack, compressor emulator, and network-fault injector as constructive parts. Six actual controllers are members of `F7` under the current effectivity basis. | A versioned compressor boundary can localize component replacement while adding processor load at controller level and configuration/evidence burden at family-member level. Rig parameterization can reduce rewiring Work while adding maintenance and qualification burden at rig-whole level. These are simultaneous cross-level conflicts, not stages. |
 | non-holonic system-of-interest–builder relation view of the `C17`–`R4` test arrangement | the controller compressor interface corresponds to a rig adapter; the rig provides a test service to release Work; the evidence pipeline depends on configuration identity | The controller does not contain the rig, team, or Method as parts. Changing either side can move the supplier-change and assurance burden. |
-| Work view of the next supplier-change trial | adapter parameterization precedes closed-loop test; evidence review overlaps later testing; rollback preparation and service planning overlap the release decision | Earlier and overlapping Work constrain the investment, but their order creates no holonic level. |
+| Work view of the next supplier-change trial | The trial plan requires adapter parameterization before closed-loop testing. It schedules evidence review alongside later tests, and rollback preparation and service planning alongside the release decision. | The investment comparison assumes that the people and equipment needed for the planned overlap will be available. If the reviewer is committed elsewhere, secure that time or compare a schedule with serial review. Actual work times can establish which activities overlapped after the trial. |
 
 The holonic and membership view exposes processor and evidence burdens at levels different from the interface
-change. The system-of-interest–builder relation view matters because the rig is not a part of the controller. The Work view matters because test readiness and review overlap determine calendar and assurance
-resources. None of the three can be inferred from another.
+change. The rig provides a test service from outside the controller. The Work view supplies the precedence
+and resource assumptions for estimating completion time. An order of work establishes precedence for that
+trial. Levels of system composition require a part–whole relation.
 
 Three alternatives survive admission beside the incumbent:
 
@@ -11474,7 +11454,7 @@ the evidence and the condition that reopens the choice.
    platform constraints, and protected characteristics.
 8. **Make the repertoire decision.** The authorized Agent records which Methods are retained now, retained as
    alternatives, replaced, excluded for this use, proposed for development, or unresolved. Explain the selected
-   disposition from the criterion and grounds, including the accepted burden or loss. If a retained Method
+   disposition from the criterion and grounds, including the accepted burden or loss. For a partial repertoire, name the configurations it covers and those still awaiting a suitable Method. To claim coverage for a whole set, establish a suitable Method for each configuration. If Method choice depends on the configuration, show how the team can recognize it in time to choose. If the team can use any retained Method interchangeably, show the evidence or engineering rationale for each allowed substitution. If a retained Method
    lacks a capable Agent, provider, platform, or assignment, record that separate gap and send it to the appropriate
    capability, provider, platform, or obtaining-arrangement decision.
 9. **State evidence, currentness, and return conditions.** Give each relied-on claim its epistemic status—
@@ -13839,7 +13819,7 @@ The application does not use that line for business behavior, and exact executio
 
 Now change the case: a dependency named “stable” resolves to different bytes on the second worker. Removing the timestamp cannot repair this difference. Identify which dependency changed and, for reconstructing the earlier package, which bytes that build used. Use their identity to obtain or pin the corresponding input where available. If the original bytes cannot lawfully be obtained, exact reconstruction remains unavailable even though a newer package could be built and tested as a different candidate.
 
-A third case reuses the first worker's final package from cache. Matching digests prove that the same cached bytes were returned, not that the procedure reconstructed them. A fresh execution is still needed for the reconstruction claim.
+In a third case the cache log identifies a return of the first worker's final package. Matching digests support identity of the specified package bytes. The log establishes how the third worker obtained them. The two fresh executions above already support reproducibility for the tested inputs and conditions. If the third worker's history is missing, the same bytes could have come from a fresh build or the cache. Check that history only when the decision depends on which occurred. An existing qualification can still cover use of the identified artifact.
 
 The team can now identify which input changed, which artifact was tested and what the comparison establishes. For a later test failure, establish whether the behavior, the test or its execution conditions explain the observation.
 
@@ -15304,7 +15284,7 @@ Return the bounded result and remaining uncertainty. Continue, revise or retire 
 
 #### SYSE.39:4.6 - Design the intervention around recurrence, exceptions and continued support
 
-Develop the cause of recurrence far enough to choose the change. If a user repeatedly asks whether a deployment finished, the missing contribution may be result retrieval, not deployment automation. If operators repeatedly clean a full disk, the useful change may be bounded log retention or a repaired producer, not a faster cleanup script. If each request needs a different professional decision, the repeated clerical preparation may be automatable while the decision remains human. These decompositions produce different implementations from the same count of tickets.
+Develop the cause of recurrence far enough to choose the change. If a user repeatedly asks whether a deployment finished, the missing contribution may be result retrieval, not deployment automation. If operators repeatedly clean a full disk, the useful change may be bounded log retention or a repaired producer, not a faster cleanup script. If each request needs a different professional decision, the repeated clerical preparation may be automatable while each decision still needs a qualified decision-maker. These decompositions produce different implementations from the same count of tickets.
 
 Consider a constructed 12-week case in which a platform must keep serving tasks and retain every event record in a readable 30-day archive. A defect repeatedly copies already archived, sealed log segments into scratch space. The archive supplies all supported uses of these records. The permitted cleanup removes only copies verified against the archive; unmatched content stays until the duty operator preserves and verifies it. Four ordinary cleanups take ten operator minutes each per week; one damaged scratch copy needs twenty minutes for manual comparison, preservation and cleanup. For these nonoverlapping triggers, the existing operator/archive path restores headroom within thirty minutes, including escalation, against forty minutes remaining before the disk fills.
 
@@ -15346,9 +15326,9 @@ Alternative A is a page telling each developer how to perform the operator's int
 
 For B, each ordinary retrieval takes one user minute. Each of the two exceptions takes three user minutes and six provider minutes. Thus user effort is 18 × 1 + 2 × 3 = 24 minutes, with 12 provider minutes and 20 maintenance minutes.
 
-A is not an active-effort reduction despite eliminating all twenty tickets. It may also change waiting or autonomy, but those gains have not been observed. B has a constructed recurring difference of 144 minutes while retaining exception assistance. Its initial construction costs eight hours, which must remain in any longer-horizon comparison.
+A transfers all twenty searches to the users and requires the same 200 minutes of active work. Waiting and autonomy may also change. The worked assumptions give B a recurring saving of 144 active minutes per week, including exception assistance. When deciding whether to build B, include its eight hours of construction.
 
-With recurrence, task mix and the stated costs unchanged, a one-week horizon gives 200 minutes for the old path versus 480 + 56 = 536 minutes for B, including its eight-hour construction. A four-week horizon gives 4 × 200 = 800 minutes for the old path versus 480 + 4 × 56 = 704 minutes for B. The active-effort preference therefore changes from the old path to B with the horizon. Waiting, risk and future recurrence remain separate questions.
+Before construction, with recurrence, task mix and costs held fixed, one week costs 200 minutes on the old path and 480 + 56 = 536 on B. Over four weeks the totals are 800 and 704 minutes. Once B has been built and qualified, an additional week under those conditions calls for 56 minutes on B or 200 on the old path, assuming no switching cost. Count construction in the original investment and compare the effort the present choice can still change. These are estimates of active work. Actual savings require evidence of use, effort and any work transferred to others.
 
 The team selects a bounded B probe. It uses the provider's qualified same-attempt result lookup and existing authorization. An ordinary request returns the original runtime/configuration observation and test outcome. A lost result observation returns uncertainty and support; the lookup does not create a replacement deployment.
 
