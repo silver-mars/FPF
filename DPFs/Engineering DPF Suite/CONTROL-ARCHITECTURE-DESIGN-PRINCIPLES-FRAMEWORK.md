@@ -56,9 +56,9 @@ Within FPF Library, **CAD** is the reference code and document identifier for th
 | Your working difficulty | Obtain first | Direct entry |
 | --- | --- | --- |
 | A useful observation arrives after the action deadline, or different channels reveal different parts | An observation and memory arrangement, its error bound and the actions it permits; or a precise information limitation | [CAD.5](#cad5---choose-observations-and-internal-state-for-control) |
-| One calculation cannot use the needed horizon, information and execution time together | Competing decompositions and the couplings each would remove | [CAD.1](#cad1---derive-a-control-decomposition-from-the-whole-problem) |
+| One calculation cannot use the needed horizon, information and execution time together | A justified division of decisions and its couplings, an assessment of the existing division, or grounds to retain one controller | [CAD.1](#cad1---derive-a-control-decomposition-from-the-whole-problem) |
 | Planner and feedback code use a “reference” with different timing or meaning | The actual exchange and its derived error dynamics | [CAD.2](#cad2---construct-the-planning-and-feedback-interface) |
-| A stable controller cannot follow the requested command within state or actuator limits | A jointly admissible command/error domain with continuation, or a specific incompatibility | [CAD.3](#cad3---construct-a-jointly-admissible-command-domain) |
+| A stable controller cannot follow the requested command within state or actuator limits | A joint command and error domain for the required interval, including continuation or terminal conditions when required, or a demonstrated incompatibility | [CAD.3](#cad3---construct-a-jointly-admissible-command-domain) |
 | A more accurate model, faster planner or extra sensor competes for limited resources | A comparison of complete feasible arrangements and the conditions of their realization | [CAD.4](#cad4---co-design-and-realize-the-whole-control-architecture) |
 
 You can use CAD.5 without adding a planner or splitting control into layers. If the lower loop is qualified, you can retain it and change command admission. If a current, complete observation and a simple controller meet the task, you can keep them and stop there. Read the [Architectural Reference](#control-architecture-design-architectural-reference) when several results must fit together or a change reopens their conditions.
@@ -351,7 +351,7 @@ The design problem is to obtain enough timely information for the required actio
 
 ### CAD.5:4 - Solution
 
-Construct the possible current states from the information available at the action time. Determine whether **one action**, chosen with that information, works for all those states and admits the required continuation. Use failures of that construction to change the observation, its timing, the internal representation or the control demand. Compare complete alternatives under the same demand.
+Construct the possible current states from the information available at the action time. Determine whether **one action**, chosen with that information, works for all those states and admits the required continuation. Use failures of that construction to change the observation, its timing, the internal representation or the control demand. For an assessment of a given architecture, return what its available information permits. If the decision calls for a choice, compare complete alternatives under the same demand.
 
 #### CAD.5:4.1 - Fix the action time and the control-relevant distinctions
 
@@ -387,7 +387,7 @@ $$
 
 A quantized symbol instead denotes its whole quantizer cell, including the noise bound. A saturated extreme cell may be unbounded; do not replace it with a small symmetric error interval. For adaptive thresholds, retain or communicate the thresholds used for that sample.
 
-Construct a finite set of feasible channel-and-schedule alternatives. Include the resource coupling that can change their timing: two sensors sharing a bus, for example, need not retain their isolated delivery bounds. State which loss and delay combinations are allowed. A fixed periodic schedule or an explicitly bounded family of allowed modes supplies timing conditions for the error calculation. The number of cases and the cost of set propagation still have to fit the design and execution effort. Arbitrary online sensing policies require a separate policy construction.
+For a specified channel and schedule, construct their timing and information conditions directly. For a choice among a finite set, construct the feasible alternatives. A bound valid across a family can settle the comparison for that family. Include the resource coupling that can change their timing: two sensors sharing a bus, for example, need not retain their isolated delivery bounds. State which loss and delay combinations are allowed. A fixed periodic schedule or an explicitly bounded family of allowed modes supplies timing conditions for the error calculation. The number of cases and the cost of set propagation still have to fit the design and execution effort. Arbitrary online sensing policies require a separate policy construction.
 
 A rapid narrow channel, a slow complete channel and their combination are useful candidates when the problem suggests them. Future-disturbance preview is different from a delayed observation of the current plant; give it its own prediction model rather than treating its timestamp as negative measurement delay.
 
@@ -555,7 +555,7 @@ The added result is the construction of observation availability, internal infor
 
 #### CAD.5:4.8 - Compare whole alternatives and return to the failed dependence
 
-For each serious channel-and-schedule alternative, obtain the information update, its cost and delay, the error bound and the control conclusion. Keep the demanded behavior, initialization and resource accounting the same. Compare the alternatives that meet the demand; distinguish a proof of impossibility from failure of a sufficient bound.
+When comparing channel-and-schedule alternatives, establish for each relevant alternative the information update, its cost and delay, the error bound and the control conclusion. Keep the demanded behavior, initialization and resource accounting on a comparable basis. A bound that excludes a family can settle its part of the comparison. If a sufficient design test fails, determine what remains open about feasibility.
 
 For an order asking for one workable arrangement, give a feasible design, its cost and its margin under the stated conditions. To claim it is the best of a finite family, compare the same objective and rule out improvement by any alternative, through a direct comparison or a bound covering several alternatives. Otherwise return the best qualified member found and the unresolved alternatives. A stochastic design can instead minimize an explicitly selected expected cost, but its covariance or a finite successful simulation is not a deterministic bound for this method's hard constraints.
 
@@ -1343,7 +1343,7 @@ Use C.39 to connect the required result to its supplying operations and C.32/SYS
 
 For an assessment, follow each required behavior to the decisions and physical effects on which it depends. Determine which conditions must hold together, including how loads or delays can coincide and what the controller knows before acting. Choose the detail of each model by whether the distinctions it removes could change that conclusion. A plant-wide bound can answer a question about one output. A component certificate can answer a question about the whole loop when the interface and the other parts preserve its premises and entail the required behavior.
 
-For this comparison, distinguish the choices that define the architecture from the parameters tuned within it. The number of layers, model order, kind of command, sampling periods, planning horizon and processor arrangement can change the problem being solved. Gains, weights and numeric tolerances tune a selected construction. Changing either group can reopen the other.
+When a conclusion about control depends on what changed, distinguish a change to the controller from a change to its model. Giving a control layer its own observations, timing or authority can change how the system operates. Adding a state to an analyst’s model can distinguish two responses of the same controller to the same disturbance. Ask whether the proposed change alters a permitted action or operating arrangement, the alternatives distinguished for the engineering question, or both. A new sampling period, processor allocation, gain or tolerance matters to the comparison through its effect on a required result.
 
 CAD.1–CAD.3 construct the decomposition, connected dynamics and admissible commands. Existing qualified results can replace repeated design work. When the law changes, check which laws, command histories, disturbances and initial states its error certificate already covers. For $e^+=ae-d$, a proof of $|e|\le0.1$ for $|a|\le0.5$, $|d|\le0.05$ and $|e_0|\le0.1$ covers a gain change from $a=0.5$ to $0.25$: the next error is at most $0.5(0.1)+0.05=0.1$. Re-establish any premise outside the certificate and carry the supported bound into the rest of the comparison.
 
