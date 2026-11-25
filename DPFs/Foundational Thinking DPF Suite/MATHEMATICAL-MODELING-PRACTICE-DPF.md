@@ -562,13 +562,13 @@ For a function or shape over an infinite domain, choosing finitely many coeffici
 
 #### MMP.10:4.3 - Derive structural conditions and translate requirements
 
-Ask what must hold for a variable assignment to describe one candidate of the intended kind. With Boolean entries `r_ij` describing the graph of a total function, require `sum_j r_ij = 1` for every input i. For a partial function, replace this with `sum_j r_ij <= 1`; an all-zero row then means undefined at that input. For an injective function, additional conditions on columns express the extra requirement.
+State what a well-formed assignment represents. It may specify one complete candidate or retain properties shared by several. With Boolean entries `r_ij` describing the graph of a total function, require `sum_j r_ij = 1` for every input i. For a partial function, replace this with `sum_j r_ij <= 1`; an all-zero row then means undefined at that input. For an injective function, additional conditions on columns express the extra requirement.
 
 These conditions have different reasons. One value per input comes from choosing a total function. Add the column conditions when the problem requires injectivity. Keep their reasons recoverable so that a later change from total to partial or from injective to unrestricted has a local repair.
 
 Express the original requirements using the represented objects. Conjoin conditions that must hold for the same assignment. Use disjunction for allowed alternatives and implication when choosing an option imposes a condition. An implication alone supplies no timing; use time quantities or an explicit sequence when order matters. Preserve a coupled condition such as `x+y=1` rather than replacing it by separate bounds on x and y.
 
-When a bijection between representations is established, MATH.7 supplies transport of operations, relations and compound expressions. For a representation with several records per object, C.29.1 supplies the more general correspondence. Use the decoding of a record to express the requirement on its object. If a condition is rewritten to fit the receiving notation, derive that expression from the original relation and the structural conditions. This is where a missing index, an undefined value or a lost alternative can change the formulation.
+When a bijection between representations is established, MATH.7 supplies transport of operations, relations and compound expressions. Several records may represent one object. Conversely, one record can express a property shared by several admissible objects. C.29.1 supplies the correspondence. Where the record and known conditions determine an object, use that decoding to express the requirement. Otherwise derive what holds over the compatible objects. To give the exact value of a property of the underlying object, establish that at least one object is possible and all give that value. To guarantee a choice on the strength of the record, look for an available action that meets the obligation for every compatible object. A probability of success or an expected gain needs the corresponding probability model and decision criterion (MMP.8:4.3–4.4). Where the requested result still depends on a hidden distinction, establish what further variable or timely observation could distinguish the relevant possibilities. If a condition is rewritten to fit the receiving notation, derive that expression from the original relation and the structural conditions. This is where a missing index, an undefined value or a lost alternative can change the formulation.
 
 Additional constraints can expose consequences and help the obtaining method. Derive them from the retained requirements, and preserve that dependence. When efficiency matters, compare the work each formulation requires. A formulation with fewer variables or more constraints can still take longer to solve.
 
@@ -646,7 +646,7 @@ Compactness can hide duplicate records or omitted possibilities. Judge the repre
 
 - Can the reader identify a candidate object before interpreting the variables, including what is supplied, unknown or selectable?
 - Do domains, units, shared quantities and definedness express the intended possibilities?
-- Which conditions make the representation denote an object, and which express requirements on it?
+- Which conditions make an assignment well formed, which objects can it represent, and which further restrictions come from the original requirement?
 - Do conditions that must hold together refer to the same assignment? Are alternatives and conditional restrictions preserved?
 - Does the correspondence support the direction of inference used here, including recovery of a subject witness, coverage for a bound or impossibility claim, or both directions for an exact feasible set?
 - Does the requested value, preference, count or probability survive the representation, including auxiliary values and duplicate records?
@@ -1213,7 +1213,7 @@ The comparison covers the actions and histories for which the policy is to be us
 
 When the test fails, determine whether the difference affects the requested value, explanation or choice. Restore the missing distinction when it matters to that result. An unspent resource, elapsed time, accumulated amount or belief over an unknown mode can be the needed addition. If the repair is expensive, retain the history tree, restrict the claimed use, or use a bound sufficient for the present comparison. Two histories with different forecasts can still support the same action when that action dominates under both.
 
-For an approximate summary, determine how its errors can change the action comparison. Carry errors in current gains and in expected continuation through the selected horizon, using an applicable bound or model criticism. If computed action values each have justified absolute error at most e relative to the intended model and criterion, a largest value more than `2e` above every rival has the same maximizing action. Without such separation, preserve the unresolved comparison or improve only the approximation that can change it. A small prediction error on a training sample alone does not supply this guarantee.
+For an approximate summary, determine how its errors can change the action comparison. Carry errors in current gains and in expected continuation through the selected horizon, using an applicable bound or model criticism. If computed action values each have justified absolute error at most e relative to the intended model and criterion, a largest value more than `2e` above every rival has the same maximizing action. If the margin test is inconclusive, examine the differences between complete action values under the same admissible errors. An uncertain additive gain common to the alternatives cancels in their difference. Their order may therefore be known even while their individual values remain uncertain. To recommend one maximizing action, it suffices to establish that it does at least as well as every rival throughout the uncertainty. A claim of a unique maximizer also has to exclude ties. If the remaining uncertainty can change the requested conclusion, report it or refine the relevant bound. A small prediction error on a training sample alone does not supply this guarantee.
 
 #### MMP.8.SD:4.4 - Derive current gain plus continuation
 
@@ -2431,7 +2431,7 @@ The practical gain is an expression that can be estimated from the available rec
 
 This is a method of mathematical modeling within causal reasoning. It constructs the connection from available laws to an intervention target. C.28.MR supplies the meaning and consequences of replacing a mechanism in a given causal model; here the model's relevant mechanisms may remain unknown. Subject methods must justify what the intervention changes, which influences may be shared, and which relations remain applicable. The method applies to physical, biological and computational systems and to the methods used to carry out work.
 
-Preparation requires conditional probability, expectation and the ability to follow a mathematical argument about assumed causal relations. For graphical derivations, the practitioner or an available specialist must be able to check which paths remain open under conditioning and intervention. Whether you derive the result or obtain it from a specialist, retain the target, assumptions, required observable quantities and derivation or obstruction. A software result that omits these grounds is insufficient.
+Preparation requires conditional probability, expectation and the ability to follow a mathematical argument about assumed causal relations. For a graphical derivation, establish which paths remain open under conditioning and intervention. An applicable derivation in a record, an inspectable tool result or a qualified collaborator may supply this step. Whether you derive it yourself or use a supplied result, retain the target, assumptions, required observable quantities and derivation or obstruction. A software result that omits these grounds is insufficient.
 
 Reuse an applicable identification result when it answers the unchanged question. Use MMP.13 for estimation under an already identified expression, and C.28.MR for a consequence inside a fully supplied causal model. Design another experiment only when the existing result is insufficient and further evidence is worth obtaining. For a question about the same observed case under another action, or a joint or nested comparison of its responses, MMP.19 constructs the common-case relation and determines what the available information fixes.
 
@@ -2863,7 +2863,7 @@ If every compatible answer supports the same sufficient action or explanation, u
 
 A revised recording rule changes the factual conditioning. A revised intervention changes the response functions. A changed criterion can make joint dependence irrelevant. Recalculate the affected contribution while retaining the rest.
 
-An investigator can build a counterfactual comparison by conditioning on the observed case and evaluating the changed mechanisms. The investigator or a subject specialist supplies the case and its causal interpretation. The investigator can perform the calculation or obtain it from a collaborator with the required mathematical skills. Obtain any missing contribution the investigation needs.
+An investigator can build a counterfactual comparison by conditioning on the observed case and evaluating the changed mechanisms. Use the case record and the applicable causal account to establish what is observed and what may change under intervention. A recorded route and a given equation may already determine the conditional result. Calculate it or use a qualified calculation. Obtain further subject evidence when the interpretation needed for the case remains open.
 
 ### MMP.19:5 - Archetypal Grounding
 
@@ -4001,7 +4001,7 @@ The mathematical object is a physical model whose active differential and algebr
 
 The result is a conditional continuation: a processed system for each used mode, a restart relation tied to the preceding state, and the conditions under which integration may resume. A missing impact law or a contradictory switch can instead be the useful result. A model with a justified reset and suitable numerical realization can be used directly.
 
-The reader needs the component laws, elementary differential equations, differentiation of constraints and linear algebra. The worked cases below need only small systems. Larger models need symbolic structural analysis and suitable numerical solvers. An engineer may obtain those operations from a specialist or tool, while retaining responsibility for the physical assumptions and requested outputs.
+The reader needs the component laws, elementary differential equations, differentiation of constraints and linear algebra. The worked cases below need only small systems. Larger models need symbolic structural analysis and suitable numerical solvers. Obtain the structural analysis and numerical continuation from a capable contributor or tool where needed. Establish which physical assumptions and requested outputs are given, which the commission leaves you to choose and whose evidence or decision is needed for a remaining question. A restart calculated under a supplied impact law gives a consequence of that law. Choosing the law for the actual contact takes further grounds.
 
 ### MMP.20:2 - Problem
 
@@ -4723,7 +4723,7 @@ For a preservation claim, compare the original and transformed constructions ove
 R(new(x)) = R(old(x)) for every admitted x.
 ~~~
 
-The equality concerns that result. Expand R or the compared behavior when intermediate responses, errors or resource interactions also matter. For a bounded approximation, derive the bound and the inputs on which it holds. For a new capability, establish what the new construction can produce and which old requirements it still satisfies.
+The equality concerns that result. Expand R or the compared behavior when intermediate responses, errors or resource interactions also matter. For one-way refinement, establish that the changed construction has a feasible execution and that each execution it admits satisfies the earlier requirements under the intended interpretation. For a strict change in the answer, identify one previously possible result that no such execution yields. For a bounded approximation, derive the bound and the inputs on which it holds. For a new family that is claimed to include the old one, establish how the old executions remain available and what the new members can produce.
 
 Derive the gain separately. A reduction in the number of operations can imply less work under a supplied cost model. It may leave elapsed time unchanged, or increase storage and communication. Use the existing characterization and comparison methods when those trade-offs affect the choice.
 

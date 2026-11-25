@@ -66,7 +66,7 @@ A notation should let its users do something with an expression: derive a conseq
 
 Bring the work the reader must do and what they will have in hand. An existing expression can locate a reading or editing difficulty. When you are designing a notation from scratch, start from the items the reader will work on and the result they must obtain. Vary how the items are assembled or used, and see which differences a sign or a combination of signs must let the reader recover. Obtain needed subject knowledge from a collaborator where appropriate. Keep conventions that already work. A.6.3.RT.OE supports constructing an expression under adequate existing rules.
 
-You can ask an assisting agent, “Explain this and give me your comments in the language of my work, without framework jargon.” For an existing expression, ask it to demonstrate the needed reading or change and identify the convention or input it used. To practise choosing the conventions yourself, bring the recipient's task and try a representation before requesting a design. Ask the agent to find what a reader could miss with that representation under the actual conditions of use.
+You can ask an assisting agent, “Explain this and give me your comments in the language of my work, without framework jargon.” For an existing expression, ask for the reading or change and the convention that supports it. If the task is to develop a notation, a capable designer or service can choose the signs, their referents and the operations readers need. Identify what it developed and what the recipient still has to interpret or decide. To practise choosing the conventions yourself, bring the recipient's task and try a representation before requesting a design. Ask the agent to find what a reader could miss with that representation under the actual conditions of use.
 
 ## Practical entries
 
@@ -132,7 +132,7 @@ Use this language when an expression's conventions need to be constructed or cha
 
 A reader can recognize all the signs and still be unable to compose them, recover a dependency or perform the next transformation. Two displays can look consistent while referring to different objects. An abbreviated instruction can rely on preparation that its new reader lacks. These difficulties become especially visible when a new reader has to use a description prepared under different conventions or assumptions.
 
-Begin with what the reader must obtain. For an existing notation, identify the expression and the reading, change or action in question. For a new one, choose what a mark should denote, what an arrangement of marks should express and what the user must be able to infer or do with the whole. When several people use parts of the expression, recover which decisions they take independently and where one person's reading or edit must agree with another's. Obtain the subject rule or result needed to judge those uses. Binding, interpretation, permitted transformations, time references and the performer's available actions enter where the uses require them.
+Begin with what the reader must obtain. For an existing notation, identify the expression and the reading, change or action in question. For a new one, choose what a mark should denote, what an arrangement of marks should express and what the user must be able to infer or do with the whole. When several participants use an expression, establish what each writes, reads or acts on. Two services may read the same marks independently or one may pass a result to the other. Establish which readings and changes must agree and which decisions or observations remain independent. For the same container, correcting its intended destination should update the dispatch views that take the destination from that entry. A receipt recording where the container actually arrived retains its own meaning. Examine a person's own use when the question concerns their interpretation or skill. Obtain the subject rule or result needed to judge those uses. Binding, interpretation, permitted transformations, time references and the performer's available actions enter where the uses require them.
 
 Keep a sufficient notation when its conventions already serve the work. A.6.3.RT.OE in FPF helps construct an expression around a needed operation under available conventions. This DPF becomes useful when the conventions themselves leave a consequential distinction, interpretation or manipulation unsupported. Repair a mistaken subject account at its source; notation design can make that mistake visible without supplying the subject's answer.
 
@@ -545,7 +545,7 @@ Keep the rule at the scale required by its next use. A legend and a worked const
 
 For an abbreviation, give the expansion or another way to establish its meaning. If several expansions are allowed, show why the difference does not affect the intended use. NOT.4 handles the corresponding preservation argument. Retain a visible distinction when no such argument is available and the choice matters.
 
-The method finishes with rules that permit the required construction and make its use recoverable, or with a specific unresolved formation or interpretation question. To judge learning, check whether the reader can use the rules. Learning and explanation methods can help when the work calls for teaching or for comparing reading costs.
+The method finishes with rules that permit the required construction and make its use recoverable, or with a specific unresolved formation or interpretation question. To judge present use, establish what the reader can recover or do with the conventions and aids available. A conclusion about learning also needs a basis for comparing what that reader could do before and afterwards under the relevant conditions. Learning and explanation methods can help when the work calls for teaching or for comparing reading costs.
 
 ### NOT.2:5 - Archetypal Grounding
 
@@ -1152,7 +1152,7 @@ For several translation stages, follow the information needed by the final opera
 
 #### NOT.5:4.5 - Repair the loss needed by the work
 
-Choose the least burdensome repair that restores the operation. Retain the original expression when an occasional return is enough. Add the missing distinction to the target when the recipient must work independently. Otherwise, carry supplementary information with a defined recovery rule.
+Choose the least burdensome repair that restores the operation. Retain the original expression when an occasional return is enough. Add the missing distinction to the target when that expression must support the operation on its own. When the performer can consult a permitted key or other supplement in time, give them the supplement and a usable recovery rule. A person working independently may use such a key.
 
 Call that supplementary information a *complement* when the target and the supplement together permit the required source recovery. State what it contains and how the return uses it. In :5.2 the position of a cue complements its count; in :5.3 a retained phase duration selects one backward update.
 
@@ -1219,7 +1219,7 @@ Conversely, fear of information loss can make every conversion retain a complete
 
 When the translation needs checking, use the questions relevant to its declared use.
 
-- Can the recipient construct the target from the source parts, connections and required context?
+- Can the target be constructed from the source parts, connections and required context? If the recipient is to construct it, can they do so with the agreed support?
 - Can a target result be returned as an answer to the source question at the stated strength?
 - For an exact value or verdict, could two source cases give the same target and require different answers? For a request to supply any one acceptable solution, does the offered solution work in every source case that the recipient cannot distinguish here?
 - Does a necessary supplement have a usable recovery rule and remain associated with the right source?

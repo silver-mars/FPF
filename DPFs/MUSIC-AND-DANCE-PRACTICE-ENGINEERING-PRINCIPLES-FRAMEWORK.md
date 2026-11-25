@@ -114,7 +114,7 @@ Search the Keywords & Search Queries column for the performance, teaching, pract
 
 Bring your question about performance, teaching or practice development. These selected examples show how one pattern's result changes what another method can do, where a useful branch can stop, and what changes when the conditions do. A case can feature the same music and serve another job. Compare the result its method gives you with the decision, explanation or design you owe. For work still open, use the [Table of Contents](#table-of-contents) to find the method by its question. Use a direct specialist method when it already supplies the needed result.
 
-The [Architectural Reference](#music-and-dance-practice-engineering-principles-framework-architectural-reference) explains the shared language and its Music and Dance profiles. You can ask an assisting agent: “Explain this and give me your comments in the language of my work, without framework jargon.”
+The [Architectural Reference](#music-and-dance-practice-engineering-principles-framework-architectural-reference) explains the shared language and its Music and Dance profiles. To compare a prescribed entrance with the one that sounded, use the score and a recording on which the entrance can be identified. You can make that comparison yourself or ask a collaborator who can interpret both. When you seek an explanation from a collaborator, ask for it in the performers’ own terms. A question about which cue a player actually followed requires evidence of that player's performance.
 
 ### MDPE-CARD-STYLE-DEVELOPMENT — Develop a new style without mistaking one showcase for a maintained practice
 
@@ -164,7 +164,7 @@ If the next venue changes audibility or latency, use [MDPE.6](#mdpe6---choose-wh
 
 Suppose the teaching team wants learners to use two already taught partner-coordination variants with unfamiliar partners. MDPE.6 compares the class with that receiving use. The partners must be able to read each other’s timing and contact. Their use of teacher labels and a fixed exercise order can vary. The team can choose a receiving version of the teaching arrangement that varies those conditions while retaining the original class for learners who still need its support.
 
-With MDPE.17, examine what the receiving dancers do, which taught method or variant they enact and what evidence shows about their use of the demonstration or lesson material. When the performance fails, MDPE.23 can separate “did not recognize the current coordination” from “recognized it but could not perform the response”. Its [constructed recognition case](#mdpe2342---a-multidance-recognition-transfer-trial) asks for a correct spoken A/B response within one agreed pulse after the cue and before the movement. The learner gives ten such responses in twelve held-out trials with unfamiliar partners and music. A second matched block adds a rapid transition from movement task A to B while retaining the same recording and partner. The next recognition cue is selected independently of that preceding sequence. Only seven of twelve responses qualify. The local ten-of-twelve entry criterion permits a subsequent supported response exercise in the first tested condition. Work on the transition limit before adding rapid switches to that exercise. These counts do not establish movement fluency. A correct recognition followed by a failed response returns to MDPE.10. If competent recognizers cannot maintain the distinction across the intended contexts, revise the distinction or receiving task before drilling it.
+With MDPE.17, examine what the receiving dancers do, which taught method or variant they enact and what evidence shows about their use of the demonstration or lesson material. When the performance fails, MDPE.23 can separate “did not recognize the current coordination” from “recognized it but could not perform the response”. Its [constructed recognition case](#mdpe2342---a-multidance-recognition-transfer-trial) asks for a correct spoken A/B response within one agreed pulse after the cue and before the movement. The learner gives ten such responses in twelve held-out trials with unfamiliar partners and music. A second matched block adds a rapid transition from movement task A to B while retaining the same recording and partner. The next recognition cue is selected independently of that preceding sequence. Only seven of twelve responses qualify. The local ten-of-twelve entry criterion permits a subsequent supported response exercise in the first tested condition. Work on the transition limit before adding rapid switches to that exercise. These counts do not establish movement fluency. A correct recognition followed by a failed response returns to MDPE.10. If competent recognizers miss the cue, establish what they could hear, see or feel in the receiving conditions. An unavailable cue may need a different position or form of delivery. Revise the distinction or task when the evidence locates the difficulty there.
 
 These results affect the receiving trial and the next teaching move. The team can use representative dance performances to identify the variant the dancers enacted. Evidence that they used the demonstration or lesson material can establish its use while leaving its causal contribution undecided. A variation introduced by the dancers can be retained when it preserves the relations needed in the new setting.
 
@@ -1092,8 +1092,7 @@ When recognition matters to the brief, specify who is expected to distinguish or
 and what could show whether they do so or the brief needs to change. A label, press notice, official listing or favourable response can document
 that particular occurrence. A claim about recognition by other participants needs evidence from the intended use.
 
-The brief is sufficient when the person using it can identify what is promised, what would satisfy it and any specific
-limit. An authorized decision-maker can then make or decline the commitment. Reconsider the affected part if representative
+The brief is usable when its intended recipients can identify what is proposed or promised, what would satisfy it and which limits apply. When a new commitment is needed, establish who can make or decline it. Reconsider the affected part if representative
 work, participant response, feasibility, authority, safety, recognition, cost or another relied-on condition changes.
 
 ### MDPE.1:3 - First Useful Result
@@ -2354,7 +2353,7 @@ Connect the rhythmic material and the receiving music with the actions specified
 
 Represent the cycle by its unit-pulse count and onset positions, including the gap from the last onset to the first onset in the next cycle. Identify the musical purpose, such as preserving a familiar figure, exploring spacing or changing an arrangement. A spacing property can settle a geometric question. Its musical value depends on the receiving use.
 
-Fix the origin against a feature of the receiving music, such as an accompaniment entry or a shared phrase boundary. Identify the required sounds or silences there and at other relevant landmarks. To shift the part by s pulses in an n-pulse cycle, replace each onset position p with (p + s) modulo n and leave the accompaniment fixed. Compare the shifted onsets with the receiving landmarks. A shift can change that relation; renumbering both parts leaves it unchanged.
+Fix the origin against a feature of the receiving music, such as an accompaniment entry or a shared phrase boundary. Identify the required sounds or silences there and at other relevant landmarks. To shift the part by s pulses in an n-pulse cycle, replace each onset position p with (p + s) modulo n and leave the accompaniment fixed. Comparing the shifted onsets with the fixed landmarks settles where new attacks fall. Renumbering both parts leaves their relation unchanged. For a quiet interval in this part, establish when its earlier sounds die away, including any carried across the cycle boundary. For a cue, ask who needs to hear it, from where, and against which other sounds. Use sound or listening evidence appropriate to those conditions. A partner can hear a cue through a stage monitor while the audience mix masks it.
 
 An existing placement can be kept when it satisfies the receiving landmarks and the intended musical use. If a particular phase fails, compare another phase where it could help. When none can supply the wanted relation, reconsider the seed, the receiving requirement or the arrangement.
 
@@ -2390,7 +2389,7 @@ Toussaint supplies the rhythmic and action constructions. The receiving constrai
 
 An ensemble wants three audible attacks in a repeating eight-pulse span. Its pulse 0 is fixed by the accompaniment. Another instrument has a cue at pulse 6, where this new part should remain audibly silent. The percussionist has a low-sounding instrument for the right hand and a contrasting high-sounding instrument for the left. The first musical question is whether a two-cycle timbral exchange works with the accompaniment.
 
-Use `x` for an audible onset and `.` for a silent pulse. For this specific seed, begin with three onset columns and five silent pulses. Give each onset one silent pulse, leaving two; append the remaining two to the first two columns. Read each column downwards and concatenate:
+Use `x` for an onset and `.` for a pulse with no new attack. For this seed, start with three onset columns and five dots. Give each column one dot, leaving two, then append those two to the first two columns. Read each column downwards and concatenate:
 
 ```text
 initial groups:       [x]   [x]   [x]     remaining: . . . . .
@@ -2402,7 +2401,7 @@ positions:            0 1 2 3 4 5 6 7
 
 The onsets are 0, 3 and 6. Their cyclic gaps are 3, 3 and 2, including the return from 6 to the next cycle’s 0. The three gaps differ by at most one pulse. For other onset and pulse counts, use the repeated-distribution algorithm in chapter 21 or an already established seed. The two sharing steps here derive this particular pattern.
 
-The seed strikes at 6, where the other instrument needs a clear cue. Advance every onset by two pulses modulo 8. Positions 0, 3 and 6 become 2, 5 and 0. In cycle order they are 0, 2 and 5, with gaps 2, 3 and 3. The attack count and cyclic spacing are preserved, while both placements have an attack at the fixed origin and only the shifted placement leaves pulse 6 silent. The unchanged accompaniment makes the two placements musically distinct.
+The seed strikes at 6, where the other instrument needs a clear cue. Advance every onset by two pulses modulo 8. Positions 0, 3 and 6 become 2, 5 and 0. In cycle order they are 0, 2 and 5, with gaps 2, 3 and 3. Both placements have three attacks with the same cyclic spacing and an attack at the fixed origin. Only the shifted placement has no new attack at 6. A ringing stroke at 5 could still sound through the cue. Damping that stroke can change what sounds at 6 while leaving all three onsets in place.
 
 #### MDPE.30:5.2 - Turn the onsets into actual hand and sound parts
 
@@ -2415,7 +2414,7 @@ First alternate hands on **audible attacks only**. Start with the right hand and
 
 R and L are audible strokes on different instruments in this example. The unlabelled onsets repeat after eight pulses. The hand and timbre assignments repeat after sixteen, with right-hand attacks at 0, 5 and 10 and left-hand attacks at 2, 8 and 13. If both hands produced indistinguishable sounds, the onsets could still repeat after eight while the hand assignments took sixteen.
 
-The ensemble compares the alternating sounds with playing all three attacks on one sound. For these musicians that option requires less coordination and preserves onset timing, while the alternating sounds give an exchange across two cycles. In the stipulated rehearsal the percussionist plays the alternating-attack version at 72 pulses per minute with the audible reference, and the partner reports hearing the cue at 6 clearly. The ensemble selects it for the next rehearsal under those conditions.
+The ensemble compares the alternating sounds with playing all three attacks on one sound. For these musicians that option requires less coordination and preserves onset timing, while the alternating sounds give an exchange across two cycles. In the stipulated rehearsal the percussionist plays the alternating-attack version at 72 pulses per minute. Heard on its own at the partner's position, the damped percussion falls quiet through the cue in both cycles. With the accompaniment restored, the partner reports hearing the cue at 6 clearly. The ensemble selects this version for the next rehearsal under those conditions.
 
 #### MDPE.30:5.3 - Change the receiving condition without confusing the two action rules
 
@@ -2429,9 +2428,9 @@ motion:  R l R l r L r l
 sound:   x . x . . x . .
 ```
 
-Eight pulse-wise motions return the hands to their original allocation. The first two audible attacks are right-hand strokes and the last is left-hand, the smooth-toggle seed of chapter 32. The onsets and silence at 6 remain. This version calls for eight alternating motions per cycle, three of them sounded. Silent positions still require their specified motions. Whether that organization helps a performer depends on their technique and the conditions.
+Eight pulse-wise motions return the hands to their original allocation. The first two audible attacks are right-hand strokes and the last is left-hand, the smooth-toggle seed of chapter 32. The onsets remain at 0, 2 and 5. At 6 the right hand moves without striking. Whether the high stroke at 5 still sounds there depends on its duration and decay. This version calls for eight alternating motions per cycle, three of them sounded. Silent positions still require their specified motions. Whether that organization helps a performer depends on their technique and the conditions.
 
-In this constructed rehearsal the percussionist initially sounds an unintended stroke at 4. The ensemble slows the passage to separate audible from silent motions, then restores the original tempo and accompaniment. The performer now supplies the required sounds and entry. The ensemble chooses this version for that arrangement and retains the two-cycle version for its earlier use. If the needed silent motion remains out of reach in the preparation time, consider another playable allocation or a change in instrument, entry condition or rehearsal provision.
+In this constructed rehearsal the percussionist initially sounds an unintended stroke at 4. The ensemble slows the passage to separate audible from silent motions, then restores the original tempo and accompaniment. The performer now supplies the low right-hand entry each cycle. At the restored tempo the damped high stroke dies away before the cue, and the partner reports hearing the cue in the revised accompaniment. The ensemble chooses this version for that arrangement and retains the two-cycle version for its earlier use. If the needed silent motion remains out of reach in the preparation time, consider another playable allocation or a change in instrument, entry condition or rehearsal provision.
 
 #### MDPE.30:5.4 - Extend the phrase while preserving a chosen action relation
 
@@ -2458,7 +2457,7 @@ The equal-pulse grid makes spacing and alternation calculable. Timing nuances an
 ### MDPE.30:7 - Conformance Checklist
 
 - The seed's onset positions, cycle length and last-to-first gap are recoverable.
-- The phase is related to a fixed receiving origin and the entries or silences that matter.
+- The scored attacks are placed against a fixed receiving origin. A claim about a quiet interval or an audible cue has grounds for the required sound, listening position and accompaniment.
 - The action rule states whether attacks or all pulses advance it and continues across the boundary.
 - The comparison shows which required sounds the action and instrument mapping supplies over the stated span and where it falls short, if anywhere. A claim that the sounds were produced identifies the evidence from that performance.
 - For a changed span, show whether the construction preserves the required relation and fits the receiving accompaniment.
@@ -5646,7 +5645,7 @@ For a claim that the receiver took up a method from a source, identify the metho
 | blocked practice under one condition ↔ transfer | A performer who succeeds with familiar cues may struggle with a new partner, tempo, material, venue or task. |
 | capability ↔ source contribution | A receiver may have the skill before using a source. Use of a source can also be established when the receiver cannot yet perform the task. |
 | local result ↔ cultural continuation | One receiving Agent can perform Work that enacts a Method while the population never recognizes, copies, or retains it. |
-| human learning ↔ other Agents | Human motor-learning evidence can guide hypotheses; robots and AI Agents require their own direct learning and control Methods. |
+| human learning ↔ other Agents | Evidence about human motor learning can suggest a question for another performer. A configured device can play a part supplied to it. To explain an improvement through machine learning, establish which learning process produced the change. |
 
 ### MDPE.17:3 - Solution
 
@@ -5804,7 +5803,7 @@ Use the performer’s set for a claim about live coding and the organizers’ wo
 
 A team copies code, weights, movement data or a control policy to another robot or AI system. A verified copy can establish which values reached the destination. Installation or activation requires evidence from the configured system when either matters. Identify the configured performer and its work to establish what it can do with those inputs.
 
-When the configured system acts as the receiver, examine evidence of its representative work. If an open question warrants a feasible test, adapt one suited to the direct learning method, such as removing a demonstrator, using a held-out task or changing the demonstration. Bhoopchand and colleagues used such comparisons in GoalCycle3D to distinguish following, recall within an episode, generalization and use of information specific to a demonstrator. A music or dance application needs a task and measure suited to its own work.
+When the configured system acts as the receiver, examine evidence of its representative work. If a test is warranted, select it for the claim. For a programmed sequence, the relevant question may be whether the device plays the specified part when cued. When investigating learning from a demonstrator, useful contrasts may include changing or removing the demonstration or using a held-out task. Bhoopchand and colleagues used such comparisons in GoalCycle3D to distinguish following, recall within an episode, generalization and use of information specific to a demonstrator. A music or dance application needs a task and measure suited to its own work.
 
 When a technical system contributes under another agent’s control, examine how it is connected and how they interact. Establish whether it is part of the performing whole or supplies it from outside. A constituent can also perform work of its own.
 
@@ -9407,7 +9406,7 @@ Use [MDPE.30](#mdpe30---construct-a-rhythmic-part-from-a-seed-phase-and-action-r
 
 ### MDPE.Application:4.1 - Generate the small seed and choose its phase
 
-[MDPE.30:5.1](#mdpe3051---generate-the-small-seed-and-choose-its-phase) derives onsets 0, 3 and 6 in eight pulses. Rotating them forward by two gives 0, 2 and 5. Both onset sets include the required pulse 0. The rotated part also leaves pulse 6 free for another instrument’s cue. [Section 4.1](#mdpe3041---recover-the-seed-and-place-it-in-the-receiving-music) gives the placement operation and the inputs it requires.
+[MDPE.30:5.1](#mdpe3051---generate-the-small-seed-and-choose-its-phase) derives onsets 0, 3 and 6 in eight pulses. Rotating them forward by two gives 0, 2 and 5. Both onset sets include the required pulse 0. The rotated score leaves pulse 6 free of a new percussion attack. To leave a quiet interval, the preceding sounds must have died away by the cue. To establish whether the cue reached the partner or listeners in the hall, use evidence from the relevant position and mix. A listener can hear the cue over a ringing stroke. [Section 4.1](#mdpe3041---recover-the-seed-and-place-it-in-the-receiving-music) gives the placement operation and the inputs it requires.
 
 ### MDPE.Application:4.2 - Turn the onsets into actual hand and sound parts
 
@@ -9589,7 +9588,7 @@ In a constructed case, Ira and Toni are learning an eight-pulse operation. The d
 
 Ira reads “add two modulo eight,” obtains the correct set and explains why 6 becomes 0. The explanation and answer give evidence of understanding the operation. When the ensemble plays, Ira cannot clap the shifted phrase in that attempt. A claim about what Ira can do in other conditions needs corresponding evidence.
 
-Toni accurately copies the original recording but cannot construct the shifted phrase in this attempt. Repeating the original more slowly can rehearse that phrase while leaving the shift unexplained. The teacher marks the eight positions, performs the original and changed phrases, then asks Toni to shift a different onset set. That response can show how Toni applied the specified shift to new material. The teacher supplied the cycle and the rule. To examine whether Toni can choose a phase, give Toni the accompaniment and the musical effect wanted, leave the shift open, and use the resulting phrase in the ensemble. Several phases may meet the same brief. The ensemble’s performance can establish how the parts actually fit.
+Toni accurately copies the original recording but cannot construct the shifted phrase in this attempt. Repeating the original more slowly can rehearse that phrase while leaving the shift unexplained. The teacher marks the eight positions, performs the original and changed phrases, then asks Toni to shift a different onset set. That response can show how Toni applied the specified shift to new material. The teacher supplied the cycle and the rule. To examine Toni’s choice of phase, give Toni the accompaniment and the musical brief before supplying a placement. If the part needs an attack at 0 and no new attack at 6, Toni can choose and mark the onsets and show how the choice meets both conditions. Several phases may fit. If the partner needs to hear the cue, examine the sound in the relevant playing and listening conditions. A performance can show how the phrase sounded even when another musician chose its phase.
 
 Suppose both later play the shifted phrase while following the teacher’s audible count. This establishes their performance with that support in the observed task. If the concert retains the count, it may be an adequate arrangement. If the brief calls for entry after another player’s cue without the count, use a suitable existing performance under that condition, or try it when the answer justifies the additional work. Keep the support permitted for the performance being assessed.
 

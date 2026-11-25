@@ -40,7 +40,7 @@ Search by the working question or required result. CUST identifiers are stable p
 
 ## Practical entries
 
-Bring the question you need to answer. These three entries are examples. If none fits, search the Table of Contents or enter a pattern directly. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
+Bring the question you need to answer. These three entries are examples. If none fits, search the Table of Contents or enter a pattern directly. An authorized configurator can select and apply a supported variant for a customer. An adviser can compare fit when the choice belongs to the customer. Ask for an explanation when you need to understand which provisions make the variant usable.
 
 ### CUST-ENTRY-DELIVERY - Turn a successful delivery into an obtainable method
 
@@ -118,12 +118,12 @@ The framework is a repertoire of related Methods, including a large immediately 
 | The request is expressed only as features | CUST.2 reconstructs consequential differences from the supported basis and their dependencies. CUST.1 uses them to compare complete continuations. |
 | A useful local result might become common | CUST.3 constructs the family, its invariants, variation and exclusions. It can receive CUST.5 field evidence without treating a successful case as admission. |
 | The family exists but selection or delivery timing is unclear | CUST.4 makes the customer's choice meaningful and places common and customer-dependent work. The result constrains actual operating capacity and support. |
-| A decision-changing premise remains unknown | CUST.5 obtains a bounded local and shared answer. The answer can narrow a promise, exclude a member or end further inquiry. |
+| A particular delivery needs explaining, or a choice depends on an unknown condition | CUST.5 establishes what the available field evidence supports for the customer and the family owner. An explanation can complete the inquiry. Where a promise or family boundary is at issue, use the finding to decide its scope. |
 | Repetition depends on its author | CUST.6 constructs a usable method, preparation and support, then performs the receiving connection. It can reveal a false family assumption rather than a documentation defect. |
 | Growth appears attractive but its burden is unclear | CUST.7 compares complete provision over a stated population and period. The result can change the family, assistance, differentiation point or growth decision. |
 | A common change affects current users | CUST.8 constructs compatible customer continuations and an attainable transition. Its result changes the family and its support burden. |
 
-Start with the decision about the customer’s work. What must the provider supply if an input is missing? It may be responsible for establishing the input, entitled to request it from its owner, or able to use an earlier qualified result. This determines how far back to trace the operations in the delivery method. For a change to the shared offer, also trace which uses of that input in other configurations would be affected. Keep the distinctions that could change the decision or the reason the recipient must give. The actual work of one delivery and the method proposed for future deliveries can then be related through what was performed and what the method requires.
+Start with what the recipient needs to know or decide about the customer’s work. What must the provider supply if an input is missing? It may be responsible for establishing the input, entitled to request it from its owner, or able to use an earlier qualified result. This determines how far back to trace the operations in the delivery method. For a change to the shared offer, also trace which uses of that input in other configurations would be affected. Keep the distinctions that could change the decision or the reason the recipient must give. The actual work of one delivery and the method proposed for future deliveries can then be related through what was performed and what the method requires.
 
 **Method composition.** The whole method requires a way to obtain its component results. If the provider must determine the meaning of unfamiliar status codes as part of delivery, it needs an operation for establishing that meaning. If the customer supplies an authoritative mapping, delivery needs a way to check and use it. The same report could result in either arrangement. A field inquiry contributes to family development when that work uses its conclusions about allowed variation. The customer’s permission to investigate a local record may still exclude using the record in a partner package.
 
@@ -381,7 +381,7 @@ Use [CUST.5](#cust5---run-field-learning-and-return-a-productization-candidate) 
 
 When sharing could help, build the family through [CUST.3](#cust3---develop-a-repeatable-offering-family): common result and conditions, invariants, allowed variations, forbidden combinations and the local residue. The same artifact can belong in one family and be unusable in another because support, permission or customer work differs.
 
-Make the customer choice through [CUST.4](#cust4---configure-a-customer-solution-and-place-differentiation) and trace what [CUST.6](#cust6---establish-repeatable-deployment-and-service-delivery) must provide for delivery. A qualified specialist whose time is secured can give a recurring service. If the promise also covers their absence, another team or a partner, establish what the intended performers can do with the materials, authority and help available there. A successful delivery by the original author can reveal the work that needs providing. Qualification of the next arrangement depends on its own conditions.
+Establish which choices the customer retains. Make the selection or recommendation entrusted to you through [CUST.4](#cust4---configure-a-customer-solution-and-place-differentiation) and trace what [CUST.6](#cust6---establish-repeatable-deployment-and-service-delivery) must provide for delivery. A qualified specialist whose time is secured can give a recurring service. If the promise also covers their absence, another team or a partner, establish what the intended performers can do with the materials, authority and help available there. A successful delivery by the original author can reveal the work that needs providing. Qualification of the next arrangement depends on its own conditions.
 
 A technical platform decision remains with its engineering method. Obtain the architecture, interface or supported-use result and use it to define the family and delivery conditions. If it supports only a narrower class, narrow the offering rather than treating technical approval as permission for every customer promise.
 
@@ -941,9 +941,9 @@ CUST.3 supplies the supported solution space; CUST.2 receives differences outsid
 
 Use this method when work in a customer setting can resolve an uncertainty that matters to local delivery and to a possible shared contribution. It applies to a bounded probe and to repeated inquiries within a continuing field function.
 
-Start with the decision that could change, the smallest attainable answer and the current work that must remain supported. A customer site is not automatically a research setting, and a field engineer's presence does not authorize every experiment or reuse.
+Start with what the local customer and the shared-development recipient need to understand, test or decide. A customer site is not automatically a research setting, and a field engineer’s presence does not authorize every experiment or reuse.
 
-If a known method already obtains the needed result, perform it. If further inquiry cannot change the decision at reasonable effort, retain the supported choice or state the limit.
+Use a known method or a qualified finding when it fulfils the commission. If the cause remains uncertain, report what the evidence establishes about the particular delivery and what the agreed inquiry leaves open.
 
 ### CUST.5:2 - Problem
 
@@ -963,19 +963,21 @@ Local delivery produces rich experience but often returns only requests, anecdot
 
 #### CUST.5:4.1 - Establish the live question and protected work
 
-Name the local decision and the shared-development decision. They may need different answers. “Can this private environment support the monthly service?” is local. “Which setup and support conditions can define a repeatable private-hosting profile?” is shared.
+Establish what each receiver is asking. Their questions can coincide, or each may need a different answer. “Can this private environment support the monthly service?” is local. “Which setup and support conditions can define a repeatable private-hosting profile?” is shared.
 
-Describe what a useful answer would change: proceed, alter the scope, choose another way, keep the result local or stop. Identify the uncertainty that prevents that choice. Recover already available evidence before designing new work.
+For a choice, identify the unresolved condition that could change the choice or its grounds. For an explanation, identify what would distinguish the possible causes of the observed result.
 
-Protect the operating baseline: current service, support commitments, access conditions and participants whose work the attempt could disrupt. Set a bounded resource and observation window, a recipient for each answer and stop conditions tied to harm, exhausted means or lack of decision value. When the receiving decision changes, state any change to these bounds.
+A customer and the family owner ask why a row is missing from the first delivery report. Both will keep the installed profile through Friday. The selection record from that delivery may show that the applicable policy excluded the row before conversion. That gives the customer a reason for the omission and the family owner an instance of the policy operating as intended. Alternatively, the converter may have received the eligible row and omitted it from its output despite the mapping that required it. That locates a loss in this conversion. The final report alone looks the same in both cases. A later trial can show what happens under its test conditions. Using it to explain the first delivery also requires grounds that connect the finding to that delivery.
+
+Protect the operating baseline: current service, support commitments, access conditions and participants whose work the attempt could disrupt. For field work still needed, agree on resources, an observation window and when to stop. The answer may already be established, the permitted work may be exhausted or continuing may endanger current service. Revisit the bounds if the commission changes.
 
 [IS.1 — Agree a Useful Implementation-Support Undertaking](../IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md#is1---agree-a-useful-implementation-support-undertaking) supplies an agreed implementation-support undertaking; [IS.2 — Find the Implementation Difficulty and Obtain the Next Useful Contribution](../IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md#is2---find-the-implementation-difficulty-and-obtain-the-next-useful-contribution) supplies inquiry into the difficulty and selection of the next useful contribution. Obtain those results where needed, then state how the proposed field action will serve both receivers.
 
 #### CUST.5:4.2 - Construct a discriminating attempt
 
-List the plausible explanations that imply different actions. For a deployment failure, candidates might include missing access, inadequate preparation, an incompatible interface, an unsuitable family assumption or insufficient support. Choose observations or small changes that can distinguish them.
+Compare the plausible explanations that give different answers to the receiving question. For a deployment failure, candidates might include missing access, inadequate preparation, an incompatible interface, an unsuitable family assumption or insufficient support. Choose observations or small changes that can distinguish them.
 
-Use [MKT.12 — Investigate a Customer or Market Question for a Decision](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt12---investigate-a-customer-or-market-question-for-a-decision) for a customer or market question and its evidence/permission conditions. Use the relevant engineering method for a technical trial. A live intervention is not necessary when an existing trace, safe simulation or qualified analysis answers the question adequately.
+Use [MKT.12 — Investigate a Customer or Market Question for a Decision](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt12---investigate-a-customer-or-market-question-for-a-decision) for a customer or market question and its evidence/permission conditions. Use the relevant engineering method for a technical trial. For a question about feasibility or cause, an applicable trace, simulation or analysis may already give the answer. When the assignment calls for a new performance or an independent judgement, carry out the specified work under the applicable conditions. Use earlier material for what it establishes and preserve the choices entrusted to the performer.
 
 Preserve the conditions needed to interpret the result: relevant configuration, input meaning, performed actions, observed outcome, help supplied and significant deviations. Record enough to distinguish a product limitation from exceptional rescue. Do not accumulate personal or sensitive information merely because the setting makes it accessible.
 
@@ -983,7 +985,7 @@ The connected example in [Engineering.Reference:22 — How can a team organise s
 
 #### CUST.5:4.3 - Arrange people, decisions and permitted information use
 
-Compare using the current team, a bounded field team and an outside contributor against the same result and protected work. Include access, domain understanding, time away from existing delivery and the ability to return learning. A separate FDE unit is one possible arrangement.
+Use the appointed or existing field team when it can do the commissioned work. If the choice is open, compare the current team, a bounded field team and an outside contributor against the same result and protected work. Include access, domain understanding, time away from existing delivery and the ability to return learning. A separate FDE unit is one possible arrangement.
 
 Use the decision-bearing contributions in CUST.1:4.3. Field performers may propose a common change without having authority to admit it; the product holder may reject a shared form without cancelling a separately supported local service. An assurance contribution should have the independence required by the consequential claim.
 
@@ -999,23 +1001,23 @@ If successive improvisations change the object of the trial, re-establish the qu
 
 #### CUST.5:4.5 - Produce two qualified answers
 
-For the local receiver, explain whether the intended result is obtainable, what help and conditions it needs, what remains unresolved and what can happen next.
+For the local receiver, return the answer about the observed delivery or its continuation. Where feasibility is in question, explain whether the intended result is obtainable and what help or conditions it requires. State any consequential uncertainty.
 
-For the shared-development receiver, recover the consequential deltas, the proposed transferable function or method, the supporting conditions, the local residue and what establishes the proposed range. A contrary case can expose a false boundary. When the argument already covers the permitted combinations, give its conditions. Include hidden work, permission limits and a suggested next construction or inquiry. CUST.3 receives a family candidate; CUST.6 receives a delivery-method candidate.
+If the family owner requested an explanation, state what this delivery establishes about the shared profile on the permitted evidence. For a proposed transferable contribution, recover the consequential deltas, the proposed transferable function or method, the supporting conditions, the local residue and what establishes the proposed range. A contrary case can expose a false boundary. When the argument already covers the permitted combinations, give its conditions. Include hidden work and permission limits. Identify the next construction or inquiry if the commission calls for it. CUST.3 receives a family candidate; CUST.6 receives a delivery-method candidate.
 
 | Local answer | Shared answer | Valid continuation |
 | --- | --- | --- |
 | Supported | Supported candidate | Continue local provision and construct or qualify the common contribution. |
 | Supported | Not transferable or not permitted for the next use | Retain the local result; seek a different common basis only if worthwhile. |
 | Not yet supported | Useful negative or limiting knowledge | Protect or end the local attempt; revise the shared assumption without claiming delivery success. |
-| Uncertain | Uncertain | Obtain one decision-changing answer, narrow the promise or stop within the agreed boundary. |
+| Uncertain | Uncertain | Seek evidence that could resolve the commissioned question, narrow the promise or stop within the agreed boundary. |
 | Unsupported | No useful further answer | End the attempt and preserve the customer's feasible remaining continuation. |
 
 Stopping can protect resources and expose a boundary that prevents a broader false claim.
 
 #### CUST.5:4.6 - Return the result into actual product and practice work
 
-Return the field finding in a form its recipient can use to revise a family boundary, build a member, change delivery, keep a local service or reject a proposed common form. A supported recommendation delivered by the agreed time can finish an advisory assignment before the owner decides. For adoption, establish the effective decision of the authorised owner. For actual use, trace the finding to the action that used it, including action under authority already in force.
+Return the field finding in a form its recipient can use to revise a family boundary, build a member, change delivery, keep a local service or reject a proposed common form. A supported explanation or recommendation delivered by the agreed time can complete an advisory assignment. For adoption, establish the effective decision of the authorised owner. For actual use, trace the finding to the action that used it, including action under authority already in force.
 
 A permanent field function repeats this method across changing questions. It needs ongoing connections with product and operating work. Review recurring results for general knowledge implications: does the pattern of cases challenge a claim about transfer, support or scale? Keep that knowledge revision distinct from a change to one customer's configuration.
 
@@ -1039,13 +1041,13 @@ The method can favor what product teams can incorporate. Preserve local benefits
 
 ### CUST.5:7 - Conformance Checklist
 
-- Do local and shared receivers have distinct questions and attainable answers?
+- Is it clear what each receiver needs to know or decide and which findings each is permitted to use?
 - Is current work protected by actual resources and stop conditions?
-- Can the attempt distinguish the explanations that change action?
+- Do the available grounds distinguish the explanations that matter to the question? If a fresh attempt was commissioned, what did that attempt establish?
 - Are deviations, assistance and evidence limits recoverable?
 - Are collection, use and transfer permitted for the receiving purpose?
 - Can the inquiry end with a local-only, negative, uncertain or stopped result?
-- Is the answer usable for the receiving decision by the time it is due? If a change or actual use is claimed, what decision or action establishes it?
+- Can the recipient use the answer for the stated purpose by the time it is due? If a change or actual use is claimed, what decision or action establishes it?
 
 ### CUST.5:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1065,7 +1067,7 @@ It can conclude that a promising local solution should remain local. That result
 
 ### CUST.5:10 - Architectural Rationale
 
-Two receiving decisions explain why field work needs both delivery and learning boundaries. A single “handover to product” output loses local continuity; a local-only report loses the transferable conditions.
+Local delivery and shared development can use the same field finding for different purposes. Those purposes set the boundaries on delivery and learning. A single “handover to product” output loses local continuity; a local-only report loses the transferable conditions.
 
 ### CUST.5:11 - SoTA-Echoing
 
@@ -1160,7 +1162,7 @@ When material comes from a customer case, receive the permitted common contribut
 
 Establish who can supply the next service, which decisions the performer makes and what assistance will be available. A qualified duty roster can supply the service before a particular individual is named. Where adaptation depends on the performer’s judgement, establish that the person or agent on duty can recognize the condition and make the required choice in time with that support. Earlier comparable work may already show this performer's choices, the result and the help used. Use it when the conditions fit. If the uncertainty concerns tacit work another person or agent must now take over, give that receiving performer an appropriate case, the intended materials and the ordinary support. Observe the contribution at issue, including any intervention by the original author.
 
-Record how the result was obtained, which method the performer used and what help they received. They may use the intended method, use a different permitted method, obtain additional help or leave the work unfinished. Success with a different method can settle an order for the service while leaving competence in the intended method open. An order to perform that particular method still requires its use. Determine whether the observed help was necessary before making it a permanent requirement.
+Record how the result was obtained, which method the performer used and what help they received. They may use the intended method, use a different permitted method, obtain additional help or leave the work unfinished. Success with a different method can settle an order for the service while leaving competence in the intended method open. An order to perform that particular method still requires its use. Honor promised support. When the arrangement is open, compare the benefit of continuing help with the work, access and time required of both recipient and provider. Establish that they can carry it out on the applicable terms. To conclude that the service depends on that help, establish what the performers can deliver without it.
 
 To promise adaptation, identify a variation that could change the receiving action and what enables the performer to handle it. Use a sufficient prior comparison, a justified property of the method or a trial of the operation whose transfer remains open. A separately ordered fresh trial belongs to the delivery. If several teams will depend on the same specialist, check that assistance can reach each under their service terms.
 
@@ -1190,7 +1192,7 @@ In a public literacy programme, repeatable delivery may require prepared facilit
 
 What can be written is easier to package than tacit skill, trust, preparation or continuing support. Examine actual receiving work before deciding the carrier.
 
-The original expert can also overstate uniqueness. Try explaining and practising the operation before concluding that only the author can do it. Preserve specialist help when it is a suitable way to provide the needed contribution.
+If an operation appears to depend on the original expert, establish why. A skill can be taught, access can be granted and a decision may be reserved to its holder. Use an explanation or practice trial for an unresolved skill question. When the contract calls for approval by a named specialist, using a substitute requires whatever change those terms provide for. Preserve specialist help when it is a suitable way to provide the needed contribution.
 
 ### CUST.6:7 - Conformance Checklist
 
@@ -1453,7 +1455,7 @@ For an engineered platform migration or retirement, use the complete [SYSE.29 �
 
 Choose the next increment by dependencies and available resources. Several customers may need to move together because they share state or an operating window; others can move independently. The smallest useful increment preserves a complete receiving result, not necessarily one customer or one component.
 
-Agree the work with the parties who must perform it. Include customer preparation, permitted data or material transfer, training through actual use, acceptance, support and the disposition of local adaptations. Retain a qualified return path only where it restores the required result. Where effects are irreversible, use the supported forward repair, restoration with stated loss or authorized interruption; do not promise a generic rollback.
+Use assignments and commitments already in force. Obtain any new agreement from those entitled to bind each contribution. Establish that performers have the access and time to deliver and that any required personal participation is available. Establish what changes in the customer's work. Include the preparation, permitted transfers, acceptance, support and handling of local adaptations the move requires. Arrange practice with feedback when the changed work or the agreement calls for learning. Retain a qualified return path only where it restores the required result. Where effects are irreversible, use the supported forward repair, restoration with stated loss or authorized interruption; do not promise a generic rollback.
 
 Compare ordinary service, transition, coexistence and later support together through CUST.7. A specialist cannot be counted as fully available for each at the same time. If the joint demand is infeasible, change the increment, obtain capacity, narrow the new promise or defer the change.
 

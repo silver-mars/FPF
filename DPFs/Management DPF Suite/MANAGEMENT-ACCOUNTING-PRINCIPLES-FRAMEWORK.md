@@ -47,9 +47,9 @@ Management Accounting develops and uses economic knowledge of an organization's 
 
 Begin with the work that needs to become understandable or possible. You may need an explanation of cost, an outlook, an economically supportable product or service arrangement, or information that helps participants coordinate their decisions. These questions lead to different combinations of methods. Management Accounting connects the intended results, work, resource provision, monetary consequences and use of information; the responsible operating, engineering, financial and organizational practices contribute their own constructions and decisions.
 
-These are selected connected examples. Enter where the explanation is missing; reuse an adequate model or account. The [Table of Contents](#table-of-contents) gives direct access to the methods, and the [Architectural Reference](#management-accounting-principles-framework-architectural-reference) explains the repertoire. You can ask an assisting agent to explain a pattern or comment on your case in the language of your work, without framework jargon. In MA.4:5, 4 identifies the pattern and 5 its section.
+These are selected connected examples. Enter where the explanation is missing; reuse an adequate model or account. The [Table of Contents](#table-of-contents) gives direct access to the methods, and the [Architectural Reference](#management-accounting-principles-framework-architectural-reference) explains the repertoire. A service with the needed access and capability can reconcile accounts or apply an agreed charging rule. If the question concerns a proposed price or rule, distinguish the contribution of whoever devised it from the decision required to adopt it. Ask for an explanation of the calculation when its grounds are in doubt. In MA.4:5, 4 identifies the pattern and 5 its section.
 
-The calculations below are constructed cases under supplied operating, contractual and accounting premises. When applying them, obtain the applicable facts, reporting rules and decisions from the responsible practitioners.
+The calculations below are constructed cases under supplied operating, contractual and accounting premises. When applying them, use the applicable facts, reporting rules and decisions. Where evidence or a decision is missing, obtain it from a source competent to supply it.
 
 ### MA-E1 — An order is priced below reported average cost
 
@@ -80,15 +80,15 @@ The calculations below are constructed cases under supplied operating, contractu
 
 ### MA-E3 — The forecast has become a resource negotiation
 
-- **Situation:** One number is expected to serve as demand outlook, ambition, resource request and authorization, concealing the decision needed when they differ.
-- **Question:** Which expectation should remain visible, and which action or resource decision could change the outlook?
-- **First useful result or blocker:** Distinguishable expectations, ambitions, requests and authorizations, connected to the resource or management decision that matters.
+- **Situation:** One number is expected to serve as demand outlook, ambition, resource request and authorization, obscuring the meaning of any difference.
+- **Question:** What do the numbers establish about demand, ambition and provision, and what decision, if any, follows?
+- **First useful result or blocker:** A supported comparison of expectation, ambition, request and authorization. If a decision is needed, identify who can make it and what the comparison supplies.
 - **Start with:** [MA.6 - Separate Forecasts, Targets and Resource Requests](#ma6---separate-forecasts-targets-and-resource-requests) for mixed meanings; [MA.5 - Construct and Update an Operating Forecast](#ma5---construct-and-update-an-operating-forecast) when the meanings are settled and the outlook needs construction or revision.
 - **Stop or return:** Keep an adequate expectation visible. A resource request, its authorization and usable provision remain different results.
 
 1. **Recover the use of each number.** MA.6's case has demand expected at 100 units, an ambition of 120, a request for provision covering a possible surge to 130, and authorization covering 110 under the supplied mix and scheduling assumptions. The authorization neither changes expected demand to 110 nor makes the ambition feasible.
-2. **Connect the gap to the result that can resolve it.** MA.5 constructs or obtains the warranted demand outlook and its uncertainty. Its MA.5:5.1 example joins sixty booked units with forty further units estimated on a nonoverlapping basis; a sufficient supplied forecast can be used directly. Where conversion is missing, MA.1 and MA.2 relate demand to resource quantities and payments, using the adequate operating capacity account. The responsible manager can then decide about provision, scope or ambition. When the ambition or its comparison lacks a meaningful basis, [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) constructs that missing result; an adequate supplied target can remain. Keep a proposed addition in the scenario where it occurs; do not make it available by editing the forecast.
-3. **Update the outlook when the expectation changes.** If a market action warrants a new expectation of 115, MA.5 updates that outlook and its assumptions. The gap against authorized capability is five units on the same basis; the target remains 120 and authorization 110 until their responsible participants change them. A fixed resource payment stays fixed under its terms even when demand changes.
+2. **Connect the gap to the result that can resolve it.** MA.5 constructs or obtains the warranted demand outlook and its uncertainty. Its MA.5:5.1 example adds forty further units requested for delivery to sixty booked for the period. A sufficient supplied demand forecast can be used directly. Where conversion is missing, MA.1 and MA.2 relate demand to resource quantities and payments, using the adequate operating capacity account. The responsible manager can then decide about provision, scope or ambition. When the ambition or its comparison lacks a meaningful basis, [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) constructs that missing result; an adequate supplied target can remain. Keep a proposed addition in the scenario where it occurs; do not make it available by editing the forecast.
+3. **Update the outlook when the expectation changes.** A market action raises expected demand to 115. On the same basis, authorized capability of 110 is five below the new mean. That answers a comparison of levels. To forecast unserved work, use MA.6:4.3 to find the requests left by the service expected in each situation. Combine those counts when the probabilities of the situations are supported. The target remains 120 and authorization 110 until revised by those responsible. The terms of a fixed payment still apply.
 4. **Use the later result without rewriting the earlier prediction.** Retain the earlier forecast's premises when learning from outcomes. MA.7 constructs comparable intermediate accounts to explain the difference. If product mix changed, MA.7:5.2 shows how to replace an aggregate usage term with mix and within-product usage; action taken in response may account for part of the observed change. If the reward or negotiation arrangement still suppresses unwelcome expectations, MA.9 examines that specific use and returns any wider organizational change to its responsible practice. The clarified accounts may already resolve the question. If the attained result still needs a performance judgement, [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops22---interpret-operating-performance-and-decide-the-response) helps the reader judge what the result establishes given target difficulty, changed conditions, actions and joint effects. If a response is called for, propose it to the decision holder or decide under the applicable authority. The [repair cooperative case (Engineering.Reference:7)](../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference7---how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) develops that continuation through an actual change in the local review rule.
 
 ### MA-E4 — Two customer cohorts share one paid service team
@@ -191,13 +191,13 @@ Economic knowledge is built from observations, models of work, applicable terms,
 
 Practice changes this knowledge. A trial can expose omitted rework; a new contract can change which payment is avoidable; a revised service design can change the relation between customer count and workload. Compare the observation with what the model predicted under its stated conditions. Determine whether to correct data, change a relationship, narrow its applicability or replace the arrangement. Success under one set of conditions supports reuse there; generalizing to other scales, populations or forms of work requires support for the relationships that carry the inference.
 
-The construction requires different intellectual operations. Select an abstraction that preserves the distinctions needed for the question: a common service-hour unit is adequate only while the work can draw on compatible provision. Synthesize contributions through their real relations: combining customer accounts must preserve their shared capacity and obligations. Generalize a supported relationship only to cases for which its necessary conditions hold. These operations determine what can be omitted, connected or reused, and what a changed condition would invalidate.
+The construction requires several intellectual operations. Select an abstraction that keeps the distinctions needed for the question. To report total person-hours worked, add the included hours on a common basis. To promise a particular service from that total, preserve the qualifications, availability and shared resources that determine whether one person's work can substitute for another's. Combining customer accounts requires a further step. Account for shared capacity and obligations across them. To generalize a supported relationship, establish where its necessary conditions hold. These choices determine what can be omitted, combined or reused and which conclusion would change if a condition changed.
 
 ### MA.Reference:1.4 - The discipline's boundary and its collaborators
 
 This framework covers economic explanation and construction for managing organizational activity, including the design and examination of accounting information in use. It therefore reaches from operational work to products, customers and commitments over time, and from observed consequences to proposed changes. It does not take over every professional task performed by a management accountant.
 
-Investment valuation, financing and financial-risk treatment have their own financial methods. Tax, external reporting and legal duties require their applicable rules and competent practice. Engineering practitioners establish how the technical system and service can be realized. Marketing practitioners investigate the offer and its use. Those responsible for operations establish executable work and make operating choices. Management accounting practitioners develop the economic relationships and consequences needed in these constructions. Obtain usable results from collaborators, connect their conditions and return a changed premise to whoever can resolve it.
+Investment valuation, financing and financial-risk treatment have their own financial methods. Tax, external reporting and legal duties require their applicable rules and competent practice. Engineering practitioners establish how the technical system and service can be realized. Marketing practitioners investigate the offer and its use. Those responsible for operations establish executable work and make operating choices. Management accounting practitioners develop the economic relationships and consequences needed in these constructions. Use collaborators’ results under the conditions that support them. When a premise changes, identify which parts of the comparison still hold. Obtain the missing contribution when the receiving work needs it.
 
 This boundary permits both a small warranted calculation and a substantial joint redesign. The receiving work determines which construction must be made and when it is sufficient.
 
@@ -313,7 +313,7 @@ Grouping resources makes an account usable. It loses value when the group hides 
 
 #### MA.1:4.1 - Begin with the missing explanation
 
-State the work being considered, the relevant result and the period over which the model must answer. Inspect the existing account with its user. Ask what it cannot presently explain: the resources required for another order, the effect of a changed batch size, the cost of unused provision or some other concrete dependency.
+State the work being considered, the relevant result and the period over which the model must answer. Use the recipient’s question to examine the existing account. Recover their judgement where the use or an assumption is still open. Identify any dependency the account cannot presently explain: the resources required for another order, the effect of a changed batch size, the cost of unused provision or some other concrete dependency.
 
 Choose the resource evidence by the decision it must support. For a proposed order, begin with the available ways to do the work. If every authorized route needs at least six hours on a rig and only five are available before the deadline, that bound can exclude the order on those terms. To accept it, establish a route that works throughout the promised conditions, or show who can distinguish the conditions, choose an authorized route and finish the work in time. An upper bound within the rig hours available in the required windows can settle that capacity question once a means of delivery is known. A verified meter reading can establish actual consumption directly. When inferring consumption from routes whose use changes the answer, establish which route was taken. For a reusable product-cost account, obtain the routes and variation its users need. A ledger category identifies recorded money. The method, units and conditions of the work explain its resource use.
 
@@ -490,7 +490,7 @@ MA.2 explains capacity use and its cost; MA.3 resolves shared assignment; MA.4 r
 
 Use this pattern when paid capacity, used capacity and apparently idle capacity have been treated as the same thing. A proposed efficiency saving, staff reduction or extra workload often exposes the difference.
 
-The pattern governs an account of resource supply, usable capability, its use and its monetary consequences. It returns an explanation of what is available, what is used or reserved, and what action could change supply or payments.
+Use the account to explain a payment, determine how much work the resource can support or assess a proposed change. The terms of a paid shift may already settle its price. A promise about the same shift can depend on who may call on it and how soon it can be made available.
 
 Use an adequate capacity account directly. Use the relevant [OPS][OPS] method when deciding about the constraint, reserve or feasible schedule.
 
@@ -504,7 +504,7 @@ These quantities do not have one monetary meaning. Released time can increase av
 
 An account that prices every unused hour as waste invites a reduction that may damage service. An account that treats every paid hour as available can promise work the resource cannot perform.
 
-Explain how capacity is used, what the organization pays to keep it available and what would change that payment. An operating choice also depends on the service conditions.
+For a question about payment, establish what the supply terms charge. For a question about use or a further commitment, establish the relevant operating conditions. A proposed saving may require both accounts.
 
 ### MA.2:3 - Forces
 
@@ -518,13 +518,13 @@ A reserve can displace other valuable work. Count the opportunity forgone when t
 
 Name the resource arrangement, capability, time window and receiving question. Recover the supplied quantity, the unit and the conditions under which it can serve the relevant work. Distinguish staff attendance, machine occupation and elapsed time.
 
-Use the current operating account for availability, commitments and reserve. If those results are disputed, obtain the missing OPS result before attaching a monetary conclusion to them.
+Use the operating account for availability, commitments and reserve when the conclusion depends on them. For example, a completed shift payable at a fixed 1,000 costs 1,000 even if use of its two reserve hours was never recorded.
 
 #### MA.2:4.2 - Explain the supplied, used and unused portions
 
-Reconcile the supplied quantity with its relevant uses and restrictions. Identify unavailable or differently committed provision, actual or expected consumption, protected reserve and remaining usable capacity available for ordinary work. Keep the categories mutually interpretable for this account; reserve can be part of available capacity while being unavailable for ordinary commitment.
+Reconcile the supplied time by counting each interval once. Establish what happened in it when use matters. A reservation also says who can call on the resource and with what notice. During two hours reserved for urgent calls, staff may do work they are permitted and able to interrupt. For a proposed promise, check whether they can release the resource in time for a call and still meet the terms offered for the other work. A promise of two uninterrupted hours needs a different basis from permission to work until a call arrives.
 
-Investigate the reason for an apparently idle portion. It may reflect demand variation, a necessary skill mix, downtime, a minimum supplier block or inadequate demand. If the cause is in dispute, say what remains unresolved.
+When the cause of apparent idleness matters to the account, investigate it. It may reflect demand variation, a necessary skill mix, downtime, a minimum supplier block or inadequate demand. If the cause is in dispute, say what remains unresolved.
 
 #### MA.2:4.3 - Connect a capacity change to a supply action
 
@@ -536,13 +536,13 @@ Retain the threshold. Removing five hours of work may leave the same supplied sh
 
 #### MA.2:4.4 - Return the capacity and monetary account
 
-Return the quantities, reasons and relevant supply options with their limits. If a unit cost is useful, state its denominator and purpose. Dividing the same payment by supplied, used or productive hours gives different rates.
+Return the payment, use or available provision the recipient asked about, with the conditions supporting it. If a unit cost is useful, state its denominator and purpose. Dividing the same payment by supplied, used or productive hours gives different rates.
 
 Supply the supported quantities and payment conditions to OPS for the capacity or incremental decision. Keep uncertainty about the operating reserve separate from uncertainty about a supplier's terms.
 
 ### MA.2:5 - Archetypal Grounding
 
-A service purchases 100 scheduled qualified staff-hours for 2,400 in a period. An adequate supplied operating account identifies 20 hours unavailable for the service, 50 used on service work, 10 held as justified reserve and 20 otherwise unused usable hours. The account reconciles **20 + 50 + 10 + 20 = 100**.
+A service purchases 100 scheduled qualified staff-hours for 2,400 in a period. An adequate supplied operating account identifies 20 hours unavailable for the service, 50 used on service work, 10 held idle as justified reserve and 20 otherwise unused usable hours. The account reconciles **20 + 50 + 10 + 20 = 100**.
 
 Dividing 2,400 by all 100 supplied hours gives 24 per supplied hour. Dividing it by the 50 service hours gives 48 per used service hour. Neither division establishes the payment avoided by releasing another hour.
 
@@ -558,7 +558,7 @@ The period account does not establish a long-run staffing result. A later horizo
 
 ### MA.2:7 - Conformance Checklist
 
-Examine whether the account identifies the resource, capability, unit and window; reconciles supply with relevant uses and restrictions; retains the operating basis of reserve; distinguishes released capability from changed payment; and names the action and conditions needed for a supply change.
+What settles the recipient’s question about the specified resource and period? Check a payment against its terms and a total of supplied time against distinct intervals. Where the same interval is reserved and partly occupied, examine both facts for a capacity claim. For an additional commitment, check who may release the resource, how quickly and which promises still hold after an interruption.
 
 These checks assess the explanation. The existence of paid capacity does not establish a feasible schedule or the adequacy of a reserve.
 
@@ -584,7 +584,7 @@ The accounting method explains quantities and money. Those responsible for opera
 
 ### MA.2:11 - SoTA-Echoing
 
-The selected line combines resource-based managerial costing with the distinction between productive, protective and excess capacity discussed in Tendon and Doiron's *Tame your Work Flow* (2020), chapter 7. It adapts the distinction to the actual operating account: the reason for reserve must be established, and elapsed flow time alone does not identify a constrained resource.
+The selected line combines resource-based managerial costing with the distinction between productive, protective and excess capacity discussed in Tendon and Doiron's *Tame your Work Flow* (2020), chapter 7. In the operating account, a claim about the protection a reserve affords needs grounds for that protection. A fixed shift charge can be known from the terms of supply. Elapsed flow time alone does not identify a constrained resource.
 
 In the historical fixture example in Caspari and Caspari's *Management Dynamics* (2004), a fixture transfers work between stations: it saves five minutes per unit at one station but adds two at the station that limits production. Total processing time falls from 55 to 52 minutes, while wages remain unchanged. When demand uses the limiting station's capacity, increasing its work from 25 to 27 minutes per unit reduces possible output. These contributions inform §§4.2–4.3 and the released-hours example.
 
@@ -646,7 +646,7 @@ Retain joint or sustaining costs at the level their explanation supports when th
 
 When the receiving purpose requires distribution beyond supported tracing, select or obtain the rule appropriate to that purpose. State the basis and why it is usable here. An applicable agreement or reporting rule may determine it.
 
-When the task is to design the rule, start from the decisions the recipients of the account will make. Establish which resource use can be traced to particular work and which costs remain shared. Construct alternative ways of assigning the shared amount. Hold the total fixed and follow what each party could gain, lose or cease to report under each rule. Recover what the joint service needs from all of them. Use MA.9:4.0 for the operating consequences and return a proposed change in agreed terms to those who may adopt it. For a charge already governed by an applicable rule, the rule and facts can settle the amount.
+When the task is to design the rule, start from the decisions the recipients of the account will make. Establish which resource use can be traced to particular work and which costs remain shared. Construct alternative ways of assigning the shared amount. Hold the total fixed and follow what each party could gain, lose or cease to report under each rule. Recover what the joint service needs from all of them. Use MA.9:4.0 for the operating consequences. Give the proposal to the recipient of the design work and identify whose agreement would make the changed terms effective. Seek that agreement when it is due. For a charge already governed by an applicable rule, the rule and facts can settle the amount.
 
 Apply the rule consistently to the defined source total and recipients. Retain rounding, excluded items or residuals where they affect reconciliation. Distinguish a change in the total from a change in its assignment.
 
@@ -788,7 +788,7 @@ Show enough intermediate amounts to expose an omitted term and reconcile to the 
 
 #### MA.4:4.4 - Return the reconciled views and any discrepancy
 
-Preserve each account for its warranted use and return the explanation connecting them. If a source is wrong, return the correction to whoever maintains it. A statutory account must be corrected through the applicable reporting process.
+Preserve each account for its warranted use and return the explanation connecting them. When a source entry is wrong, identify the discrepancy for the commissioned recipient. Notify its maintainer or correct the source as the assignment or an applicable reporting duty requires. Use the prescribed process for a statutory correction.
 
 Supply the required monetary basis to the receiving operating or financial method. If funding is at issue, identify the payer and determine what that payer can use at each required date after other obligations. A group total answers a consolidated reporting question. For a payment by one member, establish the availability, authority and timing of any transfer it relies on.
 
@@ -896,11 +896,11 @@ MA.1–MA.3 supply resource and assignment meanings. MA.5 uses reconciled assump
 
 ### MA.5:0 - Use this when
 
-Use this pattern when a coming workload, resource need or monetary consequence must be anticipated and a target or historical average cannot answer the question. Begin with the action the forecast could change and the lead time needed to act.
+Use this pattern when a coming workload, resource need or monetary consequence must be anticipated and a target or historical average cannot answer the question. Start with the quantity, dates and use the recipient has specified. Where the horizon is yours to choose, allow time for the action the forecast is intended to inform.
 
 The pattern governs a conditional operating forecast. It returns the relevant demand, resource and monetary outlook, the assumptions that can change it and the conditions for updating it.
 
-Use an adequate current forecast directly. Additional detail is useful only when it can change the receiving action or its assurance.
+Use an adequate current forecast directly. Seek greater detail when the requested outlook or a decision that relies on it needs that detail.
 
 ### MA.5:1 - Problem frame
 
@@ -912,7 +912,7 @@ A forecast expresses what is expected under stated conditions. A target expresse
 
 A forecast built by extending last period's totals can conceal a changed mix, resource threshold or collection delay. A forecast negotiated as a target can conceal expected difficulty.
 
-An elaborate model can still be unhelpful if its horizon is too short to act or its assumptions cannot be revised. Forecast the quantities and conditions that could change the receiving action, with enough detail to show the uncertainty that matters.
+An elaborate model can still be unhelpful if its horizon is too short to act or its assumptions cannot be revised. Forecast the requested quantities under the relevant conditions, including uncertainty that could change their interpretation.
 
 ### MA.5:3 - Forces
 
@@ -924,19 +924,19 @@ Actions taken in response to a forecast can change the outcome. Later evaluation
 
 #### MA.5:4.1 - Choose the receiving use and horizon
 
-State who will use the forecast, what decision or preparation it could change and when that action must occur. Choose a horizon long enough for the relevant response.
+Keep the forecast quantity, information cutoff, horizon and delivery date set by the recipient. For example, an update of the month-end outlook using orders known by Friday keeps that cutoff and month end. Where a choice is delegated, select dates that give the intended recipient time to prepare or act. Supplying the forecast on its agreed basis can complete the commission.
 
-Recover the adequate existing account and forecast. Determine whether the missing answer concerns demand, resource conversion, money, timing or uncertainty. Request further detail only if it could change the decision or preparation the forecast informs.
+Recover the adequate existing account and forecast. Determine whether the missing answer concerns demand, resource conversion, money, timing or uncertainty. Request the detail needed to support that answer or its intended use.
 
 #### MA.5:4.2 - Construct compatible demand inputs
 
-Fix the output being forecast, the population, period and information cutoff. A forecast of orders accepted next month differs from one of units delivered next month: carry the order backlog and promised delivery dates into the latter. Distinguish units, customers and transactions before combining them. MA.8 supplies the time and population account when several customer cohorts or product phases contribute.
+Fix the output being forecast, the population, period and information cutoff. Orders requested for next month can exceed the quantity delivered and accepted in that month. For delivered units, include the due backlog, work that can be completed in time and the applicable acceptance conditions. Distinguish units, customers and transactions before combining them. MA.8 supplies the time and population account when several customer cohorts or product phases contribute.
 
-Separate what is already included from what remains to be estimated. For a delivery forecast, begin with due work expected to survive cancellation or rescheduling, then estimate further work that can enter and be delivered in that period. Keep those components disjoint. If a supplied forecast already covers all deliveries, adding current orders to it would count part of the population twice.
+Separate work already included from work still to be estimated. For requested deliveries, begin with booked work due in the period that is expected to remain due. Add further requests for that period from the remaining population. If the supplied forecast already covers all requests, adding the booked quantity counts it twice. To forecast completed deliveries, follow both contributions through the feasible service arrangement for the same period.
 
 Construct the missing component from evidence suited to it. Comparable history can supply a simple benchmark, such as the average further orders received after the same cutoff when demand conditions are stable. Compare like populations and horizons; a seasonal series needs a relevant seasonal comparison, and a changed offer or sales channel can defeat an old average. Judgment can incorporate information absent from that history, but name the changed condition and how it affects the quantity. A specialist forecast can be used directly when its population, cutoff, horizon and assumptions fit.
 
-Begin with the simplest supported forecast that can change the decision usefully. Compare added complexity against that benchmark on observations not used to fit or choose the model when predictive accuracy is the claimed gain. Obtain a forecasting method or specialist contribution where estimation requires it. A few teaching observations, an attractive fit or three labeled scenarios do not establish predictive calibration.
+Begin with the simplest supported forecast that answers the receiving question. Compare added complexity against that benchmark on observations not used to fit or choose the model when predictive accuracy is the claimed gain. Obtain a forecasting method or specialist contribution where estimation requires it. A few teaching observations, an attractive fit or three labeled scenarios do not establish predictive calibration.
 
 Keep observed facts, commitments, estimates and proposed actions distinguishable. State whether a precise statistical claim reports a mean, quantile or another defined quantity. A central planning scenario is not automatically an expected value. Where the evidence supports only a conditional scenario, preserve that qualification instead of presenting the scenario as an evidenced expectation.
 
@@ -958,9 +958,9 @@ Represent uncertainty in forecast revenue and receipts at the detail needed for 
 
 #### MA.5:4.5 - Return the forecast and usable response conditions
 
-Supply the quantities, timing and assumptions in a form the recipient can use. Identify the condition that would require a decision, such as workload beyond usable capacity or a payment before available funding.
+Supply the quantities, timing and assumptions in a form the recipient can use. If a decision is at issue, identify the relevant condition, such as workload beyond usable capacity or a payment before available funding.
 
-The forecast does not authorize that response. Use the responsible operating or financial decision method. When payment feasibility is the question, connect the selected flows to the payer’s resources at the relevant dates, including other obligations and only transfers that can reach it in time.
+The forecast does not authorize that response. When a response is commissioned, use the responsible operating or financial decision method. When payment feasibility is the question, connect the selected flows to the payer’s resources at the relevant dates, including other obligations and only transfers that can reach it in time.
 
 #### MA.5:4.6 - Update from changed conditions and learn from outcomes
 
@@ -968,7 +968,7 @@ Revise the affected assumptions when new evidence or an actual decision changes 
 
 When comparing with actual outcomes, distinguish changed external conditions, estimation error, bias and actions taken in response. Action taken in response to a forecast can prevent the adverse outcome it describes and explain a numerical difference. This does not by itself prove the forecasting model was accurate. Choose a comparison that can test the forecast claim under its stated conditions.
 
-Choose refresh timing from the pace of relevant change and the receiving action. A rolling window can help; refreshing unchanged detail on a calendar alone can consume effort without improving the result.
+Meet the agreed reporting dates. When the timing of later updates is open, use the pace of change and the lead time for the receiving action. A rolling window can help; refreshing unchanged detail on a calendar alone can consume effort without improving the result.
 
 A target gap can initiate design work through MA.10. Preserve the outlook under the existing arrangement while constructing the proposed alternative's outlook from its changed offer, work and provision. The target is not a demand observation. If a design change affects both price and service behavior, revise both dependencies rather than changing only a cost assumption. MA.9 supplies a missing arrangement for participants to use and challenge the resulting expectations before commitments are made.
 
@@ -976,29 +976,31 @@ A target gap can initiate design work through MA.10. Preserve the outlook under 
 
 #### MA.5:5.1 - Obtain the missing demand input
 
-At the information cutoff, a service has sixty booked units due next month. Under the supplied teaching premises they will remain due and be delivered. Three comparable earlier months received another 35, 40 and 45 units after the same cutoff, all delivered in the respective forecast month. These counts exclude each month's already booked work.
+At the information cutoff, sixty booked units are due next month and are expected to remain due. In three comparable earlier months, customers requested another 35, 40 and 45 units for delivery in the respective month after the same cutoff. These requests came in addition to each month’s booked work. The historical units were delivered. Here the first question concerns the volume customers will request for next month.
 
-Assume unchanged demand conditions and no relevant trend or seasonality for this example. The average residual of (35 + 40 + 45) / 3 = **40** is a simple benchmark, so sixty booked plus forty further units gives **100**. Adding the sixty to a forecast of total deliveries would have been a different, overlapping calculation. These three observations illustrate the construction; they do not establish a calibrated distribution.
+Assume unchanged demand conditions and no relevant trend or seasonality for this example. The average residual of (35 + 40 + 45) / 3 = **40** is a simple benchmark, so sixty booked plus forty further units gives **100 units requested for delivery**. A forecast already covering all such requests includes the sixty. These three observations illustrate the construction; they do not establish a calibrated distribution.
 
-The account also considers two separate conditions. A channel interruption would remove twenty of the forty residual units, while a proposed campaign could bring twenty additional units beyond the benchmark. Neither changes the sixty booked units under the supplied premises. The interruption branch gives **80**; the campaign branch gives **120**. The campaign effect is additional to the normal residual population. These are alternative planning scenarios, not probabilities or effects to add simultaneously. In practice, obtain the channel and campaign evidence that makes their effects plausible. If the stable-demand premise fails and no replacement estimate is supported, retain conditional scenarios or obtain a better forecast.
+The account also considers two separate conditions. A channel interruption would remove twenty of the forty residual units, while a proposed campaign could bring twenty additional units beyond the benchmark. Neither changes the sixty booked units under the supplied premises. The interruption branch gives **80 units requested** and the campaign branch **120**. The campaign effect is additional to the normal residual population. These are alternative planning scenarios, not probabilities or effects to add simultaneously. In practice, obtain the channel and campaign evidence that makes their effects plausible. If the stable-demand premise fails and no replacement estimate is supported, retain conditional scenarios or obtain a better forecast.
 
-A reader who has adequate 80/100/120 scenarios can enter the following conversion directly.
+A reader with adequate scenarios of requested deliveries can use them directly to calculate the resources needed to fulfil them. The next comparison shows how much can be delivered and accepted under each supply arrangement.
 
 #### MA.5:5.2 - Convert and revise the supplied scenarios
 
-A service forecasts next period's workload using three planning scenarios: 80, 100 or 120 accepted units. These are supplied scenarios without probability weights. The adequate resource model requires ten setup hours plus 0.25 qualified staff-hours per unit. A supplied arrangement provides 38 usable hours for 120 currency units; a feasible extra five-hour block costs 80.
+For demands of 80, 100 and 120 units, the service calculates how much time it would take to fulfil every request. The scenarios carry no probability weights. One setup takes ten hours and each unit requires 0.25 qualified staff-hours. The base arrangement provides 38 usable hours for 120 currency units. A further five-hour block can be obtained for 80. In the following comparison the resources booked for the period are paid on day 1. Assume the hours fit the service windows, materials can be obtained in time and customers accept each conforming unit delivered by the cutoff.
 
 | Workload scenario | Required staff-hours | Relevant supply condition |
 | --- | ---: | --- |
 | 80 units | 10 + 80 × 0.25 = **30** | Fits the supplied 38 hours. |
 | 100 units | 10 + 100 × 0.25 = **35** | Fits the supplied 38 hours. |
-| 120 units | 10 + 120 × 0.25 = **40** | Needs an adequate additional arrangement; the supplied five-hour block is one option. |
+| 120 units | 10 + 120 × 0.25 = **40** | The base hours can cover at most 112 units. Obtaining the five-hour block allows all 120 to be served on the stated terms. |
 
-Materials require 3 per unit, and the service price is 10 per accepted unit. In the 100-unit scenario, materials are 300 and sales are 1,000. The supplied collection assumption places the 1,000 receipt on day 30, while the 300 material and 120 resource payments occur on day 1. A funding use needs the whole cash account. If the 1,000 is instead collected next month, current-period revenue can remain 1,000 under the same recognition rule while the closing receivable rises by 1,000 and this period has no corresponding receipt. MA.4 carries that receivable into the next period; it is not a second sale then.
+Materials cost 3 for each unit produced. The service recognizes sales of 10 per unit on customer acceptance. Suppose it buys on day 1 just the materials for the quantity it will deliver and the customers pay on day 30. With requests for 100 units and all 100 accepted, sales and receipts are 1,000. Material and resource payments on day 1 are 300 and 120. If collection moves to next month, the same 1,000 of sales becomes a closing receivable. MA.4 carries it forward to collection. A funding decision uses the payer’s whole dated cash position.
 
-The original workload fits the 38 hours through **112 units**, since (38 − 10) / 0.25 = 112. If twenty of the 100 units instead require 0.50 hour while eighty still require 0.25, demand becomes 10 + 20 × 0.50 + 80 × 0.25 = **40 hours**. Unchanged total volume therefore crosses the same supply threshold. This establishes the capacity threshold. To forecast the block payment, also establish who decides and when. If a block must be reserved in advance to guarantee service, it costs 80 even when demand is low. When the still-available block is bought after the signal, expected payment is 80 times the probability of purchase. If the rule requires buying one block whenever the qualifying demand crosses the threshold and in no other case, use the probability of that threshold event. These unweighted scenarios leave that probability open.
+At 120 requests, the base arrangement can deliver **112 units**, since (38 − 10) / 0.25 = 112. If the service uses all those hours and the 112 units are accepted, the stated purchasing and settlement terms give 336 for materials, 120 for base provision and 1,120 in sales and receipts. With the additional block obtained and all 120 units accepted, materials cost 360, resource payments total 200 and accepted sales bring 1,200 on day 30. Buying materials for all 120 while delivering 112 would still cost 360 for materials.
 
-If new evidence changes the central scenario to 96 units, its resource demand becomes **34 hours**, materials **288** and sales **960**. The existing supply payment remains 120. Updating every amount by four percent would wrongly reduce that unchanged payment.
+If twenty of the 100 units instead require 0.50 hour while eighty still require 0.25, demand becomes 10 + 20 × 0.50 + 80 × 0.25 = **40 hours**. Unchanged total volume therefore crosses the same supply threshold. This establishes the capacity threshold. To forecast the block payment, also establish who decides and when. If a block must be reserved in advance to guarantee service, it costs 80 even when demand is low. When the still-available block is bought after the signal, expected payment is 80 times the probability of purchase. If the rule requires buying one block whenever the qualifying demand crosses the threshold and in no other case, use the probability of that threshold event. These unweighted scenarios leave that probability open.
+
+If demand in the central scenario changes to 96 units and all 96 are made and accepted under the same terms, resource demand becomes **34 hours**, materials **288** and sales **960**. The existing supply payment remains 120. Updating every amount by four percent would wrongly reduce that unchanged payment.
 
 If the team instead obtains extra capacity in response to the high scenario, the revised forecast includes that decision under the terms on which the capacity was obtained. Later outcomes are compared with the conditions of each forecast.
 
@@ -1010,7 +1012,7 @@ A modeler can also mistake abundant historical data for stable future behavior. 
 
 ### MA.5:7 - Conformance Checklist
 
-Which quantity, horizon and receiving decision does the forecast serve? Check that the demand inputs refer to the right population without duplication, that the relevant resource or cash consequences follow under the assumed decisions, and that any uncertainty which could change the conclusion is visible. Identify what new evidence would warrant an update.
+Does the forecast answer for the requested quantity, cutoff and horizon? If it informs a decision, will it reach the recipient in time? Check that the demand inputs refer to the right population without duplication, that the relevant resource or cash consequences follow under the assumed decisions, and that any uncertainty which could change the conclusion is visible. Identify what new evidence would warrant an update.
 
 A constructed scenario demonstrates a conditional consequence. Forecast calibration, actual performance and the success of a response require their corresponding evidence.
 
@@ -1020,7 +1022,7 @@ A constructed scenario demonstrates a conditional consequence. Forecast calibrat
 
 **Scaling every cost with volume.** Preserve the supply thresholds and unchanged payments.
 
-**Treating an adverse forecast as a failed promise.** Recover its conditions and the decision it was intended to inform.
+**Treating an adverse forecast as a failed promise.** Recover the outlook that was requested, its assumptions and any action taken in response.
 
 **Improving the forecast by rewriting its history.** Retain the earlier premises needed for a valid comparison.
 
@@ -1032,7 +1034,7 @@ More uncertainty may remain visible than in a negotiated single number. The work
 
 ### MA.5:10 - Architectural Rationale
 
-The forecast is organized around the action it could change because accuracy at an irrelevant horizon has little practical value. Resource and monetary dependencies preserve consequences that total extrapolation can hide.
+The receiving question sets the forecast’s horizon. When the recipient must act on it, lead time also matters. Resource and monetary dependencies preserve consequences that total extrapolation can hide.
 
 A stable simple forecast can be adequate for a stable use. Scenarios are useful when different plausible conditions require different responses. A more detailed predictive model is justified by the additional decision-relevant distinction and evidence it can supply.
 
@@ -1094,7 +1096,7 @@ Read each number according to how it is used. A document called “forecast” c
 
 #### MA.6:4.2 - Give the meanings their own revision and decision rules
 
-Construct the forecast from adequate evidence and assumptions through MA.5. Use [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) when the responsible management practice needs to construct the operating aim, target or comparison; reuse a sufficient supplied basis. Obtain resource decisions from those authorized to make them, with [OPS.13](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops13---align-commitments-resources-and-service-outcomes) for supported service commitments and [OPS.19](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops19---reconcile-simultaneous-operating-work-across-cases-and-scales) when contributions compete for shared provision. State how each result is revised and who can make the relevant decision.
+Construct the forecast from adequate evidence and assumptions through MA.5. Use [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) when the responsible management practice needs to construct the operating aim, target or comparison; reuse a sufficient supplied basis. Use the resource decision already in force. If the commission requires a new decision, take it to those authorized to make it, with [OPS.13](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops13---align-commitments-resources-and-service-outcomes) for supported service commitments and [OPS.19](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops19---reconcile-simultaneous-operating-work-across-cases-and-scales) when contributions compete for shared provision. State how each result is revised and who can make the relevant decision.
 
 Separate a request from a granted resource amount and from actual usable provision. A forecast revision does not itself authorize spending.
 
@@ -1104,13 +1106,15 @@ The distinction can be made in one small table.
 
 Put comparable quantities on an adequate common basis. Use MA.1–MA.2 when a workload target must be translated into resource capability and payments.
 
-Ask what each gap means. Expected demand below a target can call for a different action or revised ambition. Required capacity above authorized provision can call for a resource decision, changed scope or an explicit adverse scenario. Preserve uncertainty and the conditions under which an apparent gap exists.
+Ask which difference the recipient needs. A comparison of expected demand with usable provision can end with their difference in the requested units.
 
-Do not close the gap by editing the expectation to equal the authorized number. Change the relevant action or decision, then forecast its warranted consequence. When the required result has no supported activity arrangement, MA.10 develops alternatives across the offer, work and provision. An economic allowance can direct that search; it does not create attainable cost reductions or usable capacity.
+To forecast unserved requests, establish which requests fall due in each relevant situation and how many will be fulfilled in their windows under the specified or reasonably expected operating response. Subtract that number from the requests due. Physical capacity places an upper bound on service and a lower bound on the number left. If the response remains open, return conditional counts or justified bounds. For an expected count, weight the shortfalls by the supported probabilities of the joint demand, supply and response conditions.
+
+Keep the expectation on its evidential basis. If a change of action or provision is being considered, forecast what follows under that change and leave the current forecast available. When the required result has no supported activity arrangement, MA.10 develops alternatives across the offer, work and provision. An economic allowance can direct that search; it does not create attainable cost reductions or usable capacity.
 
 #### MA.6:4.4 - Return the connected accounts and required decision
 
-Show the expectation, ambition, request and authorization at enough detail to locate the next decision. Preserve the forecast's original assumptions when a later choice changes them.
+Return the comparison or forecast the recipient commissioned. If the difference calls for a choice within that commission, show the available actions and who can choose. If an existing arrangement supplies the response, use its actual terms. Preserve the original assumptions when a subsequent choice changes the outlook.
 
 When the use of these accounts remains in question, observe whether participants can report an unwelcome expectation and whether decisions about resources take that expectation into account. MA.9 constructs a missing information-use arrangement and examines persistent behavioral effects; the responsible organizational practice supplies a wider change in management arrangements.
 
@@ -1123,11 +1127,15 @@ For one period and a supplied service mix, the team expects demand of **100 unit
 | 100 expected | The present demand outlook. | What action or new evidence could change it? |
 | 120 targeted | The intended ambition. | Is the action plan adequate, or should the ambition be reconsidered? |
 | Resources for 130 requested | Provision sought for the stated scenario. | Is that protection worth its cost under the applicable decision criteria? |
-| Resources for 110 authorized | The current authorized arrangement. | What can be promised and what additional decision is needed? |
+| Resources for 110 authorized | The current authorized arrangement. | What can this provision support on its terms? |
 
-The granted 110 does not make demand 110. It also does not establish that the ambition of 120 is feasible. The team returns the resource gap to the competent decision maker while keeping the 100 forecast available.
+The granted 110 does not make demand 110. It also does not establish that the ambition of 120 is feasible. A request to explain the figures can end here. A request to change provision goes to the participant authorized to decide, with the 100-unit forecast still available.
 
-If a changed market action warrants a new demand expectation of 115, update the forecast and explain its new assumptions. The gap against authorized capability is now five units under the supplied comparison basis. The target remains 120 and authorized capability remains 110 until those authorized to revise each one do so under the applicable rules.
+Suppose changed market activity raises mean demand to 115. It exceeds the authorized capability of 110 by five units, on the same period and service basis. The target remains 120.
+
+For a forecast of unserved requests, suppose each request requires one unit and the service will fulfil every request up to 110 by the deadline, with no other provision. If demand is certainly 115, five go unserved. If 100 and 130 requests are equally likely, the corresponding counts are zero and twenty, giving an expected ten unserved. Both outlooks have mean demand of 115. The difference between that mean and 110 answers the level comparison in either case.
+
+The response can matter even with fixed demand and enough capacity. Suppose all 100 requests could be served on time. Under the operating rule the team will serve 100 by the deadline in one condition and 90 in another. If the conditions are equally likely, the unserved counts of zero and ten give an expectation of five. If all 100 are served in both conditions, the expectation is zero.
 
 ### MA.6:6 - Bias-Annotation
 
@@ -1137,15 +1145,15 @@ A controller may interpret separation as loss of control. Distinguishing an expe
 
 ### MA.6:7 - Conformance Checklist
 
-Check each number’s use, period and assumptions. Can the reader distinguish forecasts, ambitions, requests and authorizations and compare them on a suitable basis? State the revision rules and decision authority where needed, and identify the decision the gap calls for.
+Check each number’s use, period, unit and assumptions. Does the comparison answer the stated question? For expected unserved work, check the demand due, the service expected under the operating response, and how the resulting shortfalls were weighted. If only maximum attainable service is known, state the bound it supports. For a resource change, establish the applicable revision rule and decision authority.
 
 Different labels alone do not establish the separation in practice. Actual use and incentives can combine the meanings.
 
 ### MA.6:8 - Common Anti-Patterns and How to Avoid Them
 
-**Making the forecast equal the approved ceiling.** Preserve the expectation and decide what to do about the resource difference.
+**Making the forecast equal the approved ceiling.** Keep the expectation visible. Bring a proposed change in provision to the appropriate decision holder when such a change is sought.
 
-**Replacing one confused number with disconnected accounts.** Retain the comparison and the decision each gap needs.
+**Replacing one confused number with disconnected accounts.** Retain the comparison the recipient needs and identify what it supports.
 
 **Treating separation as a spending grant.** Obtain the authorization and usable provision the action requires.
 
@@ -1157,7 +1165,7 @@ The change can expose previously hidden conflicts and depends on consistent use 
 
 ### MA.6:10 - Architectural Rationale
 
-The meanings are separated because expectation, aspiration and authorization have different truth and decision conditions. Their relationships show which management or resource decision is needed.
+The meanings are separated because expectation, aspiration and authorization have different truth and decision conditions. A comparison can settle a question about the outlook or expose a management or resource choice.
 
 A conventional budget remains usable when it preserves those distinctions for the required work. A broader Beyond Budgeting arrangement can be appropriate when its organizational and management changes address the actual problem.
 
@@ -1516,9 +1524,9 @@ MA.1–MA.4 supply resource and account meanings, MA.5 the conditional outlook a
 
 ### MA.9:0 - Use this when
 
-Use this pattern when a new or changed decision arrangement needs accounting information its participants can use, or when the current use appears to encourage inventory building, cost transfer, concealed expectations or another harmful action.
+Use this pattern when a new or changed decision arrangement needs accounting information its participants can use, when someone needs to know whether and how a measure influenced an action, or when the current use appears to encourage inventory building, cost transfer, concealed expectations or another harmful action.
 
-The pattern governs the relation between information and the actions it is intended to support. It returns a workable account and use arrangement, a warranted repair, or a supported reason to retain the current arrangement. A proposed arrangement includes the consequences by which its actual use can be examined.
+The pattern governs the relation between information and the actions it is intended to support. It returns a workable arrangement, an explanation of the action and its causes, or grounds for a change or for keeping the arrangement. A proposed arrangement includes the consequences by which its actual use can be examined.
 
 Use an adequate arrangement directly. The existence of a target or allocation alone does not establish harmful behavior.
 
@@ -1560,13 +1568,13 @@ Connect the account to work: who supplies and interprets the input, when it is a
 
 Examine responsibility and joint consequences. Participants should be able to distinguish an outcome they influence from a common provision cost or an external change. Keep uncontrollable consequences relevant to the whole result in the account. Provide the distinction needed for the decision or attribution, and make relevant effects on other units visible. A transfer charge that helps one unit decide can still need a companion account of shared consequences.
 
-Test the account against the decision it will serve. Could two situations that look the same in the account call for different action, or different grounds for the recommendation? Follow any such difference to the information, participant or timing needed to resolve it. One recommendation may already be warranted across the situations still possible. For a rule used on future decisions, establish why the rule will work under the changes the participants are entitled to make, including effects on other units and the opportunity to report an unfavorable expectation. Existing work, an argument covering those conditions or a trial that settles an open question can support the design. A proposed change to rights, rewards or authority goes to the responsible decision maker.
+Test the account against the decision it will serve. Could two situations that look the same in the account call for different action, or different grounds for the recommendation? Follow any such difference to the information, participant or timing needed to resolve it. One recommendation may already be warranted across the situations still possible. For a rule used on future decisions, establish why the rule will work under the changes the participants are entitled to make, including effects on other units and the opportunity to report an unfavorable expectation. Existing work, an argument covering those conditions or a trial that settles an open question can support the design. Identify whose decision a proposed change to rights, rewards or authority requires. Bring the proposal to that party when a decision is sought.
 
 When the arrangement is put into use, examine what happens. Whether information arrived, was understood, changed the choice and improved the intended result are different questions. Observations can justify retaining a simple arrangement, revising its model or timing, or investigating a behavioral explanation through the operations below. The constructed comparison provides an initial basis; it does not establish a later causal effect.
 
 #### MA.9:4.1 - Recover the account and how participants use it
 
-Identify the measured quantity, calculation, participant and decision or reward it affects. Establish with the affected participants what actions they can take and how the account enters the choice. Use their accounts or records of the decision as the situation allows.
+Identify the measured quantity, calculation, participant and decision or reward it affects. Use the applicable rules and records to establish the actions open to the affected participants and how the account enters their choice. Seek their own accounts where the explanation depends on a judgement or experience the records leave open.
 
 Recover the intended result and the relevant resource, monetary and service consequences. MA.1–MA.4 supply missing meanings; MA.6 distinguishes a forecast from a target or resource request.
 
@@ -1578,19 +1586,19 @@ Look for a specific divergence: producing more can lower an assigned unit cost w
 
 #### MA.9:4.3 - Inspect actual effects and rival explanations
 
-Use records, participant accounts and other adequate evidence to establish what happened and why it may have happened. Examine rivals that would lead to a different repair, such as anticipated demand, a justified reserve, a supply constraint or a changed instruction.
+Use records, participant accounts and other adequate evidence to establish what happened. If the commission asks why it happened, examine credible explanations that imply different causes, even where the same correction would be warranted. Anticipated demand, a justified reserve, a supply constraint or a changed instruction may account for the same observed choice. For a decision confined to a proposed repair, resolve those differences on which its justification depends.
 
-Retain uncertainty about cause. If the contemplated change requires stronger evidence, use the applicable inquiry method. A bounded trial can be useful where it is appropriate and authorized.
+Retain uncertainty about cause. If the causal claim or contemplated change requires stronger evidence, use the applicable inquiry method. A bounded trial can be useful where it is appropriate and authorized.
 
 #### MA.9:4.4 - Change the account or its use where warranted
 
-Choose the smallest change that addresses the established problem: clarify a denominator, separate meanings, change the performance interpretation or provide a missing consequence alongside the existing figure. Preserve information still needed for legitimate reporting and decisions.
+For an inquiry into the consequences of a measure, return the supported explanation to its recipient. When repair is commissioned, establish who may select it and who may put it into use. Choose the smallest change that addresses the established problem: clarify a denominator, separate meanings, change the performance interpretation or provide a missing consequence alongside the existing figure. Preserve information still needed for legitimate reporting and decisions.
 
 When performance interpretation is the missing contribution, [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops22---interpret-operating-performance-and-decide-the-response) develops the judgement from the aim, result, changed conditions, participants' actions and joint consequences. If the aim or comparison itself is unsound, [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) reconstructs it. Use an adequate existing interpretation directly.
 
-If the repair changes reward or authority arrangements, use [OCE][OCE] to plan the necessary organizational work and have those responsible make the change effective.
+If the repair changes reward or authority arrangements, use [OCE][OCE] to plan the necessary organizational work and identify the decision that can make the change effective. Carry it into use when implementation is entrusted to you.
 
-Specify what observable consequence would indicate improvement or a new problem. Revisit the actual use after the change, keeping changes in demand and other conditions available for interpretation.
+For a proposed change, identify an observable consequence that would indicate improvement or a new problem. When assessing a change in use, revisit what actually happened, keeping changes in demand and other conditions available for interpretation.
 
 ### MA.9:5 - Archetypal Grounding
 
@@ -1610,11 +1618,13 @@ If the target's use is the supported problem, the responsible manager can stop i
 
 Two service units are preparing commitments that use one pool of qualified specialists. Their current monthly profit reports do not show the coming week's shared workload before promises are made. The problem is initially a missing coordination arrangement, not an observed manipulation of a measure.
 
-The manager and the units construct a weekly account of expected work by due date and qualification, accepted commitments, available specialist time, and the terms of any obtainable extra provision. MA.5 supplies a missing expectation; MA.1 and MA.2 supply missing conversion and provision relationships. The account aggregates competing work before comparing it with common capacity. Each unit supplies its supported expectation and identifies changes; the manager decides about joint provision or commitment with the responsible operating practice.
+The manager and the units construct a weekly account of expected work by due date and qualification, accepted commitments, available specialist time, and the terms of any obtainable extra provision. MA.5 supplies a missing expectation; MA.1 and MA.2 supply missing conversion and provision relationships. Before adding the hours, identify the performances each commitment requires and which recipients can use the result of the same performance on time. Each unit supplies its supported expectation and identifies changes; the manager decides about joint provision or commitment with the responsible operating practice.
 
-Suppose the two units expect 80 and 100 specialist-hours in a week with 200 hours available and a required reserve of 20. The forecast uses all 180 unreserved hours and a further 30 would raise expected demand to 210. For a decision about promising 30 hours, establish which work recipients can demand in the same windows. If all 180 are already due, the extra 30 cannot fit without a change. If 30 of the forecast hours are discretionary and can be deferred in time, the same total can permit the new commitment alongside the 150 owed. Check specialist qualifications, windows and authority to defer before promising it.
+Suppose the units forecast 80 and 100 specialist-hours, with 200 hours available and 20 protected. When their plans require separate performances, 180 hours exhaust ordinary provision. A new order for a further 30 hours would raise the total to 210. If all 180 hours are owed in these windows, the new order needs a change in provision or commitments. If 30 are discretionary and the responsible participant can defer them in time, the order can fit alongside the 150 owed.
 
-The participants also test how the arrangement treats new information. If the second unit now supports an expectation of 110 hours, it reports that change rather than preserving 100 to appear on target. The whole expected load becomes 190, exceeding ordinary provision after reserve by ten hours in this forecast. Whether an obligation would be missed depends on the work due and the available response. The manager can act on it. A subsequent choice to defer work changes the conditions for the next expectation; the earlier forecast is not silently rewritten as if the deferral had already been known.
+Suppose instead that the two plans each include 30 hours to restore the same record. If the same restoration satisfies both commissions by their deadlines, count it once. The plans then require 80 + 100 − 30 = 150 hours and the additional order brings the total to 180. Test the actual specialist assignments and windows before making the promise. Two independently required restorations still consume two lots of 30 hours.
+
+The participants also test how the arrangement treats new information. If the second unit now supports an expectation of 110 hours, it reports that change rather than preserving 100 to appear on target. With the original separate performances the weekly load is now 190, ten hours above ordinary provision. If the same 30-hour restoration still serves both and the additional ten hours are distinct, the load is 160 before any new order. Whether an obligation would be missed depends on the work due and the available response. The manager can act on it. A subsequent choice to defer work changes the conditions for the next expectation; the earlier forecast is not silently rewritten as if the deferral had already been known.
 
 The initial exercise establishes that the account exposes the shared condition and distinguishes expectation from commitment. Subsequent use must establish whether the information arrives in time, whether participants can report adverse changes, and whether decisions preserve the service conditions. If the common calendar hours conceal different specialist qualifications, the account's unit is inadequate and must be split. If reporting is accurate but no participant has authority to alter the joint commitment, information alone has not supplied the missing organizational decision.
 
@@ -1632,7 +1642,7 @@ An arithmetic incentive example establishes a possible mechanism. To establish i
 
 **Celebrating the ratio while omitting the resource consequence.** Examine the numerator, denominator and actual result together.
 
-**Treating a plausible incentive as proven cause.** Investigate action-changing rival explanations.
+**Treating a plausible incentive as proven cause.** Test the rival explanations that could change the requested causal account. For a decision about a repair, establish what its justification requires.
 
 **Deleting a required report to repair its managerial misuse.** Preserve the legitimate account and change the use or companion information that caused the problem.
 
@@ -1672,7 +1682,7 @@ MA.1–MA.4 explain resource and account effects; MA.5–MA.6 clarify forecasts,
 
 Use this method when an intended product, service or other activity must satisfy an economic requirement, but no adequately supported arrangement yet does so. Examples include an offer that cannot earn the required return at an acceptable price, a service that exceeds available funding, or an improvement whose local savings leave the whole activity uneconomic.
 
-Develop the alternatives with those who design the offer, work and provision. The result is an economically explained design or set of alternatives, with the conditions needed for its use. If you establish that the available arrangements cannot deliver the required result under its conditions, return the incompatibility to whoever can reconsider the requirement, scope or provision. Launching a design or changing others’ work requires the applicable authority.
+Develop the alternatives from what the offer, work and provision actually require. Involve their designers where the alternatives depend on a contribution still to be made. The result is an economically explained design or set of alternatives, with the conditions needed for its use. If you establish that the available arrangements cannot deliver the required result under its conditions, report the incompatibility to the recipient of the assessment and identify who can reconsider the requirement, scope or provision. Seek a further decision when the commission or an existing obligation calls for it. Launching a design or changing others’ work requires the applicable authority.
 
 If adequate alternatives already exist and only their operating consequences need comparison, use OPS.14. Use MA.8 when the unresolved contribution is their product or customer account over time. A short supported calculation can finish this method; a cross-functional redesign is needed only where the actual dependencies require it.
 
@@ -1742,7 +1752,7 @@ An unresolved premise can leave a conditional alternative, a justified next expe
 
 #### MA.10:4.6 - Use the result and revise the economic knowledge
 
-Return the supported alternatives and remaining conditions to those who choose or authorize the work. Make clear which commitments the chosen arrangement needs and which conclusions would change if they are not obtained. MA.9 arranges the use of the account when participants otherwise lack a workable way to act on it.
+Give the supported comparison to the recipient of the accounting assignment. If the assignment includes a choice or new commitment within your authority, make it under the applicable terms. Where another party holds the decision, identify who can decide and what would give that choice effect. Submit the alternatives to that party when the assignment or an applicable duty calls for it. Carry out any implementation entrusted to you. Make clear which commitments the chosen arrangement needs and which conclusions would change if they are not obtained. MA.9 arranges the use of the account when participants otherwise lack a workable way to act on it.
 
 If the commission is to assess feasibility, identify which arrangements the parties are allowed to change. A bound common to all of them can settle the question, as can a comparison that covers the whole permitted set. If only one design has been ruled out, return the finding about that design and identify the alternatives that could still change the decision. A commission to compare specified designs can finish when their comparison is complete.
 
@@ -1792,7 +1802,7 @@ A stated target can anchor attention on cost reduction and obscure a better resu
 - **Optimize one phase and retain the old whole.** Reconstruct later work, provision and obligations affected by the change.
 - **Preserve revenue after changing the offer by assumption.** Revisit the customer-use and demand grounds that support it.
 - **Call a transferred burden an eliminated one.** Show who now provides the work, bears the obligation and agrees to the terms.
-- **Treat a passed monetary condition as permission to act.** Return the candidate to the responsible decisions with its remaining conditions.
+- **Treat a passed monetary condition as permission to act.** Identify the decisions and commitments the proposal still needs before it can be put into use.
 
 ### MA.10:9 - Consequences
 

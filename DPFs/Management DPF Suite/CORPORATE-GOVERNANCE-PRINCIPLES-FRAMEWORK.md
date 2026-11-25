@@ -76,7 +76,7 @@ The framework belongs to the [Management DPF Suite](https://github.com/ailev/FPF
 
 These are selected examples of using the language. Bring the question from your work. If no example fits, search the Table of Contents by the difficulty, action or result and open the corresponding pattern.
 
-You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.” Supply the facts and applicable rules needed for your question; the agent must preserve uncertainty where those inputs do not settle the answer.
+When involving a collaborator, commission the contribution your governance question requires. An assistant able to obtain and interpret the applicable rule and resolution can recover the recorded decision, work out whether the voting threshold was met or explain what remains unresolved. Acting on behalf of the corporation requires the authority for that act.
 
 ### CGOV-DELEGATION - Can this director sign the proposed commitment?
 
@@ -523,7 +523,7 @@ Separate the authority to decide from the authority to communicate, sign or impl
 
 Apply the governing conditions to the act and its participants. If the recipient needs a route to authorization, identify who can perform each required act and which consents remain outstanding. For a question confined to one power, a decisive condition can establish its presence or absence. Distinguish a known act still to be performed from uncertainty over the applicable rule.
 
-Return the authority answer to the practitioner who will perform or arrange the corporate act. For a proposed appointment or delegation, the answer identifies who can make it and what governs its effect. It does not make the appointment or delegation; the authorized participants must perform that act under the applicable procedure.
+Return the supported answer to the person or body for whom the authority question was commissioned. A question about an earlier act can end with the authority effective at the time. For a proposed appointment or delegation, the answer identifies who can make it and what governs its effect. It does not make the appointment or delegation; the authorized participants must perform that act under the applicable procedure.
 
 For a routine matter, a short answer can suffice: “The existing purchasing delegation covers this purchase of 80; the limit is 100 and its stated conditions are met.” A disputed major transaction may need the provisions and reasoning retained so another practitioner can examine them. A new matrix or legal opinion is useful only when the receiving question needs it.
 
@@ -596,7 +596,7 @@ OCE.6 uses a corporate appointment or authority result when establishing an orga
 
 Use this pattern when a corporation's board and executive management cannot explain what they need from one another, when directors take over delegated work, or when the board receives a completed proposal too late to influence it.
 
-Begin with the matters the arrangement must handle, the people entitled to bring them, and the power or duty of each participant. A commission for one investment decision may finish with an allocation of its contributions. A standing arrangement must support the range of matters and combinations of requests those participants may bring. Determine which preparation, scrutiny, decision, action and review each requires and how their results reach the responsible parties. Reuse a sufficient existing arrangement.
+Begin with the matters the arrangement must handle. Identify the holder of the right to bring each matter and the power or duty of each participant. When another party submits on the holder’s behalf, establish its mandate to the extent the validity of the submission depends on it. A commission for one investment decision may finish with an allocation of its contributions. A standing arrangement must support the range of matters and combinations of requests those participants may bring. Determine which preparation, scrutiny, decision, action and review each requires and how their results reach the responsible parties. Reuse a sufficient existing arrangement.
 
 ### CGOV.4:2 - Problem
 
@@ -664,7 +664,7 @@ A familiar national or listed-company model can be mistaken for the corporation'
 
 ### CGOV.4:7 - Conformance Checklist
 
-Does the design allocate the contributions needed for the commissioned matter or range of matters, under the governing powers? Can the responsible people obtain their information and support in time, including when independently permitted calls occur together? What establishes the design, its introduction and its subsequent use respectively? Existing authority and sufficient support can sustain ordinary delegated action.
+Does the design allocate the contributions needed for the commissioned matter or range of matters, under the governing powers? Can the responsible participants obtain and use their information and support in time, including when independently permitted calls occur together? What establishes the design, its introduction and its subsequent use respectively? Existing authority and sufficient support can sustain ordinary delegated action.
 
 ### CGOV.4:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1215,9 +1215,9 @@ Reuse adequate observations and current results. Select another test only when i
 
 #### CGOV.9:4.5 - Correct and return the governing result
 
-Send a material deficiency to the participant able to correct it and to the governing recipient who needs it. Distinguish an implementation error, inadequate design, missing capability and an objective that is no longer attainable under the assumed conditions.
+Report a material deficiency and its consequences to the commissioned recipient and to anyone entitled to notice under the applicable duties. Distinguish an implementation error, inadequate design, missing capability and an objective that is no longer attainable under the assumed conditions.
 
-Apply a correction within existing authority when available. Use CGOV.11 for a corporate decision required for the correction, and CGOV.14 if the governance arrangement itself must change. Routine reassignment under adequate existing powers need not become a constitutional change.
+Carry out a correction when it is entrusted to you or required by duty, within your authority and means. For an assessment, explain what could be corrected and who can authorize or carry out the change. Use CGOV.11 for a corporate decision required for the correction, and CGOV.14 if the governance arrangement itself must change. Routine reassignment under adequate existing powers need not become a constitutional change.
 
 Return which controls are operating, the conditions under which they are relied on and the deficiencies that remain. Keep proposed corrections separate from completed changes. Choose follow-up by the failure and receiving decision.
 
@@ -1333,7 +1333,7 @@ When several providers contribute, identify their different coverage and any jus
 
 Recover the opinion’s subject, criteria, period and strength. Distinguish an adverse finding, a qualified conclusion, inability to conclude and a matter outside the engagement. When the board asks a different question, identify what the opinion contributes to it. If an issued opinion satisfies a renewal condition, the signed opinion can establish issuance. If the condition requires receipt by a named participant by a given date, establish that receipt. A copy bearing a sufficient receipt record may establish both events. A judgement about a different activity requires a premise that connects the opinion to that activity.
 
-Carry assumptions and limitations into the board paper or other receiving communication. Ask the provider to explain a material ambiguity. Neither a short summary nor a confidence label should enlarge the report's scope.
+Carry assumptions and limitations into the board paper or other receiving communication. Settle a material ambiguity from the engagement terms, report or competent explanation where those grounds suffice. Seek the provider’s clarification or amended opinion when the question or an applicable duty calls for that provider’s own act. Carry any unresolved limit into the receiving decision. Neither a short summary nor a confidence label should enlarge the report's scope.
 
 For example, an opinion on statements for a completed year may support the stated reporting use. A later process change needs its own applicability question. The historical conclusion does not become false merely because it cannot answer that later question.
 
@@ -1699,11 +1699,11 @@ A.2.8.PER distinguishes a permission result from exercise. Financial methods com
 
 ### CGOV.13:1 - Problem frame
 
-Use this pattern when a board or another authorized corporate organ must follow implementation, performance or exposure and decide how those responsible should respond. A project may be reported as complete while promised services remain unavailable. An approved course may still be followed even though a condition for continuing it has failed. A loss may prompt blame before anyone asks what was reasonably knowable or controllable.
+Use this pattern when a board or another authorized corporate organ needs an account of implementation, performance or exposure, an explanation of a result, or a decision about how to respond. A project may be reported as complete while promised services remain unavailable. An approved course may still be followed even though a condition for continuing it has failed. A loss may prompt blame before anyone asks what was reasonably knowable or controllable.
 
-Start from the corporate decision, duty or policy whose consequences matter now. Compare what was required with what has happened, ask the responsible participants for the explanation needed to choose a response, and act through the applicable authority.
+Start from the corporate decision, duty or policy whose consequences matter now. Compare what was required with what happened, using existing evidence where it answers the question. Obtain an account from the responsible participants when it is due or their contribution is needed to explain the discrepancy. Act through the applicable authority.
 
-The useful result is a governing response: continue under stated conditions, require a correction, limit an activity, seek an answer to a remaining question, or initiate a change that the current arrangement cannot supply. Identify who must do what and when the matter returns for attention. Where the response requires another corporate act, obtain that act through its proper procedure.
+If the duty is to report, delivery of the required account to the governing recipient on the agreed terms can discharge it. If the board asks why the result arose, return the explanation the evidence supports and any material uncertainty. When a governing decision is due, it can allow the work to continue, require a correction, limit an activity or initiate a change. Identify who can carry out any action still owed and when it is due for review. Where the response requires another corporate act, obtain that act through its proper procedure.
 
 Routine allocation and correction within an executive's existing powers can proceed directly. Use this method when corporate oversight or accountability is the unresolved work. A disputed breach of law or duty needs the applicable legal contribution; an operating dashboard alone cannot settle it.
 
@@ -1721,7 +1721,7 @@ Results depend on choices, implementation and circumstances beyond the participa
 
 ### CGOV.13:4 - Solution
 
-Connect the undertaking, observations, account and authorized response. Follow the consequence that matters to the corporation and affected parties. Having received a report does not establish that the undertaking was fulfilled.
+Start with the duty in question. Receipt of a complete quarterly report by the board on the agreed terms can discharge the reporting duty. Reliable acceptance data in that same report can also establish which sites received service. If a reported total omits outstanding deliveries, recover the comparison the undertaking requires.
 
 #### CGOV.13:4.1 - Recover what is being followed and who must answer for it
 
@@ -1733,39 +1733,39 @@ Use existing decision records, operating reports and assigned reporting duties w
 
 #### CGOV.13:4.2 - Recover what the reported result means
 
-Compare the relevant intended and observed results. Retain the population, period, measure and exclusions needed for that comparison. Separate completed work, current forecasts, commitments, resource use and consequences where the difference changes the response.
+Compare the relevant intended and observed results. Retain the population, period, measure and exclusions needed for that comparison. Distinguish completed work, forecasts, commitments, resource use and consequences where their meanings affect the account, explanation or decision.
 
 For example, completing every site that remains on a revised list may conceal sites removed from the original undertaking. A spending total can remain within budget while a cash condition fails. Ask for the missing comparison rather than collecting every available measure.
 
 Consider consequences borne by others when they affect duties, the intended result or the choice. An apparent improvement can transfer delay, cost or exposure to customers, workers or another company in the group.
 
-Use sufficient current observations. Obtain an additional comparison, explanation or assurance contribution when its answer can change the response and is worth obtaining, or when an applicable duty requires it.
+Use sufficient evidence for the period in question. Suppose the next installation date is settled and the board still asks why the earlier one was missed. Crew assignments, site access and the dispatch record for that date can distinguish a scheduling conflict from an inaccessible site, or establish that both played a part. If only the quarterly figures were requested, a complete account can answer that request directly.
 
 #### CGOV.13:4.3 - Require the account needed for the response
 
-Use the information already available about the discrepancy. A confirmed threshold crossing and a standing instruction may be enough to take the required action now. When an explanation or a personal account is commissioned, establish what occurred, the information the responsible people could use, their choices and the effects they could influence. Ask them for their account where that contribution is due or the evidence leaves their part open.
+Use the information already available about the discrepancy. A confirmed threshold crossing and a standing instruction may be enough to take the required action now. For an explanation of a discrepancy, establish the sequence or mechanism that produced it. Operating records may suffice. A resolution that records the effective act may settle what the organ decided and when. If the question concerns its reasons, judgement or responsibility, establish which information and choices were available to the organ and which consequences it could influence. To attribute a choice or failure to an individual, examine that participant's circumstances and conduct. Obtain a response from the organ or officeholder when it owes the account or its contribution is needed to settle the question.
 
 Keep the findings distinct. A missed result can arise because necessary work was never assigned or was left undone, means were insufficient, execution was poor, an assumption was wrong, or an accepted uncertainty materialized. More than one can apply. An adverse outcome by itself does not establish misconduct, while a favourable outcome does not erase a violated condition.
 
-Challenge an explanation where its unsupported premise matters. If the explanation points to another participant or a resource constraint, follow that relation far enough to establish a useful response. Before attributing fault, establish the relevant choices and circumstances.
+Challenge an explanation where its unsupported premise matters. If the explanation points to another participant or a resource constraint, follow that relation far enough to support the requested finding or response. Before attributing fault, establish the relevant choices and circumstances.
 
 Where legal liability, dismissal, a contested duty or a remedy is at issue, obtain the competent contribution for that question. Preserve any immediate protective or corrective action that is already warranted and authorized.
 
 #### CGOV.13:4.4 - Select and perform the governing response
 
-Choose the response that addresses the finding under the current powers. Possible responses include accepting continued performance within the stated uncertainty, requiring a correction and later account, limiting commitments under an existing rule, revising a decision, or asking the competent organ to change an arrangement.
+When a decision falls to the governing organ, choose a response to the finding within its powers. Possible responses include accepting continued performance within the stated uncertainty, requiring a correction and later account, limiting commitments under an existing rule, revising a decision, or asking the competent organ to change an arrangement.
 
-Keep an operational repair with those who can perform it under existing authority. Changing a queue, allocating available capacity or fixing a report need not change positions, delegation or corporate instruments. Conversely, asking a manager to act beyond their power does not repair the arrangement.
+If the executive already has the duty and authority to correct the problem, leave that work with the executive. The board may need only the observation prescribed by its oversight duty. Changing a queue, allocating available capacity or fixing a report need not change positions, delegation or corporate instruments. Conversely, asking a manager to act beyond their power does not repair the arrangement.
 
 Make any required corporate decision using CGOV.11. Where the needed change concerns the governing instruments or powers themselves, use CGOV.14. If the response needs a further act, identify who can perform it and whether it has occurred.
 
-Tie further inquiry to the response it can change. A sufficient known defect can justify correction without a complete study of all its causes. Retain a material uncertainty when proceeding with it is permitted and preferable to further inquiry.
+For a discretionary inquiry, ask what its result could change and whether obtaining it is worthwhile. An existing finding can justify an immediate correction while a separately requested explanation is still owed. State the uncertainty that remains if the evidence cannot settle the cause.
 
 #### CGOV.13:4.5 - Follow the response to its consequence
 
-Communicate the required action, responsible participant, relevant deadline or return condition, and limits. Use the normal decision and reporting arrangements.
+For an action that still needs assigning, communicate the responsibility, deadline or return condition, and limits through the normal arrangements. Use a standing assignment and review date when they already cover the finding.
 
-At the next useful observation, establish whether the correction happened and whether it achieved the required result. A promise to repair, a revised procedure and an operating correction are different findings. Escalate an unresolved condition through the applicable authority; revise the action when its premise changes.
+Match follow-up to the duty. If it calls for implementation, establish whether the correction happened. If it also calls for evidence of effect, examine what the recipients obtained. A promised correction, a revised procedure and the result of operating under it support different findings. Return an unresolved condition to its responsible holder when escalation is due.
 
 Identify which obligation the correction discharges. A late delivery may settle what the recipient is still owed while the original deadline and any consequences of missing it remain in the account. Continue the oversight required by the decision or duty. State what result would resolve any exception that remains open.
 
@@ -1773,7 +1773,7 @@ Identify which obligation the correction discharges. A late delivery may settle 
 
 #### CGOV.13:5.1 - A completed list conceals four unfinished deliveries
 
-This constructed case supplies its corporate and operating conditions. VestraCo's board approved delivery of a service to forty named sites by quarter end. The chief executive may reallocate up to ten units of cost within the approved budget. A standing rule permits new customer commitments only while forecast free cash remains at least forty. The board receives the rollout account and may require corrections.
+This constructed case supplies its corporate and operating conditions. VestraCo's board directed management to deliver a service to forty named sites by quarter end. The company also accepted an order from each site promising service by that date. The chief executive may reallocate up to ten units of cost within the approved budget. A standing rule permits new customer commitments only while forecast free cash remains at least forty. The board receives the rollout account and may require corrections.
 
 At quarter end, thirty-six sites have the service. Four were deferred because the installation team had conflicting assignments. The dashboard removed those four from its denominator and reports 36/36, or 100% completion. Forecast free cash is forty-five.
 
@@ -1781,7 +1781,7 @@ The governing comparison retains the original undertaking: 36/40, or 90%, with f
 
 At the weekly review, installation and customer-acceptance records establish service at all forty sites. The board closes the four outstanding deliveries. The quarter-end report records 36 of 40 served on time. The weekly report can record 40 of 40 now served and address any further obligation arising from the delay.
 
-Now vary one condition: before that completion, forecast free cash falls to thirty-eight. The standing rule bars new customer commitments. The four deliveries already owed still require a response. The executive can use existing powers for an affordable rescheduling, report the changed forecast and prepare permitted alternatives. Successful rescheduling does not waive the cash condition. A proposal to change that condition must reach whoever has the power to decide it.
+Now vary one condition: before that completion, forecast free cash falls to thirty-eight. The standing rule bars new customer commitments. The four deliveries already owed still require a response. The executive can use existing powers for an affordable rescheduling, report the changed forecast and prepare permitted alternatives. The cash condition still applies to any new promise. Now suppose the board had only authorized offers to as many as forty sites and the company had made delivery commitments to thirty-six. Under those terms the unused authorization gives the other four sites no claim to delivery. At thirty-eight, the rule bars taking on those additional commitments. If management instead had an instruction to serve all forty while only thirty-six promises had taken effect, it would owe the board an account of the four outstanding sites and the constraint on new commitments. A proposal to change the cash condition must reach whoever has power to decide it.
 
 #### CGOV.13:5.2 - An accepted uncertainty materializes
 
@@ -1800,9 +1800,9 @@ Measures can privilege short-term financial results and suppress consequences bo
 - The undertaking, duty or policy and the governing recipient are identifiable.
 - The comparison preserves the relevant population, horizon and conditions.
 - The account distinguishes observations, explanations, uncertainty and responsibility.
-- The response addresses the finding and remains within the acting participants' powers.
+- The account or explanation answers the governing question. A required response addresses the finding within the acting participants' powers.
 - Ordinary operating corrections use existing authority where sufficient.
-- The follow-up distinguishes promised correction from performed correction and its consequence.
+- Follow-up satisfies the applicable duty. Claims about carrying out a correction and about its effect have grounds for each result claimed.
 - Any conclusion about breach or liability has its own applicable basis.
 
 ### CGOV.13:8 - Common Anti-Patterns and How to Avoid Them
@@ -1832,7 +1832,7 @@ The [G20/OECD Principles, chapter V](https://www.oecd.org/en/publications/g20-oe
 
 [COSO's Internal Control framework](https://www.coso.org/internal-control) contributes the distinction between monitoring findings and deficiencies that require a response. This pattern extends the working question to the corporate undertaking and its responsible participants; a control report is one possible input.
 
-OCE.13, Observe and Compare Organization-Change Consequences, supplies a qualified comparison when an organization change is the subject. Reuse it for that contribution. Continuing corporate oversight additionally needs the duty to account and the authorized response. The trade-off is attention: demand further explanation where it can change that response, while using an already sufficient finding for a permitted correction.
+OCE.13, Observe and Compare Organization-Change Consequences, supplies a qualified comparison when an organization change is the subject. Reuse it for that contribution. For corporate oversight, identify who owes an account, what it must establish and which response, if any, falls to the governing organ. A qualified comparison can supply the requested information or support a permitted correction. An explanation commissioned in its own right requires grounds for the cause in question.
 
 ### CGOV.13:12 - Relations
 
@@ -2347,7 +2347,7 @@ C.32.MWA.PP compares materially different arrangements for performing and suppor
 
 Use this pattern when corporate participants need to preserve, transmit or change a shared way of governing. A board may retain its papers and procedure while newcomers cannot challenge a proposal's assumptions. A committee may know how to raise an exception but stop doing so when challenge is discouraged. A professional association may distribute guidance without knowing which practices recipients can use.
 
-Start with the corporate contribution that must remain obtainable and the participants who need it. Recover how participants perform it, locate a consequential gap, and choose how to sustain or renew the practice.
+Start with the corporate contribution that must remain obtainable and the participants who need it. Establish what the present arrangement supplies. When continuation or repair is due, identify which contributions must remain obtainable and what, if anything, needs to change.
 
 The first result can be a qualified account of the practice, a supported decision to continue it, or a proposed change. When implementation is assigned, establish which change must take effect. Restoring access can be complete when the recipient can use it in time. Restoring actual participation requires evidence of the participant’s contribution. Claims that a practice persists or improves governance need observations of those further consequences.
 
@@ -2369,7 +2369,7 @@ Several participants can supply the capabilities a practice needs. Allocate thei
 
 ### CGOV.17:4 - Solution
 
-Follow a needed corporate contribution through its performance, means of acquisition and conditions of continued use. Change the part that prevents participants from obtaining it.
+Follow the contribution far enough to answer the question about its use or availability. If a change is warranted, identify the obstruction and what would supply the missing contribution. Arrange it when implementation is entrusted to you or required by an applicable duty.
 
 #### CGOV.17:4.1 - Bound the practice and the question
 
@@ -2411,7 +2411,7 @@ C.11.DUA governs additional inquiry. Include the effort of access, confidentiali
 
 #### CGOV.17:4.5 - Carry the contribution into receiving work
 
-For an assignment to provide support, establish that the participants can obtain the appropriate help when they need it. For an assignment to put the practice into use, trace its use in the receiving matter. Give participants the information and participation conditions needed for that work.
+For an undertaking to make support available, establish that participants can obtain capable help when needed. For a requested contribution to a particular matter, establish that the agreed analysis, answer or other work reached the recipient as promised. For an assignment to put the practice into use, trace its use in the receiving matter. Give participants the information and participation conditions needed for that work.
 
 Observe the contribution relevant to the original difficulty. Can newcomers recover the assumption and use it in deliberation? Does an exception reach a participant able to respond? Does an eligible participant take part in the collective act? For a claim about the whole course of a matter, link the contributions to that matter. If an authenticated outcome already settles the commission, stop at that outcome.
 
@@ -2463,9 +2463,9 @@ Continuity can protect valuable practice or exclusionary habits. Compare whose c
 
 - The practice, participants, receiving work and relevant period are identified.
 - Does the account establish the team result, the connection between its component operations, or a participant’s own choice, according to the commission?
-- The repair answers a consequential gap in operation or its conditions.
+- When a repair is required, does it address the gap in the operation or its conditions?
 - Responsibility, decision power, information access and confidentiality remain respected under their applicable basis.
-- The selected learning, support or change reaches the result the assignment requires.
+- For an undertaking to provide learning, support or change, establish which result it requires and whether that result was obtained.
 - Any claim of persistence or improved consequences stays within its observations.
 
 ### CGOV.17:8 - Common Anti-Patterns and How to Avoid Them

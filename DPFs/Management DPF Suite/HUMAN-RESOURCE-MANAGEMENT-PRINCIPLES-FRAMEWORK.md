@@ -31,7 +31,7 @@ Anatoly Levenchuk, with AI-assisted development. Original framework text: [CC BY
 
 ## Practical entries
 
-If one of these situations fits, follow its starting link. If your question does not fit an example, use the [Table of Contents](#table-of-contents), search the complete text, or follow [Using FPF Library](../../USING-FPF.md) to find the relevant contribution.
+Choose the starting link by what the recipient needs from you in the situation described. More than one question can arise about the same appointment or pay decision. For other questions, use the [Table of Contents](#table-of-contents), search the complete text, or follow [Using FPF Library](../../USING-FPF.md) to find the relevant contribution.
 
 ### Connected conditions — One personnel change defeats another commitment
 
@@ -47,11 +47,11 @@ If one of these situations fits, follow its starting link. If your question does
 
 ### Selection — An assessment must support a consequential choice
 
-**Situation.** You must recruit, promote or allocate a person, and a course result, work history, interview or AI score is offered as evidence.
+**Situation.** You must judge a person's suitability for a post or choose people who can do a job together. Work histories, interviews, work samples or AI scores may be offered as evidence.
 
 **Question.** What does that evidence warrant for the actual work and decision?
 
-**First useful result.** A supported judgement about the person’s contribution to the specified work, a comparison or recommendation when required for the appointment, or a consequential evidence gap.
+**First useful result.** A supported finding about the person's contribution or about the work a proposed group can cover with the support available. Give a comparison or recommendation when the appointment calls for one. Identify any gap that affects it.
 
 **Start with.** [HRM.2](#hrm2---substantiate-a-personnel-assessment-and-selection).
 
@@ -59,15 +59,15 @@ If one of these situations fits, follow its starting link. If your question does
 
 ### Reward — The basis of a pay difference is unclear
 
-**Situation.** Jobs change, market rates diverge, a progression promise is disputed, or individual targets penalize the help the organization requests.
+**Situation.** An employee asks what they earned last quarter, changed work makes the basis of a pay difference unclear, or individual targets penalize the help the organization requests.
 
-**Question.** Which job, market, contribution and obligation grounds should determine the terms?
+**Question.** What do the terms in force entitle the person to for the work and period in question? If revised terms are needed, on what grounds should they change?
 
-**First useful result.** An explained reward arrangement with an implementable transition.
+**First useful result.** An answer about the entitlement and its grounds, or a supported proposal for new terms and how they could take effect.
 
 **Start with.** [HRM.3](#hrm3---design-and-revise-remuneration-and-progression).
 
-**Stop or return.** If the existing rule and entitlement are clear, use Organization Administration to correct provision. A contested rule or valuation can need HRM.4.
+**Stop or return.** An explanation can settle the employee's question. If the payment falls short and correction is due, use Organization Administration to obtain and verify the correction. A contested rule or valuation can call for HRM.4.
 
 ### Voice — A person needs to influence or challenge a personnel decision
 
@@ -128,8 +128,8 @@ This is a plural professional discipline. No single theory of motivation, econom
 | Method | Its own result | What it supplies to another Method |
 | --- | --- | --- |
 | HRM.1, coherent arrangement | A compatible combination of workforce practices, work, terms and provision, or an identified unresolved dependency | Relevant work and participation conditions for HRM.2–HRM.5; receives their findings when a combination must change |
-| HRM.2, assessment and selection | A justified personnel comparison and recommendation for a particular use | The supported capability and suitability inference; not an appointment, entitlement or clinical conclusion |
-| HRM.3, remuneration and progression | Explained reward terms and their transition | Obligations and incentives affecting selection, participation and helping work; receives changed job demands and qualified contribution findings |
+| HRM.2, assessment and selection | A warranted finding about a person's contribution or a group's ability to cover the proposed work, with a comparison or recommendation when commissioned | Grounds for assessment, including the support the selected people would rely on. Appointment requires the applicable decision. |
+| HRM.3, remuneration and progression | An explanation of what a person or group is entitled to under the terms applicable to the work and period, or proposed terms and a practicable transition | The amount or condition to apply in provision, or the obligations and incentives to account for when arranging work. Changed duties or contribution findings can reopen the relevant basis. |
 | HRM.4, voice and contested decisions | Obtainable influence, a qualified determination or a remedy | Participant knowledge, negotiated terms or a decision that can require any affected practice to change |
 | HRM.5, participation and transitions | A particular continuation, absence, return, movement or exit with actual work, support and effective terms | Individual conditions and consequences; returns recurring incompatibilities to HRM.1 |
 
@@ -167,7 +167,7 @@ Rest, leave, altered hours, workload limits or other adjustments can be part of 
 
 Culture can mean the ways of working that participants perform, explain, criticize, transmit and revise. Changing that culture requires changes in practice and its reproduction. Belonging and experienced support concern another aspect of participation. Voice, representation and remedy concern institutional influence. These can affect one another without becoming one measure. An enjoyable community event may leave work unchanged; a new reward rule may change willingness to help without changing anyone's capability.
 
-An organization can give HR broad responsibility for obtaining cultural contributions. Other participants also provide these contributions. HR’s decision powers depend on its mandate. Line managers must provide suitable work and time; specialists supply subject Methods; communities provide access to practitioners and criticism; participants retain their purposes and responses. A company, professional network and customer community can share some practices while retaining different commitments and powers.
+An organization can give HR broad responsibility for obtaining cultural contributions. Other participants also provide these contributions. HR’s decision powers depend on its mandate. Establish who can provide suitable work and time, which practitioner or service can supply a needed method, and how participants can obtain peer help or criticism when the work needs it. A community can offer those contributions under its own participation terms. Participants retain their purposes and responses. A company, professional network and customer community can share some practices while retaining different commitments and powers.
 
 Development also begins after success. A mastered operation can make a new product, harder problem or better way of developing attainable. Core's development Methods, Strategy and the relevant domain practice supply that continuation. HRM examines the resulting work opportunities, terms, access and personnel uses. A person's independent trajectory may lead away from the employer; that difference calls for an actual participation decision, not a diagnosis of disloyalty.
 
@@ -265,7 +265,7 @@ Individually plausible decisions can jointly promise impossible work, exclude ne
 
 #### HRM.1:4.1 - Recover the work and the actual relation
 
-Identify the contribution, its recipient and conditions: what work is needed, when, with what tools, assistance and uncertainty, and who may revise that need. Recover the affected participation relations, present terms, commitments and material alternatives. Ask affected people what work they do and what the proposed change would demand. A job title and nominal hours can conceal coordination, interruption, emotional demands or helping work.
+Identify the contribution, its recipient and conditions: what work is needed, when, with what tools, assistance and uncertainty, and who may revise that need. Recover the affected participation relations, present terms, commitments and material alternatives. Use available evidence of the work and its demands. Ask the people who do or depend on it about conditions still unclear, and provide the opportunity for participation or consultation due under the applicable terms. For a new role, identify the intended work and which estimates rely on experience in comparable roles. A job title and nominal hours can conceal coordination, interruption, emotional demands or helping work.
 
 Determine which work is newly needed, remains necessary, has disappeared or can be obtained differently. Strategy can propose a new opportunity after success; Operations supplies current demand and promises; OCE supplies organization and obtaining alternatives. Do not freeze an old task list and classify every difference as a human deficit. Keep effective commitments until their valid change: an eliminated task does not automatically eliminate a wage obligation.
 
@@ -319,7 +319,7 @@ Take the problem to whoever can resolve it. Invalid selection evidence needs ass
 
 Compare the remaining options using the relevant contribution, participant outcomes, costs, uncertainty and reversibility. State any material conflicts among proposed work, terms and participant interests. An employee can reasonably prefer an outside trajectory; the employer can decline a discretionary proposal it cannot supply. A supported bounded arrangement, refusal, formal determination or exit may follow.
 
-Use HRM.5 for particular continuation or transition arrangements and HRM.4 for required consultation, negotiation or contested decisions. Make clear which proposal requires agreement, which requires an authorized determination, and which follows a binding obligation. Obtain the real act and its effective date through the applicable process and ADM. Ensure that OCE and OPS supply the work, access, coverage and conditions on which that act relies. Communicate the resulting terms and how a problem can be raised.
+Use HRM.5 for particular continuation or transition arrangements and HRM.4 for required consultation, negotiation or contested decisions. Make clear which proposal requires agreement, which requires an authorized determination, and which follows a binding obligation. For a design commission, return the supported proposal, the decisions it requires and the conditions of provision. When implementation is due, obtain or apply the effective act under the applicable process and ADM. Arrange the work, access and coverage with OCE and OPS, then communicate the effective terms and how to raise a problem.
 
 #### HRM.1:4.6 - Observe the whole and reopen the defeated premise
 
@@ -365,7 +365,7 @@ This case uses an individual contribution because one person's timing changes th
 
 ### HRM.1:6 - Bias-Annotation
 
-Management records can omit unpaid and invisible work, and silence can reflect an unusable voice route. Obtain participant evidence and observe actual conditions. Do not infer that every difference in interest is opposition to change. The framework's employment-centered examples require adaptation for other participation relations.
+Management records can omit unpaid and invisible work, and silence can reflect an unusable voice route. Use participants’ accounts and observations that cover the relevant conditions. Seek further evidence where a demand may have been missed. A record that settles a factual question can still leave a participant entitled to be heard on the proposed change. Do not infer that every difference in interest is opposition to change. The framework's employment-centered examples require adaptation for other participation relations.
 
 ### HRM.1:7 - Conformance Checklist
 
@@ -471,9 +471,9 @@ Use the procedure for the person or group the decision concerns. When the select
 
 Distinguish minimum conditions from compensable preferences. A required professional permission cannot be compensated by a high interview score. Among candidates who meet binding conditions, use the explained comparison relevant to the work. Do not construct weights retrospectively to select a favored person. When candidates are not distinguishable on the evidence, use the applicable tie or further-evidence procedure and state what the evidence leaves unresolved.
 
-Construct the recommendation for the work actually commissioned. For one post, a supported choice of one person can finish the assessment. For a group, check that its members can supply the required coverage under the proposed terms. For example, several first appointments can depend on the same supervisor. Determine whether that supervisor can provide the help each needs at the permitted times. Report a supported partial recommendation when another post remains open. State the evidence, uncertainties and conditions that would change the choice.
+Return the assessment the receiving decision requires. A supported finding about one candidate’s contribution can answer that question. If selection for one post is commissioned, a supported choice of one person can finish the assessment. For a group, check that its members can supply the required coverage under the proposed terms. For example, several first appointments can depend on the same supervisor. Determine whether that supervisor can provide the help each needs at the permitted times. Report a supported partial recommendation when another post remains open. State the evidence, uncertainties and conditions that would change the choice.
 
-Use HRM.4 to communicate the decision and the applicable correction or challenge route. An authorized manager may assess and appoint in the same meeting. Establish what constituted the appointment under ADM and what OCE still needs to provide for the work to take place.
+Return the assessment to its agreed recipient. When a personnel decision has been made, the party charged with communicating it uses the applicable process, including the correction or challenge route in HRM.4. A manager authorized both to assess and to appoint can perform both acts at one meeting. Establish what made the appointment effective under ADM and what OCE still needs to provide for the work to take place.
 
 #### HRM.2:4.5 - Revisit the inference when its grounds change
 
@@ -533,7 +533,7 @@ HRM.1 supplies the connected work and terms; HRM.3 supplies reward terms; HRM.4 
 
 ### HRM.3:1 - Problem frame
 
-**Use this when** remuneration, benefits or progression need a justified design or revision: job demands have changed, external rates differ, pay relationships are unexplained, or reward undermines the contribution being requested. Begin by identifying the actual terms and which ground is unsettled. The first useful result is an explained, affordable and institutionally supportable reward arrangement with a usable transition.
+**Use this when** an entitlement or pay difference needs explaining, or remuneration, benefits or progression need design or revision. Start with the question. For an earlier period, use the terms then in force and the facts on which the entitlement depends. To propose new terms, establish which job demands, participation needs or obligations the present arrangement fails to meet, or which new opportunity it should support. Develop an affordable, supportable proposal and show how the transition could take effect.
 
 The object is the reward arrangement and its grounds. If a current entitlement is clear and only payment is wrong, use ADM directly. An operating appraisal alone does not determine a wage obligation.
 
@@ -554,9 +554,9 @@ Different questions hide under “fair pay.” Job value concerns the demands of
 
 #### HRM.3:4.1 - Recover the reward question and existing commitments
 
-Identify the affected jobs, people and time periods; the current terms; applicable agreements, minimums, equality and consultation requirements; the authority to alter them; and the available budget and payment capacity. Obtain qualified interpretation where an act depends on uncertain institutional grounds. Separate an owed amount from a prospective design choice.
+Identify the jobs, people, period and terms that matter to the question. For an entitlement, apply the governing agreements and requirements to the facts of that period. An owed amount can be established even when payment capacity is uncertain. For a proposed change, establish the continuing obligations, budget, payment capacity, applicable equality and consultation requirements, and who may give the change effect. Obtain qualified interpretation where the answer depends on disputed or uncertain grounds.
 
-State what work or participation the arrangement should support and who is expected to provide it. Identify who can receive or use the proposed rewards. An employer may seek scarce capability, predictable service, progression, shared learning or some combination. Employees can value money, time, security, flexibility and opportunities differently. Obtain their relevant responses instead of assuming a universal preference ranking. Non-financial conditions can matter to an offer, but do not erase an existing monetary or protective obligation.
+When designing an arrangement, state what work or participation the arrangement should support and who is expected to provide it. Identify who can receive or use the proposed rewards. An employer may seek scarce capability, predictable service, progression, shared learning or some combination. Employees can value money, time, security, flexibility and opportunities differently. Obtain their relevant responses instead of assuming a universal preference ranking. Non-financial conditions can matter to an offer, but do not erase an existing monetary or protective obligation.
 
 #### HRM.3:4.2 - Establish the different bases of comparison
 
@@ -574,7 +574,7 @@ When designing the terms, examine what participants can influence, the uncertain
 
 Use this operation when the job-value basis remains unsettled. A sufficient current evaluation can be used directly when it covers the actual work, relevant comparison jobs and intended decision, explains its judgement, and leaves no unresolved condition that could change that decision. A changed title alone need not reopen it. A material change in duties, an omitted demand or an unsupported comparison does.
 
-**Establish the work being compared.** Identify the jobs and the period or proposed arrangement. For each job, describe what its holder is expected to accomplish and under what conditions. Use existing descriptions together with information from people who perform and depend on the work. Ask for concrete tasks, decisions, interactions and recurring difficulties; include help and coordination that the formal description omits. Resolve conflicting accounts through the people or observations that can distinguish them. Let affected workers check whether the resulting profile represents their work. State which demands belong to an intended future arrangement; evaluation of that profile applies under those proposed conditions.
+**Establish the work being compared.** Identify the jobs and the period or proposed arrangement. For each job, describe what its holder is expected to accomplish and under what conditions. Use available descriptions and evidence of tasks, decisions, interactions and recurring difficulties, including help and coordination the description may omit. Obtain the views of people who perform or depend on the work when their knowledge or participation is needed. For a proposed role with no current holder, distinguish its planned duties from evidence about comparable work. Resolve conflicting accounts through the people or observations that can distinguish them. Let affected workers check whether the resulting profile represents their work. State which demands belong to an intended future arrangement; evaluation of that profile applies under those proposed conditions.
 
 Choose the comparison scope from the decision. A revised job may be assessed against an adequate existing scheme and relevant comparison jobs. Designing a common structure, or discovering a biased factor definition, can require a wider set. Selecting only jobs with similar titles can exclude the very comparison needed to expose undervaluation. Keep actual pay and individual performance separate from the description of demands; both have later uses in the reward decision.
 
@@ -612,9 +612,9 @@ Where a difference raises an equality or other institutional question, obtain th
 
 #### HRM.3:4.5 - Give the arrangement effect and follow its consequences
 
-Obtain the required decision or agreement and specify the transition: who is affected, what changes, when, which prior commitments continue, and what information or action the person and providers need. Make the entitlement, effective date and payment instruction usable through ADM. Reconcile actual provision with the terms. A correct policy file and a payroll implementation can diverge.
+For a proposal, specify who would be affected, when the change would apply, which commitments continue and whose decision or agreement would give it effect. If payment or implementation is due, establish the effective act or existing obligation. Make the entitlement, effective date and payment instruction usable through ADM and reconcile actual provision with the terms. A correct policy file and a payroll implementation can diverge.
 
-Observe whether the arrangement obtains the intended participation and contribution under its conditions. Distinguish recruitment response, retention, helping behavior, burden, pay distribution and fulfillment of obligations. Reopen the relevant basis when jobs, markets, rules or consequences change. Do not infer that a person lacks motivation because an offer is unattractive, or change a progression rule retrospectively because its authorized result is inconvenient.
+To assess an arrangement in use, observe whether it obtains the intended participation and contribution under its conditions. Distinguish recruitment response, retention, helping behavior, burden, pay distribution and fulfillment of obligations. Reopen the relevant basis when jobs, markets, rules or consequences change. Do not infer that a person lacks motivation because an offer is unattractive, or change a progression rule retrospectively because its authorized result is inconvenient.
 
 ### HRM.3:5 - Archetypal Grounding
 
@@ -641,6 +641,8 @@ The earlier 600-point result still describes the earlier job. The work change su
 Job descriptions and market categories can omit work disproportionately performed by particular groups. Past pay is not an independent valuation of present work. Include appropriate participant information and professionally warranted comparisons. A favorable average can conceal unequal access to a benefit or a progression opportunity.
 
 ### HRM.3:7 - Conformance Checklist
+
+Choose the questions that bear on the result being delivered. For an explanation of entitlement, can the recipient trace the answer to the governing terms and the relevant facts for that period? For proposed or implemented terms, examine the decisions and effects that the work covers.
 
 - Can each material pay difference be traced to an applicable obligation or an explained job, market, progression or variable-reward ground?
 - Do actual job profiles and comparison populations support those grounds, with an applicable evaluation scheme and unresolved judgements made visible?
@@ -737,7 +739,7 @@ Translate the remedy into work. Assign correction of pay to ADM, reassessment to
 
 #### HRM.4:4.5 - Examine recurrence without suppressing voice
 
-Match the check to the requested result. For an opportunity to raise a concern by a deadline, establish the effective procedure, an available channel, a competent recipient and the remaining time. For a decision or remedy already due, establish which acts occurred and what the employee received. Obtain relevant participant response and examine recurrence or adverse treatment under the applicable protections. Where a concern reveals a shared defective premise, return it to HRM.1 or the owning Method. Do not treat fewer complaints as proof of improvement: access may have deteriorated. Likewise, one substantiated error does not justify discarding every adequate decision from the same practice.
+Match the check to the requested result. For an opportunity to raise a concern by a deadline, establish the effective procedure, an available channel, a competent recipient and the remaining time. For a decision or remedy already due, establish which acts occurred and what the employee received. Obtain the participant’s response when it is due or needed to judge the matter. Examine recurrence or adverse treatment when the question or an applicable protection calls for it. Where a concern reveals a shared defective premise, return it to HRM.1 or the owning Method. Do not treat fewer complaints as proof of improvement: access may have deteriorated. Likewise, one substantiated error does not justify discarding every adequate decision from the same practice.
 
 ### HRM.4:5 - Archetypal Grounding
 
@@ -826,7 +828,7 @@ Apply available and required interim support, leave and work-change arrangements
 
 For a work-related question, give the qualified supplier an accurate description of relevant tasks, demands, hours, exposures, tools and possible adaptations, with permitted information from the person. Ask for the usable functional conditions, their scope, uncertainty and review point, and any contribution that remains unresolved. Determine separately what the employer must or may do under the applicable institutional rules. A clinician's conclusion, a right to an adjustment and an authorized work assignment have different functions.
 
-Receive and disclose only information needed and permitted for the work decision. The work owner may need limits on hours, demands or particular tasks and a review condition. The underlying clinical history can remain with the appropriate professional holder. Set access and purpose for everyone handling the information, including AI agents. Do not use confidential health or personal-assistant material to infer promotion suitability merely because it is technically accessible.
+Receive and disclose only information needed and permitted for the work decision. Arranging access to an assessment leaves a separate question about consent to the assessment and to sharing its results. Establish any required consent from its holder for the specified purpose. Workplace measures owed under the applicable terms have their own grounds. The work owner may need limits on hours, demands or particular tasks and a review condition. The underlying clinical history can remain with the appropriate professional holder. Set access and purpose for everyone handling the information, including AI agents. Do not use confidential health or personal-assistant material to infer promotion suitability merely because it is technically accessible.
 
 #### HRM.5:4.3 - Construct a feasible continuation, absence or return
 

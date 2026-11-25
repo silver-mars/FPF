@@ -85,7 +85,7 @@ The financial relations of corporate activity and methods for valuing investment
 
 The connected cases below follow a financial question through the results it needs: dated cash into funding and execution, the value of an acquired interest into a transaction comparison, and a changed receipt into a treasury response. Enter where the missing result lies and reuse adequate supplied accounts. The short project-value example at the end also shows where a direct calculation can finish.
 
-These are constructed examples. Use the Table of Contents for a known PatternID or another financial question. When working with a colleague or assistant, describe the payment, investment or exposure and the answer you need in ordinary language.
+These are constructed examples. Use the Table of Contents for a known PatternID or another financial question. When entrusting work to a colleague or service, describe the payment, investment or exposure and what you need to decide. An authorized service may calculate a draw or carry out a payment. A valuation engagement may require the appointed valuer’s own judgement. Use the terms and actual capabilities to decide which work can be supplied by someone else.
 
 ### FIN-E1 - A profitable order leaves a day-7 cash gap
 
@@ -474,7 +474,7 @@ FIN.2–FIN.23 supply the selected financial answers. [FPF C.11][CHOICE] helps c
 
 ### FIN.2:0 - Use this when
 
-A payment is approaching and a bank balance, profit figure or unused credit limit does not yet tell you whether the corporation can pay. Start with the money and commitments at the relevant dates; obtain a dated funding requirement before selecting a response. A sufficient existing cash forecast can be used directly.
+Use this method to establish whether the named payer can meet an obligation by its due time, how much funding it needs, or whether a proposed arrangement covers the payments in the commission. Use an adequate dated account or bound directly. If a response is wanted, identify which dated condition it must change.
 
 ### FIN.2:1 - Problem frame
 
@@ -490,12 +490,12 @@ Protect payment continuity without keeping unnecessary idle cash. Retain decisio
 
 ### FIN.2:4 - Solution
 
-1. Choose the paying entity, currencies, payment dates and minimum usable cash required at each date. Include the whole baseline of other receipts and payments. Use daily or intraday intervals around tight dates, even when the remaining horizon is monthly.
+1. Fix the payer, currency, deadline and any required reserve. For example, suppose a payment of 100 is due and at most 80 can be available for it after other obligations and the reserve, even with every feasible combination of timely receipts and funding. The payment is uncovered by at least 20. This bound settles coverage. To determine the exact shortfall or compare arrangements, recover the material balances and flows at the times where they affect the answer. Use the following timeline where those details matter.
 2. Reconcile opening bank and cash balances to the usable amount: remove restricted, pledged, trapped or unsettled amounts as their terms require. Identify an intercompany transfer by its source, permitted route, cost and earliest usable time; common ownership alone supplies none of these.
-3. Place material operating payments, collections, taxes, debt service, investments and distributions on the timeline. Distinguish agreed dates from expectations. Keep alternative collection or draw assumptions as scenarios; do not add a hoped-for receipt to a committed one.
+3. Place material operating payments, collections, taxes, debt service, investments and distributions in the scenarios where they occur. Where a customer order, its invoice and settlement describe the same incoming amount, trace it to a single receipt at the time it becomes usable. Two possible settlement dates for the same amount are alternatives. Two distinct receipts can both enter the account if they can arrive together under the conditions assumed. A right to payment establishes what is due. Evidence of collection or of expected settlement supports its use in the corresponding account.
 4. For each facility, establish the remaining commitment, borrower, currency, expiry, draw conditions, notice period, cutoff, collateral and fees. Count a draw as available only on the scenario whose conditions support it. A revocable indicative line contributes a possible funding alternative, not current cash.
 5. Calculate each closing balance as opening usable cash plus usable inflows minus payments. For a required reserve, funding need at a date is the positive amount by which the pre-funding balance falls below that reserve. Solve for the gross draw when fees are withheld; include later interest and repayment.
-6. Recalculate the whole timeline with the proposed response. A draw that cures today's gap can create a larger maturity gap. Return the amounts, dates, conditions and affected commitments. Use FIN.3 for working-capital alternatives, FIN.10 for financing terms, or FIN.15 for a selected permitted treasury action.
+6. When a response is requested, recalculate the affected dates under its actual terms. For a series of payments, carry the balances forward through later requirements, fees and repayments. A draw that cures today’s gap can create a maturity gap. Return the amounts, dates and conditions that settle the question. Use FIN.3 for working-capital alternatives, FIN.10 for financing terms or FIN.15 for a selected permitted treasury action.
 
 Stop when the decision-maker can identify a funded path, an uncovered payment or the condition on which funding depends. If the right to money or the contract's event behavior is unclear, obtain that specific account through [FDM.1 through FDM.3][FDM]. If profit and cash disagree materially, use FIN.4 and the applicable [MA.4][MA] reconciliation.
 
@@ -552,7 +552,7 @@ Compare the cost of holding or arranging protection with the consequences it pre
 #### FIN.2:4.5 - Change the attainable plan and keep the return visible
 
 
-If the account fails, construct a remedy that changes a dated receipt, payment or available financing action. Accelerating a customer payment has a price and requires acceptance. Extending a supplier term changes an obligation only when the arrangement permits it. Reducing inventory may undermine delivery and hence later receipts. FIN.3 compares these operating terms; FIN.10 constructs or compares finance; FIN.12 identifies restrictions and remedies. When another entity's cash could help but no adequate transfer or support exists, FIN.23 constructs that financial relation and tests both entities' needs. Carry the resulting receipts, payments and availability conditions back to the same account before relying on the repair.
+If the commission is to remedy a shortfall, construct an obtainable change in a dated receipt, payment or financing action. For earlier collection, check the applicable terms. An existing agreement may give the corporation a right to call for earlier payment at a stated cost or free of charge. For newly negotiated terms, establish the customer’s agreement and any discount or fee. In either case the funding plan needs grounds for when usable cash will arrive. Extending a supplier term changes an obligation only when the arrangement permits it. Reducing inventory may undermine delivery and hence later receipts. FIN.3 compares these operating terms; FIN.10 constructs or compares finance; FIN.12 identifies restrictions and remedies. When another entity's cash could help but no adequate transfer or support exists, FIN.23 constructs that financial relation and tests both entities' needs. Carry the resulting receipts, payments and availability conditions back to the same account before relying on the repair.
 
 Allow for the time needed to execute each remedy. Check whether an asset sale can settle before payroll, a lender’s conditions can be met by the draw cutoff and any required consent has been granted. If authorized sources cannot cover an obligation at its due date, report the shortfall at the precision the decision requires. An upper bound on obtainable money below the payment due establishes insufficiency. FIN.22 becomes relevant when the commission includes finding a recovery route beyond ordinary adjustments.
 
@@ -627,7 +627,7 @@ Using profit as payment capacity hides noncash items and timing; recover the cas
 
 ### FIN.2:9 - Consequences
 
-The result identifies the amount and date that a response must cover and the conditions under which it works. Finer timing and conditional flows add forecasting effort, so retain only detail that can change payment, reserve or funding advice.
+The result can establish coverage, a bound on the shortfall or the amounts and dates a funding response must cover. Use the precision the conclusion requires. A series of payments can depend on an early draw and its later repayment.
 
 ### FIN.2:10 - Architectural Rationale
 
@@ -1330,11 +1330,11 @@ FIN.4 provides missing projections and accounting bridges; FIN.6 constructs the 
 
 ### FIN.7:0 - Use this when
 
-A decision needs the value of an asset, operating enterprise or ownership interest at a stated date. Identify what is being valued and choose methods that answer that purpose. A qualified supplied valuation can be used without recreating it.
+A decision needs the value of an asset, operating enterprise or ownership interest at a stated date. Identify the interest and the purpose of the valuation. A qualified supplied valuation may already answer the question. If a new valuation is commissioned, establish who is to develop it and which inputs may be reused. Where an independent judgement by a specified valuer is required, obtain that valuer’s judgement. If you hold that appointment, perform the work reserved to you under the terms of the engagement.
 
 ### FIN.7:1 - Problem frame
 
-An income valuation requires familiarity with present value and required returns; market and asset approaches require comparable or asset-value evidence and the relevant adjustments. Obtain any additional expertise your chosen approach requires, or use an adequate supplied valuation.
+An income valuation requires familiarity with present value and required returns; market and asset approaches require comparable or asset-value evidence and the relevant adjustments. Choose an approach suited to the purpose and any applicable requirements. Obtain additional expertise where needed. An existing valuation can supply the result or the inputs that the engagement permits you to use.
 
 
 The object is a value estimate for an identified interest under a stated premise and purpose. Operating enterprise value, equity value, transaction price and book amount can concern related objects while answering different questions.
@@ -1722,7 +1722,7 @@ Start with the corporation's choice and the work or service it must accomplish. 
 
 Identify which whole alternatives the question asks you to compare and what would exclude others. To admit one package, its own fit to the conditions can suffice. To establish an optimum, a bound can rule out entire classes of alternatives. Projects may be independent, mutually exclusive, complementary or prerequisites for later work. Two projects using the same site can exclude each other; a shared facility can make the combined cost lower than the sum; a first stage can create a later choice. FIN.8 can supply its value when the comparison depends on it.
 
-Recover the baseline used by each valuation. If two projects each count the full benefit of replacing the same old process, adding their NPVs double counts that improvement. If one project presumes that another has already paid for a facility, its apparent standalone value belongs to a different alternative. Rebuild the whole cash account or adjust the contributions explicitly before comparison. FIN.6 supplies the incremental cash calculation. Here the analyst decides which complete alternatives and combinations to compare.
+Recover the baseline used by each valuation. If two projects each count the full benefit of replacing the same old process, adding their NPVs double counts that improvement. If one project presumes that another has already paid for a facility, its apparent standalone value belongs to a different alternative. Rebuild the whole cash account or adjust the contributions explicitly before comparison. FIN.6 supplies the incremental cash calculation. Use alternatives already specified by the decision holder. When their construction or selection is entrusted to the analyst, identify the complete alternatives and combinations needed for the decision and explain their selection. Finding a shared cost in two specified variants is the analyst’s contribution even when the decision holder chose the variants.
 
 A resource shortage can be a genuine external limit or a chosen internal budget. If the budget can be changed, compare the obtainable financing or additional resource with the gain it enables and the costs it creates. Do not silently relax a binding limit because the projects have positive NPV, and do not treat a discretionary budget as an immutable physical fact. Use FIN.10–FIN.12 to establish obtainable financing that could change the available set.
 
@@ -2308,7 +2308,7 @@ Preserve access and flexibility while avoiding unnecessary idle capacity or expe
 
 A covenant is a condition of a financing agreement, with a defined subject, calculation, test time and consequence. Recover the applicable signed terms, amendments and relevant consents. Identify who must satisfy it and which entities, assets or obligations enter the calculation. FDM.3 supplies the event logic, while FDM.1–FDM.2 supply positions and group boundaries. A public description of a typical covenant cannot establish the corporation's obligation.
 
-Translate the rule into the quantities needed for its test. Contractual debt may include or exclude leases, guarantees, subordinated amounts or cash netting. Contractual earnings may use a trailing period, permitted adjustments, caps or a prescribed acquisition treatment. Recover those definitions and reconcile them to the accounts; do not substitute a familiar ratio label. If a term is disputed, retain the alternative interpretations or obtain the responsible specialist's answer before relying on one.
+Translate the rule into the quantities needed for its test. Contractual debt may include or exclude leases, guarantees, subordinated amounts or cash netting. Contractual earnings may use a trailing period, permitted adjustments, caps or a prescribed acquisition treatment. Recover those definitions and reconcile them to the accounts; do not substitute a familiar ratio label. If a term is disputed, retain the alternatives the evidence leaves open. Apply a qualified interpretation that settles the question within its scope. Obtain a determination from the designated holder where the terms or the assignment require that decision.
 
 Distinguish a condition tested periodically from one triggered by a proposed action, and a condition that becomes active only after a stated utilization or other event. A borrower can pass its last quarter-end test yet be unable to draw, acquire or distribute today. Conversely, a projected future breach is not the same as an existing breach. Record the relevant test dates, information cutoffs, certification, notice and remedy dates because they determine when an action remains possible.
 
@@ -2775,7 +2775,7 @@ The [World Bank's 2022 workout toolkit][WB-WORKOUT], especially its financial-mo
 
 ### FIN.22:12 - Relations
 
-FIN.2 establishes cash urgency, FIN.7 supports route-specific values, FIN.10–FIN.12 supply financing and covenant facts, and FIN.16 returns conditional advice. Use [FDM][FDM] to identify the parties, positions and conditional events in the financial model. If rights are disputed, compare routes conditionally and establish the applicable treatment with the competent authority before relying on one as enforceable. The responsible parties use the applicable restructuring and legal methods to negotiate or conduct a proceeding.
+FIN.2 establishes cash urgency, FIN.7 supports route-specific values, FIN.10–FIN.12 supply financing and covenant facts, and FIN.16 returns conditional advice. Use [FDM][FDM] to identify the parties, positions and conditional events in the financial model. If rights are disputed, compare routes conditionally. Before relying on enforceability, establish the applicable treatment on adequate legal grounds. Obtain a decision from the competent authority where the operative process requires it. The responsible parties use the applicable restructuring and legal methods to negotiate or conduct a proceeding.
 
 ### FIN.22:End
 
@@ -3465,7 +3465,7 @@ Netting also needs its actual scope. Two trades that offset economically may sti
 
 After submission, observe the stages needed to establish the promised result. Match accepted terms with confirmations, expected cash movements with bank or settlement evidence, and those movements with the affected obligation. Verify amount, currency, party, date and charges at the relevant scope. A payer debit may support “cash left this account”; it supports “the creditor received the required amount” only with sufficient evidence under the applicable payment rule.
 
-Reconcile discrepancies while their consequence can still be limited. A different effective date may explain a timing difference. A fee or partial allocation may explain an amount difference. An unexplained transaction requires investigation even when recorded in a statement. Retain the supported cash movement and the unresolved cause, then correct the responsible account or instruction when the cause is established.
+Reconcile discrepancies while their consequence can still be limited. A different effective date may explain a timing difference. A fee or partial allocation may explain an amount difference. An unexplained transaction requires investigation even when recorded in a statement. Retain the supported cash movement and any unresolved cause. When the discrepancy is established, correct the account or instruction if that is your responsibility. Otherwise give the commissioned recipient the finding and its consequence, and follow any applicable notice or recovery procedure.
 
 
 
@@ -3617,7 +3617,7 @@ When the financial results are adequate, the six steps in §4.1 can suffice. Sec
 #### FIN.16:4.1 - Short working route
 
 
-1. Recover the receiver's actual question and available choices. Use FIN.1 or [FPF C.11.DUA][DUA] if the intended use of advice is unclear.
+1. Recover the recipient’s question, the work the advice is to support and the choices still open to the people or bodies entitled to make them. Use FIN.1 or [FPF C.11.DUA][DUA] if the intended use of advice is unclear.
 2. Select the material completed financial results and reconcile their shared conditions. Include the recommended action, expected consequence, relevant alternative and any constraint that could change the preference.
 3. Distinguish established facts, model assumptions and unresolved conditions. Retain disagreement when a different value or perspective changes the choice. Do not present an average of incompatible conclusions as consensus.
 4. State a specific information need only when its answer can change the receiving action or warranted reliance. Compare the whole burden, delay and displaced work with the obtainable gain; a supported conditional recommendation may be enough.
@@ -3629,9 +3629,9 @@ When the financial results are adequate, the six steps in §4.1 can suffice. Sec
 #### FIN.16:4.2 - Build the recommendation around an available decision
 
 
-Start with the action the receiver can still change and the time at which the answer is needed. “Assess the investment” can mean choosing whether to bid, setting a maximum price, arranging finance for an agreed purchase or deciding whether to abandon it. Those questions can share a valuation while requiring different advice. Establish the actual alternatives with the receiver. Include continuing the feasible baseline and any smaller, later or conditional action that could meet the need. An already binding payment remains an obligation in every alternative unless an attainable amendment changes it.
+Establish what decision or other work the advice must inform and when the recipient needs the answer. “Assess the investment” can mean choosing whether to bid, setting a maximum price, arranging finance for an agreed purchase or deciding whether to abandon it. Those questions can share a valuation while requiring different advice. Recover the available alternatives from the commission, the applicable terms and the circumstances. Consult the receiver when their choice, information or assent is needed. Include continuing the feasible baseline and any smaller, later or conditional action that could meet the need. An already binding payment remains an obligation in every alternative unless an attainable amendment changes it.
 
-Recover whose financial consequence governs the recommendation. A gain to an acquiring corporation, a gain to its existing shareholders and a gain to the combined business can differ. So can the interests of a subsidiary and its parent when money cannot move freely between them. State the relevant perspective and retain another claimant's consequence when it changes consent, feasibility or the selected criterion. FIN.1 supplies the fuller framing when that question is unresolved. A recommendation can identify a conflict between objectives and return that particular choice to the receiver.
+Recover whose financial consequence governs the recommendation. A gain to an acquiring corporation, a gain to its existing shareholders and a gain to the combined business can differ. So can the interests of a subsidiary and its parent when money cannot move freely between them. State the relevant perspective and retain another claimant's consequence when it changes consent, feasibility or the selected criterion. FIN.1 supplies the fuller framing when that question is unresolved. If a recommendation depends on an unresolved preference, state the alternatives it supports and who can settle the choice. Give that conditional advice to the commissioned recipient. Obtain a decision when doing so is part of the undertaking.
 
 The decision deadline determines useful detail. Before a nonrefundable deposit, the receiver needs the conditions that could make the commitment unacceptable. After the deposit has been paid, the advice compares the remaining continuations and their consequences. An investigation that finishes after the commitment can still improve later work, but it cannot be presented as information available for this decision. Identify what can be decided now and which later choice will use the next result.
 
@@ -3705,7 +3705,7 @@ Before returning the advice, read it as the receiver: what would I do, with what
 #### FIN.16:4.8 - Carry the advice to its proper stopping point
 
 
-Return the recommendation to the recipient who needs it for a decision or ongoing work. If the recipient chooses an alternative, preserve the chosen premises in the receiving financial work and pass the needed terms to its performer. Advice, authorization, instruction and observed financial effect have different completion conditions. The adviser should not report a successful transaction merely because the recommendation was accepted.
+Return the recommendation to the recipient who needs it for a decision or ongoing work. A confidential opinion may finish with its delivery. If the work entrusted to you includes implementation, carry out your part and give other authorized performers the inputs they need in time. Give any required notice to its designated recipient at the time the duty specifies. Advice, authorization, instruction and observed financial effect have different completion conditions. The adviser should not report a successful transaction merely because the recommendation was accepted.
 
 A rejected recommendation can still contain useful analysis. Recover which assumption, objective or constraint drove the different choice before treating it as a calculation failure. Conversely, acceptance is not evidence that the recommendation was financially sound. Later outcomes can inform FIN.17 or FIN.18, with the information available at the original decision kept distinct from hindsight.
 
@@ -3894,7 +3894,7 @@ If a check fails, distinguish an implementation error, an inadequate method and 
 #### FIN.17:4.7 - Replace stale reliance as well as the model
 
 
-Give the receiver the changed result, its effective basis and the consequence for the earlier instruction or recommendation. Identify the previous result that is no longer adequate where coexistence could cause action on obsolete grounds. An updated workbook stored elsewhere does not repair a payment request or investment memo still using the old amount. Update the account that uses the result or tell its owner what needs to change.
+Give the receiver the changed result, its effective basis and the consequence for the earlier instruction or recommendation. Identify the previous result that is no longer adequate where coexistence could cause action on obsolete grounds. An updated workbook stored elsewhere does not repair a payment request or investment memo still using the old amount. For an assessment, return the discrepancy and identify which dependent use it affects. Update the account, inform its holder or carry out a recovery when that work is entrusted to you or a standing duty requires it.
 
 When a transaction is already committed, the refresh must start from that commitment. The updated result can support a proposed amendment, a plan to fund the remaining duty or a different future action. Replacing a forecast leaves the contract in force on its existing terms. Separate the instruction that can still be withdrawn from the financial effect that has already occurred. FIN.15 supplies execution and recovery; FIN.14 handles a changed protection arrangement.
 
@@ -3949,7 +3949,7 @@ A convenient new datum can be adopted before its meaning or reliability is under
 
 ### FIN.17:7 - Conformance Checklist
 
-Is the changed fact distinguished from the financial event or agreement it describes? Are all action-changing dependent results updated, and unaffected results retained? Does the return name the actual updated object or a specific no-update reason? Is any ongoing observation justified by continuing use?
+Is the changed fact distinguished from the financial event or agreement it describes? Does the return identify the affected uses and distinguish the reported consequence from any correction actually made? For each revision or notice entrusted to this performer, what establishes its completion or what obligation remains open? Are unaffected results still usable? Is any ongoing observation justified by continuing use?
 
 ### FIN.17:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -4010,8 +4010,8 @@ With adequate financial grounds, the six steps in §4.1 can suffice. Sections 4.
 2. Compare variants that differ in how they produce the financial result, including continued use or a smaller repair. Recover the relevant current professional or research contribution and its conditions; a task syllabus establishes repertoire, not method effectiveness.
 3. Choose a comparison appropriate to the claim. For forecasting, use information available at the forecast date and periods withheld from method selection when estimating predictive performance. Include the errors that change cash or action, not only an aggregate fit measure. For valuation or exposure, compare assumptions, limiting cases and decision reversals on the relevant objects.
 4. Include implementation, data, explanation, review, runtime and participant burdens. If a trial could improve the choice or the evidence for relying on it, compare what it could add to available evidence with its whole cost and delay using [FPF C.11.DUA][DUA] as needed.
-5. Select the method, qualify its narrower use, propose a bounded trial or continue the supported method. Preserve unresolved claims.
-6. If a change is selected, make it usable in the finance procedure and explain when to reopen it. FIN.17 updates the affected models; FIN.20 addresses transmission and continued use when those become the problem.
+5. Return the comparison or recommendation within its supported conditions. If choosing the method is part of your remit, select it for those uses, propose a bounded trial or continue the existing method. Preserve unresolved claims.
+6. When implementation is entrusted to you, make the adopted change usable in the finance procedure and explain when to reopen it. FIN.17 updates the affected models; FIN.20 addresses transmission and continued use when those become the problem.
 
 
 
@@ -4100,7 +4100,7 @@ A useful trial can end in adopting a narrower use, retaining the incumbent, repa
 #### FIN.18:4.8 - Make the selected method an obtainable way of working
 
 
-State the chosen operation, the uses it supports and the conditions that would make it unsuitable. Give the inputs, preparation, judgement and tool support the performer needs. If the method changes, update the working procedure and use FIN.17 for the financial results affected. A new model in an unused folder is not an implemented finance method.
+In the assessment, state which operation the evidence supports, its suitable uses and the conditions that would make it unsuitable. Give the inputs, preparation, judgement and tool support the performer needs. If the adopted change is yours to implement, update the working procedure and use FIN.17 for the financial results affected. A new model in an unused folder is not an implemented finance method.
 
 Carry the choice into its receiving advice. Explain why an output may differ from the earlier method and which differences are expected consequences of the new construction. Retain comparable earlier results where they help establish whether the change works. Avoid switching methods halfway through a decision comparison without recomputing the alternatives on an adequate common basis.
 
@@ -4500,11 +4500,11 @@ Include the work demanded from everyone affected. Preparation, training, duplica
 #### FIN.20:4.6 - Make the operation learnable in the situations that matter
 
 
-Teach the action and its reason through a representative financial situation. A learner should be able to distinguish the observation, calculate the consequence and make the appropriate return. For a collection change, that includes leaving the loan due date intact, carrying partial receipts into remaining claims and identifying finance needed before repayment. Recalling the words “update the forecast” does not establish that the learner can perform those operations.
+Where a participant needs to learn, provide a way to understand and practise the operation their work requires. Keep relying on colleagues and services for the contributions they can already supply. For a change in collections, the customer manager may establish the revised date and tell treasury. Treasury can then account for the remaining claim after a partial receipt and identify the finance needed before the unchanged repayment date. If one person is to handle the whole sequence, give them a case in which they must make and connect those judgements. Recalling the words “update the forecast” leaves their ability to do that open.
 
 Use a changed case to expose whether the condition has been understood. A person who can repeat that a facility is 20 should also recognize that an upfront fee can leave less than 20 usable. A person who can compare two ending cash totals should notice an earlier payment that makes one path infeasible. FIN.16–FIN.19 provide such examples and the fuller explanations. Appropriate domain expertise can supply ordinary arithmetic; the new connection being taught must remain available.
 
-Give feedback on the consequential action. If a learner treats a revised forecast as lender consent, recover the distinction and retry with a different date or contract condition. Keep the first response and the help supplied distinct when deciding whether independent use is supported. A correct answer after coaching supports assisted performance under those conditions, not every later unassisted case.
+Give feedback on the consequential action. If a learner treats a revised forecast as lender consent, recover the distinction and retry with a different date or contract condition. Keep the first response and the help supplied distinct when deciding whether independent use is supported. A learner may notice a changed receipt date after a helper gathers the statements, or may apply a formula after the helper points out the change. To assess development, establish what the learner previously did and which distinction, choice or calculation the learner now makes under the stated assistance. A claim that coaching produced the change needs grounds for that attribution.
 
 Place the needed explanation where the work can retrieve it. A short reminder can serve an experienced operator, with an accessible worked case for an unfamiliar exception. Keep the meaning of the retained example current when terms, systems or methods change. A lengthy manual that nobody can locate before a payment deadline may supply less useful support than one clear local instruction with the necessary financial conditions.
 

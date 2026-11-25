@@ -67,7 +67,7 @@ The following entries combine several patterns. Use the contributions you need a
 - **Question:** Which relation changes during the continuing action? Does the performer need to learn a response under those conditions?
 - **First useful result or blocker:** An account of what happened during the support change, a usable portion under stated conditions, or a finding about a missing response, cue or observation.
 - **Start with:** [SOM.5](#som5---adapt-bodily-coordination-to-changing-support-and-load) to examine the transition. For learning, keep the support change that matters to the movement. A cue may make the whole transition available at once. When only a portion is manageable, extend it or join portions in motion and check the resulting transition. Use SOM.1 when the proposed relation fails, and SOM.2–SOM.4 for a missing distinction, regulation or combination.
-- **Stop or return:** Use evidence that covers the required transition. The result of the movement itself can sometimes settle the question. Two successful postures leave open what happened between them. Slowed or paused practice establishes what the performer did under those conditions. Seek suitable instruction if the task requires a response the performer does not yet know.
+- **Stop or return:** Use evidence that covers the required transition. The result of the movement itself can sometimes settle the question. Two successful postures leave open what happened between them. Slowed or paused practice establishes what the performer did under those conditions. For an unfamiliar response, establish what remains to learn. Obtain qualified instruction where the technique or physical demands require it.
 
 # Somatic Movement Modeling DPF Architectural Reference
 
@@ -79,7 +79,7 @@ Use these Methods within a movement practice whose technique and physical limits
 
 *Somatic* concerns the body as experienced and regulated from within. The performer can report what they felt. An observer can describe visible movement, and an anatomical explanation needs grounds for the proposed bodily mechanism. These sources can inform the same question. For example, a teacher sees contact break while the performer notices no change in effort. Compare the observations at that point in the movement.
 
-The methods concern human bodily learning. A robot may be evaluated against the same movement criterion when that criterion applies. Explaining or developing its performance requires the relevant models of its sensors, control, actuation and learning.
+The methods concern human bodily learning. A robot may be evaluated against the same movement criterion when that criterion applies. For a question about a robot’s performance, use evidence of its action under the relevant configuration. Trace sensing, control or actuation when the explanation depends on them. Use a learning model when learning is the mechanism under investigation.
 
 ## SOM.Reference:2 - How the methods work together
 
@@ -99,9 +99,9 @@ The writer uses SOM.1 to locate the break and relate the change of forearm suppo
 
 Suppose a small familiar adjustment seems relevant but cannot be distinguished at the support change. Use SOM.2 to find a suitable contrast there. If the writer notices the adjustment but cannot regulate how it develops, use SOM.3 to practise it in discernible increments while retaining pen contact and guidance.
 
-With SOM.5, the writer keeps the support transition inside a shorter stroke. The writer begins from an available portion, extends towards the difficulty and learns a workable adjustment over a little more of the transition. SOM.4 supports recalling the combined development and joining overlapping portions in motion. A cue that precedes the loss can be connected to the response once that response is available.
+The writer chooses a shorter stroke that still crosses the change of support. With SOM.5 the writer tries a familiar adjustment at two recognizable points on that stroke. One leaves time to make it while the pen keeps moving. SOM.4 helps the writer recall how contact and guidance work together and join that portion to the longer stroke. The worked comparison in [SOM.5:5](#som55---archetypal-grounding) shows how to select a cue from what happens during the transition.
 
-For the longer stroke, restore the required speed and other receiving conditions. Judge whether the line remains continuous through the transition. A familiar sensation can accompany another break. A shorter successful portion remains useful preparation. If a cue or adjustment is still missing, identify what observation or instruction would help.
+Restore the required speed and support for the longer stroke. If the client needs an unbroken line, inspect the drawing. If the writer also undertook to make it in one uninterrupted movement, observe that stroke through the transition with enough detail to distinguish a pause. The pen can stop on the paper and resume at the same point. A familiar sensation or a good short stroke gives the writer something to try in the longer one.
 
 If an earlier comparison had shown that changing paper restored the line without relearning the hold, the route would have ended differently. The writer could use that condition if the work permits it. When the original paper is mandatory, the writer still needs a way to produce the line on that surface.
 
@@ -173,7 +173,7 @@ Use the links to consult the supplying publications and the PatternIDs to find t
 
 SOM also needs the receiving practice's technique, criteria and physical limits. Use the relevant dance, music or tool-use practice for those contributions. The writing and dance examples illustrate somatic questions under their stated conditions.
 
-If a companion changes an operation on which the work relies, reconsider the combinations that use it. Establish whether a teacher or lesson can supply suitable instruction for the movement in question.
+If a companion changes an operation on which the work relies, reconsider the combinations that use it. When the movement or its safe limits call for instruction the performer still needs, establish where they can obtain it.
 
 ## SOM.Reference:End
 
@@ -492,7 +492,7 @@ Use this Method when the performer can make the necessary bodily changes separat
 
 An ensemble is the combination of bodily changes the task requires. Its contributing regions may be separate, including regions that are not anatomically adjacent. Judge the combined change by its result in the receiving movement under the conditions examined.
 
-To learn recall, work from a coordinated movement the performer has experienced. A cue can make the entire action available. If only part is manageable, start there. If the combination remains out of reach, obtain the instruction needed to construct it.
+To learn recall, work from a coordinated movement the performer has experienced. A cue can make the entire action available. If only part is manageable, start there. If the combination remains out of reach, identify the part the performer still needs to learn. They can explore familiar adjustments within known limits or obtain suitable instruction for the missing coordination.
 
 ### SOM.4:2 - Problem
 
@@ -538,7 +538,7 @@ When familiar recall yields an unsuitable result, locate the discrepancy. The mi
 
 ### SOM.4:5 - Archetypal Grounding
 
-A writer can hold a pen securely and guide a stroke but pauses to check grip, wrist and forearm in turn. The writer starts with a familiar short mark in which hold and guidance work together, attends to how the combination develops and tries to recall it for another mark. Across attempts the writer and any observer can examine different details. The written line provides evidence about whether the repeated stroke remained continuous.
+A writer can hold a pen securely and guide a stroke but pauses to check grip, wrist and forearm in turn. The writer starts with a familiar short mark in which hold and guidance work together, attends to how the combination develops and tries to recall it for another mark. Across attempts the writer and an observer can examine different details. The finished mark shows whether the ink line is unbroken. The writer could have paused with the pen on the paper and resumed from the same point. To judge whether this stroke kept moving, use an observation of its progress through the interval where the pause could occur.
 
 If the stroke requires a transition in forearm support, successful short marks under fixed support leave that transition untested. Use SOM.5 to construct it when learning the transition is the task. Shortening the movement helps only if the reduced task retains the relation that matters.
 
@@ -623,7 +623,7 @@ Establish how far the necessary actions already work together. When a familiar c
 
 When the performer can manage only part of the transition, extend that portion through more of the support change. Compare how the movement feels and what it achieves as the interval grows. Use SOM.2 if a needed difference remains indistinguishable there, SOM.3 if the required regulation is missing, and SOM.4 if available actions still need to be combined.
 
-When a join has to remain continuous, rehearse overlapping portions if useful and establish what happens through that join in motion. If the task requires an adjustment the performer cannot yet find or make, identify the relation that needs instruction and seek suitable help. If the task was to establish the limit of this attempt, report that finding.
+When a join has to remain continuous, rehearse overlapping portions if useful and establish what happens through that join in motion. If the required adjustment remains unavailable, establish which relation is lost. The performer can explore a familiar alternative, retain permitted support or obtain instruction. Seek qualified guidance before going beyond the technique or physical conditions the performer knows. If the task was to establish the limit of this attempt, report that finding.
 
 #### SOM.5:4.4 - Connect adjustment and cue
 
@@ -643,9 +643,9 @@ If the transition fails, retain what the preparation established, including the 
 
 An experienced writer draws a continuous line in two familiar forearm positions, but the line breaks during the support transition. Sequentially checking grip, wrist and forearm also stops the stroke. The pen and paper have been checked.
 
-Across attempts, the writer relates the point where the line breaks to the change of forearm support. The writer selects a shorter stroke that retains the transition. Starting from the portion where contact and guidance work together, the writer compares small familiar adjustments near the point of failure. The writer learns how a workable portion develops, then joins overlapping portions in motion.
+The writer relates the break to the change of forearm support and chooses a shorter stroke that still crosses it. In one trial the writer waits until the support reaches its edge to begin a familiar adjustment. The pause is already visible. In another trial at the same speed, an earlier visible point on the path cues the same adjustment. An observer sees the pen keep moving across the edge while maintaining the line. That earlier cue gives the writer a workable way through this short transition.
 
-The writer can use a visible point on the drawing path to time an adjustment already learned. Once the transition works on the short stroke, the writer tries it over the longer stroke at the required speed. If the appropriate response is still unknown, the supported result identifies the relation between contact and support for which instruction is needed.
+The writer then joins this portion to the longer stroke and tries the adjustment at the required speed and support. If the earlier visible point disappears on a different drawing, find another cue the performer can use in time, or establish that the transition already works there. A later cue may still help someone asked to recover after a stop. If the adjustment is still unavailable, the point where contact or guidance is lost can guide another familiar variation or a request for instruction.
 
 For a salsa turn, use dance technique to identify the transfer of support, steps and partner interaction. A reduced task must preserve the support change during which the failure occurred. Static positions can show what the dancer does at the endpoints. To assess the turn at the required tempo, use observations in motion at that tempo.
 
